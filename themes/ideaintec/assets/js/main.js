@@ -455,6 +455,22 @@ $('.share-btn span').on('click', function(e){
 });
 
 
+/* stary of Noyon*/
+
+
+
+/* stary of Rannojit*/
+
+
+
+
+/* stary of Shariful*/
+
+
+
+
+/* stary of keshob*/
+
 
 
 
