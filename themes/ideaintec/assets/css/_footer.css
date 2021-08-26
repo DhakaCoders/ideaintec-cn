@@ -1,0 +1,176 @@
+footer .footer-top{
+	background:#333333;
+	padding: 45px 0 0;
+	font-size: 13px;
+	line-height: 17px;
+	color: #fff;
+	text-align: left;
+}
+footer .ftr-col{
+	padding-bottom: 50px;
+}
+footer .ftr-col h3{
+	text-transform: capitalize;
+	position: relative;
+}
+footer .ftr-col address a{
+	display: block;
+	color: inherit;
+	margin-bottom: 10px;
+}
+
+
+.social-icon a{
+	color: inherit;
+	font-size: 28px;
+	line-height: 100%;
+	margin-right: 20px;
+}
+
+.social-icon a.fb:hover{
+	color: #3B5998;
+}
+.social-icon a.twitter:hover{
+	color: #1DA1F2;
+}
+.social-icon a.linkedin:hover{
+	color: #0077B5;
+}
+.social-icon a.youtube:hover{
+	color: #E62117;
+}
+
+.ftr-col ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ftr-col ul li{
+	padding-bottom:15px;
+}
+.ftr-col ul li a{
+	color: inherit;
+}
+
+.entry-title, .widget h3, footer .ftr-col h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+
+.subscribe-col {
+	padding-left: 91px;
+}
+.subscribe{
+	padding-top: 5px;
+}
+.subscribe-form{
+	position: relative;
+	height: 40px;
+}
+.subscribe-form .email{
+	width: 100%;
+	background:#e8e8e8;
+	height: 40px;
+	border: 0;
+	padding: 12px 0 12px 18px;
+	color: #2e2d2d;
+	border: 1px solid #fff;
+}
+
+.subscribe-form .sign-up{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 96px;
+	border: 0;
+	background:#ff8239;
+	text-transform: uppercase;
+	font-size: 13px;
+    font-family: 'RobotoMedium';
+}
+
+.subscribe-form .email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#2e2d2d;
+  opacity: 1;
+}
+.subscribe-form .email::-moz-placeholder { /* Firefox 19+ */
+  color:#2e2d2d;
+  opacity: 1;
+}
+.subscribe-form .email:-ms-input-placeholder { /* IE 10+ */
+  color:#2e2d2d;
+  opacity: 1;
+}
+.subscribe-form .email:-moz-placeholder { /* Firefox 18- */
+  color:#2e2d2d;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-bottom-bar{
+	padding: 40px 0;
+	border-bottom: 1px solid #c7c5c5;
+}
+.ftr-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ftr-nav ul li{
+	float: left;
+	padding-right: 44px;
+	font-size: 14px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #94a8b1;
+}
+.ftr-nav ul li:last-child{
+	padding-right: 0;
+}
+.ftr-nav ul li a{
+	color: inherit;
+}
+
+.copy-right{
+	text-align: right;
+	font-size: 13px;
+	line-height: 14px;
+	color: #94a8b1;
+}
+
+
+
+#toTop{
+	background:#ff9140;
+	width: 40px;
+	height: 40px;
+	border-radius: 50% 50%;
+	position: fixed;
+	right: 15px;
+	bottom: 50px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+#toTop i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
