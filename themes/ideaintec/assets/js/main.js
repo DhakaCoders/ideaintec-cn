@@ -12,6 +12,29 @@ var windowWidth = $(window).width();
 $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
+
+
+//fixed header
+$(window).scroll(function() { 
+    var scroll = $(window).scrollTop();   
+    if (scroll >= 5) {
+        $('.hdr-top-bar').addClass('fixed-hdr');
+    } else {
+        $('.hdr-top-bar').removeClass('fixed-hdr');
+    }  
+});
+
+
+var windowWidth = $(window).width();
+if (windowWidth <= 767) {
+
+  $('.opener-inner').on('click', function(){
+    $(this).toggleClass('menu-expend');
+    $('nav.main-nav > ul').slideToggle(500);
+  });
+
+}
+
 	
 if($("ul.slick-dots li").length == 1){
    $("ul.slick-dots").hide();
@@ -150,34 +173,7 @@ if( $('.responsive-slider').length ){
 }
 
 
-var swiper = new Swiper('.catagorySlider', {
-    slidesPerView: 1,
-    loop: true,
-    navigation: {
-      nextEl: '.catagorySlider-arrows .swiper-button-next',
-      prevEl: '.catagorySlider-arrows .swiper-button-prev',
-    },
-    breakpoints: {
-       639: {
-        slidesPerView: 2,
-        spaceBetween: 0,
-      },
-      991: {
-        slidesPerView: 3,
-        spaceBetween: 0,
-      },
-      1199: {
-        loop: false,
-        slidesPerView: 4,
-        spaceBetween: 0,
-      },
-      1920: {
-        loop: false,
-        slidesPerView: 4,
-        spaceBetween: 0,
-      },
-    }
-  });
+
 
 if( $('#mapID').length ){
 var latitude = $('#mapID').data('latitude');
@@ -230,149 +226,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
-    new WOW().init();
-
-
-
-
-/* after code */
-//fixed header
-$(window).scroll(function() { 
-    var scroll = $(window).scrollTop();   
-    if (scroll >= 5) {
-        $('.hdr-top-bar').addClass('fixed-hdr');
-    } else {
-        $('.hdr-top-bar').removeClass('fixed-hdr');
-    }  
-});
-
-
-
-/**
---------------------
-Responsive on 767px
----------------------
-*/
-var windowWidth = $(window).width();
-if (windowWidth <= 767) {
-
-  $('.opener-inner').on('click', function(){
-    $(this).toggleClass('menu-expend');
-    $('nav.main-nav > ul').slideToggle(500);
-  });
-
-}
-
-
-/**
-------------------
-Isotope
-------------------
-*/ 
-if($('#filter-menu').length){
-  // init Isotope
-  var $container = $('#isotope').isotope({
-    itemSelector: '.item',
-    layoutMode: 'fitRows',
-
-  });
-  // bind filter button click
-  $('#filter-menu').on( 'click', 'a', function(e) {
-    e.preventDefault();
-    $('#filter-menu a').removeClass('is-checked');
-    $(this).addClass('is-checked');
-    var filterValue = $( this ).attr('data-filter');
-    $container.isotope({ filter: filterValue });
-  });
-}
-
-
-
-
-/**
-------------------
-Nivo slider
-------------------
-*/
-if($('#slider').length){
-    $('#slider').nivoSlider({
-        controlNavThumbs: true
-    });
-}
-
-/**
-------------------
-Owl carouserl 1 slider
-------------------
-*/
-if($('#slider').length){
-   $('#slider').owlCarousel({
-    singleItem : true,
-    pagination: true,
-    autoPlay : false,//8000,
-    addClassActive: true,
-    stopOnHover : true,   
-    afterMove: function(el){
-        $('.owl-item.active .slide-heading-caption').addClass('animated animated-d15 fadeInDown');
-
- 
-    },
-    beforeMove : function (el) {
-        $('.owl-item.active .slide-heading-caption').removeClass('animated animated-d15 fadeInDown ');
- 
-    },
-    afterAction : function (el){
-        $('.owl-item.active .slide-heading-caption').addClass('animated animated-d15 fadeInDown');
-    },
-
-    });
-}
-
-
-// http://codepen.io/norman_pixelkings/pen/NNbqgG
-// https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
-/**
-Slick slider
-*/
-if( $('responsive-slider').length ){
-    $('.responsive-slider').slick({
-      dots: true,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-}
-
-
 
 /**
 ------------------
@@ -392,68 +245,15 @@ $('#toTop').click(function() {
 }); 
 
 
-
-//Goole map
-if( $('#mapID').length ){
-var styles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#0c0b0b"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#090909"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#d4e4eb"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#fef7f7"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#9b7f7f"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"color":"#fef7f7"}]}];
-var latitude = $('#mapID').data('latitude');
-var longitude = $('#mapID').data('longitude');
-
-var myCenter= new google.maps.LatLng(latitude,  longitude);
-
-function initialize(){
-    var mapProp = {
-      center:myCenter,
-
-      mapTypeControl:true,
-      scrollwheel: false,
-
-      zoomControl: true,
-      disableDefaultUI: true,
-      zoom:7,
-      streetViewControl: false,
-      rotateControl: true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP,
-      styles : styles,
-      };
-
-    var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
-
-    var marker= new google.maps.Marker({
-      position:myCenter,
-        icon:'images/map-marker-2.png'
-      });
-    marker.setMap(map);
-[{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#0c0b0b"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#090909"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#d4e4eb"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#fef7f7"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#9b7f7f"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"color":"#fef7f7"}]}]
-    
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-}
-
-//new WOW().init();
-
-
-/**
-------------------
-Pretty photo
-------------------
-*/
-// if( $('.prety-photo-heldle').length ){
-  $(".prety-photo-heldle").fancybox({
-      // Options will go here
-    });
-
-//}
-
-
-
 $('.share-btn span').on('click', function(e){
   e.preventDefault();
   var dataThis = $(this).attr('data-this');
   $('#'+dataThis).toggleClass('tsm');
 });
 
+
+
+new WOW().init();
 
 /* stary of Noyon*/
 
