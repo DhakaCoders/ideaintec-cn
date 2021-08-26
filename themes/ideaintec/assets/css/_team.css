@@ -75,35 +75,9 @@
 
 
 
-/*.progressbar-item{
-	position: relative;
-	background: #ccc;
-	border-radius: 10px;
-	margin: 30px 0 60px;
-	width: 100%;
-	height: 10px;
-}*/
-
-/*.progressbar h5{
-	position: absolute;
-	top: -30px;
-	left: 0;
-}
-
-.progressbar-value{
-	position: absolute;
-	top: -30px;
-	right: 0;
-}
-
-.progressbar{
-	background: linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
-	height: 100%;
-	border-radius: 10px;
-}*/
 
 .progressbar-item{
-	margin: 30px 0 60px;
+	margin: 30px 0 30px;
 	position: relative;
 }
 .progressbar-bg{
@@ -117,9 +91,9 @@
 	height: 10px;
 	float: left;
 	border-radius: 10px;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
+	background: -webkit-linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
+	background: -ms-linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
 	position: absolute;
 	top: 40px;
 	left: 0;
