@@ -1,0 +1,363 @@
+/*
+------------------------
+contact-form-sec-wrp
+------------------------
+*/
+.contact-form-sec-wrp{
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.contact-form-lft-con{
+	float: left;
+	width: 48%;
+}
+.contact-form-map{
+	position: relative;
+}
+#googlemap {
+	height: 405px;
+	margin-top: 10px;
+}
+.map-dsc {
+	background: #fff;
+	position: absolute;
+	top: -30px;
+	z-index: 3;
+	padding: 17px 22px 17px 30px;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.map-dsc span{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #767676;
+	font-weight: 400;
+	padding-left: 35px;
+	background: url(../images/mapmarker-1.png);
+	background-repeat: no-repeat;
+}
+.em-contact-form-wrp {
+	padding-left: 110px;
+}
+.contact-form-rgt-con{
+	float: right;
+	width: 52%;
+}
+.em-contact-form-dsc h2{
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 30px;
+	margin-bottom: 18px;
+}
+.em-contact-form-dsc {
+	line-height: 28px;
+	padding-bottom: 30px;
+}
+.em-contact-form{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field {
+	width: 50%;
+	float: left;
+	clear: none;
+	padding: 0 10px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.em-contact-form .wpforms-container .wpforms-field-container .fullwidth,
+.em-contact-form .wpforms-container .wpforms-field-container #wpforms-11-field_1-container {
+	width: 100% !important;
+	clear: both;
+}
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field label.wpforms-field-label {
+	font-size: 18px;
+	line-height: 20px;
+	color: #767676 !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	padding-bottom: 8px;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field input {
+	max-width: 100%;
+	height: 60px;
+	border: 1px solid #dbdbdb;
+	padding: 20px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field.wpforms-field-textarea {
+	width: 100%;
+}
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field.wpforms-field-textarea textarea {
+	width: 100%;
+	height: 175px;
+	border: 1px solid #dbdbdb;
+	padding: 20px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.em-contact-form .wpforms-submit-container button.wpforms-submit{
+	max-width: 208px !important;
+	width: 100% !important;
+	height: 55px !important;
+	background-color: #9fd355 !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+	color: #FFFFFF !important;
+	text-align: center !important;
+	text-transform: uppercase !important;
+	padding-top: 8px !important;
+	margin-top: 5px !important;
+	border:none !important;
+	margin-left: 10px;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]:hover{
+	background-color: #87b744 !important;
+}
+.em-contact-submit-btn div.wpforms-container-full .wpforms-form .wpforms-submit-container{
+	padding: 0 !important;
+}
+
+.contact-info-post-sec-wrp {
+	padding-bottom: 80px;
+}
+.contact-info-post-wrp h2{
+	margin: 0;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+.contact-info-post-wrp ul{
+	margin: 0 -12px;
+}
+.contact-info-post-wrp ul li{
+	float: left;
+	width: 25%;
+	padding: 0 12px;
+}
+.contact-info-post-img img{
+	width: 100%;
+}
+.contact-info-post-dsc{
+	padding-top: 40px;
+}
+.contact-info-post-dsc h3{
+	margin: 0;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.contact-info-post-dsc a{
+	display:block;
+	text-decoration: none;
+	color: #767676;
+}
+.contact-info-post-dsc a:hover{
+	color: #9FD356;
+}
+.contact-info-post-dsc a i{
+	color:#9FD356;
+	padding-right: 15px; 
+}
+.contact-info-post-dsc a:first-of-type{
+	margin-bottom: 20px;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error, div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error, div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error {
+    border: 1px solid red!important;
+}
+.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field label.wpforms-error{
+    padding-top: 8px;
+    text-transform: none;
+    margin-bottom: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: red;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error, div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error, div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error {
+    border: 1px solid #cc0000;
+}
+@media(max-width: 1399px){
+	.em-contact-form-wrp {
+	    padding-left: 75px;
+	}
+	.map-dsc {
+	    top: -47px;
+	    padding: 17px 40px 16px 30px;
+	    max-width: 280px;
+	    width: 100%;
+	}
+
+}
+
+@media(max-width: 1199px){
+	.em-contact-form-wrp {
+	    padding-left: 50px;
+	}
+	.full-contact-form-field input[type="text"], 
+	.em-contact-form-field input[type="email"], 
+	.em-contact-form-field input[type="text"] {
+	    height: 45px;
+	    padding: 15px;
+	}	
+
+}
+
+/*----- max-width 991px -----*/
+@media(max-width: 991px){
+	.contact-form-rgt-con,
+	.contact-form-lft-con {
+	    width: 100%;
+	}
+	.em-contact-form-wrp {
+	    padding-left: 0;
+	    padding-bottom: 55px;
+	}
+	.contact-form-rgt-con,
+	.contact-form-lft-con {
+	    max-width: 700px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: auto;
+	    float: none;
+	}
+	.em-contact-form-dsc{
+		text-align: center;
+	}
+	.contact-form-img img{
+		width: 100%;
+	}
+	.contact-info-post-dsc h3 {
+	    margin-bottom: 20px;
+	    font-size: 18px;
+	}
+	.contact-info-post-dsc a {
+	    font-size: 15px;
+	}
+	.contact-info-post-dsc a i {
+	    padding-right: 10px;
+	}
+	.contact-info-post-dsc a:first-of-type {
+	    margin-bottom: 10px;
+	}
+}
+
+/*----- max-width 767px -----*/
+@media(max-width: 767px){
+	.contact-info-post-wrp ul li {
+	    width: 50%;
+	    padding: 0 12px 60px;
+	}
+	.contact-info-post-dsc {
+	    padding-top: 25px;
+	}
+	.contact-info-post-sec-wrp {
+	    padding-bottom: 40px;
+	}
+	
+}
+
+
+/*----- max-width 639 -----*/
+@media(max-width: 639px){
+	.map-dsc {
+	    top: -47px;
+	    padding: 17px 40px 16px 30px;
+	    max-width: 256px;
+	}
+}
+
+
+
+/*----- max-width 575 -----*/
+@media(max-width: 575px){
+	.em-contact-form-dsc {
+		text-align: center;
+		line-height: 22px;
+	}
+	.em-contact-form-field {
+	    width: 100%;
+	    padding: 0 0;
+	}
+	.em-contact-form-fields {
+	    margin-left: 0;
+	    margin-right: 0;
+	    margin-bottom: 0;
+	}
+	.full-contact-form-field {
+	    padding: 0;
+	}
+	.em-contact-form {
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 400px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field {
+	    width: 100%;
+	    float: none;
+	    clear: none;
+	    padding: 0;
+	}
+	.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field input {
+		height: 40px;
+		padding: 15px;
+	}
+	.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field label {
+		font-size: 15px;
+		line-height: 16px;
+		padding-bottom: 6px;
+	}
+	.em-contact-form .wpforms-container .wpforms-field-container .wpforms-field.wpforms-field-textarea textarea {
+		width: 100%;
+		height: 120px;
+		padding: 15px;
+	}
+	.em-contact-form .wpforms-submit-container button[type="submit"]{
+		margin-left: 0;
+	}
+	.em-contact-submit-btn{
+		text-align: center;
+	}
+	.map-dsc {
+	    padding: 17px 25px 16px 30px;
+	    max-width: 246px;
+	}
+	.contact-info-post-wrp ul li {
+	    width: 100%;
+	}
+	.contact-info-post{
+		max-width: 380px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-info-post-wrp h2{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.contact-form-sec-wrp {
+	    padding-bottom: 65px;
+	}
+}
+
+
+/*----- max-width 369 -----*/
+@media(max-width: 359px){
+
+}
