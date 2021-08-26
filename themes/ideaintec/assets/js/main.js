@@ -321,7 +321,7 @@ if( $('#particles-js').length ){
           }
         },
         "line_linked": {
-          "enable": true,
+          "enable": false,
           "distance": 80,
           "color": "#ff9140",
           "opacity": 1,
