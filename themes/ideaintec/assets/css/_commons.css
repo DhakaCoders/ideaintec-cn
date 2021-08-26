@@ -14,7 +14,12 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 }
-
+a{
+	color: #5EAD46;
+}
+a:hover{
+	color: #F7961E;
+}
 body {
     background: #f8f8f8;
     color: #000000;
@@ -39,7 +44,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #5FAE47;
+  background: #5EAD46;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -294,4 +299,73 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 
 .hmProdctGrdsSlider.slick-initialized .hmProdctGrdsSlideItme{
 	display: block;
+}
+
+
+
+/*common button*/
+.fl-button{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 210px;
+	height: 41px;
+	position: relative;
+	color: #fff;
+	background: #ff9140;
+	border-radius: 5px;
+	font-family: 'RobotoBold';
+	font-size: 14px;
+	line-height: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 14px 0 0;
+	overflow: hidden;
+}
+.fl-button:before{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.fl-button:hover:before{
+    opacity: 1;
+    animation: circle .75s;
+    -webkit-animation: circle .75s;
+    -ms-animation: circle .75s;
+    -o-animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 150%;
+		height: 150%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 150%;
+		height: 150%;
+		opacity: 0;
+	}
 }
