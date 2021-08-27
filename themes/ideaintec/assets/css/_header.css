@@ -115,9 +115,14 @@ nav.main-nav > ul > li > a:after{
 	-moz-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
-	background: #fff;	
-	height: 1px;
+	background: #5EAD46;	
+	height: 2px;
 	width: 100%;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover,
+nav.main-nav > ul > li.menu-item-has-children:hover a,
+nav.main-nav > ul > li > a:hover{
+	color: #5EAD46;
 }
 
 
@@ -127,24 +132,13 @@ nav.main-nav > ul > li:hover > a:after {
 	-webkit-transform: scale(1,1);
 	-o-transform: scale(1,1);
 }
-
-
-
-
-nav.main-nav > ul > li > ul.sub-menu{
-	position: absolute;
-	padding: 20px;
-	left: 0;
-	top: 100%;
-	z-index: 999999;
-	background:rgba(0,0,0,.9);
-	text-align: center;
-	width: 140px;
-	border-radius: 5px;
-	visibility: hidden;
-	text-align: left;
-	padding-bottom: 10px;
+nav.main-nav > ul > li.menu-item-has-children:hover a:after{
+	content: none;
 }
+
+
+
+
 nav.main-nav > ul > li > ul.sub-menu li{
 
 }
@@ -178,9 +172,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     top: 100%;
     left: 0;
     background: #fff;
-    z-index: 9999;
-    width: 225px;
-    padding: 0 6px 0 0;
+    z-index: 10;
+    width: 200px;
+    padding:  0;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -193,6 +187,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
     -ms-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15%);
     -webkit-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+
+
 }
 nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
     transform: scale3d(1,1,1);
@@ -200,6 +196,81 @@ nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
     -webkit-transform: scale3d(1,1,1);
     -o-transform: scale3d(1,1,1);
     opacity: 1;
+    visibility: visible;
 }
-
-
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
+    padding: 0 0;
+    line-height: 1;
+    display: block;
+    position: relative;
+   /* border-bottom: 1px solid #5EAD46;*/
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: "";
+	background: #000;
+	height: 2px;
+	z-index: 2;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child a:before,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child a:after{
+	content: none;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:before{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 0;
+	content: "";
+	background: #5EAD46;
+	height: 2px;
+	transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	z-index: 5;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover a:before{
+	width: 100%;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
+    display: block;
+    padding: 11px 14px;
+    position: relative;
+    line-height: 1;
+    font-size: 14px;
+    color: #000;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
+	padding-left: 18px;
+	letter-spacing: 0.8px;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    background: #5EAD46;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
+	border-bottom: 0;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
+	height: 100%;
+}
+.hdr-btn{
+	display: flex;
+}
+.hdr-btn .fl-button:hover{
+	color: #fff;
+	background: #5EAD46;
+}
