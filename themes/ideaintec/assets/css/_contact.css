@@ -60,7 +60,7 @@
     width: 50%;
     float: left;
     padding: 0 12px;
-    margin-bottom: 23px;
+    margin-bottom: 22px;
     position: relative;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.NameField{
@@ -126,7 +126,7 @@
     line-height: 1;
     color: #000000;
     margin-bottom: 5px;
-    padding-top: 19px !important;
+    padding-top: 17px;
     letter-spacing: -0.02em;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-description p a {
@@ -164,4 +164,16 @@
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-textarea textarea:focus, .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input:focus {
     border-color: #c0bebe;
+}
+.contact-form-top .sec-entry-hdr .sec-entry-heading-title{
+	padding-top: 15px;
+}
+.contact-form-top .sec-entry-hdr .sec-entry-heading-title h2{
+	margin-bottom: 15px;
+}
+.contact-form-top .sec-entry-hdr{
+	padding-bottom: 0;
+}
+.contact-form-top .sec-entry-hdr .sec-entry-hdr-des p{
+	margin-bottom: 10px;
 }
