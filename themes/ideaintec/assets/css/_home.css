@@ -450,27 +450,80 @@ Experiences section
 	padding: 70px 0 80px;
 }
 
-.fea-design-sec-hdr{
-	padding: 0 100px 40px;
-	text-align: center;
+.fea-design-grid-item{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 -15px;
 }
-.fea-design-col{
-	margin-bottom: 30px;
-	text-align: center;
+.fea-design-item-cntlr{
+	padding: 0 15px;
+	width: 33.33%;
+	margin-bottom: 40px;
 }
-.fea-design-col h5{
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	padding: 25px 0;
+.feaDesignSlider .fea-design-item-cntlr{
+	display: none;
+}
+
+.feaDesignSlider .fea-design-item-cntlr:first-child{
+	display: none;
+}
+
+.feaDesignSlider.slick-initialized .fea-design-item-cntlr{
+	display: block;
+}
+.fea-design-item{
+	overflow: hidden;
+	position: relative;
+}
+.fea-design-item-img-cntlr{
+	height: 310px;
+	overflow: hidden;
+	position: relative;
+}
+.fea-design-item-img{
+	height: 100%;
+	width: 100%;
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.fea-design-item:hover .fea-design-item-img{
+	transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	-o-transform: scale(1.0);
+}
+.fl-h4.fea-design-item-title{
+	padding: 20px 10px;
 	margin: 0;
 	color: #fff;
-	background: #3f3b6b;
+	background: #5EAD46;
+	text-align: center;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	position: relative;
+	overflow: hidden;
 }
-.load-more{
-	margin-top: 40px;
+.fl-h4.fea-design-item-title a{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
 }
+.fl-h4.fea-design-item-title:hover{
+	background: #F7961E;
+}
+
+.toTop{
+	overflow: hidden;
+	
+}
+
 
 /**
 ---------------------
