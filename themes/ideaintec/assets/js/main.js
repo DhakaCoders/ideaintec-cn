@@ -256,7 +256,24 @@ $('.share-btn span').on('click', function(e){
 new WOW().init();
 
 /* stary of Noyon*/
+if( $('.scrollto').length ){
+  $('.scrollto').on('click', function(e){
+    e.preventDefault();
+    var togo = $(this).data('to');
+    goToByScroll(togo, 0);
+  });
+}
 
+function goToByScroll(id, offset){
+  if(id){
+    // Remove "link" from the ID
+    id = id.replace("link", "");
+    // Scroll
+    $('html,body').animate(
+      {scrollTop: $(id).offset().top - offset},
+      500);
+  }
+}
 
 
 /* stary of Rannojit*/
@@ -388,8 +405,9 @@ if( $('#particles-js').length ){
 
 
 var skill = {
-  seo: 70,
-  web: 60
+  html: 90,
+  css: 80,
+  js: 70
 };
 
 $.each(skill, function(key, value){
