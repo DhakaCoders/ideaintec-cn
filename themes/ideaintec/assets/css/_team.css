@@ -182,7 +182,7 @@
 	transition: .3s ease-in-out;
 	-webkit-transition: .3s ease-in-out;
 	-ms-transition: .3s ease-in-out;
-	opacity: 0;
+	opacity: 1;
 }
 /*.iit-team-social-media.iit-tsm{
 	transform: translateY(-10px) rotate(0);
@@ -224,6 +224,28 @@
 .iit-team-social-media ul li a i{
 	display: inline-block;
 	vertical-align: baseline;
+}
+
+.iit-team-social-media ul li.share-icon{
+	position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    transform: translateX(0) rotate(180deg);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.iit-team-social-media ul li.share-icon:nth-child(1){
+	transform: translateY(-70px) rotate(0);
+
+}
+.iit-team-social-media ul li.share-icon:nth-child(2){
+	transform: translateY(-125px) rotate(0);
+
 }
 
 .share-btn{
