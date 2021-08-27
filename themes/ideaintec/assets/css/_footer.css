@@ -154,7 +154,7 @@ footer .ftr-col address a{
 
 
 #toTop{
-	background:#ff9140;
+	
 	width: 40px;
 	height: 40px;
 	border-radius: 50% 50%;
@@ -164,6 +164,16 @@ footer .ftr-col address a{
 	cursor: pointer;
 	color: #fff;
 	display: none;
+}
+.toTop{
+	background: #F7961E;
+	overflow: hidden;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.toTop:hover{
+	background:#5EAD46;	
 }
 #toTop i{
 	position: absolute;
