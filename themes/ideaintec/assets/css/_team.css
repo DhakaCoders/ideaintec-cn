@@ -239,6 +239,14 @@
     cursor: pointer;
     transition: .3s ease-in-out;
 }
+.iit-team-social-media ul li.share-icon:nth-child(1){
+	transform: translateY(-70px) rotate(0);
+
+}
+.iit-team-social-media ul li.share-icon:nth-child(2){
+	transform: translateY(-125px) rotate(0);
+
+}
 
 .share-btn{
 	position: absolute;
