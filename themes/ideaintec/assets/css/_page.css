@@ -147,6 +147,10 @@
 	position: relative;
 }
 
+.sec-entry-hdr-title{
+	text-transform: capitalize;
+}
+
 .heading-divider{
 	position: absolute;
 	top: 0;
@@ -210,8 +214,8 @@
 
 .btm-line .sec-entry-heading-title{
 	padding-top: 0;
-	padding-bottom: 30px;
-	margin-bottom: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 .btm-line .sec-entry-heading-title h2{
 	margin-bottom: 0;
