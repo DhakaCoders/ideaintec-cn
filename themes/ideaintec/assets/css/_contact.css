@@ -22,7 +22,7 @@
 }
 .contact-form-lft-con {
     width: 52%;
-    padding-right: 109px;
+    padding-right: 90px;
 }
 .contact-form-rgt-con {
     width: 48%;
@@ -43,7 +43,9 @@
     position: absolute;
     top: -65px;
     z-index: 3;
-    padding: 17px 22px 17px 30px;
+    width: 100%;
+    max-width: 300px;
+    padding: 17px 22px 17px 22px;
     left: 50%;
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
