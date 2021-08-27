@@ -27,6 +27,14 @@
 .contact-form-rgt-con {
     width: 48%;
 }
+.contact-form-fea-img div {
+    height: 295px;
+    width: 100%;
+    display: block;
+}
+.contact-form-fea-img img{
+	display: none;
+}
 .contact-form-map {
     position: relative;
 }
