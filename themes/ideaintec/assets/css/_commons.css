@@ -336,6 +336,10 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	transform: translate(-50%, -50%);
 	opacity: 0;
 }
+.fl-button:hover {
+    color: #fff;
+    background: #5EAD46;
+}
 .fl-button:hover:before{
     opacity: 1;
     animation: circle .75s;
