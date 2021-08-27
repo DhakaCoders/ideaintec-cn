@@ -246,7 +246,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
 	padding-left: 18px;
-	letter-spacing: 0.8px;
+	letter-spacing: 0.3px;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     position: absolute;
