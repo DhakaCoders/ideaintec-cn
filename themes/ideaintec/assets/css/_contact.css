@@ -136,7 +136,7 @@
     text-decoration: underline;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-description p a:hover{
-	color: #FFA800;
+	color: #ff9140;
     text-decoration: none;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
@@ -157,9 +157,9 @@
     letter-spacing: -0.02em;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
-    background: #FFA800 !important;
+    background: #ff9140 !important;
     color: #fff !important;
-    border-color: #FFA800 !important;
+    border-color: #ff9140 !important;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -168,14 +168,14 @@
     border-color: #c0bebe;
 }
 .contact-form-top .sec-entry-hdr .sec-entry-heading-title{
-	padding-top: 15px;
+	padding-top: 0px;
 }
 .contact-form-top .sec-entry-hdr .sec-entry-heading-title h2{
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 .contact-form-top .sec-entry-hdr{
 	padding-bottom: 0;
 }
 .contact-form-top .sec-entry-hdr .sec-entry-hdr-des p{
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 }
