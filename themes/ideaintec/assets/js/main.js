@@ -284,7 +284,7 @@ if( $('#particles-js').length ){
           }
         },
         "color": {
-          "value": ["#ff9140","#4834d4","#7ed6df"]
+          "value": ["#f8800b","#5d9d32","#0c224b"]
         },
         "shape": {
           "type": "polygon",

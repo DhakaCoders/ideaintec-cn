@@ -91,9 +91,9 @@
 	height: 10px;
 	float: left;
 	border-radius: 10px;
-	background: linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
-	background: -webkit-linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
-	background: -ms-linear-gradient(120deg, #ffc600 0%, #ff4200 100%);
+	background: linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
+	background: -webkit-linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
+	background: -ms-linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
 	position: absolute;
 	top: 40px;
 	left: 0;
@@ -177,12 +177,12 @@
 
 .iit-team-social-media{
 	position: absolute;
-	right: 28px;
-	top: -100px;
+	right: 64px;
+	top: 0;
 	transition: .3s ease-in-out;
 	-webkit-transition: .3s ease-in-out;
 	-ms-transition: .3s ease-in-out;
-	opacity: 1;
+	opacity: 0;
 }
 /*.iit-team-social-media.iit-tsm{
 	transform: translateY(-10px) rotate(0);
@@ -214,7 +214,6 @@
 	transition: .3s ease-in-out;
 	-webkit-transition: .3s ease-in-out;
 	-ms-transition: .3s ease-in-out;
-	transform: translateX(0) rotate(180deg);
 }
 
 .iit-team-social-media.iit-tsm ul li a{
@@ -239,12 +238,12 @@
     cursor: pointer;
     transition: .3s ease-in-out;
 }
-.iit-team-social-media ul li.share-icon:nth-child(1){
+.iit-team-social-media.iit-tsm ul li.share-icon:nth-child(1){
 	transform: translateY(-70px) rotate(0);
 
 }
-.iit-team-social-media ul li.share-icon:nth-child(2){
-	transform: translateY(-125px) rotate(0);
+.iit-team-social-media.iit-tsm ul li.share-icon:nth-child(2){
+	transform: translateY(-113px) rotate(0);
 
 }
 
