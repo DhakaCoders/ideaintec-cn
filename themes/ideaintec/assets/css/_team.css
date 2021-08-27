@@ -63,7 +63,7 @@
 	max-width: 100%;
 	text-align: left;
 }
-.team-skill .heading-divider{
+/*.team-skill .heading-divider{
 	left: 0;
 	transform: translateX(0);
 	-webkit-transform: translateX(0);
@@ -71,8 +71,31 @@
 }
 .team-skill .heading-divider:after{
 	content: none;
+}*/
+
+
+/*.iit-team-skill-rgt .sec-entry-hdr-title{
+	font-weight: 800;
+	font-family: 'Nunito', sans-serif;
+	color: #252525;
+}*/
+/*.iit-team-skill-rgt .sec-entry-hdr-des p{
+	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
+	color: #6e6e6e;
+}*/
+.iit-team-skill-rgt .sec-entry-hdr {
+    padding-bottom: 0;
 }
 
+.progressbar-title{
+	font-size: 13px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #252525;
+	margin-bottom: 12px;
+}
 
 
 
@@ -91,12 +114,24 @@
 	height: 10px;
 	float: left;
 	border-radius: 10px;
-	background: linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
-	background: -webkit-linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
-	background: -ms-linear-gradient(120deg, #f8800b 0%, #ec7807 100%);
+	background: linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
+	background: -webkit-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
+	background: -ms-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
 	position: absolute;
-	top: 40px;
+	top: 25px;
 	left: 0;
+}
+
+.css.progressbar-value{
+	background: linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
+	background: -webkit-linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
+	background: -ms-linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
+}
+
+.js.progressbar-value{
+	background: linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
+	background: -webkit-linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
+	background: -ms-linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
 }
 
 .progressbar-percentage span{
@@ -148,6 +183,7 @@
 
 .iit-team-grd-item-des{
 	padding-top: 30px;
+	padding-bottom: 15px;
 	text-align: center;
 	position: relative;
 }
@@ -168,7 +204,6 @@
 }
 
 .iit-team-grd-item-des-inr span{
-	text-transform: capitalize;
 	color: #94a8b1;
 	font-size: 15px;
 }

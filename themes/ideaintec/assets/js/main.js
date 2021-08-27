@@ -388,8 +388,9 @@ if( $('#particles-js').length ){
 
 
 var skill = {
-  seo: 70,
-  web: 60
+  html: 90,
+  css: 80,
+  js: 70
 };
 
 $.each(skill, function(key, value){
