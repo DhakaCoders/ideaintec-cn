@@ -256,6 +256,17 @@ $('.share-btn span').on('click', function(e){
 new WOW().init();
 
 /* stary of Noyon*/
+
+if (windowWidth > 767) {
+  if( $('.hm-banner-cntlr').length ){
+    var windowHeight = $(window).height();
+    if (windowHeight >= 678) {
+      $('.hm-banner-cntlr').css('height', windowHeight);
+    }
+  }
+}
+
+
 if( $('.scrollto').length ){
   $('.scrollto').on('click', function(e){
     e.preventDefault();
