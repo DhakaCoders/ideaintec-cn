@@ -1,26 +1,4 @@
 /*
-------------------------
-contact-form-sec-wrp
-------------------------
-*/
-
-
-
-
-
-
-/*
-------------------
- Contact Css
-------------------
-*/
-
-/*.contact-form-lft .error-msg{
-    display: none;
-}*/
-
-
-/*
 ---------------------
  Contact Form
 ---------------------
@@ -34,41 +12,6 @@ contact-form-sec-wrp
 .contact-form-wrp  div.wpforms-container-full .wpforms-form .wpforms-field{
 	clear: initial;
 }
-
-
-
-
-.contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field-select select{
-	background:#fff !important;
-    padding: 15px 15px;
-    font-size: 16px !important;
-    line-height: 18px !important;
-    color: #909BA5;
-    font-weight: 400;
-    border: 1px solid #ECF1F4 !important;
-    border-radius: 3px !important;
-    height: 48px;
-    text-transform: initial !important;
-    min-height: 100%;
-    outline: 0;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    /*background-image: url(../images/select-angle-icon.svg)!important;*/
-    background-size: 9px 5px;
-    background-repeat: no-repeat !important;
-    background-position: 97% center !important;
-}
-
-
-
-
-
-
-
 
 .contact-form-sec-wrp {
     padding-top: 90px;
@@ -89,7 +32,7 @@ contact-form-sec-wrp
 .map-dsc {
     background: #fff;
     position: absolute;
-    top: -30px;
+    top: -65px;
     z-index: 3;
     padding: 17px 22px 17px 30px;
     left: 50%;
@@ -100,29 +43,6 @@ contact-form-sec-wrp
 #googlemap {
     height: 405px;
     margin-top: 10px;
-}
-.error-msg {
-    background: #D61D1D!important;
-    padding: 18px 18px!important;
-    margin-bottom: 40px!important;
-    padding-left: 58px!important;
-    position: relative;
-}
-.error-msg span {
-    color: #fff;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-.error-msg span i, .woocommerce-info:before {
-    display: inline-block;
-    vertical-align: baseline;
-    position: absolute;
-    left: 20px!important;
-    top: 50%!important;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    margin-top: -1px;
 }
 .wpforms-field-container{
 	margin: 0 -12px;
