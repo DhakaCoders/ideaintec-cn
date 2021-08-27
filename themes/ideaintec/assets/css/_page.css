@@ -129,6 +129,67 @@
 
 
 
+/*page banner*/
+
+.page-banner-cntlr{
+	overflow: hidden;
+	position: relative;
+}
+.page-banner{
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.page-banner-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.page-bnr-des{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 4;
+}
+
+#particles-js{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	z-index: 2;
+}
+
+.page-bnr-overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.4;
+	z-index: 3;
+}
+
+.page-bnr-des-inr{
+	display: flex;
+	align-items: center;
+}
+.breadcrumb-cntlr{
+	margin-left: auto;
+}
+.page-bnr-title{
+	margin-bottom: 0;
+}
+
+
 /*sec entry header*/
 
 .sec-entry-hdr{

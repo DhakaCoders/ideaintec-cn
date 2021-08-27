@@ -1,34 +1,4 @@
-.page-banner-cntlr{
-	overflow: hidden;
-	position: relative;
-}
-.page-banner{
-	height: 250px;
-	position: relative;
-	overflow: hidden;
-}
-.page-banner-bg{
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-.page-bnr-des{
-	position: relative;
-	padding-top: 60px;
-	text-align: center;
-	z-index: 3;
-}
 
-#particles-js{
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 99;
-}
 
 
 
