@@ -269,6 +269,7 @@ new WOW().init();
 $('.share-btn button').on('click', function(e){
   e.preventDefault();
   var dataThis = $(this).attr('data-this');
+  $(this).toggleClass('icon-change');
   $('#'+dataThis).toggleClass('iit-tsm');
 });
 
@@ -311,7 +312,7 @@ if( $('#particles-js').length ){
           }
         },
         "size": {
-          "value": 6,
+          "value": 5,
           "random": true,
           "anim": {
             "enable": false,
@@ -329,7 +330,7 @@ if( $('#particles-js').length ){
         },
         "move": {
             "enable": true,
-            "speed": 6,
+            "speed": 3,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -350,14 +351,14 @@ if( $('#particles-js').length ){
             "mode": "grab"
           },
           "onclick": {
-            "enable": true,
+            "enable": false,
             "mode": "push"
           },
           "resize": true
         },
        "modes": {
           "grab": {
-            "distance": 400,
+            "distance": 300,
             "line_linked": {
               "opacity": 1
             }
@@ -384,6 +385,21 @@ if( $('#particles-js').length ){
       "retina_detect": true
     });
 }
+
+
+var skill = {
+  seo: 70,
+  web: 60
+};
+
+$.each(skill, function(key, value){
+  var skillbar = $("." + key);
+  skillbar.animate(
+      {
+        width: value + "%"
+      },3000
+    );
+});
 
 
 
