@@ -17,13 +17,14 @@
     padding-top: 90px;
     padding-bottom: 100px;
 }
-.contact-form-rgt-con {
-    width: 52%;
-    float: right;
-    padding-left: 109px;
+.contact-form-wrp{
+    display: flex;
 }
 .contact-form-lft-con {
-    float: left;
+    width: 52%;
+    padding-right: 109px;
+}
+.contact-form-rgt-con {
     width: 48%;
 }
 .contact-form-map {
@@ -51,7 +52,7 @@
     width: 50%;
     float: left;
     padding: 0 12px;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
     position: relative;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.NameField{
@@ -117,7 +118,7 @@
     line-height: 1;
     color: #000000;
     margin-bottom: 5px;
-    padding-top: 28px !important;
+    padding-top: 21px !important;
     letter-spacing: -0.02em;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-description p a {
