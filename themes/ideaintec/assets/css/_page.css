@@ -53,9 +53,7 @@
 
 /*breadcrumb*/
 
-.breadcrumb-cntlr {
-    padding: 10px 0;
-}
+
 .breadcrumb-cntlr ul {
     display: flex;
     align-items: center;
@@ -187,6 +185,7 @@
 }
 .page-bnr-title{
 	margin-bottom: 0;
+	color: #fff;
 }
 
 
