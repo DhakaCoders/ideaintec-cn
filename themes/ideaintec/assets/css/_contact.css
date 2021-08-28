@@ -20,7 +20,7 @@
     width: 48%;
 }
 .contact-form-fea-img div {
-    height: 295px;
+    height: 318px;
     width: 100%;
     display: block;
 }
@@ -142,8 +142,8 @@
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
     min-width: 200px;
-    border: 2px solid #000000;
-    background: #000000;
+    border: 2px solid #ff9140;
+    background: #ff9140;
     font-size: 14px;
     line-height: 1 ;
     color: #fff;
@@ -158,9 +158,9 @@
     letter-spacing: -0.02em;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
-    background: #ff9140;
+    background: #5EAD46;
     color: #fff;
-    border-color: #ff9140;
+    border-color: #5EAD46;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
