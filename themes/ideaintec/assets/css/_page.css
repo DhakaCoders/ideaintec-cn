@@ -123,6 +123,10 @@
 	left: 0;
 	margin-top: -2px;
 }
+.breadcrumb-cntlr ul li.home a i svg{
+	width: 13px;
+	height: 14px;
+}
 .breadcrumb-cntlr ul li.active span{
 	text-decoration: underline;
 }
@@ -130,7 +134,7 @@
 .breadcrumb-cntlr ul li a:hover, 
 .breadcrumb-cntlr ul li span:hover, 
 .breadcrumb-cntlr ul li a span:hover {
-    color: #1A7ABE;
+    color: #ff9140;
 }
 
 
@@ -219,15 +223,10 @@
 
 .sec-entry-hdr-title{
 	text-transform: capitalize;
-	font-weight: 800;
-	font-family: 'Nunito', sans-serif;
-	color: #252525;
 }
 
 .sec-entry-hdr-des p{
 	font-weight: 400;
-	font-family: 'Nunito', sans-serif;
-	color: #6e6e6e;
 }
 
 .heading-divider{
