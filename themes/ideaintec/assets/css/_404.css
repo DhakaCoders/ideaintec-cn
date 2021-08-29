@@ -39,13 +39,14 @@
 }
 
 .over {
-  width: 27px; height: 27px;
-  border-radius: 3px; 
+  width: 27px;
+  height: 27px;
+  border-radius: 3px;
   background-color: #f8f8f8;
   position: absolute;
-  margin-top: 188px; 
-  -webkit-transform: rotate(45deg) translateX(3px) translateY(3px); 
-          transform: rotate(45deg) translateX(3px) translateY(3px); 
+  margin-top: 188px;
+  -webkit-transform: rotate(45deg) translateX(3px) translateY(3px);
+  transform: rotate(45deg) translateX(3px) translateY(3px);
 }
 .over.two {
   margin-left: 33px; 
@@ -174,10 +175,16 @@
   margin: auto;
   left: 0;
   right: 0;
-  top: -10vw;
+  top: 140px;
   color: rgba(0,0,0,.03);
   font-size: 25vw;
   text-align: center;
   font-weight: 900;
   font-family: sans-serif;
+}
+
+
+
+.page-404-content-cntlr {
+    background-color: #f8f8f8;
 }
