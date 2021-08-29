@@ -1,9 +1,18 @@
 .footer-wrp{
 	background: #333333;
 	padding-top: 70px;
+	position: relative;
+}
+.footer-skew{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
 .footer-cntlr{
-	
+	position: relative;
+	z-index: 3;
 }
 .ftr-top{
 	padding-bottom: 50px;
