@@ -101,3 +101,27 @@
     -webkit-animation: shadow 1.5s ease-in-out alternate infinite;
     animation: shadow 1.5s ease-in-out alternate infinite;
 }
+.main {
+    margin-top: 235px;
+    text-align: center;
+}
+.main .error {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -10vw;
+    color: rgba(0,0,0,.03);
+    font-size: 25vw;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.main h2 {
+    color: #666;
+    font-size: 32px;
+}
+.main h6 {
+    font-size: 14px;
+    line-height: 24px;
+}
