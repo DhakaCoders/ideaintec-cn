@@ -9,6 +9,10 @@
 	left: 0;
 	right: 0;
 	z-index: 1;
+	background-repeat: repeat!important;
+	background-position: bottom!important;
+	background-size: contain!important;
+	padding: 120px 0;
 }
 .footer-cntlr{
 	position: relative;

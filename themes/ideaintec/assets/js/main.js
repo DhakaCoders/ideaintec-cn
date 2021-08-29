@@ -285,6 +285,12 @@ function goToByScroll(id, offset){
       500);
   }
 }
+/*skew*/
+$(".skew-btm").css('border-left-width', windowWidth);
+$(window).resize(function() { 
+  var window2Width = $(window).width();
+    $(".skew-btm").css('border-left-width', window2Width);
+});
 
 
 /* stary of Rannojit*/
