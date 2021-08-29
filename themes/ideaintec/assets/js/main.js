@@ -294,7 +294,7 @@ function goToByScroll(id, offset){
 
 /* stary of Shariful*/
 
-$('.share-btn button').on('click', function(e){
+$('.share-btn').on('click', function(e){
   e.preventDefault();
   var dataThis = $(this).attr('data-this');
   $(this).toggleClass('icon-change');
