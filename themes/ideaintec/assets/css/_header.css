@@ -203,21 +203,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
     line-height: 1;
     display: block;
     position: relative;
-   /* border-bottom: 1px solid #5EAD46;*/
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	content: "";
-	background: #000;
-	height: 2px;
-	z-index: 2;
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child a:before,
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child a:after{
-	content: none;
+   border-bottom: 1px solid #5EAD46;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:before{
 	position: absolute;
@@ -233,9 +219,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:before{
 	-webkit-transition: all 0.8s;
 	z-index: 5;
 }
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover a:before{
-	width: 100%;
-}
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
     display: block;
     padding: 11px 14px;
@@ -243,29 +226,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
     line-height: 1;
     font-size: 14px;
     color: #000;
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
-	padding-left: 18px;
-	letter-spacing: 0.3px;
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 2px;
-    height: 0;
-    background: #5EAD46;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
-	border-bottom: 0;
-}
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
-	height: 100%;
 }
 .hdr-btn{
 	display: flex;
