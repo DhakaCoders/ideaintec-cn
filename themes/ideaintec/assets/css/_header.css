@@ -14,7 +14,9 @@ header.header{
 header .hdr-top-bar{
 	padding:37px 0;
 }
-
+.logo-white{
+	display: none;
+}
 
 header .sticky-hdr{
 	background: transparent;
@@ -29,6 +31,14 @@ header .sticky-hdr{
 	-ms-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+}
+.home .logo-white,
+header .sticky-hdr .logo-white{
+	display: block;
+}
+header .sticky-hdr .logo-transparent,
+.home .logo-transparent{
+	display: none;
 }
 header .fixed-hdr{
 	background: #000;

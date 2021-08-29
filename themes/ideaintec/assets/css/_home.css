@@ -2,6 +2,14 @@
 #bnr-vdo{
 	overflow: hidden;
 }
+.hm-video-cntlr{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+}
 #bnr-vdo{
     min-height: 100%;
     min-width: 100%;
@@ -448,8 +456,12 @@ Experiences section
 */
 .featured-design-sec{
 	padding: 70px 0 80px;
+	position: relative;
 }
-
+.featured-design-cntlr{
+	position: relative;
+	z-index: 2;
+}
 .fea-design-grid-item{
 	display: flex;
 	align-items: center;
@@ -499,7 +511,7 @@ Experiences section
 	-o-transform: scale(1.0);
 }
 .fl-h4.fea-design-item-title{
-	padding: 20px 10px;
+	
 	margin: 0;
 	color: #fff;
 	background: #5EAD46;
@@ -514,6 +526,8 @@ Experiences section
 	display: inline-block;
 	color: #fff;
 	text-align: center;
+	padding: 20px 10px;
+	width: 100%;
 }
 .fl-h4.fea-design-item-title:hover{
 	background: #F7961E;
@@ -547,16 +561,7 @@ Let's Chat section
 	text-align: right;
 	padding: 40px 100px 0 0;
 }
-.get-in-touch-btn{
-	width: 291px;
-	height: 48px;
-	font-size: 24px;
-	line-height: 22px;
-	padding-top: 14px;
-	font-weight: normal;
-    font-family: 'MyriadProRegular';
 
-}
 
 
 
@@ -989,67 +994,14 @@ Sidebar
 Single page
 ----------------------------------------
 */
-.author-info{
-	margin: 60px 0 40px 0;
-	padding: 10px 15px 20px;
-	border-top: 4px solid #ff9140;
-	background: #EFF4F5;
-}
-h2.author-heading {
-	font-size: 20px;
-	color: #555353;
-	margin: 0;
-	padding-bottom: 25px;
-}
-.author-avatar{
-	float: left;
-	width: 56px;
-	margin-right: 25px;
-	margin-bottom: 15px;
-}
-.author-description{
-	padding-left: 25px;
-	font-size: 13px;
-	line-height: 15px;
-    font-family: 'RobotoLight';
-    color: #555353;
-}
-.author-description h3{
-	font-size: 19px;
-	line-height: 21px;
-	margin: 0;
-	padding-bottom: 15px;
-	color: #000;
-}
+/*skew-btm*/
 
-.author-link{
-	float: left;
-	margin-left: 57px;
-}
-.gplus-link{
-	float: right;
-}
-.readmore a {
-	margin-top: 16px;
-	font-size: 12px;
-	color: #ffffff;
-	padding: 10px 19px 10px 18px;
-	background: #ff9140;
-}
-.comment-notes{
-	font-size: 14px;
-}
-
-#comments label{
-    font-family: 'RobotoLight';	
-}
-
-
-/**
---------------
-Works
---------------
-*/
-.portfolio-main-con{
-	padding-bottom: 120px;
+.skew-btm{
+	border-bottom: 285px solid #fbfbfb;
+	border-left: 1920px solid transparent;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
