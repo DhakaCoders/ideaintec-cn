@@ -1,92 +1,98 @@
-
-
 .ghost {
-  width: 125px;
+  width: 131px;
   height: 200px;
   background-color: #f8f8f8;
   border: 3px solid #979797;
   position: relative;
   margin: auto;
-  top: 140px;
+  top: 175px;
   left: 0;
   right: 0;
   border-radius: 150px 150px 7px 7px;
   -webkit-animation: ghost 1.5s ease-in-out alternate infinite;
-          animation: ghost 1.5s ease-in-out alternate infinite;
+  animation: ghost 1.5s ease-in-out alternate infinite;
   z-index: 1; 
 }
 
 .corner {
-  width: 21px;
-  height: 21px;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  border: 3px solid #979797;
-  position: absolute;
-  margin-top: 188px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  z-index: -1;
+    height: 27px;
+    width: 27px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    border: 3px solid #979797;
+    position: absolute;
+    margin-top: 182px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: -1;
 }
 .corner.two {
-  margin-left: 33px; 
+    margin-left: 33px;
 }
 .corner.three {
-  margin-left: 66px; 
+    margin-left: 66px;
 }
 .corner.four {
-  margin-left: 98px; 
+    margin-left: 98px;
 }
-
 .over {
-  width: 27px;
-  height: 27px;
-  border-radius: 3px;
-  background-color: #f8f8f8;
-  position: absolute;
-  margin-top: 188px;
-  -webkit-transform: rotate(45deg) translateX(3px) translateY(3px);
-  transform: rotate(45deg) translateX(3px) translateY(3px);
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    position: absolute;
+    margin-top: 182px;
+    transform: translate(0px, 5px) rotate(45deg);
+    -ms-transform: translate(0px, 5px) rotate(45deg);
+    -webkit-transform: translate(0px, 5px) rotate(45deg);
 }
 .over.two {
-  margin-left: 33px; 
+    margin-left: 33px;
 }
 .over.three {
-  margin-left: 66px; 
+    margin-left: 66px;
 }
 .over.four {
-  margin-left: 98px; 
+    margin-left: 98px;
 }
 
 .eye {
-  width: 10px; height: 10px;
+  width: 10px; 
+  height: 10px;
   border-radius: 10px; 
   background-color: #979797; 
-  position: absolute; margin: 50px auto; 
+  position: absolute; 
+  margin: 50px auto; 
   left: 0;right: 0;
   -webkit-transform: translateX(-25px);
-          transform: translateX(-25px); 
+  transform: translateX(-25px); 
 }
 .eye.two {
   -webkit-transform: translateX(25px);
-          transform: translateX(25px); 
+  transform: translateX(25px); 
 }
 
 .mouth {
-  width: 40px; height: 4px;
+  width: 40px; 
+  height: 4px;
   border-radius: 10px; 
   background-color: #979797; 
-  position: absolute; margin: 75px auto; 
-  left: 0;right: 0;
+  position: absolute; 
+  margin: 75px auto; 
+  left: 0;
+  right: 0;
 }
 .tonge {
-  width: 4px; height: 10px;
+  width: 4px; 
+  height: 10px;
   border-radius: 0px 0px 50px 50px; 
   background-color: #979797; 
-  position: absolute; margin: 2px auto; 
+  position: absolute; 
+  margin: 2px auto; 
   left: 0;right: 0;
   -webkit-transform: translateX(-6px);
-          transform: translateX(-6px); 
+  transform: translateX(-6px); 
   border-left: 5px solid rgba(0,0,0,.3);
   border-right: 5px solid rgba(0,0,0,.3);
   border-bottom: 5px solid rgba(0,0,0,.3);
@@ -102,7 +108,8 @@
   left: 0;
   right: 0;
   -webkit-animation: shadow 1.5s ease-in-out alternate infinite;
-          animation: shadow 1.5s ease-in-out alternate infinite;
+  animation: shadow 1.5s ease-in-out alternate infinite;
+  box-shadow: none!important;
 }
 
 .text{
@@ -111,56 +118,16 @@
   margin: auto;
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 30px;
   font-family: 'Indie Flower', cursive;
   font-size: 3em;
+  display: inline-block;
+  line-height: 1;
 }
-
-@-webkit-keyframes shadow {
-  0% {
-    -webkit-transform: scale(1) translateY(0px);
-            transform: scale(1) translateY(0px);
-  }
-  100% {
-    -webkit-transform: scale(0.8) translateY(75px);
-            transform: scale(0.8) translateY(75px);
-  }
-}
-
-@keyframes shadow {
-  0% {
-    -webkit-transform: scale(1) translateY(0px);
-            transform: scale(1) translateY(0px);
-  }
-  100% {
-    -webkit-transform: scale(0.8) translateY(75px);
-            transform: scale(0.8) translateY(75px);
-  }
-}
-@-webkit-keyframes ghost {
-  0% {
-    -webkit-transform: scale(1) translateY(0px);
-            transform: scale(1) translateY(0px)
-  }
-  100% {
-    -webkit-transform: scale(1) translateY(-40px);
-            transform: scale(1) translateY(-40px)
-  }
-}
-@keyframes ghost {
-  0% {
-    -webkit-transform: scale(1) translateY(0px);
-            transform: scale(1) translateY(0px)
-  }
-  100% {
-    -webkit-transform: scale(1) translateY(-40px);
-            transform: scale(1) translateY(-40px)
-  }
-}
-
 .main {
-  margin-top: 235px;
+  margin-top: 300px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .main h2 {
   color: #666;
@@ -185,6 +152,60 @@
 
 
 
-.page-banner-cntlr {
+
+.page-404-sec {
     background-color: #f8f8f8;
+    padding-bottom: 40px;
+}
+.page-404-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+@-webkit-keyframes shadow {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+    transform: scale(1) translateY(0px);
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(75px);
+    transform: scale(0.8) translateY(75px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+    transform: scale(1) translateY(0px);
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(75px);
+    transform: scale(0.8) translateY(75px);
+  }
+}
+@-webkit-keyframes ghost {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+    transform: scale(1) translateY(0px)
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(-40px);
+    transform: scale(1) translateY(-40px)
+  }
+}
+@keyframes ghost {
+  0% {
+    -webkit-transform: scale(1) translateY(0px);
+            transform: scale(1) translateY(0px)
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(-40px);
+            transform: scale(1) translateY(-40px)
+  }
 }
