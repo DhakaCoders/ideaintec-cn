@@ -131,11 +131,6 @@
 }
 .main h2 {
   color: #666;
-  font-size: 32px;
-}
-.main h6 {
-  font-size: 14px;
-  line-height: 24px;
 }
 .main .error {
   position: absolute;
@@ -144,7 +139,7 @@
   right: 0;
   top: 140px;
   color: rgba(0,0,0,.03);
-  font-size: 25vw;
+  font-size: 330px;
   text-align: center;
   font-weight: 900;
   font-family: sans-serif;
