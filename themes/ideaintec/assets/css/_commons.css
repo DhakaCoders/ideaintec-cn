@@ -317,13 +317,13 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	color: #fff;
 	background: #F8800B;
 	border-radius: 5px;
-	font-family: 'RobotoBold';
 	font-size: 14px;
 	line-height: 100%;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 14px 0 0;
 	overflow: hidden;
+	letter-spacing: 0.15px;
 }
 .circle:before,
 .fl-button:before{

@@ -96,6 +96,7 @@ nav.main-nav > ul > li > a{
 	vertical-align: top;
 	padding-bottom: 8px;
 	color: #fff;
+	letter-spacing: 0.15px;
 }
 nav.main-nav > ul > li > a:after{
 	position: absolute;

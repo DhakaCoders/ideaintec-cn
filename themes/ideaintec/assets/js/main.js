@@ -260,8 +260,9 @@ new WOW().init();
 if (windowWidth > 767) {
   if( $('.hm-banner-cntlr').length ){
     var windowHeight = $(window).height();
-    if (windowHeight >= 678) {
-      $('.hm-banner-cntlr').css('height', windowHeight);
+    var decWindowHeight = windowHeight - 20;
+    if (windowHeight > 672) {
+      $('.hm-banner-cntlr').css('height', decWindowHeight);
     }
   }
 }
