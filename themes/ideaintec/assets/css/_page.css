@@ -302,3 +302,45 @@
 	top: initial;
 	bottom: 0;
 }
+
+
+
+
+@media(max-width: 1199px){
+	.page-banner{
+		height: 250px;
+	}
+}
+
+@media(max-width: 991px){
+	.page-banner {
+	    height: 220px;
+	}
+}
+@media(max-width: 767px){
+	.page-banner {
+	    height: 200px;
+	    display: block;
+	}
+	.page-bnr-des-inr{
+		display: block;
+		padding-top: 47px;
+	}
+	.breadcrumb-cntlr{
+		margin-left: initial;
+		max-width: 165px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.breadcrumb-cntlr ul{
+		display: block;
+	}
+	.breadcrumb-cntlr ul li{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.page-bnr-title{
+		margin-bottom: 20px;
+	}
+}
