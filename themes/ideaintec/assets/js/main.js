@@ -18,9 +18,9 @@ $('.navbar-toggle').on('click', function(){
 $(window).scroll(function() { 
     var scroll = $(window).scrollTop();   
     if (scroll >= 5) {
-        $('.hdr-top-bar').addClass('fixed-hdr');
+        $('.header').addClass('fixed-hdr');
     } else {
-        $('.hdr-top-bar').removeClass('fixed-hdr');
+        $('.header').removeClass('fixed-hdr');
     }  
 });
 

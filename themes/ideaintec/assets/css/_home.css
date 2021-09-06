@@ -550,25 +550,30 @@ Let's Chat section
 ---------------------
 */
 .lets-chat-sec{
-	background: url(../images/get-in-tuch-bg-large.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-attachment: fixed!important;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: cover!important;
 	padding: 90px 0 85px;
 	color: #fff;
 }
-.lets-chat-des{
-	text-align: left;
-	padding-left: 100px;
-	padding-right: 50px;
+.lets-chat-cntrl{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
-.lets-chat-des h2{
+.lets-chat-des{
+	width: 50%;
+}
+.fl-h2.lets-chat-des-title{
 	text-transform: uppercase;
+	color: #fff;
 }
 .get-in-touch-btn-wrp{
-	text-align: right;
-	padding: 40px 100px 0 0;
+	width: 50%;
+	margin-left: auto;
+	display: flex;
+    justify-content: flex-end;
 }
 
 
