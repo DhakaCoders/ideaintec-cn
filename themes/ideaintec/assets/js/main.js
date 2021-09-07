@@ -301,12 +301,6 @@ $(window).resize(function() {
 
 /* stary of Shariful*/
 
-$('.share-btn').on('click', function(e){
-  e.preventDefault();
-  var dataThis = $(this).attr('data-this');
-  $(this).toggleClass('icon-change');
-  $('#'+dataThis).toggleClass('iit-tsm');
-});
 
 if( $('#particles-js').length ){
     particlesJS("particles-js",{
