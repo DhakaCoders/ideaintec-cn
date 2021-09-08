@@ -257,6 +257,12 @@ new WOW().init();
 
 /* stary of Noyon*/
 
+if( $('.hamburgar-cntlr').length ){
+  $('.hamburgar-cntlr').click(function(){
+    $('body').toggleClass('allWork');
+  });
+}
+
 if (windowWidth > 767) {
   if( $('.hm-banner-cntlr').length ){
     var windowHeight = $(window).height();
