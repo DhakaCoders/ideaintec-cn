@@ -7,7 +7,8 @@
 
 .contact-form-sec-wrp {
     padding-top: 90px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
+    padding-bottom: 40px;
     position: relative;
     z-index: 5;
 }
@@ -209,7 +210,7 @@
 
 
 .contect-form-btm {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .contect-form-btm ul {
     display: flex;
@@ -230,10 +231,14 @@
     top: 0;
     left: 0;
     font-size: 48px;
-    color: #5EAD46;
+    color: #000;
 }
 .contect-grid-item h4{
     margin-bottom: 8px;
+}
+.contact-form-btm-sec {
+    background: #fbfbfb;
+    padding-bottom: 50px;
 }
 
 
@@ -245,7 +250,7 @@
     bottom: 0;
     left: 0;
     padding: 0!important;
-    background: rgba(17,17,17,.91);
+    background: rgba(17,17,17,.75);
     z-index: 2;
     cursor: pointer;
     -webkit-transition: all .27s cubic-bezier(.3,.1,.58,1);
@@ -277,13 +282,6 @@
     -ms-transition: all .27s cubic-bezier(.3,.1,.58,1);
     transition: all .27s cubic-bezier(.3,.1,.58,1);
 }
-.mt-text {
-    margin-left: 12px;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    color: rgba(255,255,255,.75);
-}
 .mt-icon:before {
     content: "";
     display: block;
@@ -305,15 +303,30 @@
 .mt-icon i, .mt-icon span {
     position: relative;
 }
+.mt-text {
+    margin-left: 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: rgba(255,255,255,.75);
+}
 .mt-close {
     display: none;
 }
-.mt-icon i {
-    color: #111;
-    position: relative;
+.map-section.js-active {
+    height: 25px;
+    background: rgba(17,17,17,.75);
 }
-
-
+.map-section.js-active .mt-icon {
+    opacity: 0;
+}
+.map-section.js-active .mt-text {
+    position: relative;
+    top: -20px;
+}
+.map-section.js-active .mt-text {
+    font-size: 14px;
+}
 
 /*responsive-start*/
 
