@@ -249,7 +249,8 @@
 	border: 1px solid #fff;
 }
 .ftr-socials ul li a:hover{
- 	border-color: #F8800B;
+	background-color: #fff;
+ 	color: #F8800B;
 }
 .ftr-socials {
     padding-top: 20px;
