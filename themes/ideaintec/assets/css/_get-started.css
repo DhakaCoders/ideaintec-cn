@@ -295,18 +295,29 @@ input[type="file"]:valid + .file-upload-success {
 	padding-left: 15px;
 }
 .lft-col-label{
-	position: relative;
-	padding-left: 50px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 .lft-col-label i{
-	position: absolute;
-	left: 0;
-	top: 0;
+	
 	font-size: 40px;
 	color: #000;
+	padding-right: 20px;
+}
+.lft-col-label label{
+	margin-bottom: 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1;
+    color: inherit;
+    text-transform: capitalize;
+    font-size: 20px;
 }
 .lft-col-label h4{
 	text-transform: capitalize;
+	margin-bottom: 0;
 }
 
 
@@ -369,7 +380,7 @@ input[type="file"]:valid + .file-upload-success {
 	vertical-align: middle;
 	padding-left: 32px;
 	padding-bottom: 3px;
-	padding-top: 3px;
+	padding-top: 0;
 	position: relative;
 	z-index: 5;
 	font-weight: normal;
