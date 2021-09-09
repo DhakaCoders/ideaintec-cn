@@ -238,6 +238,82 @@
 
 
 
+.map-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0!important;
+    background: rgba(17,17,17,.91);
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -moz-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -o-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -ms-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+}
+.map-toggle {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -100px;
+    color: #fff;
+    text-align: center;
+}
+.mt-icon {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    margin: 6px auto 25px;
+    position: relative;
+    color: #111;
+    -webkit-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -moz-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -o-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    -ms-transition: all .27s cubic-bezier(.3,.1,.58,1);
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+}
+.mt-text {
+    margin-left: 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: rgba(255,255,255,.75);
+}
+.mt-icon:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mt-icon i, .mt-icon span {
+    position: relative;
+}
+.mt-close {
+    display: none;
+}
+.mt-icon i {
+    color: #111;
+    position: relative;
+}
+
+
 
 /*responsive-start*/
 
