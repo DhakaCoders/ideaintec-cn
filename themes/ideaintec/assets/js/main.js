@@ -445,9 +445,8 @@ $.each(skill, function(key, value){
 $('.map-section').on('click', function(){
      $(this).css('height','25px');
    });
-$('.map-section').on('click', function(){
-     $(this).css('height','25px');
-   });
+
+
 // $('.map-section').on('click', function(){
 //     $(this).toggleClass('map-section');
 //     $('.map-section').Toggle(500);
