@@ -193,8 +193,12 @@
 }
 .breadcrumb-cntlr{
 	margin-left: auto;
+	margin-right: auto;
 	padding: 10px 15px;
 	background: rgba(0,0,0,.8);
+}
+.page-bnr-title-ctlr{
+	display: none;
 }
 .page-bnr-title{
 	margin-bottom: 0;
