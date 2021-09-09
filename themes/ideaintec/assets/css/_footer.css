@@ -231,6 +231,29 @@
 	color: #fff;
 	font-size: 14px;
 }
+.ftr-socials ul{
+	display: flex;
+	margin: 0 -6px;
+}
+.ftr-socials ul li{
+	padding: 0 6px;
+}
+.ftr-socials ul li a{
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.ftr-socials ul li a:hover{
+ 	border-color: #F8800B;
+}
+.ftr-socials {
+    padding-top: 20px;
+}
 
 /*responsive*/
 @media(max-width: 1699px){

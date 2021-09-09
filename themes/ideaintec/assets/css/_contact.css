@@ -11,6 +11,7 @@
 }
 .contact-form-wrp{
     display: flex;
+    flex-wrap: wrap;
 }
 .contact-form-lft-con {
     width: 52%;
@@ -180,3 +181,62 @@
 .contact-form-top .sec-entry-hdr .sec-entry-hdr-des p{
 	margin-bottom: 13px;
 }
+
+
+
+
+/*responsive-start*/
+
+@media (max-width: 1399px){
+    .contact-form-sec-wrp {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 1399px){
+    .contact-form-sec-wrp {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .contact-form-lft-con{
+        padding-right: 60px;
+    }
+}
+@media (max-width: 1199px){
+    .contact-form-sec-wrp {
+        padding-top: 60px;
+    }
+    .contact-form-lft-con{
+        padding-right: 60px;
+    }
+}
+@media (max-width: 991px){
+    .contact-form-lft-con,
+    .contact-form-rgt-con{
+        width: 100%;
+    }
+    .contact-form-lft-con {
+        padding-right: 0px;
+        padding-bottom: 60px;
+    }
+    .contact-form-top {
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+    .contact-form-lft-con {
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width: 639px){
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
+        width: 100%;
+    }
+    .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.NameField {
+        padding-top: 3px;
+    }
+}
+
+/*responsive-end*/
