@@ -8,10 +8,13 @@
 .contact-form-sec-wrp {
     padding-top: 90px;
     padding-bottom: 100px;
+    position: relative;
+    z-index: 5;
 }
 .contact-form-wrp{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 .contact-form-lft-con {
     width: 52%;
@@ -142,7 +145,7 @@
     text-decoration: none;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
-    min-width: 200px;
+    /*min-width: 200px;
     border: 2px solid #ff9140;
     background: #ff9140;
     font-size: 14px;
@@ -156,12 +159,48 @@
     cursor: pointer;
     padding: 15px 15px;
     text-align: center;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em;*/
+    display: inline-block;
+    vertical-align: baseline;
+    width: 210px;
+    height: 48px;
+    position: relative;
+    color: #fff;
+    background: #ff9140;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover:before {
+    opacity: 1;
+    animation: circle .75s;
+    -webkit-animation: circle .75s;
+    -ms-animation: circle .75s;
+    -o-animation: circle .75s;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
-    background: #5EAD46;
     color: #fff;
-    border-color: #5EAD46;
+    background: #5EAD46;
+    /*border-color: #5EAD46;*/
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -180,6 +219,33 @@
 }
 .contact-form-top .sec-entry-hdr .sec-entry-hdr-des p{
 	margin-bottom: 13px;
+}
+
+
+
+.contect-form-btm ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    padding-top: 10px;
+}
+.contect-form-btm ul li{
+    padding: 0 12px;
+    width: 33.33%;
+}
+.contect-grid-item {
+    position: relative;
+    padding: 0 0 30px 70px;
+}
+.contect-grid-item i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 48px;
+    color: #2a6171;
+}
+.contect-grid-item h4{
+    margin-bottom: 8px;
 }
 
 
