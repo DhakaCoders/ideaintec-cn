@@ -1,0 +1,72 @@
+.iit-service-sec{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+
+.iit-service-grds ul{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.iit-service-grds ul li{
+	float: left;
+	width: 33.3333%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+
+.iit-service-grd-item{
+	padding-left: 60px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.iit-service-grd-item-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.iit-service-grd-item-img img{
+	max-width: 45px;
+}
+
+.iit-service-grd-item-title{
+	margin: 15px 0 25px;
+}
+
+
+.iit-service-grd-item-des a{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #5d9d32;
+	padding-left: 28px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.iit-service-grd-item-des a:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 15px;
+	height: 1px;
+	background: #5d9d32;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+.iit-service-grd-item-des a:hover{
+	padding-left: 38px;
+	letter-spacing: 1px;
+}
+.iit-service-grd-item-des a:hover:after{
+	width: 25px;
+}
