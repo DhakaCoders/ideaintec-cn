@@ -233,10 +233,10 @@
 }
 .ftr-socials ul{
 	display: flex;
-	margin: 0 -10px;
+	margin: 0 -6px;
 }
 .ftr-socials ul li{
-	padding: 0 10px;
+	padding: 0 6px;
 }
 .ftr-socials ul li a{
 	height: 30px;
