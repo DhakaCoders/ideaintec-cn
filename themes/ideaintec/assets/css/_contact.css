@@ -209,7 +209,7 @@
 
 
 .contect-form-btm {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .contect-form-btm ul {
     display: flex;
@@ -245,7 +245,7 @@
     bottom: 0;
     left: 0;
     padding: 0!important;
-    background: rgba(17,17,17,.91);
+    background: rgba(17,17,17,.75);
     z-index: 2;
     cursor: pointer;
     -webkit-transition: all .27s cubic-bezier(.3,.1,.58,1);
