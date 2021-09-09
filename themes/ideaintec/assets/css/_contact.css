@@ -145,21 +145,6 @@
     text-decoration: none;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
-    /*min-width: 200px;
-    border: 2px solid #ff9140;
-    background: #ff9140;
-    font-size: 14px;
-    line-height: 1 ;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;
-    transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    cursor: pointer;
-    padding: 15px 15px;
-    text-align: center;
-    letter-spacing: -0.02em;*/
     display: inline-block;
     vertical-align: baseline;
     width: 210px;
@@ -174,6 +159,7 @@
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:before{
     position: absolute;
