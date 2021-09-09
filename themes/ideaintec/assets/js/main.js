@@ -442,16 +442,10 @@ $.each(skill, function(key, value){
 /* stary of keshob*/
 
 
-$('.map-section').on('click', function(){
-     $(this).css('height','25px');
-   });
-
-
-// $('.map-section').on('click', function(){
-//     $(this).toggleClass('map-section');
-//     $('.map-section').Toggle(500);
-//   });
-
-
+$(".map-section").click(function(){
+  $(this).toggleClass("js-active");
+  $(this).find(".mt-open").toggle();
+  $(this).find(".mt-close").toggle();
+  return false;});
 
 })(jQuery);
