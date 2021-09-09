@@ -230,7 +230,7 @@
     top: 0;
     left: 0;
     font-size: 48px;
-    color: #5EAD46;
+    color: #000;
 }
 .contect-grid-item h4{
     margin-bottom: 8px;
@@ -305,14 +305,20 @@
 .mt-icon i, .mt-icon span {
     position: relative;
 }
-.mt-close {
+.map-section .mt-close {
     display: none;
 }
 .mt-icon i {
     color: #111;
     position: relative;
 }
-
+.map-section.js-active {
+    height: 25px;
+    background: rgba(17,17,17,.75);
+}
+.map-section.js-active .mt-close{
+    display: block;
+}
 
 
 /*responsive-start*/
