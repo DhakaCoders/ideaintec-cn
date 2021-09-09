@@ -315,6 +315,16 @@ $('.iit-form-fields-tabs ul li a').on('click', function(e){
 
 $('.select-2-cntlr').select2();
 
+
+$('.believe-in-tab ul li a').on('click', function(e){
+  e.preventDefault();
+  var bittab = $(this).data('to');
+  $('.believe-in-tab ul li a').removeClass('ui-tabs-active');
+  $(this).addClass('ui-tabs-active');
+
+  $('.believe-in-tab-des').removeClass('believe-tab-active');
+  $(bittab).addClass('believe-tab-active');
+});
 /* stary of Rannojit*/
 
 
