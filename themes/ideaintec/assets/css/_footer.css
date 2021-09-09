@@ -231,6 +231,23 @@
 	color: #fff;
 	font-size: 14px;
 }
+.ftr-socials ul{
+	display: flex;
+	margin: 0 -10px;
+}
+.ftr-socials ul li{
+	padding: 0 10px;
+}
+.ftr-socials ul li a{
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+}
 
 /*responsive*/
 @media(max-width: 1699px){
