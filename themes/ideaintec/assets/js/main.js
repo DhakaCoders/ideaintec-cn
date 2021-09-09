@@ -197,7 +197,7 @@ function initialize(){
     var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
     var marker= new google.maps.Marker({
       position:myCenter,
-        //icon:'map-marker.png'
+        icon:'map-marker.png'
       });
     marker.setMap(map);
 }
@@ -297,6 +297,19 @@ $(".skew-btm").css('border-left-width', windowWidth);
 $(window).resize(function() { 
   var window2Width = $(window).width();
     $(".skew-btm").css('border-left-width', window2Width);
+});
+
+
+/**/
+
+$('.iit-form-fields-tabs ul li a').on('click', function(e){
+  e.preventDefault();
+  var dataTo = $(this).data('to');
+  $(".iit-form-fields-tabs ul li a").removeClass('ui-tabs-active');
+  $(this).addClass('ui-tabs-active');
+
+  $('.iit-fl-up-tab').removeClass('iit-fl-up-tab-active');
+  $(dataTo).addClass('iit-fl-up-tab-active');
 });
 
 
