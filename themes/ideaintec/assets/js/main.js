@@ -313,6 +313,8 @@ $('.iit-form-fields-tabs ul li a').on('click', function(e){
 });
 
 
+$('.select-2-cntlr').select2();
+
 /* stary of Rannojit*/
 
 

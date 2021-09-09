@@ -131,6 +131,7 @@
 }
 .iit-select-down-icon{
 	position: relative;
+	margin-bottom: 32px;
 }
 .iit-select-down-icon:after{
 	content: "\f0d7";
