@@ -248,6 +248,9 @@
 	background: transparent;
 	border: 1px solid #fff;
 }
+.ftr-socials ul li a:hover{
+ 	border-color: #F8800B;
+}
 
 /*responsive*/
 @media(max-width: 1699px){
