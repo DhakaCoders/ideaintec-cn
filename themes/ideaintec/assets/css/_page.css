@@ -109,6 +109,9 @@
 	letter-spacing: 0.02em;
 	color: #fff;
 	opacity: 1;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 }
 .breadcrumb-cntlr ul li.home a{
 	position: relative;
