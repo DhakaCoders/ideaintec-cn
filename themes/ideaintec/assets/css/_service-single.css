@@ -1,0 +1,180 @@
+
+
+.iit-service-single-bnr-con{
+	padding: 50px 0;
+}
+
+
+.iit-service-single-bnr-con-inr{
+	display: flex;
+	align-items: center;
+}
+.iit-ssbc-form{
+	float: left;
+	width: 45%;
+	padding: 25px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
+}
+.iit-ssbc-des{
+	float: left;
+	width: 55%;
+	padding-left: 50px;
+	color: #fff;
+}
+
+.iit-ssbc-form-title{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.input-field-row{
+	padding-bottom: 30px;
+}
+.input-field-row input[type="text"],
+.input-field-row input[type="email"],
+.input-field-row textarea{
+	width: 100%;
+    border: 0;
+    display: block;
+    height: 46px;
+    font-size: 14px;
+    border: 1px solid #d7d4d4;
+    color: #878787;
+    background: transparent;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 7px 15px;
+}
+
+.input-field-row textarea{
+	height: 150px;
+	resize: none;
+}
+
+.input-field-row input[type="text"]::-webkit-input-placeholder,
+.input-field-row input[type="email"]::-webkit-input-placeholder
+.input-field-row textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	opacity: 1;
+}
+.input-field-row input[type="text"]::-moz-placeholder,
+.input-field-row input[type="email"]::-moz-placeholder
+.input-field-row textarea::-moz-placeholder { /* Firefox 19+ */
+	opacity: 1;
+}
+.input-field-row input[type="text"]:-ms-input-placeholder,
+.input-field-row input[type="email"]:-ms-input-placeholder
+.input-field-row textarea:-ms-input-placeholder { /* IE 10+ */
+	opacity: 1;
+}
+.input-field-row input[type="text"]:-moz-placeholder,
+.input-field-row input[type="email"]:-moz-placeholder
+.input-field-row textarea:-moz-placeholder { /* Firefox 18- */
+	opacity: 1;
+}
+
+.input-field-row input[type="text"]:focus,
+.input-field-row input[type="email"]:focus,
+.input-field-row textarea:focus{
+	border-color: #0c224b;
+}
+
+
+
+
+.filter-check-row{
+	position: relative;
+	padding: 0 15px 15px 20px;
+}
+.filter-check-row input[type="checkbox"]{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+.filter-check-row span.checkmark{
+	position: absolute!important;
+	top: 2px!important;
+	left: 0!important;
+	height: 20px!important;
+	width: 20px!important;
+	background: transparent!important;
+	border: 1px solid #7b8ca8!important;
+}
+.checkmark:after{
+	content: "";
+	position: absolute;
+	display: none;
+}
+.filter-check-row input:checked ~ .checkmark:after{
+	display: block;
+}
+.filter-check-row input:checked ~ .checkmark{
+	background: transparent;
+}
+/*.filter-check-row input:checked ~ label{
+	color: #02bee8;
+}*/
+.filter-check-row .checkmark::after{
+	left: 6px!important;
+	top: 3px!important;
+	width: 5px!important;
+	height: 10px!important;
+	border: solid #000!important;
+	border-width: 0 2px 2px 0!important;
+	transform: rotate(45deg)!important;
+}
+.filter-check-row label{
+	display: inline-block!important;
+	vertical-align: middle!important;
+	cursor: pointer!important;
+	margin: 0!important;
+	line-height: 1.3!important;
+	padding-left: 32px!important;
+	font-size: 14px!important;
+}
+.filter-check-row label a{
+	color: #000;
+	font-weight: 500;
+}
+.filter-check-row label a:hover{
+	color: #f8800b;
+}
+
+.iit-ssbc-form-submit-btn{
+	text-align: center;
+}
+.iit-ssbc-form-submit-btn input[type="submit"]{
+	display: inline-block;
+    vertical-align: baseline;
+    max-width: 210px;
+    width: 100%;
+    height: 46px;
+    position: relative;
+    color: #fff;
+    background: #ff9140;
+    border: 2px solid #ff9140;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px;
+    overflow: hidden;
+    padding-top: 16px;
+    cursor: pointer;
+}
+.iit-ssbc-form-submit-btn input[type="submit"]:hover{
+	background: #5d9d32;
+	border-color: #5d9d32;
+}
+
