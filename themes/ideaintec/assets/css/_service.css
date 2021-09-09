@@ -41,7 +41,7 @@
 .iit-service-grd-item-des a{
 	display: inline-block;
 	vertical-align: baseline;
-	color: #5d9d32;
+	color: #000;
 	padding-left: 28px;
 	position: relative;
 	transition: all 0.5s;
@@ -58,7 +58,7 @@
 	-ms-transform: translateY(-50%);
 	width: 15px;
 	height: 1px;
-	background: #5d9d32;
+	background: #000;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
