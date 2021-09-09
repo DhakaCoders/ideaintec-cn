@@ -61,6 +61,7 @@
 
 </head>
 <body class="home">
+<div class="bdoverlay"></div>
 <header class="header">
   <div class="clearfix sticky-hdr">
     <div class="container">
@@ -77,7 +78,7 @@
             </div>
             <div class="hdr-right">
               <div class="hdr-menu">
-                <nav class="main-nav">
+                <nav class="main-nav hide-sm">
                   <ul class="clearfix reset-list">
                     <li><a href="index.html">blog</a></li>
                     <li class="menu-item-has-children">
@@ -97,7 +98,7 @@
                 </nav>
               </div>
               
-              <div class="hamburger show-sm">
+              <div class="hamburgar-cntlr show-sm">
                 <div class="hamburger-icon">
                   <span></span>
                   <span></span>
@@ -105,7 +106,7 @@
                 </div>
               </div>
             </div>
-            <div class="hdr-btn">
+            <div class="hdr-btn hide-md">
               <a class="fl-button top-btn" href="#">start a project</a>
             </div>
           </div>
@@ -131,7 +132,7 @@
             </div>
             <div class="hdr-right">
               <div class="hdr-menu">
-                <nav class="main-nav">
+                <nav class="main-nav hide-sm">
                   <ul class="clearfix reset-list">
                     <li><a href="index.html">blog</a></li>
                     <li class="menu-item-has-children">
@@ -151,7 +152,7 @@
                 </nav>
               </div>
               
-              <div class="hamburger show-sm">
+              <div class="hamburgar-cntlr show-sm">
                 <div class="hamburger-icon">
                   <span></span>
                   <span></span>
@@ -159,7 +160,7 @@
                 </div>
               </div>
             </div>
-            <div class="hdr-btn">
+            <div class="hdr-btn hide-md">
               <a class="fl-button top-btn" href="#">start a project</a>
             </div>
           </div>
@@ -169,9 +170,39 @@
   </div>
 </header>
 
+<div class="xs-mobile-menu">
+  <div class="hamburgar-cntlr show-sm">
+    <div class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="xs-menu">
+    <nav class="main-nav">
+      <ul class="clearfix reset-list">
+        <li><a href="index.html">blog</a></li>
+        <li class="menu-item-has-children">
+          <a href="services.html">services</a>
+          <ul class="sub-menu">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Website Development</a></li>
+            <li><a href="#">Mobile application development</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">Training</a></li>
+          </ul>                  
+        </li>
+        <li><a href="works.html">works</a></li>
+        <li><a href="team.html">team</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
 
-<section class="hm-banner">
+
+<section class="hm-banner d-none">
   <div class="bnr-btm-skew-img" style="background: url('assets/images/bnr-skew-img.png');"></div>
   <div class="hm-banner-bg-black"></div>
   <div class="hm-video-cntlr">
@@ -208,7 +239,7 @@
 </section>
 
 
-<section id="our-clints-sec" class="our-clints-sec">
+<section id="our-clints-sec" class="our-clints-sec d-none" >
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -263,7 +294,7 @@
 </section>
 
 
-<section class="services-sec">
+<section class="services-sec d-none">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -331,7 +362,7 @@
 
 
 
-<section class="features-sec">
+<section class="features-sec d-none">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -404,7 +435,7 @@
 
 
 
-<section class="experiences-sec">
+<section class="experiences-sec d-none">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -442,7 +473,7 @@
 </section>
 
 
-<section class="featured-design-sec">
+<section class="featured-design-sec d-none">
   <div class="skew-btm"></div>
   <div class="container">
     <div class="row">
@@ -498,7 +529,7 @@
 </section>
 
 
-<section class="lets-chat-sec" style="background: url(assets/images/get-in-tuch-bg-large.jpg);">
+<section class="lets-chat-sec d-none" style="background: url(assets/images/get-in-tuch-bg-large.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
