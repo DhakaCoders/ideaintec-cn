@@ -251,6 +251,9 @@
 .ftr-socials ul li a:hover{
  	border-color: #F8800B;
 }
+.ftr-socials {
+    padding-top: 20px;
+}
 
 /*responsive*/
 @media(max-width: 1699px){
