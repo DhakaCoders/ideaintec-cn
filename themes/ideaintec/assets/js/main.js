@@ -197,7 +197,7 @@ function initialize(){
     var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
     var marker= new google.maps.Marker({
       position:myCenter,
-        //icon:'map-marker.png'
+        icon:'map-marker.png'
       });
     marker.setMap(map);
 }
