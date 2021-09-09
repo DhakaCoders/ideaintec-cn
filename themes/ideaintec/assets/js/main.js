@@ -300,6 +300,19 @@ $(window).resize(function() {
 });
 
 
+/**/
+
+$('.iit-form-fields-tabs ul li a').on('click', function(e){
+  e.preventDefault();
+  var dataTo = $(this).data('to');
+  $(".iit-form-fields-tabs ul li a").removeClass('ui-tabs-active');
+  $(this).addClass('ui-tabs-active');
+
+  $('.iit-fl-up-tab').removeClass('iit-fl-up-tab-active');
+  $(dataTo).addClass('iit-fl-up-tab-active');
+});
+
+
 /* stary of Rannojit*/
 
 
