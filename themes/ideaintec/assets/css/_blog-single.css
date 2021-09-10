@@ -42,3 +42,37 @@
     position: absolute;
     top: -50px;
 }
+
+
+.post-info > div{
+    margin-bottom: 20px;
+}
+.post-info .text-holder{
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    line-height: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.post-info .author-nickname a{
+    line-height: 35px;
+    font-weight: normal;
+    color: #939393;
+}
+
+.cat-links ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cat-links ul li a{
+    font-size: 15px;
+    line-height: 11px;
+    color: inherit;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0 0 5px;
+    transition: initial;
+}
