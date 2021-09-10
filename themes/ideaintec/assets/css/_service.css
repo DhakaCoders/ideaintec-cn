@@ -34,7 +34,8 @@
 }
 
 .iit-service-grd-item-title{
-	margin: 15px 0 25px;
+	margin: 0 0 25px;
+	padding-top: 15px;
 }
 
 
@@ -69,4 +70,17 @@
 }
 .iit-service-grd-item-des a:hover:after{
 	width: 25px;
+}
+
+
+.iit-service-grd-item-des h5 a{
+	padding-left: 0;
+}
+.iit-service-grd-item-des h5 a:after{
+	content: none;
+}
+.iit-service-grd-item-des h5 a:hover{
+	padding-left: 0;
+	letter-spacing: initial;
+	color: #ff9140;
 }
