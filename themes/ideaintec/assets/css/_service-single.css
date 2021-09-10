@@ -121,7 +121,8 @@
 	display: block;
 }
 .filter-check-row input:checked ~ .checkmark{
-	background: transparent;
+	background: #ff9140!important;
+	border-color: #ff9140!important;
 }
 /*.filter-check-row input:checked ~ label{
 	color: #02bee8;
@@ -131,7 +132,7 @@
 	top: 3px!important;
 	width: 5px!important;
 	height: 10px!important;
-	border: solid #000!important;
+	border: solid #fff!important;
 	border-width: 0 2px 2px 0!important;
 	transform: rotate(45deg)!important;
 }
@@ -250,11 +251,21 @@
 	-ms-transform: translateY(-50%);
 	display: none;
 }
+.plus i,
+.minus i{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 18px;
+}
 .active .plus{
 	display: none;
 }
 .active .minus{
 	display: block;
+}
+.active .plus i,
+.active .minus i{
+	color: #ff9140;
 }
 .iit-accordion-des{
 	padding-bottom: 25px;
