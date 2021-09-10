@@ -469,6 +469,13 @@ $('.iit-accordion-item h3').on('click', function(){
   $(this).parent().siblings().find('.iit-accordion-des').slideUp(300);
 });
 
+if( $('#sidebar').length ){
+  $('#sidebar').stickySidebar({
+      topSpacing: 60,
+      bottomSpacing: 60
+  });
+}
+
 
 
 /* stary of keshob*/
