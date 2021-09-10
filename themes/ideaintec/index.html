@@ -19,12 +19,13 @@
   <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
   <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
 
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -35,75 +36,336 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->  
 
+  <svg style="display: none;">
+    <!-- <svg class="id-name" width="16" height="16" viewBox="0 0 16 16" fill="#FF5C26">
+      <use xlink:href="#id-name"></use> </svg> -->
+
+
+      <!-- start of Noyon -->
+
+      
+
+      <!-- start of Rannojit -->
+
+
+
+      <!-- start of Shariful -->
+
+
+      <!-- start of keshob -->
+
+
+  </svg> 
+
 </head>
 <body>
+<div class="bdoverlay"></div>
 <header class="header">
-  <div class="container">
+  <div class="clearfix sticky-hdr">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="header-inr clearfix">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
             <div class="hdr-lft">
               <div class="logo">
-                <a href="#"><img src="assets/images/logo.png"></a>
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
               </div>
             </div>
-            <div class="hdr-rgt">
-              <nav class="main-nav">
-                <ul class="clearfix reset-list">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                </ul>
-              </nav>
+            <div class="hdr-right">
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li><a href="about.html">about</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Graphics Design</a></li>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="hdr-btn hide-md">
+              <a class="fl-button top-btn" href="get-started.html">start a project</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </header>
+
+<header class="header-sticky">
+  <div class="clearfix sticky-hdr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="hdr-right">
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li><a href="about.html">about</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Graphics Design</a></li>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="hdr-btn hide-md">
+              <a class="fl-button top-btn" href="get-started.html">start a project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="xs-mobile-menu">
+  <div class="hamburgar-cntlr show-sm">
+    <div class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="xs-menu">
+    <nav class="main-nav">
+      <ul class="clearfix reset-list">
+        <li><a href="about.html">About</a></li>
+        <li class="menu-item-has-children">
+          <a href="services.html">services</a>
+          <ul class="sub-menu">
+            <li><a href="#">Web Design</a></li>
+              <li><a href="#">Graphics Design</a></li>
+              <li><a href="#">Software Development</a></li>
+              <li><a href="#">Mobile Application</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Training</a></li>
+          </ul>                  
+        </li>
+        <li><a href="works.html">works</a></li>
+        <li><a href="team.html">team</a></li>
+        <li><a href="index.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<section class="page-banner-cntlr">
+  <div class="page-bnr-overlay"></div>
+  <div id="particles-js"></div>
+  <div class="page-banner">
+    <div class="page-banner-bg inline-bg" style="background:url(assets/images/banner-img.jpg);"></div>
+    <div class="page-bnr-des">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-bnr-des-inr">
+              <div class="page-bnr-title-ctlr">
+                <h1 class="page-bnr-title fl-h1">Our Team</h1>
+              </div>
+              <div class="breadcrumb-cntlr">
+                <ul class="reset-list clearfix">
+                  <li class="home">
+                    <a href="#">
+                      <span class="item">
+                        Home
+                        <i>
+                          <svg class="home-icon-svg" width="17" height="18" viewBox="0 0 17 18" fill="#fff">
+                            <use xlink:href="#home-icon-svg"></use> 
+                          </svg>
+                        </i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <span>sitemap</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="main-content">
   <div class="container">
       <div class="row">
-        <div class="col-md-6">
-
-        </div>
-        <div class="col-md-6">
-
+        <div class="col-md-12">
+          <div class="sitemap">
+            <ol>    
+              <li><a href="front-page.html" target="_blank">home</a></li>
+              <li><a href="about.html" target="_blank">about</a></li>
+              <li><a href="service.html" target="_blank">service</a></li>
+              <li><a href="service-single.html" target="_blank">service single</a></li>
+              <li><a href="works.html" target="_blank">works</a></li>
+              <li><a href="team.html" target="_blank">team</a></li>
+              <li><a href="blog.html" target="_blank">blog</a></li>
+              <li><a href="single.html" target="_blank">single</a></li>
+              <li><a href="contact.html" target="_blank">contact</a></li>
+              <li><a href="get-started.html" target="_blank">get started</a></li>
+              <li><a href="404.html" target="_blank">404</a></li>    
+            </ol>
+          </div>
         </div>
       </div>
   </div>    
 </section>
 
 
-<div class="">
-  <div id="mapID" class="" data-latitude="23.7749" data-longitude="90.3657" style="width:100%; height:295px"></div>
-</div>
-
-
-
-<!-- -- Gap markup--- -->
-<div class="gap" data-value='100' data-md='50' data-xs='40' data-sm='30' data-xxs='20'></div>
-<div class="margin" data-value='100'></div>
-<div class="padding" data-value='100'></div>
-
-
 
 
 <footer class="footer-wrp">
+  <div class="footer-skew d-none" style="background: url('assets/images/footer-skew.svg');">
+    
+  </div>
+  <span class="ftr-btm-skew">
+    <svg id="ftr-btm-skew" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#000000" fill-opacity="0.2" d="M0,256L48,229.3C96,203,192,149,288,133.3C384,117,480,139,576,144C672,149,768,139,864,112C960,85,1056,43,1152,58.7C1248,75,1344,149,1392,186.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path fill="#000000" fill-opacity="0.15" d="M0,288L48,256C96,224,192,160,288,112C384,64,480,32,576,64C672,96,768,192,864,234.7C960,277,1056,267,1152,266.7C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </span>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-          <div class="ftr-col">
-            <div></div>
+      <div class="col-md-12">
+        <div class="footer-cntlr">
+          <div class="ftr-top clearfix">
+            <div class="ftr-col ftr-col-01">
+              <div class="ftr-logo">
+                <a href="#">
+                  <img src="assets/images/logo-white.png" alt="">
+                </a>
+              </div>
+              <div class="ftr-desc">
+                <p>Contact us today for more information about how we can help your business stand out online.</p>
+              </div>
+              <div class="ftr-search">
+                <form action="#">
+                  <input type="email" placeholder="Your Email" name="email">
+                  <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                </form>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-02">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two">
+                <h4 class="fl-h4 ftr-col-title">Quick Links</h4>
+                <div class="heading-divider"></div>
+              </div>
+              
+              <div class="ftr-col-menu">
+                <ul class="reset-list">
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="service.html">services</a></li>
+                  <li><a href="works.html">works</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-03">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two">
+                <h4 class="fl-h4 ftr-col-title">Contact Info</h4>
+                <div class="heading-divider"></div>
+              </div>
+              <div class="ftr-add ftr-details-col">
+                <span class="ftr-add-icon ftr-details-col-iocn">
+                  <i class="fas fa-map-marker-alt"></i>
+                </span>
+                <a href="#" target="_blank">0688-00 Holding, B.N Mosque Road, Hazipara, Thakurgaon Sadar, Thakurgaon.</a>
+              </div>
+              <div class="ftr-email ftr-details-col">
+                <span class="ftr-email-icon ftr-details-col-iocn">
+                  <i class="fas fa-envelope-open"></i>
+                </span>
+                <a href="mailto:info@ideaintec.com">info@ideaintec.com</a>
+                <a href="mailto:help@ideaintec.com">help@ideaintec.com</a>
+              </div>
+              <div class="ftr-tell ftr-details-col">
+                <span class="ftr-tell-icon ftr-details-col-iocn">
+                  <i class="fas fa-mobile-alt"></i>
+                </span>
+                <a href="tel:01617047345">+880 1617047345</a>
+                <a href="tel:01735519844">+880 1735519844</a>
+              </div>
+              <div class="ftr-socials">
+                <ul class="reset-list clearfix">
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <div class="ftr-btm">
+            <p>&copy; 2005-2021 IdeaInTec - ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div> 
+  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
