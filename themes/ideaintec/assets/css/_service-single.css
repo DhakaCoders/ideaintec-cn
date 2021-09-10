@@ -241,6 +241,7 @@
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
+	margin-top: -3px;
 }
 .minus{
 	position: absolute;
@@ -250,6 +251,7 @@
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	display: none;
+	margin-top: -3px;
 }
 .plus i,
 .minus i{
@@ -309,7 +311,15 @@
     left: 0;
 }
 
-
+.iit-blog-single-article-cntlr .article-controls{
+	max-width: 705px;
+	margin: initial;
+	margin-left: auto;
+	top: 0;
+}
+/*.iit-blog-single-article-cntlr .article-controls a.next-article{
+	margin-right: 5px;
+}*/
 
 
 .iit-promo-sec{
