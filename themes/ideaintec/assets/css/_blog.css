@@ -96,9 +96,6 @@
 /*---- prev and next ----*/
 
 .article-controls {
-	max-width: 645px;
-	width: 100%;
-	margin: 0 auto;
 	position: relative;
 	top: -32px;
 	z-index: 1;
