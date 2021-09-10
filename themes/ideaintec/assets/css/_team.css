@@ -192,8 +192,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 45px;
     transform: translateX(0) rotate(180deg);
     cursor: pointer;
