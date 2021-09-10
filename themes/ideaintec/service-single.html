@@ -188,7 +188,7 @@
 </div>
 
 
-<section class="page-banner-cntlr">
+<section class="page-banner-cntlr d-none">
   <div class="page-bnr-overlay"></div>
   <div id="particles-js"></div>
   <div class="page-banner">
@@ -229,55 +229,61 @@
 </section>
 
 
-<section class="iit-service-single-bnr-con inline-bg" style="background-image:url(assets/images/bg-promo.jpg)">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="iit-service-single-bnr-con-inr clearfix">
-          <div class="iit-ssbc-form">
-            <h5 class="iit-ssbc-form-title fl-h5">GET A FREE CONSULTATION</h5>
-            <form>
-              <div class="input-field-row">
-                <input type="text" name="name" placeholder="Your Name*">
+<section class="iit-service-single-bnr-con page-banner-cntlr">
+  <div class="page-bnr-overlay"></div>
+  <div class="page-banner">
+    <div class="page-banner-bg inline-bg" style="background-image:url(assets/images/bg-promo.jpg);"></div>
+    <div class="page-bnr-des">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="iit-service-single-bnr-con-inr clearfix">
+              <div class="iit-ssbc-form">
+                <h5 class="iit-ssbc-form-title fl-h5">GET A FREE CONSULTATION</h5>
+                <form>
+                  <div class="input-field-row">
+                    <input type="text" name="name" placeholder="Your Name*">
+                  </div>
+                  <div class="input-field-row">
+                    <input type="text" name="phone" placeholder="Skype / Phone*">
+                  </div>
+                  <div class="input-field-row">
+                    <input type="email" name="email" placeholder="Your Email*">
+                  </div>
+                  <div class="input-field-row">
+                    <textarea placeholder="Project Brief*"></textarea>
+                  </div>
+                  <div class="input-field-row">
+                    <div class="checkmark">
+                      <ul class="reset-list clearfix">
+                        <li>
+                          <div class="filter-check-row">
+                            <input type="checkbox" id="id-1">
+                            <span class="checkmark"></span>
+                            <label for="id-1">I accept the <a href="#">Terms and Conditions.</a></label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="filter-check-row">
+                            <input type="checkbox" id="id-2">
+                            <span class="checkmark"></span>
+                            <label for="id-2">I consent to processing of my personal data and accept <a href="#">Privacy Policy.</a></label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="iit-ssbc-form-submit-btn">
+                    <input type="submit" name="" value="Submit Now">
+                  </div>
+                </form>
               </div>
-              <div class="input-field-row">
-                <input type="text" name="phone" placeholder="Skype / Phone*">
+              <div class="iit-ssbc-des">
+                <h1 class="iit-ssbc-des-title fl-h1">PSD to Bootstrap Development</h1>
+                <p>Bootstrap is one of the most popular front-end development frameworks for building responsive websites and apps. We help you take advantage of powerful Bootstrap features and make your website mobile-ready right from the start.</p>
+                <a href="#" class="fl-button">Start a project</a>
               </div>
-              <div class="input-field-row">
-                <input type="email" name="email" placeholder="Your Email*">
-              </div>
-              <div class="input-field-row">
-                <textarea placeholder="Project Brief*"></textarea>
-              </div>
-              <div class="input-field-row">
-                <div class="checkmark">
-                  <ul class="reset-list clearfix">
-                    <li>
-                      <div class="filter-check-row">
-                        <input type="checkbox" id="id-1">
-                        <span class="checkmark"></span>
-                        <label for="id-1">I accept the <a href="#">Terms and Conditions.</a></label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="filter-check-row">
-                        <input type="checkbox" id="id-2">
-                        <span class="checkmark"></span>
-                        <label for="id-2">I consent to processing of my personal data and accept <a href="#">Privacy Policy.</a></label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="iit-ssbc-form-submit-btn">
-                <input type="submit" name="" value="Submit Now">
-              </div>
-            </form>
-          </div>
-          <div class="iit-ssbc-des">
-            <h1 class="iit-ssbc-des-title fl-h1">PSD to Bootstrap Development</h1>
-            <p>Bootstrap is one of the most popular front-end development frameworks for<br> building responsive websites and apps. We help you take advantage of <br>powerful Bootstrap features and make your website mobile-ready right<br> from the start.</p>
-            <a href="#" class="fl-button">Start a project</a>
+            </div>
           </div>
         </div>
       </div>
@@ -509,7 +515,7 @@
                 <span class="plus">+</span>
                 <span class="minus">-</span>
               </h3>
-              <div class="iit-accordion-des">
+              <div class="iit-accordion-des clearfix">
                 <div class="iit-testi-info">
                   <i class="fas fa-smile"></i>
                   <div>
@@ -539,7 +545,7 @@
                 <span class="plus">+</span>
                 <span class="minus">-</span>
               </h3>
-              <div class="iit-accordion-des">
+              <div class="iit-accordion-des clearfix">
                 <div class="iit-testi-info">
                   <i class="fas fa-smile"></i>
                   <div>
@@ -563,6 +569,23 @@
                 </blockquote>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="iit-promo-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="iit-promo-sec-inr">
+          <div class="iit-promo-des">
+            <h2 class="iit-promo-title fl-h2">Doing the Right Thing, at the Right Time!</h2>
+          </div>
+          <div class="iit-promo-btn">
+            <a href="#">get start</a>
           </div>
         </div>
       </div>

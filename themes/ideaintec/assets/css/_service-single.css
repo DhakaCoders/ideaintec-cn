@@ -1,4 +1,7 @@
-
+.iit-service-single-bnr-con .page-banner{
+	height: initial;
+	position: initial;
+}
 
 .iit-service-single-bnr-con{
 	padding: 50px 0;
@@ -10,7 +13,6 @@
 	align-items: center;
 }
 .iit-ssbc-form{
-	float: left;
 	width: 45%;
 	padding: 25px 30px;
     background: #fff;
@@ -18,10 +20,10 @@
     border-radius: 3px;
 }
 .iit-ssbc-des{
-	float: left;
 	width: 55%;
 	padding-left: 50px;
 	color: #fff;
+	text-align: left;
 }
 
 .iit-ssbc-form-title{
@@ -32,6 +34,7 @@
 
 .input-field-row{
 	padding-bottom: 30px;
+	text-align: left;
 }
 .input-field-row input[type="text"],
 .input-field-row input[type="email"],
@@ -295,3 +298,37 @@
     left: 0;
 }
 
+
+
+
+.iit-promo-sec{
+	background: #222;
+	padding: 20px 0;
+}
+.iit-promo-sec-inr{
+	display: flex;
+	align-items: center;
+}
+.iit-promo-btn{
+	margin-left: auto;
+}
+.iit-promo-title{
+	color: #fff;
+	margin-bottom: 0;
+}
+.iit-promo-btn a{
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 40px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+.iit-promo-btn a:hover{
+	background: #ff9140;
+	border-color: #ff9140;
+}
