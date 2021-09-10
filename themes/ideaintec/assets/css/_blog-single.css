@@ -1,0 +1,44 @@
+.iit-blog-single-con-wrap{
+	padding: 70px 0;
+}
+.iit-blog-single-page-des{
+	padding: 150px 0;
+}
+
+
+
+
+.iit-blog-single-page-sidebar{
+	float: left;
+	width: 215px;
+}
+
+.iit-blog-single-page-content{
+	width: calc(100% - 215px);
+	float: right;
+    padding-left: 150px;
+}
+
+
+
+.iit-blog-single-page-content blockquote{
+	font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 21px;
+    line-height: 34px;
+    position: relative;
+    color: #000;
+    margin-top: 95px;
+}
+.iit-blog-single-page-content blockquote:before{
+	content: "";
+    background-image: url('../images/quotes_image.png');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    position: absolute;
+    top: -50px;
+}
