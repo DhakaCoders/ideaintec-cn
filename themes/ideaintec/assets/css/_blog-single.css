@@ -76,3 +76,20 @@
     padding: 0 0 5px;
     transition: initial;
 }
+
+
+.iit-sidebar-menu{
+    padding: 30px 20px 50px 0;
+}
+.post-info{
+    position: relative;
+}
+.post-info:after{
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+    background-color: #2a6171;
+}

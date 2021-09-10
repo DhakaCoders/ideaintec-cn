@@ -372,6 +372,14 @@
         width: 100%;
         margin: auto;
     }
+    .contect-form-btm ul li{
+        width: 100%;
+    }
+    .contect-form-btm{
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 639px){
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{

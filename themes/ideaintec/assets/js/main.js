@@ -471,10 +471,15 @@ $('.iit-accordion-item h3').on('click', function(){
 
 if( $('#sidebar').length ){
   $('#sidebar').stickySidebar({
-      topSpacing: 60,
-      bottomSpacing: 60
+      topSpacing: 160,
+      bottomSpacing: 160
   });
 }
+
+/*$('.social-media label').on('click', function(e){
+  e.preventDefault();
+  $(this).parents('.social-media').toggleClass('sml');
+});*/
 
 
 
