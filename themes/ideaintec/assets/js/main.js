@@ -476,6 +476,11 @@ if( $('#sidebar').length ){
   });
 }
 
+/*$('.social-media label').on('click', function(e){
+  e.preventDefault();
+  $(this).parents('.social-media').toggleClass('sml');
+});*/
+
 
 
 /* stary of keshob*/
