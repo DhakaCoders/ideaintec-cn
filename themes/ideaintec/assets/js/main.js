@@ -462,6 +462,13 @@ $.each(skill, function(key, value){
     );
 });
 
+$('.iit-accordion-item h3').on('click', function(){
+  $(this).toggleClass('active');
+  $(this).parent().siblings().find('h3').removeClass('active');
+  $(this).parent().find('.iit-accordion-des').slideToggle(300);
+  $(this).parent().siblings().find('.iit-accordion-des').slideUp(300);
+});
+
 
 
 /* stary of keshob*/
