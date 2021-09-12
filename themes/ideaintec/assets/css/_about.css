@@ -239,7 +239,9 @@ ul.about-overview-feature li strong{
 
 
 
-
+.skill-section{
+	padding-bottom: 100px;
+}
 .skill-section-con ul{
 	margin: 0;
 	padding: 0;

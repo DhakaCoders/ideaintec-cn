@@ -325,6 +325,22 @@ $('.believe-in-tab ul li a').on('click', function(e){
   $('.believe-in-tab-des').removeClass('believe-tab-active');
   $(bittab).addClass('believe-tab-active');
 });
+
+
+$('.skill-section-con ul li').hover(
+  function () {
+    $('.skill-section-con ul li').addClass('skill-bx-bg-transparent');
+    var skillColDataId = $(this).data('id');
+    $(this).addClass('skill-bx-bg-active');
+    $('.skill-section-bg').addClass(skillColDataId);
+  },
+  function () {
+    var skillColDataId = $(this).data('id');
+    $('.skill-section-con ul li').removeClass('skill-bx-bg-transparent');
+    $(this).removeClass('skill-bx-bg-active');
+    $('.skill-section-bg').removeClass(skillColDataId);
+  }
+  );
 /* stary of Rannojit*/
 
 

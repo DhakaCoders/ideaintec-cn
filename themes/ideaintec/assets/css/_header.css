@@ -20,6 +20,12 @@ Start header
 .logo-white{
 	display: none;
 }
+.header-sticky .logo-white{
+	display: block;
+}
+.header-sticky .logo-transparent{
+	display: none;
+}
 .logo{
 	display: flex;
 }
