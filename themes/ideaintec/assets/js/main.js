@@ -451,7 +451,7 @@ var skill = {
   html: 90,
   css: 80,
   js: 70
-};
+};s
 
 $.each(skill, function(key, value){
   var skillbar = $("." + key);
