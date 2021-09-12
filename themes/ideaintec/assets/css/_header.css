@@ -41,14 +41,6 @@ Start header
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
-/*.home .logo-white,
-.sticky-hdr .logo-white{
-	display: block;
-}*/
-/*.sticky-hdr .logo-transparent,
-.home .logo-transparent{
-	display: none;
-}*/
 .header-sticky{
 	position: fixed;
 	left: 0;
