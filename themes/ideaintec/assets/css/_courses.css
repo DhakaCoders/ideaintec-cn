@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.iit-courses-grd-item .iit-service-grd-item-des{
+	padding-right: 10px;
+}
+.iit-courses-grd-item .iit-service-grd-item-des ul li > a{
+	color: inherit;
+}
+.iit-courses-grd-item .iit-service-grd-item-des ul li:before{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.iit-courses-grd-item .iit-service-grd-item-des ul li:hover::before{
+	background: #ff9140;
+}

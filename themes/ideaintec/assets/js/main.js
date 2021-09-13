@@ -267,7 +267,7 @@ if (windowWidth > 767) {
   if( $('.hm-banner-cntlr').length ){
     var windowHeight = $(window).height();
     var HeaderH = $('.sticky-hdr').outerHeight();
-    var decWindowHeight = windowHeight - HeaderH;
+    var decWindowHeight = windowHeight - HeaderH + 16;
     if (windowHeight > 1) {
       $('.hm-banner-cntlr').css('height', decWindowHeight);
     }
