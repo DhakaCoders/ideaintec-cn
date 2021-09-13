@@ -492,10 +492,13 @@ if( $('#sidebar').length ){
   });
 }
 
-/*$('.social-media label').on('click', function(e){
-  e.preventDefault();
-  $(this).parents('.social-media').toggleClass('sml');
-});*/
+
+
+$('.share-button').on('click', function(){
+  $(this).parents('.social-media').toggleClass('smi-show');
+  $(this).parents().siblings().find('.social-media').removeClass('smi-show');
+});
+
 
 
 
