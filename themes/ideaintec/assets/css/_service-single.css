@@ -117,17 +117,17 @@
 	position: absolute;
 	display: none;
 }
-.filter-check-row input:checked ~ .checkmark:after{
+/*.filter-check-row input:checked ~ .checkmark:after{
 	display: block;
-}
-.filter-check-row input:checked ~ .checkmark{
+}*/
+/*.filter-check-row input:checked ~ .checkmark{
 	background: #ff9140!important;
 	border-color: #ff9140!important;
-}
+}*/
 /*.filter-check-row input:checked ~ label{
 	color: #02bee8;
 }*/
-.filter-check-row .checkmark::after{
+/*.filter-check-row .checkmark::after{
 	left: 6px!important;
 	top: 3px!important;
 	width: 5px!important;
@@ -135,7 +135,7 @@
 	border: solid #fff!important;
 	border-width: 0 2px 2px 0!important;
 	transform: rotate(45deg)!important;
-}
+}*/
 .filter-check-row label{
 	display: inline-block!important;
 	vertical-align: middle!important;
