@@ -236,6 +236,16 @@
 
 
 /*responsive*/
+
+@media(max-width: 1399px){
+	.iit-team-skill-sec {
+	    padding: 40px 0;
+	}
+	.iit-team-sec {
+	    padding: 40px 0;
+	}
+}
+
 @media(max-width: 991px){
 	.iit-team-grds ul li{
 		width: 33.3333%;
@@ -248,6 +258,9 @@
 	}
 }
 @media(max-width: 767px){
+	.iit-team-skill-sec {
+	    padding: 30px 0;
+	}
 	.iit-team-skill-sec-inr{
 		display: block;
 	}
@@ -283,6 +296,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.iit-team-sec {
+	    padding: 30px 0;
+	}
 }
 @media(max-width: 575px){
 	.iit-team-sec {
@@ -296,6 +312,7 @@
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
+		padding-bottom: 20px;
 	}
 	.iit-team-grds ul li:nth-child(2n+1) {
 	    clear: none;
