@@ -405,7 +405,7 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	}
 	.page-bnr-des-inr{
 		display: block;
-		padding-top: 47px;
+		padding-top: 70px;
 	}
 	.breadcrumb-cntlr{
 		margin-left: initial;
@@ -423,5 +423,16 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	}
 	.page-bnr-title{
 		margin-bottom: 20px;
+	}
+	.sec-entry-hdr{
+		padding-bottom: 20px;
+	}
+	.btm-line .sec-entry-heading-title {
+	    padding-top: 0;
+	    padding-bottom: 17px;
+	    margin-bottom: 22px;
+	}
+	.sec-entry-heading-title {
+	    padding-top: 20px;
 	}
 }
