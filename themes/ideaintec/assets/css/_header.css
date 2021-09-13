@@ -531,7 +531,7 @@ body.allWork {
 		background: transparent;
 		padding: 0;
 	}
-	nav.main-nav > ul > li.menu-item-has-children > a:before {
+	/*nav.main-nav > ul > li.menu-item-has-children > a:before {
 		content: "";
 		position: absolute;
 		top: 11px;
@@ -543,7 +543,39 @@ body.allWork {
 		transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		-webkit-transition: all 0.5s;
-	}
+	}*/
+	nav.main-nav > ul > li.menu-item-has-children > a{
+	padding-right: 0;
+}
+nav.main-nav > ul > li.menu-item-has-children > a:before{
+	/*content: "";
+	position: absolute;
+	top: 2px;
+	right: 0;
+	background-image: url('../images/bottom-arrow.svg');
+	height: 9px;
+	width: 14px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;*/
+
+	content: "\f107";
+	position: absolute;
+	right: -25px;
+	color: #000;
+	font-size: 26px;
+	top: -4px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
 	nav.main-nav > ul > li.menu-item-has-children.this-sub-menu-active > a:before {
 		transform: rotate(-180deg);
 		-o-transform: rotate(-180deg);
