@@ -250,12 +250,9 @@
 	text-transform: capitalize;
 }
 
-.hm-bnr-desc a{
-	margin:20px 0;
-
-}
-.hm-bnr-desc h5{
-	margin: 0;
+.hdr-btn{
+	padding:10px 0 25px 0;
+	justify-content: center;
 }
 
 /**

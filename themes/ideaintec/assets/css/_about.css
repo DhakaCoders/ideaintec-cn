@@ -154,6 +154,9 @@ ul.about-overview-feature li strong{
 	color: inherit;
 	padding-bottom: 4px;
 }
+.believe-in-tab ul li a:hover{
+	color: #ff9140;
+}
 .believe-in-tab ul li a.ui-tabs-active{
 	color: #ff9140;
 	border-color: #ff9140;
