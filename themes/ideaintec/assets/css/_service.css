@@ -64,13 +64,7 @@
 	-webkit-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
 }
-.iit-service-grd-item-des > a:hover{
-	padding-left: 38px;
-	letter-spacing: 1px;
-}
-.iit-service-grd-item-des > a:hover:after{
-	width: 25px;
-}
+
 
 
 .iit-service-grd-item-des h5 a{
@@ -80,11 +74,7 @@
 .iit-service-grd-item-des h5 a:after{
 	content: none;
 }
-.iit-service-grd-item-des h5 a:hover{
-	padding-left: 0;
-	letter-spacing: initial;
-	color: #ff9140;
-}
+
 
 
 @media(max-width: 1399px){

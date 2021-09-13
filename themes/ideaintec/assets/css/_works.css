@@ -44,13 +44,7 @@
 	width: 100%;
 }
 
-.our-works-grd-item-inr:hover .pgrd-item-img img{
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1);
-}
+
 
 .our-works-grd-item-inr a.overlay{
 	position: absolute;
@@ -68,15 +62,7 @@
 	text-decoration: none;
 }
 
-.our-works-grd-item-inr:hover a.overlay{
-	opacity: 1;
-	visibility: visible;
-	-moz-transform: scale(1, 1);
-	transform: scale(1, 1);
-}
-.our-works-grd-item-inr:hover span{
-	margin-left: 0px;
-}
+
 
 .overlay .icon-img {
 	position: absolute;
@@ -146,12 +132,7 @@
 	transition: 0.4s ease-in-out;
 }
 
-.our-works-grd-item-inr .overlay h6:hover {
-	color: #2a6171;
-}
-.our-works-grd-item-inr:hover .overlay h6 {
-	margin-left: 0px;
-}
+
 
 
 

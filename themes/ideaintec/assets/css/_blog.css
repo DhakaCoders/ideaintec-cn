@@ -79,13 +79,7 @@
 	vertical-align: baseline;
 }
 
-.blog-grd-item:hover .blog-grd-item-img img {
-	transform: rotate(-5deg) scale(1.2 , 1.2);
-}
 
-.blog-grd-item:hover .blog-grd-item-more {
-	transform: translate(0 , 0);
-}
 
 .blog-sec .load-more-btn a.fl-button{
 	position: relative;
@@ -138,9 +132,7 @@
 	text-decoration: inherit;
 
 }
-.article-controls a:hover{
-	color: #5d9d32;
-}
+
 
 
 

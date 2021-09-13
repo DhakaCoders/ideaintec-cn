@@ -77,7 +77,57 @@ nav.main-nav ul li.current-menu-item a{
 
 /*start of Shariful*/
 
+.iit-team-des-title:hover a{
+    color: #ff9140;
+}
+.share-icon-sm:hover i{
+    color: #fff;
+    opacity: 0.7;
+}
+.iit-service-grd-item-des > a:hover{
+    padding-left: 38px;
+    letter-spacing: 1px;
+}
+.iit-service-grd-item-des > a:hover:after{
+    width: 25px;
+}
+.iit-service-grd-item-des h5 a:hover{
+    padding-left: 0;
+    letter-spacing: initial;
+    color: #ff9140;
+}
+.our-works-grd-item-inr:hover .pgrd-item-img img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.our-works-grd-item-inr:hover a.overlay{
+    opacity: 1;
+    visibility: visible;
+    -moz-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.our-works-grd-item-inr:hover span{
+    margin-left: 0px;
+}
+.our-works-grd-item-inr .overlay h6:hover {
+    color: #2a6171;
+}
+.our-works-grd-item-inr:hover .overlay h6 {
+    margin-left: 0px;
+}
+.blog-grd-item:hover .blog-grd-item-img img {
+    transform: rotate(-5deg) scale(1.2 , 1.2);
+}
 
+.blog-grd-item:hover .blog-grd-item-more {
+    transform: translate(0 , 0);
+}
+.article-controls a:hover{
+    color: #5d9d32;
+}
 
 
 /*start of Keshob*/
