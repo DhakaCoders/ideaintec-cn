@@ -5,11 +5,11 @@
 
 
 
-.iit-service-grds ul{
+.iit-service-grds > ul{
 	margin-left: -15px;
 	margin-right: -15px;
 }
-.iit-service-grds ul li{
+.iit-service-grds > ul > li{
 	float: left;
 	width: 33.3333%;
 	padding-left: 15px;
