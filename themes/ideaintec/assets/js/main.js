@@ -488,7 +488,7 @@ $('.iit-accordion-item h3').on('click', function(){
 if( $('#sidebar').length ){
   $('#sidebar').stickySidebar({
       topSpacing: 160,
-      bottomSpacing: 10
+      bottomSpacing: 160
   });
 }
 
