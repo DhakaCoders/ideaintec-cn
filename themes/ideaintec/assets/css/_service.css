@@ -87,6 +87,13 @@
 }
 
 
+@media(max-width: 1399px){
+	.iit-service-sec {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+}
+
 @media(max-width: 991px){
 	.iit-service-sec {
 	    padding-top: 50px;
