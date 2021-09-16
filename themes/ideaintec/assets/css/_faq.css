@@ -1,0 +1,83 @@
+
+.iit-faq-sec{
+	padding: 80px 0 50px;
+}
+
+.iit-faq-tab ul{
+	box-shadow: 0 5px 20px rgba(221,221,221,0.69);
+}
+.iit-faq-tab ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	float: left;
+	width: 25%;
+	border-right: 1px solid #f1f1f1;
+}
+.iit-faq-tab ul li:last-child{
+	border-right: none;
+}
+.iit-faq-tab ul li a{
+	display: block;
+	text-transform: capitalize;
+	color: #000;
+	padding: 20px 20px;
+	text-align: center;
+}
+.iit-faq-tab ul li a.current,
+.iit-faq-tab ul li a:hover{
+	background: #ff9140;
+	color: #fff;
+}
+
+.iit-faq-tab-con{
+	display: none;
+}
+.iit-faq-tab-con.current{
+	display: block;
+}
+
+
+.iit-faq-tab-des{
+	padding-top: 30px;
+}
+.iit-faq-accordion-des{
+	display: none;
+	padding-bottom: 1px;
+	font-weight: 700;
+}
+
+.iit-faq-accordion-menu{
+	padding: 20px 20px 0 20px;
+	box-shadow: 0 5px 20px rgba(221,221,221,0.69);
+	margin-bottom: 20px;
+}
+
+.iit-faq-accordion-title{
+	margin-bottom: 0;
+	cursor: pointer;
+	padding-right: 30px;
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1f1f1;
+	font-weight: 300;
+}
+.iit-faq-accordion-title i{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	font-size: 20px;
+	margin-top: -10px;
+}
+.iit-faq-accordion-title.active{
+	margin-bottom: 20px;
+}
+.iit-faq-accordion-title.active i{
+	transform: rotate(180deg);
+	margin-top: -20px;
+}
+.iit-faq-accordion-des ul li{
+	padding-bottom: 8px;
+}

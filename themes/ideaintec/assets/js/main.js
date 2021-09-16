@@ -500,6 +500,24 @@ $('.share-button').on('click', function(){
   $(this).parents().siblings().find('.social-media').removeClass('smi-show');
 });
 
+$('.iit-faq-tab ul li a').on('click', function(e){
+  e.preventDefault();
+
+  var tagid = $(this).data('tag');
+  $('.iit-faq-tab ul li a').removeClass('current');
+  $(this).addClass('current');
+  $('.iit-faq-tab-con').removeClass('current');
+  $('#'+tagid).addClass('current');
+});
+
+
+$('.iit-faq-accordion-title').on('click', function(){
+  $(this).toggleClass('active');
+  $(this).parents('.iit-faq-accordion-menu').siblings().find('.iit-faq-accordion-title').removeClass('active');
+  $(this).parents('.iit-faq-accordion-menu').find('.iit-faq-accordion-des').slideToggle(300);
+  $(this).parents('.iit-faq-accordion-menu').siblings().find('.iit-faq-accordion-des').slideUp(300);
+});
+
 
 
 

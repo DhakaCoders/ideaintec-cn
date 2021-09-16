@@ -78,6 +78,9 @@
 	text-align: center;
 	border-radius: 2px;
 }
+.overlay .icon-img i{
+	color: #000;
+}
 
 .info-img {
 	position: absolute;
@@ -98,7 +101,6 @@
 	position: relative;
 	padding-left: 40px;
 	display: block;
-/*	font-family: 'Raleway', sans-serif;*/
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -109,13 +111,18 @@
 .info-img span::before {
 	content: " ";
 	display: block;
-	background: #0c224b;
+	background: #000;
 	width: 30px;
 	height: 3px;
-	top: 4px;
+	top: 3px;
 	left: 0;
 	position: absolute;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 }
+
+
 
 .info-img h6 {
 	margin-left: -70px;
