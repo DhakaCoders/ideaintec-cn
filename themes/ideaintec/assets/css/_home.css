@@ -238,7 +238,10 @@
 	color: #ACAFB0;
 }
 
-
+.hm-banner-btn{
+	margin-bottom: 15px;
+	padding-top: 5px;
+}
 .hm-bnr-desc{
 	color: #fff;
 	/*padding-top: 100px;*/
