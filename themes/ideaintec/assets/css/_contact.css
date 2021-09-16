@@ -11,6 +11,20 @@
     padding-bottom: 40px;
     position: relative;
     z-index: 5;
+    overflow: hidden;
+}
+.contact-frm-sec-bg {
+    background-image: url(../images/contact-frm-sec-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -250px;
+    top: 0;
+    bottom: 0;
+    max-width: 728px;
+    width: 100%;
+    z-index: -1;
 }
 .contact-form-wrp{
     display: flex;
@@ -43,6 +57,7 @@
 }
 .contact-form-rgt-details {
     position: relative;
+    left: -20px;
 }
 .cnt-details-heading {
     color: #fff;
