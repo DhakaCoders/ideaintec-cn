@@ -556,6 +556,7 @@ Let's Chat section
 	background-size: cover!important;
 	padding: 90px 0 85px;
 	color: #fff;
+	position: relative;
 }
 .lets-chat-sec-bg{
 	position: absolute;
