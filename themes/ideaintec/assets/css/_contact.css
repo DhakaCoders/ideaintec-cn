@@ -42,7 +42,6 @@
     position: relative;
     height: 318px;
     display: flex;
-    align-items: center;
 }
 .contact-form-img {
     position: absolute;
@@ -54,26 +53,31 @@
     width: 100%;
     display: block;
 }
-.contact-form-details-lft {
-    width: 50%;
+.contact-form-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding-top: 20px;
     position: relative;
-    padding-left: 20px;
-    padding-right: 10px;
+    z-index: 7;
 }
-
-.contact-form-details-rgt {
-    width: 50%;
-    padding-left: 20px;
-    padding-right: 10px;
-    /* position: relative; */
+.contact-details-lft {
+    width: 60%;
+}
+.contact-details-rgt {
+    width: 40%;
+}
+.contact-details-col{
+    position: relative;
+    padding: 0 20px;
 }
 .cnt-details-heading {
-    color: #fff;
     margin-bottom: 12px;
     text-transform: capitalize;
     font-weight: 500;
     position: relative;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 .cnt-details-heading:after {
     position: absolute;
@@ -85,25 +89,31 @@
     background: #fff;
 }
 .cnt-details-sub-heading {
-    color: #fff;
     margin-bottom: 8px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
 }
 .contact-form-details-rgt .ftr-details-col{
     margin-bottom: 15px;
 }
-.contact-form-details-rgt .ftr-details-col a{
+.contact-details-rgt .ftr-details-col a{
     margin-bottom: 0; 
     line-height: 1;
-    color: #fff;
 }
-
-.contact-form-details-lft p {
-    color: #fff;
+.contact-details-lft-inner {
+    padding-left: 20px;
+}
+.contact-details-lft-inner p {
     margin-bottom: 12px;
     font-size: 16px;
 }
+.cnt-details-heading,
+.contact-details-rgt .ftr-details-col a,
+.contact-details-lft-inner p,
+.cnt-details-sub-heading{
+    color: #fff;
+}
+
 .contact-form-fea-img img{
 	display: none;
 }
@@ -303,7 +313,6 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 48px;
-    color: #fff;
 }
 .contect-grid-img {
     display: flex;
@@ -315,15 +324,18 @@
 .contect-grid-heading {
     margin-bottom: 16px;
     font-weight: 600;
-    color: #fff;
 }
 .contect-grid-des p {
-    color: #fff;
     margin-bottom: 0;
+}
+.contect-grid-img i,
+.contect-grid-heading,
+.contect-grid-des p{
+    color: #000;
 }
 .contect-grid-item {
     padding: 30px 20px;
-    background: #000;
+    background: linear-gradient(236.41deg, #FFFFFF 3.15%, rgba(255, 255, 255, 0) 67.79%), #F4F4F4;
 }
 .contact-form-btm-sec {
     background: #f5f5f5;
