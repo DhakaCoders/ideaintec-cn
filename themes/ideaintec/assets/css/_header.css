@@ -231,9 +231,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     -o-transform: scale3d(1,0,1);
     transform-origin: top;
     opacity: 0;
-    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+    /*box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
     -ms-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15%);
-    -webkit-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);*/
 
 
 }
@@ -539,13 +539,63 @@ body.allWork {
     -ms-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 66px;
+    padding-top: 79px;
     height: 100%;
     max-width: 375px;
     width: 100%;
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
+
+
+    right: 0;
+    opacity: 1;
+    z-index: 99999;
+    width: 100%;
+}
+.xs-pop-up-menu-inr {
+    height: 100%;
+    width: 100%;
+}
+.xs-pop-menu-btm{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 4;
+	background: #fff;
+}
+.xs-pop-up-menu-top{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 0 20px;
+}
+.logo-close-btn-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px 0;
+}
+.xs-logo{
+
+}
+.xs-logo a{
+	display: inline-block;
+	max-width: 170px;
+}
+.logo-close-btn-cntlr .hamburgar-cntlr{
+	margin-left: auto;
+}
+.xs-pop-menu-con{
+	overflow-y: auto;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	padding-top: 20px;
+	text-align: center;
+	z-index: 10;
 }
 
 /*body.allWork .hamburgar-cross{
@@ -557,10 +607,46 @@ body.allWork {
 	border: initial;
 	background: initial;
 }*/
+.xs-pop-menu-btm .hdr-details{
+	padding-bottom: 20px;
+}
+.xs-pop-menu-btm .hdr-details ul{
+	padding: 0;
+	margin: -10px 0;
+	display: block;
+}
+.xs-pop-menu-btm .hdr-details ul li{
+	padding: 10px 0;
+}
 .xs-menu{
 	height: 100%;
 	width: 100%;
 	overflow-y: auto;
+}
+.xs-social .hdr-socials{
+	padding-left: 0;
+	margin-left: 0;
+	padding: 20px 0;
+}
+.xs-social .hdr-socials ul{
+	justify-content: center;
+}
+.xs-social .hdr-socials ul li a{
+	width: 32px;
+	height: 32px;
+	font-size: 18px;
+}
+.xs-social .hdr-socials:before{
+	position: absolute;
+	content: "";
+	background: #909BA5;
+	height: 1px;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.xs-social .hdr-socials:after{
+	content: none;
 }
 /*responsive*/
 @media(max-width: 1699px){
