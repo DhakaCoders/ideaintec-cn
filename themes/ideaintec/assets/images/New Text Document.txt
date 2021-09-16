@@ -1,0 +1,24 @@
+
+        <div class="potential-grid-item">
+           <div class="potential-grid-img-cntlr">
+              <a href="#" class="overlay-link"></a>
+              <div class="inline-bg" style="background-image: url(assets/images/potential-grid-1.jpg);"></div>
+              <img src="assets/images/potential-grid-1.jpg" alt="">
+            </div>
+            <div class="potential-grid-des">
+              <h4 class="fl-h4"><a href="#">Lorem ipsum dolor</a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+
+             <div class="potential-grid-item mHc">
+                <div class="potential-grid-img-cntlr">
+                  <a href="#" class="overlay-link"></a>
+                  <div class="inline-bg" style="background-image: url(assets/images/potential-grid-1.jpg);"></div>
+                  <img src="assets/images/potential-grid-1.jpg" alt="">
+                </div>
+                <div class="potential-grid-des">
+                  <h4 class="fl-h4"><a href="#">Lorem ipsum dolor</a></h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+              </div>

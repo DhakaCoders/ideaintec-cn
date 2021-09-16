@@ -176,8 +176,8 @@
     content: "";
     display: block;
     position: absolute;
-    left: 80.5px;
-    width: 100px;
+    left: 50%;
+    width: 50px;
     height: 2px;
     background: #2DAB52;;
 }
@@ -204,7 +204,7 @@
 
 @keyframes animation-arrow {
   0% {
-    width: 0;
+    width: 50%;
   }
 
   100% {
@@ -238,7 +238,10 @@
 	color: #ACAFB0;
 }
 
-
+.hm-banner-btn{
+	margin-bottom: 15px;
+	padding-top: 5px;
+}
 .hm-bnr-desc{
 	color: #fff;
 	/*padding-top: 100px;*/
@@ -554,10 +557,22 @@ Let's Chat section
 	padding: 90px 0 85px;
 	color: #fff;
 }
+.lets-chat-sec-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0.7203256302521008) 0%, rgba(255,145,64,0) 100%, rgba(0,212,255,1) 100%);
+	z-index: 1;
+}
 .lets-chat-cntrl{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	position: relative;
+	z-index: 2;
 }
 .lets-chat-des{
 	width: 50%;
