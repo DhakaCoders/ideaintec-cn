@@ -268,7 +268,7 @@
     padding-top: 20px;
 }
 
-.ftr-desc p, .ftr-col-menu ul li a, .ftr-details-col a, .ftr-btm p{
+.ftr-desc p, .ftr-col-menu ul li a, .ftr-details-col a, .ftr-btm p, .ftr-col-menu ul li a:after{
  color: #969392;
 }
 
