@@ -11,6 +11,20 @@
     padding-bottom: 40px;
     position: relative;
     z-index: 5;
+    overflow: hidden;
+}
+.contact-frm-sec-bg {
+    background-image: url(../images/contact-frm-sec-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -250px;
+    top: 0;
+    bottom: 0;
+    max-width: 728px;
+    width: 100%;
+    z-index: -1;
 }
 .contact-form-wrp{
     display: flex;
@@ -24,10 +38,52 @@
 .contact-form-rgt-con {
     width: 48%;
 }
-.contact-form-fea-img div {
+.contact-form-fea-img {
+    position: relative;
     height: 318px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
     width: 100%;
     display: block;
+}
+.contact-form-rgt-details {
+    position: relative;
+    left: -20px;
+}
+.cnt-details-heading {
+    color: #fff;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+}
+.cnt-details-heading:after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ff9140;
+}
+.cnt-details-sub-heading {
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.contact-form-rgt-details p {
+    color: #fff;
 }
 .contact-form-fea-img img{
 	display: none;
@@ -38,7 +94,7 @@
 .map-dsc {
     background: #fff;
     position: absolute;
-    top: -65px;
+    top: -55px;
     z-index: 3;
     width: 100%;
     max-width: 300px;
