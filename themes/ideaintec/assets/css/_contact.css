@@ -79,10 +79,12 @@
     color: #fff;
     margin-bottom: 8px;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .contact-form-rgt-details p {
     color: #fff;
+    margin-bottom: 12px;
 }
 .contact-form-fea-img img{
 	display: none;
@@ -281,10 +283,12 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 14px;
+    font-size: 48px;
+    color: #fff;
 }
 .contect-grid-img {
     display: flex;
+    margin-bottom: 20px;
 }
 .contect-grid-des {
     text-align: center;
@@ -294,20 +298,13 @@
     font-weight: 600;
     color: #fff;
 }
-.contect-grid-tel {
-    margin-bottom: 10px;
-}
-.contact-grid-mail a, .contect-grid-tel a {
-    display: inline-block;
+.contect-grid-des p {
     color: #fff;
-    letter-spacing: 1px;
-}
-.contact-grid-mail a:hover, .contect-grid-tel a:hover{
-    color: #F8800B;
+    margin-bottom: 0;
 }
 .contect-grid-item {
-    padding: 36px 20px;
-    background: #243444;
+    padding: 30px 20px;
+    background: #0c224b;
 }
 .contact-form-btm-sec {
     background: #f5f5f5;
