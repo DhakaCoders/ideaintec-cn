@@ -113,7 +113,13 @@ nav.main-nav ul li.current-menu-item a{
     margin-left: 0px;
 }
 .our-works-grd-item-inr .overlay h6:hover {
-    color: #2a6171;
+    color: #ff9140;
+}
+.info-img span:hover{
+    color: #ff9140;
+}
+.info-img span:hover:before{
+    background: #ff9140;
 }
 .our-works-grd-item-inr:hover .overlay h6 {
     margin-left: 0px;
