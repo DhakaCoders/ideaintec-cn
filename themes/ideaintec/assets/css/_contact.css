@@ -57,6 +57,7 @@
 .contact-form-rgt-details {
     position: relative;
     padding-left: 25px;
+    margin-top: -20px;
 }
 .cnt-details-heading {
     color: #fff;
@@ -80,6 +81,13 @@
     margin-bottom: 8px;
     font-weight: 300;
     font-size: 24px;
+}
+.contact-form-rgt-details .ftr-details-col{
+    margin-bottom: 15px;
+}
+.contact-form-rgt-details .ftr-details-col a{
+    margin-bottom: 0; 
+    line-height: 1;
 }
 
 .contact-form-rgt-details p {
