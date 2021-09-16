@@ -103,6 +103,7 @@ nav.main-nav > ul{
 	align-items: center;
 	margin: 0 -15px;
 	padding-top: 25px;
+	justify-content: flex-end;
 }
 nav.main-nav > ul > li{
 	padding: 0 15px;
@@ -612,23 +613,23 @@ body.allWork {
 .xs-pop-menu-btm .hdr-details ul li{
 	padding: 5px 0;
 }
-.hdr-details-col{
+.xs-mobile-menu .hdr-details-col{
 	background: #F8800B;
 	padding: 10px;
 	text-align: center;
 }
-.hdr-details-col a{
+.xs-mobile-menu .hdr-details-col a{
 	color: #fff;
 	font-size: 18px;
 	padding-left: 30px;
 }
-.hdr-details-col a i{
+.xs-mobile-menu .hdr-details-col a i{
 	font-size: 18px;
 }
-.hdr-tel.hdr-details-col a{
+.xs-mobile-menu .hdr-tel.hdr-details-col a{
 	padding-left: 26px;
 }
-.hdr-tel.hdr-details-col a i{
+.xs-mobile-menu .hdr-tel.hdr-details-col a i{
 	font-size: 16px;
 }
 .xs-menu{
@@ -688,6 +689,9 @@ body.allWork {
 	}
 }
 @media(max-width: 767px){
+	.sticky-hdr{
+		padding-bottom: 20px;
+	}
 	.header-sticky .logo a,
 	.logo a{
 		max-width: 160px;
