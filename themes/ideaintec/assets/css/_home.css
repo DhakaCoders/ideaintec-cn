@@ -432,7 +432,7 @@ Start Our Process Section Area
   position: relative;
   width: 100px; 
   height: 70px;
-  background-color: #5d9d32;
+  background-color: #242424;
   margin-left: auto;
   margin-right: auto;
 }
@@ -448,7 +448,7 @@ Start Our Process Section Area
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 25px solid #5d9d32;
+  border-bottom: 25px solid #242424;
   left: 50%;
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -458,7 +458,7 @@ Start Our Process Section Area
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 25px solid #5d9d32;
+  border-top: 25px solid #242424;
   left: 50%;
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -514,7 +514,6 @@ Start Our Process Section Area
 .hexagon-bdr-bx-des strong{
 	font-weight: normal;
 	text-transform: uppercase;
-    font-family: 'RobotoMedium';
 	display: block;
 }
 .hexagon-bdr-bx-des p{
@@ -543,7 +542,7 @@ Start Our Process Section Area
 	color: #2a6171;
 }
 .polygon-bx-title{
-	color: #5d9d32;
+	color: #242424;
 	font-size: 22px;
 	vertical-align: middle;
 	height: 70px;
@@ -623,11 +622,10 @@ Start Our Process Section Area
 .back strong{
 	font-weight: normal;
 	color: #000;
-    font-family: 'RobotoMedium';
-    text-transform: capitalize;
-    font-size: 20px;
-    display: block;
-    padding-bottom: 15px;
+	text-transform: capitalize;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 15px;
 }
 .pp-card:hover .back{
 	z-index: 5;
@@ -869,9 +867,9 @@ Let's Chat section
 
 
 /**
---------------------------------------------------
+-------------------
 Services page
----------------------------------------------
+--------------------
 */
 .main-content{
 	padding: 50px 0 70px;
@@ -905,7 +903,7 @@ Services page
 	display: inline-block;
 	vertical-align: baseline;
 	text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .filter-menu li a.is-checked{
@@ -947,8 +945,7 @@ Services page
 }
 .pop-up-title{
 	font-size: 22px;
-    font-family: 'RobotoMedium';
-    margin-bottom: 15px;	
+	margin-bottom: 15px;	
 }
 .fancy-pop-up img{
 	float: left;
@@ -973,7 +970,6 @@ Contact page
 }
 .contact-info-wrp{
 	text-align: left;
-    font-family: 'MyriadProRegular';
 }
 
 .contact-info a{
@@ -984,7 +980,6 @@ Contact page
 	margin-bottom: 10px;
 	font-size: 15px;
 	color: inherit;
-    font-family: 'RobotoLight';
 }
 
 .contact-info a:before{
@@ -1040,7 +1035,6 @@ Contact page
 .field-wrp label{
     color: #4e5c64;
     display: block;
-    font-family: 'MontserratUltraLight';
     text-align: left;
 }
 input[type="text"],
@@ -1069,8 +1063,7 @@ textarea{
 	line-height: 100%;
 	text-transform: uppercase;
 	border-radius: 3px;
-    font-family: 'RobotoLight';
-    padding-top: 0;
+  padding-top: 0;
 }
 #comments .submit {
 	width: 164px;
@@ -1083,9 +1076,9 @@ textarea{
 
 
 /**
---------------------------------------------
+-------------------
 Blog page
---------------------------------------------
+-------------------
 */
 .blog-main-content{
 	padding: 100px 0 80px;
@@ -1115,15 +1108,13 @@ Blog page
 	text-transform: uppercase;
 	color: #646464;
 	border-radius: 100% 100%;
-    font-family: 'RobotoLight';
-
-
+	font-weight: 300;
 }
 .post-item img{
 	width: 100%;
 }
 .post-detail{
-    font-family: 'RobotoLight';
+   font-weight: 300;
     font-size: 12px;
     line-height: 14px;	
 }
@@ -1133,12 +1124,10 @@ Blog page
 }
 .post-title a{
 	color: #646464;
-    font-family: 'MontserratRegular';
-    display: inline-block;
-    vertical-align: baseline;
+	display: inline-block;
+	vertical-align: baseline;
 }
-.excerpt{
-    font-family: 'RobotoRegular';
+.excerpt{;
     font-size: 15px;
     line-height: 20px;
     color: #555353;
@@ -1158,9 +1147,9 @@ Blog page
 
 
 /**
----------
+---------------------
 Sidebar
---------
+----------------------
 */
 .right-sidebar{
 	padding-left: 40px;
@@ -1171,7 +1160,6 @@ Sidebar
 	font-size: 13px;
 	line-height: 14px;
 	margin-bottom: 25px;
-    font-family: 'RobotoRegular';
 }
 .widget:last-child,
 .widget:first-child{
@@ -1220,7 +1208,6 @@ Sidebar
 	line-height: 26px;
 	margin:0  0 15px 0;
 	padding-bottom: 10px;
-    font-family: 'RobotoBold';
 }
 
 
