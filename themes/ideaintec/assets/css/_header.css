@@ -253,6 +253,20 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
 }
 nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu{
 	padding-top: 5px;
+	z-index: 50;
+}
+
+
+nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu:before {
+	content: "";
+    background: rgb(12,34,75);
+    background: linear-gradient( 
+90deg, rgba(12,34,75,0.8575805322128851) 25%, rgba(248,128,11,0.8799894957983193) 46%, rgba(93,157,50,0.7399334733893557) 71%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 5px;
 }
 nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
     transform: scale3d(1,1,1);
