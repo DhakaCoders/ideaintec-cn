@@ -1,6 +1,4 @@
-.iit-blog-single-con-wrap{
-	padding: 70px 0;
-}
+
 .iit-blog-single-page-des{
 	padding: 150px 0;
 }
@@ -91,5 +89,5 @@
     position: absolute;
     right: -20px;
     top: -5px;
-    background-color: #2a6171;
+    background-color: #000;
 }
