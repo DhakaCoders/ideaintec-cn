@@ -6,11 +6,6 @@
 .iit-team-sec{
 	padding: 50px 0;
 }
-
-
-.iit-team-skill-sec{
-	padding: 50px 0;
-}
 .iit-team-skill-sec-inr{
 	display: flex;
 	align-items: center;
@@ -233,9 +228,6 @@
 /*responsive*/
 
 @media(max-width: 1399px){
-	.iit-team-skill-sec {
-	    padding: 40px 0;
-	}
 	.iit-team-sec {
 	    padding: 40px 0;
 	}
@@ -253,9 +245,6 @@
 	}
 }
 @media(max-width: 767px){
-	.iit-team-skill-sec {
-	    padding: 30px 0;
-	}
 	.iit-team-skill-sec-inr{
 		display: block;
 	}
@@ -269,9 +258,6 @@
 	}
 	.iit-team-skill-lft img{
 	    width: 100%;
-	}
-	.iit-team-skill-sec{
-		padding-bottom: 30px;
 	}
 	.iit-team-sec {
 	    padding: 40px 0;
