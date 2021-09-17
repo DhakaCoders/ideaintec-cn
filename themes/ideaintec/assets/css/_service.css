@@ -82,7 +82,6 @@
 
 .iit-service-row-item{
 	display: flex;
-	align-items: center;
 }
 
 .iit-service-col-lft{
@@ -110,8 +109,15 @@
 	padding-bottom: 20px;
 }
 
+.iit-service-col-img{
+	padding-top: 68px;
+}
+
 .iit-service-col-des-title{
 	text-transform: uppercase;
+}
+.iit-service-col-des p{
+	margin-bottom: 30px;
 }
 .iit-service-col-des-title a{
 	color: #000;
