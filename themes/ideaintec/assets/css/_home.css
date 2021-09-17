@@ -408,14 +408,15 @@ Our Features section
 	min-height: 44px;
 	width: auto;
 }
-.fl-h3.features-item-title{
+.features-item-title{
 	margin-bottom: 30px;
 }
-.fl-h3.features-item-title a{
+.features-item-title a{
 	display: inline-block;
 	color: inherit;
+	color: #000;
 }
-.fl-h3.features-item-title a:hover{
+.features-item-title a:hover{
 	color: #F7961E;
 }
 .features-item-desc > p:last-of-type{
