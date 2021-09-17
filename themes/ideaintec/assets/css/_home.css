@@ -1296,3 +1296,87 @@ Single page
 	right: 0;
 	z-index: 1;
 }
+
+/**
+---------------------
+home about us sec
+---------------------
+*/
+
+
+
+.hm-about-us-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+
+}
+.hm-about-us-lft{
+	width: 34%;
+	padding: 0 15px;
+}
+.hm-about-us-rgt{
+	width: 66%;
+	padding: 0 15px;
+	position: relative;
+}
+/*.hm-abt-us-sub-heading{
+	font-weight: 500;
+}*/
+.hm-about-us-lft-inr p{
+	font-size: 16px;
+}
+.hm-about-us-lft-inr ul li {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    padding: 4px 0 6px 25px;
+    text-align: left;
+}
+.hm-about-us-lft-inr ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.hm-about-us-lft-inr ul li:after {
+    border: 2px solid #f7f9f8;
+    border-radius: 100%;
+    content: "";
+    height: 11px;
+    left: 2px;
+    position: absolute;
+    top: 6px;
+    width: 11px;
+}
+.hm-about-us-lft-inr ul li:before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    left: 1px;
+    border-radius: 100%;
+    background-color: #000;
+    top: -1px;
+}
+.hm-about-us-lft-inr .load-more-btn{
+	text-align: left;
+}
+.hm-about-us-rgt-cntlr{
+	position: relative;
+}
+.hm-about-us-img-one img,
+.hm-about-us-img-two img{
+	width: 100%;
+	height: auto;
+}
+.hm-about-us-img-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.hm-about-us-img-two {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
