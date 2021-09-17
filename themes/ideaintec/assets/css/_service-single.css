@@ -229,53 +229,6 @@
 	background: #f4f6f7;
 }
 
-.iit-accordion-title{
-    padding: 10px 20px 20px 10px;
-    color: #CCCCCD;
-    border-top: 1px solid #CCCCCD;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-}
-.plus{
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	margin-top: -3px;
-}
-.minus{
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	display: none;
-	margin-top: -3px;
-}
-.plus i,
-.minus i{
-	display: inline-block;
-	vertical-align: baseline;
-	font-size: 18px;
-}
-.active .plus{
-	display: none;
-}
-.active .minus{
-	display: block;
-}
-.active .plus i,
-.active .minus i{
-	color: #ff9140;
-}
-.iit-accordion-des{
-	padding-bottom: 25px;
-	display: none;
-}
 .iit-testi-info{
 	float: left;
 	width: 30%;
@@ -293,7 +246,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	color: #555555;
+	color: #000;
     font-size: 42px;
 }
 .iit-testi-rating i{
@@ -307,7 +260,7 @@
     font-style: normal;
     font-weight: 600;
     text-decoration: inherit;
-    color: #555555;
+    color: #000;
     font-size: 25px;
     position: absolute;
     top: 0;
