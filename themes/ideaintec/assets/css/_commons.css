@@ -458,3 +458,9 @@ ol li::before {
 		opacity: 0;
 	}
 }
+
+
+/* section bg  */
+.section-bg {
+ 	background: #fbfbfb;
+}
