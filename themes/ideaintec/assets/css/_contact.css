@@ -1,7 +1,4 @@
 .contact-form-sec-wrp {
-    padding-top: 90px;
-    /*padding-bottom: 100px;*/
-    padding-bottom: 40px;
     position: relative;
     z-index: 5;
     overflow: hidden;
@@ -22,7 +19,6 @@
 .contact-form-wrp{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 40px;
 }
 .contact-form-lft-con {
     width: 54%;
@@ -298,10 +294,6 @@
 	margin-bottom: 13px;
 }
 
-
-.contect-form-btm {
-    padding-top: 50px;
-}
 .contect-form-btm ul {
     display: flex;
     flex-wrap: wrap;
@@ -343,7 +335,6 @@
 }
 .contact-form-btm-sec {
     background: #f5f5f5;
-    padding-bottom: 100px;
 }
 
 
@@ -436,24 +427,14 @@
 /*responsive-start*/
 
 @media (max-width: 1399px){
-    .contact-form-sec-wrp {
-        padding-top: 80px;
-        padding-bottom: 90px;
-    }
+
 }
 @media (max-width: 1399px){
-    .contact-form-sec-wrp {
-        padding-top: 70px;
-        padding-bottom: 80px;
-    }
     .contact-form-lft-con{
         padding-right: 60px;
     }
 }
 @media (max-width: 1199px){
-    .contact-form-sec-wrp {
-        padding-top: 60px;
-    }
     .contact-form-lft-con{
         padding-right: 60px;
     }
