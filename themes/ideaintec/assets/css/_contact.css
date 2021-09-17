@@ -25,11 +25,11 @@
     padding-bottom: 40px;
 }
 .contact-form-lft-con {
-    width: 52%;
+    width: 54%;
     padding-right: 90px;
 }
 .contact-form-rgt-con {
-    width: 48%;
+    width: 46%;
 }
 .contact-form-fea-img {
     position: relative;
@@ -73,7 +73,7 @@
     bottom: 0px;
     left: 0;
     width: 50px;
-    height: 3px;
+    height: 1px;
     background: #fff;
 }
 .cnt-details-sub-heading {
@@ -133,8 +133,9 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-#googlemap {
-    height: 405px;
+#googlemap,
+#mapID {
+    height: 360px;
     margin-top: 10px;
 }
 .wpforms-field-container{
@@ -286,6 +287,9 @@
 }
 .contact-form-top .sec-entry-hdr .sec-entry-heading-title h2{
 	margin-bottom: 0px;
+}
+.contact-form-top .sec-entry-hdr .sec-entry-hdr-des{
+    margin-bottom: 20px;
 }
 .contact-form-top .sec-entry-hdr{
 	padding-bottom: 0;
