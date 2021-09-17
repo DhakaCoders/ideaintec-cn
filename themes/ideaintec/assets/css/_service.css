@@ -80,29 +80,45 @@
 }
 
 
-.iit-service-con-sec-inr{
+.iit-service-row-item{
 	display: flex;
 	align-items: center;
 }
 
-.iit-service-con-img{
+.iit-service-col-lft{
 	width: 50%;
 }
-.iit-service-des{
+.iit-service-col-rgt{
 	width: 50%;
-	padding-left: 20px;
+	padding-left: 40px;
 }
-.iit-service-con-img img{
+.iit-service-col-img img{
 	width: 100%;
 }
 
-.iit-service-lftdes-rgt-img .iit-service-con-img{
+.iit-service-row-lftdes-rgtimg .iit-service-col-lft{
 	order: 2;
 }
-.iit-service-lftdes-rgt-img .iit-service-des{
+.iit-service-row-lftdes-rgtimg .iit-service-col-rgt{
 	order: 1;
 	padding-left: 0;
-	padding-right: 20px;
+	padding-right: 40px;
+}
+.iit-service-col-des i{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-bottom: 20px;
+}
+
+.iit-service-col-des-title{
+	text-transform: uppercase;
+}
+.iit-service-col-des-title a{
+	color: #000;
+}
+
+.iit-service-col-des-title a:hover{
+	color: #ff9140;
 }
 
 
