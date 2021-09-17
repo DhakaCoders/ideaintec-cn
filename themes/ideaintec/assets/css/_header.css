@@ -251,6 +251,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
 
 
 }
+nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu{
+	padding-top: 5px;
+}
 nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
     transform: scale3d(1,1,1);
     -ms-transform: scale3d(1,1,1);
