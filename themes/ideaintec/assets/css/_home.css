@@ -265,7 +265,7 @@ Our clints section
 */
 .our-clints-sec{
 	padding: 55px 0 45px;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .our-clints-sec-hdr{
 	text-align: center;
@@ -306,7 +306,6 @@ Our services section
 ---------------------
 */
 .services-sec{
-	background: #f5f5f5;
 	padding: 80px  0 35px;
 }
 .services-grid-cntlr{
@@ -432,7 +431,6 @@ Experiences section
 
 .experiences-sec{
 	padding: 60px 0 35px;
-	background: #fbfbfb;
 	font-size: 20px;
 	line-height: 30px;
 }
