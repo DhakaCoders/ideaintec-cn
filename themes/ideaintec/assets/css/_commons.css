@@ -461,6 +461,11 @@ ol li::before {
 
 
 /* section bg  */
-.section-bg {
+.section-bg-color {
  	background: #fbfbfb;
+}
+
+
+.section {
+    padding: 80px 0 110px;
 }

@@ -1,6 +1,5 @@
 .iit-service-sec{
-	padding-top: 70px;
-	padding-bottom: 70px;
+
 }
 
 
@@ -83,17 +82,11 @@
 
 
 @media(max-width: 1399px){
-	.iit-service-sec {
-	    padding-top: 60px;
-	    padding-bottom: 60px;
-	}
+
 }
 
 @media(max-width: 991px){
-	.iit-service-sec {
-	    padding-top: 50px;
-	    padding-bottom: 50px;
-	}
+
 	.iit-service-grds > ul > li{
 		width: 50%;
 	}
@@ -101,10 +94,7 @@
 
 
 @media(max-width: 767px){
-	.iit-service-sec {
-	    padding-top: 40px;
-	    padding-bottom: 40px;
-	}
+
 	.iit-service-grds > ul{
 		margin-left: 0;
 		margin-right: 0;
@@ -129,8 +119,5 @@
 }
 
 @media(max-width: 575px){
-	.iit-service-sec {
-	    padding-top: 30px;
-	    padding-bottom: 30px;
-	}
+
 }

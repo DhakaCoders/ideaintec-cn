@@ -264,8 +264,7 @@ Our clints section
 ---------------------
 */
 .our-clints-sec{
-	padding: 55px 0 45px;
-	padding-top: 50px;
+
 }
 .our-clints-sec-hdr{
 	text-align: center;
@@ -306,7 +305,7 @@ Our services section
 ---------------------
 */
 .services-sec{
-	padding: 80px  0 35px;
+
 }
 .services-grid-cntlr{
 	display: flex;
@@ -360,13 +359,289 @@ Our services section
 	margin-bottom: 0;
 }
 
+
+
+/*
+--------------------------------
+Start Our Process Section Area 
+--------------------------------
+*/
+.our-process-list ul,
+.include-list ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-top: 25px;
+}
+.our-process-list ul li,
+.include-list ul li{
+	float: left;
+	width: 16.6666%;
+	text-align: center;
+	position: relative;
+	padding: 0 0 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.include-list ul li{
+	width: 25%;
+}
+.include-col-item .hexagon-bdr::before,
+.include-col-item .hexagon-bdr::after,
+.include-col-item .hexagon-bdr{
+    transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+}
+.include-col-item:hover .hexagon-bdr::before,
+.include-col-item:hover .hexagon-bdr::after,
+.include-col-item:hover .hexagon-bdr{
+	border-color: #2a6171;
+    transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+}
+
+.include-col-item:hover .hexagon-bdr::before,
+.include-col-item:hover .hexagon-bdr::after{
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.include-col-item:hover .hexagon-bdr{
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+
+.pp-process-polygon-bx {
+	width: 100%;
+	font-size: 30px;
+	line-height: 104px;
+	margin: 0 auto;
+	color: #0000;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+
+.hexagon {
+  position: relative;
+  width: 100px; 
+  height: 70px;
+  background-color: #2a6171;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 25px solid #2a6171;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 25px solid #2a6171;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+
+/*--- hexagon border box---*/
+.pp-polygon-bx{
+	position: relative;
+}
+.hexagon-bdr {
+  position: relative;
+  width: 150px; 
+  height: 100px;
+  background-color: #ccc;
+  margin: 86.60px auto;
+  border-left: solid 3px #2a6171;
+  border-right: solid 3px #2a6171;
+}
+
+
+.hexagon-bdr::before, 
+.hexagon-bdr::after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	width: 108px;
+	height: 104.13px;
+	-webkit-transform: scaleY(0.5774) rotate(-45deg);
+	-ms-transform: scaleY(0.5774) rotate(-45deg);
+	transform: scaleY(0.5774) rotate(-45deg);
+	background-color: inherit;
+	left: 18px;
+	z-index: 1;
+}
+
+.hexagon-bdr::before {
+	top: -52px;
+	border-top: solid 5px #2a6171;
+	border-right: solid 5px #2a6171;
+}
+
+.hexagon-bdr:after {
+  bottom: -52px;
+  border-bottom: solid 5px #2a6171;
+  border-left: solid 5px #2a6171;
+}
+.hexagon-bdr-bx-des{
+	position: relative;
+	top: -15px;
+}
+.hexagon-bdr-bx-des strong{
+	font-weight: normal;
+	text-transform: uppercase;
+    font-family: 'RobotoMedium';
+	display: block;
+}
+.hexagon-bdr-bx-des p{
+	text-transform: initial;
+	font-size: 14px;
+}
+
+
+
+
+.pp-process-polygon-bx i,
+.pp-polygon-bx i{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	color: #fff;
+	font-size: 40px;
+	z-index: 2;
+}
+.pp-polygon-bx i{
+	color: #2a6171;
+}
+.polygon-bx-title{
+	color: #2a6171;
+	font-size: 22px;
+	vertical-align: middle;
+	height: 70px;
+	position: relative;
+}
+.polygon-bx-title *{
+	display: block;
+	font-family: 'RobotoMedium';
+}
+.polygon-bx-title big {
+	color: #ccc;
+	font-size: 80px;
+	line-height: 72%;
+}
+.polygon-bx-title span{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.our-process-list ul li{
+	height: 300px;
+}
+
+.pp-card {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94%;
+	height: 300px;
+	perspective: 500px;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.pp-card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.back {
+  background: #fff;
+  color: white;
+  transform: rotateY( 180deg );
+  font-size: 18px;
+  color: #000;
+  background: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  background: #fff; 
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+  text-transform: initial;
+  padding: 20px 15px;
+  z-index: 5;
+}
+.back strong{
+	font-weight: normal;
+	color: #000;
+    font-family: 'RobotoMedium';
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 15px;
+}
+.pp-card:hover .back{
+	z-index: 5;
+}
+
+
 /**
 ---------------------
 Our Features section
 ---------------------
 */
 .features-sec{
-	padding: 70px 0 45px;
+
 }
 .features-sec-hdr{
 	padding-bottom: 40px;
@@ -431,7 +706,6 @@ Experiences section
 */
 
 .experiences-sec{
-	padding: 60px 0 35px;
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -468,7 +742,6 @@ Experiences section
 ---------------------
 */
 .featured-design-sec{
-	padding: 70px 0 80px;
 	position: relative;
 }
 .featured-design-cntlr{
