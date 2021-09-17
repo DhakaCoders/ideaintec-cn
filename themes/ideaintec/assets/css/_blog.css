@@ -26,10 +26,7 @@
 .blog-grd-item .blog-grd-item-img {
 	clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%, 0 75%);
 }
-.blog-grd-item .blog-grd-item-img a{
-	display: inline-block;
-	vertical-align: baseline;
-}
+
 .blog-grd-item .blog-grd-item-info {
 	padding: 30px;
 	position: relative;
@@ -55,12 +52,21 @@
 	vertical-align: baseline;
 }
 
+.blog-grd-item-info h5 a{
+	color: #000;
+	position: relative;
+	z-index: 11;
+}
+.blog-grd-item-info h5 a:hover{
+	color: #ff9140;
+}
+
 .blog-grd-item .blog-grd-item-more {
 	position: absolute;
 	right: 20px;
 	bottom: 15px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-	color: #0c224b;
+	color: #000;
 	font-size: 19px;
 	width: 40px;
 	height: 40px;
