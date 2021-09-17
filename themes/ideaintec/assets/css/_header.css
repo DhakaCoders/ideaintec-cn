@@ -409,20 +409,20 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
     padding: 0 6px;
 }
 .hdr-socials ul li a {
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: transparent;
-    font-size: 14px;
+    font-size: 13px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     position: relative;
-    border: 1px solid;
+    border: 2px solid;
+    border-radius: 100% 100%;
 }
-
 
 
 
@@ -451,6 +451,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 	position: relative;
 	color: #969392;
 	font-size: 14px;
+	font-weight: 500;
 }
 .hdr-details-col a:hover i,
 .hdr-details-col a:hover{
