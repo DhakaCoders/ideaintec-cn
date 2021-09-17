@@ -468,7 +468,15 @@ ol li::before {
 
 .section {
     padding: 80px 0 110px;
+    position: relative;
+}
+.content-up{
+	position: relative;
+	z-index: 5;
 }
 .section-btm-0{
 	padding-bottom: 0!important;
+}
+.section-top-0{
+	padding-top: 0!important;
 }
