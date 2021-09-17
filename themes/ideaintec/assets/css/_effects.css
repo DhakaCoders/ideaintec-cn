@@ -55,6 +55,7 @@ nav.main-nav ul li a,
     text-align: center;
     padding: 14px 0 0;
     overflow: hidden;
+    letter-spacing: 1px;
 }
 
 a:focus,button:focus,input:focus,textarea:focus{
