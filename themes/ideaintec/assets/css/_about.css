@@ -1,7 +1,3 @@
-.about-overview-sec{
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
 .about-overview-con-wrap{
 	display: flex;
 	flex-wrap: wrap;
@@ -52,11 +48,6 @@ ul.about-overview-feature li i {
 ul.about-overview-feature li strong{
 	text-transform: uppercase;
 }
-
-
-.ethics-sec{
-	padding-bottom: 100px;
-}
 .ethics-cntlr-grid{
 	
 }
@@ -80,13 +71,13 @@ ul.about-overview-feature li strong{
 	min-height: 360px;
 	border: 1px solid #d7d4d4;
 	padding: 40px 20px;
-	border-bottom: 4px solid #2a6171;
+	border-bottom: 4px solid #0c224b;
 }
 .ethics-cntlr-grid ul li:nth-child(2) .ethics-item{
-	border-bottom: 4px solid #ff9140;
+	border-bottom: 4px solid #F8800B;
 }
 .ethics-cntlr-grid ul li:nth-child(3) .ethics-item{
-	border-bottom: 4px solid #5EAD46;
+	border-bottom: 4px solid #5d9d32;
 }
 .ethics-item-img{
 	margin-bottom: 30px;
@@ -118,12 +109,7 @@ ul.about-overview-feature li strong{
 	right: 0;
 	top: 0;
 	width: 50%;
-	background: #2a6171;
-}
-
-
-.believe-in-sec{
-	padding-bottom: 100px;
+	background: #000;
 }
 .believe-in-cntlr{
 	display: flex;
@@ -135,6 +121,12 @@ ul.about-overview-feature li strong{
 .believe-in-rgt{
 	width: 60%;
 	padding-left: 40px;
+}
+.believe-in-rgt .sec-entry-hdr {
+  padding-bottom: 0; 
+}
+.believe-in-rgt .sec-entry-hdr .sec-entry-heading-title{
+	margin-bottom: 20px;
 }
 .believe-in-tab ul{
 	display: flex;
@@ -175,10 +167,6 @@ ul.about-overview-feature li strong{
 	display: block;
 }
 
-.philosophy-section{
-	padding-bottom: 100px;
-}
-
 .philosophy-grid ul{
 	display: flex;
 	align-items: center;
@@ -199,13 +187,13 @@ ul.about-overview-feature li strong{
 	min-height: 450px;
 	border: 1px solid #d7d4d4;
 	padding: 40px 20px;
-	border-bottom: 4px solid #2a6171;
+	border-bottom: 4px solid #0c224b;
 }
 .philosophy-grid ul li:nth-child(2) .philosophy-item{
-	border-bottom: 4px solid #ff9140;
+	border-bottom: 4px solid #F8800B;
 }
 .philosophy-grid ul li:nth-child(3) .philosophy-item{
-	border-bottom: 4px solid #5EAD46;
+	border-bottom: 4px solid #5d9d32;
 }
 .philosophy-item-img{
 	margin-bottom: 30px;
@@ -237,14 +225,10 @@ ul.about-overview-feature li strong{
 	right: 0;
 	top: 0;
 	width: 50%;
-	background: #2a6171;
+	background: #000;
 }
 
 
-
-.skill-section{
-	padding-bottom: 100px;
-}
 .skill-section-con ul{
 	margin: 0;
 	padding: 0;
@@ -489,3 +473,4 @@ ul.about-overview-feature li strong{
 .skill-section-con ul li:hover .skill-bx p{
 	opacity: 3;
 }
+
