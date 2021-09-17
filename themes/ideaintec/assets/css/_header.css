@@ -377,7 +377,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
     top: 100%;
     right: 0;
     background: url(../images/hdr-border.svg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 2px;
     width: 100%;
@@ -393,7 +392,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 .hdr-socials:after{
 	position: absolute;
 	content: "";
-	background: #909BA5;
 	height: 20px;
 	width: 1px;
 	left: 0;
@@ -416,20 +414,19 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #909BA5;
     background: transparent;
-    border: 1px solid #909BA5;
     font-size: 14px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     position: relative;
+    border: 1px solid;
 }
-.hdr-socials ul li a:hover {
-    background-color: #F8800B;
-    color: #fff;
-    border-color: #F8800B;
-}
+
+
+
+
+
 .hdr-socials ul li a i{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -452,7 +449,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 	display: inline-block;
 	padding-left: 20px;
 	position: relative;
-	color: #909BA5;
+	color: #969392;
 	font-size: 14px;
 }
 .hdr-details-col a:hover i,
@@ -479,6 +476,23 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 	font-size: 12px;
 	top: 0;
 }
+
+
+.hdr-details-col a,
+.hdr-socials ul li a{
+	color: #5d9d32;
+	border-color: #5d9d32;
+}
+.hdr-socials:after{
+	background: #5d9d32;
+}
+
+.hdr-socials ul li a:hover {
+    background-color: #5d9d32;
+    color: #fff;
+    border-color: #5d9d32;
+}
+
 
 /*hamburger-icon*/
 .hamburger-icon{

@@ -1,10 +1,3 @@
-/*
----------------------
- Contact Form
----------------------
-*/
-
-
 .contact-form-sec-wrp {
     padding-top: 90px;
     /*padding-bottom: 100px;*/
@@ -40,8 +33,8 @@
 }
 .contact-form-fea-img {
     position: relative;
-    height: 318px;
-    display: flex;
+    height: 370px;
+    /*display: flex;*/
 }
 .contact-form-img {
     position: absolute;
@@ -59,17 +52,12 @@
     margin: 0 -20px;
     padding-top: 20px;
     position: relative;
-    z-index: 7;
-}
-.contact-details-lft {
-    width: 60%;
-}
-.contact-details-rgt {
-    width: 40%;
+    z-index: 9;
 }
 .contact-details-col{
     position: relative;
     padding: 0 20px;
+    width: 100%;
 }
 .cnt-details-heading {
     margin-bottom: 12px;
@@ -100,8 +88,10 @@
     margin-bottom: 0; 
     line-height: 1;
 }
-.contact-details-lft-inner {
+.contact-details-lft-inner,
+.contact-details-rgt-inner {
     padding-left: 20px;
+    padding-bottom: 15px;
 }
 .contact-details-lft-inner p {
     margin-bottom: 12px;
@@ -117,6 +107,16 @@
 .contact-form-fea-img img{
 	display: none;
 }
+.overlay-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(17,17,17,.75);
+    z-index: 8;
+/*    opacity: 0.5;*/
+}
 .contact-form-map {
     position: relative;
 }
@@ -124,7 +124,7 @@
     background: #fff;
     position: absolute;
     top: -55px;
-    z-index: 3;
+    z-index: 10;
     width: 100%;
     max-width: 300px;
     padding: 17px 22px 17px 22px;
@@ -491,4 +491,4 @@
     }
 }
 
-/*responsive-end*/
+/*responsive-end
