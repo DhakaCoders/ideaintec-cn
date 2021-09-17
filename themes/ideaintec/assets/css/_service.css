@@ -3,30 +3,82 @@
 }
 
 
-.iit-service-con-sec-inr{
-	display: flex;
-	align-items: center;
+
+.iit-service-grds > ul{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.iit-service-grds > ul > li{
+	float: left;
+	width: 33.3333%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background: linear-gradient( 
+236.41deg, #FFFFFF 3.15%, rgba(255, 255, 255, 0) 67.79%), #F4F4F4;
 }
 
-.iit-service-con-img{
-	width: 50%;
-}
-.iit-service-des{
-	width: 50%;
-	padding-left: 20px;
-}
-.iit-service-con-img img{
-	width: 100%;
+
+.iit-service-grd-item{
+	padding-left: 60px;
+	padding-bottom: 30px;
+	position: relative;
 }
 
-.iit-service-lftdes-rgt-img .iit-service-con-img{
-	order: 2;
+.iit-service-grd-item-img{
+	position: absolute;
+	left: 0;
+	top: 0;
 }
-.iit-service-lftdes-rgt-img .iit-service-des{
-	order: 1;
+.iit-service-grd-item-img img{
+	max-width: 45px;
+}
+
+.iit-service-grd-item-title{
+	margin: 0 0 25px;
+	padding-top: 15px;
+	text-transform: capitalize;
+}
+
+
+.iit-service-grd-item-des > a{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #000;
+	padding-left: 28px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.iit-service-grd-item-des > a:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 15px;
+	height: 1px;
+	background: #000;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	margin-top: -1px;
+}
+
+
+
+.iit-service-grd-item-des h5 a{
 	padding-left: 0;
-	padding-right: 20px;
+	color: #000;
 }
+.iit-service-grd-item-des h5 a:after{
+	content: none;
+}
+
 
 
 @media(max-width: 1399px){
@@ -35,13 +87,35 @@
 
 @media(max-width: 991px){
 
+	.iit-service-grds > ul > li{
+		width: 50%;
+	}
 }
 
 
 @media(max-width: 767px){
 
-	
-	
+	.iit-service-grds > ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.iit-service-grds > ul > li{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+	.iit-service-grd-item{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+	.iit-service-grd-item-title {
+	    margin: 0 0 15px;
+	    padding-top: 12px;
+	}
 }
 
 @media(max-width: 575px){
