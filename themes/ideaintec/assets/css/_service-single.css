@@ -201,23 +201,25 @@
 .iit-wyg-grds ul li:nth-child(3n+1){
 	clear: left;
 }
-.iit-wyg-hdr{
+.iit-wyg-hdr-cntlr{
+	display: flex;
+	align-items: center;
+}
+.iit-wyg-hdr-inr{
 	position: relative;
     padding: 0 0 20px 70px;
     border-bottom: 1px solid #d1dbde;
-    margin-bottom: 10px;
 }
 .iit-wyg-hdr i{
 	position: absolute;
     top: 0;
     left: 0;
-    font-size: 35px;
-    color: #2a6171;
 }
 .iit-wyg-title{
 	text-transform: uppercase;
-    color: #556063;
+    color: #000;
     letter-spacing: 1px;
+    margin-bottom: 0;
 }
 
 
