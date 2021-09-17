@@ -126,8 +126,8 @@
     top: -55px;
     z-index: 10;
     width: 100%;
-    max-width: 300px;
-    padding: 17px 22px 17px 22px;
+    max-width: 392px;
+    padding: 17px 22px;
     left: 50%;
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
