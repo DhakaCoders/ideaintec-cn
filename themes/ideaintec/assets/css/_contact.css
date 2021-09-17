@@ -25,11 +25,11 @@
     padding-bottom: 40px;
 }
 .contact-form-lft-con {
-    width: 52%;
+    width: 54%;
     padding-right: 90px;
 }
 .contact-form-rgt-con {
-    width: 48%;
+    width: 46%;
 }
 .contact-form-fea-img {
     position: relative;
@@ -73,7 +73,7 @@
     bottom: 0px;
     left: 0;
     width: 50px;
-    height: 3px;
+    height: 1px;
     background: #fff;
 }
 .cnt-details-sub-heading {
@@ -126,15 +126,16 @@
     top: -55px;
     z-index: 10;
     width: 100%;
-    max-width: 300px;
-    padding: 17px 22px 17px 22px;
+    max-width: 392px;
+    padding: 17px 22px;
     left: 50%;
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-#googlemap {
-    height: 405px;
+#googlemap,
+#mapID {
+    height: 360px;
     margin-top: 10px;
 }
 .wpforms-field-container{
@@ -240,13 +241,13 @@
     background: #ff9140;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 100%;
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
     cursor: pointer;
-    letter-spacing: 0.25px;
+    letter-spacing: 1px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:before{
     position: absolute;
@@ -286,6 +287,9 @@
 }
 .contact-form-top .sec-entry-hdr .sec-entry-heading-title h2{
 	margin-bottom: 0px;
+}
+.contact-form-top .sec-entry-hdr .sec-entry-hdr-des{
+    margin-bottom: 20px;
 }
 .contact-form-top .sec-entry-hdr{
 	padding-bottom: 0;
