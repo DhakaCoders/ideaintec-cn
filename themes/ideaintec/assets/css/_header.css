@@ -426,11 +426,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 
 
 
-.hdr-socials ul li a:hover {
-    background-color: #F8800B;
-    color: #fff;
-    border-color: #F8800B;
-}
+
 .hdr-socials ul li a i{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -489,6 +485,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 }
 .hdr-socials:after{
 	background: #5d9d32;
+}
+
+.hdr-socials ul li a:hover {
+    background-color: #5d9d32;
+    color: #fff;
+    border-color: #5d9d32;
 }
 
 
