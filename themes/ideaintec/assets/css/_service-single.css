@@ -201,17 +201,22 @@
 .iit-wyg-hdr-cntlr{
 	display: flex;
 	align-items: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d1dbde;
 }
-.iit-wyg-hdr-inr{
-	position: relative;
-    padding: 0 0 20px 70px;
-    border-bottom: 1px solid #d1dbde;
+.iit-wyg-hdr-img{
+	width: 30%;
+	padding-right: 20px;
 }
-.iit-wyg-hdr i{
-	position: absolute;
-    top: 0;
-    left: 0;
+.iit-wyg-hdr-title{
+	width: 70%;
 }
+.iit-wyg-hdr-img i{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
 .iit-wyg-title{
 	text-transform: uppercase;
     color: #000;
