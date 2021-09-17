@@ -18,6 +18,7 @@
 	width: 25%;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-bottom: 30px;
 }
 .iit-faq-tab ul li:last-child{
 	border-right: none;
@@ -66,7 +67,7 @@
 	content: "";
 	position: absolute;
 	top: 50%;
-	right: 25px;
+	right: 20px;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -93,4 +94,76 @@
     background-position: center center!important;
     height: 2px;
     width: 16px;
+}
+
+
+
+@media(max-width: 1699px){
+	.iit-faq-sec {
+	    padding: 70px 0 100px;
+	}
+	.iit-faq-ctlr {
+	    padding-top: 60px;
+	}
+	.iit-faq-tab {
+	    padding-bottom: 80px;
+	}
+	.iit-faq-tab-con-title {
+	    margin-bottom: 40px;
+	}
+}
+@media(max-width: 1399px){
+	.iit-faq-sec {
+	    padding: 60px 0 80px;
+	}
+	.iit-faq-ctlr {
+	    padding-top: 50px;
+	}
+	.iit-faq-tab {
+	    padding-bottom: 70px;
+	}
+	.iit-faq-tab-con-title {
+	    margin-bottom: 30px;
+	}
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.iit-faq-sec {
+	    padding: 50px 0 70px;
+	}
+	.iit-faq-ctlr {
+	    padding-top: 40px;
+	}
+	.iit-faq-tab {
+	    padding-bottom: 50px;
+	}
+	.iit-faq-tab-con-title {
+	    margin-bottom: 25px;
+	}
+	.iit-faq-tab ul li {
+	    width: 50%;
+	}
+}
+@media(max-width: 767px){
+
+}
+@media(max-width: 575px){
+	.iit-faq-tab {
+	    padding-bottom: 60px;
+	}
+	.iit-faq-tab ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.iit-faq-tab ul li {
+	    width: 100%;
+	    padding-bottom: 20px;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.iit-faq-tab {
+	    padding-bottom: 40px;
+	}
 }
