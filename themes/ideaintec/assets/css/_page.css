@@ -92,7 +92,7 @@
 	font-size: 12px;
 	text-transform: capitalize;
 	line-height: 1;
-	letter-spacing: 0.02em;
+	letter-spacing: 1px;
 	color: #fff;
 	opacity: 1;
 	transition: all 0.5s;
