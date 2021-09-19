@@ -113,8 +113,13 @@
 	padding-top: 68px;
 }
 
+.iit-service-col-heading{
+	position: relative;
+	margin-bottom: 30px;
+}
 .iit-service-col-des-title{
 	text-transform: capitalize;
+	margin-bottom: 0;
 }
 .iit-service-col-des p{
 	margin-bottom: 30px;
