@@ -441,18 +441,18 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 
 @media(max-width: 1199px){
 	.page-banner{
-		height: 250px;
+		height: 300px;
 	}
 }
 
 @media(max-width: 991px){
 	.page-banner {
-	    height: 220px;
+	    height: 270px;
 	}
 }
 @media(max-width: 767px){
 	.page-banner {
-	    height: 200px;
+	    height: 220px;
 	    display: block;
 	}
 	.page-bnr-des-inr{
