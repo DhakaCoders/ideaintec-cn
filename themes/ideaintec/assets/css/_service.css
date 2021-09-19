@@ -125,12 +125,18 @@
 	margin-bottom: 0;
 }
 .iit-service-col-des-con ul{
+	display: flex;
+	flex-wrap: wrap;
 	padding-bottom: 20px;
+}
+.iit-service-col-des-con ul li{
+	width: 50%;
+	padding-right: 10px;
 }
 .iit-service-col-des-con p{
 	margin-bottom: 30px;
 }
-.iit-service-col-des-con strong{
+.iit-service-col-des-con p strong{
 	display: block;
 	padding-bottom: 10px;
 }
