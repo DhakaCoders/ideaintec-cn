@@ -28,7 +28,13 @@
 	margin-top: -40px;
 	padding-left: 20px;
 }
-
+.about-overview-feature-con {
+   width: 100%;
+}
+ul.about-overview-feature{
+	display: flex;
+	flex-wrap: wrap;
+}
 ul.about-overview-feature{
 	margin: 0;
 	padding: 0;
@@ -36,7 +42,9 @@ ul.about-overview-feature{
 	padding-top: 50px;
 }
 ul.about-overview-feature li{
+	width: 33.333%;
 	padding-left: 50px;
+	padding-right: 10px;
 	position: relative;
 	padding-bottom: 10px;
 }
@@ -50,6 +58,20 @@ ul.about-overview-feature li strong {
     text-transform: capitalize;
     padding-bottom: 5px;
     display: block;
+    position: relative;
+    margin-bottom: 4px;
+}
+ul.about-overview-feature li strong:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 40px;
+    height: 1px;
+    background: #000;
+}
+ul.about-overview-feature li div p{
+	line-height: 1.3;
 }
 .ethics-cntlr-grid{
 	
