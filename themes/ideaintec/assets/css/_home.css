@@ -299,6 +299,12 @@ Our clints section
 	text-align: center;
 }
 
+.our-clints-item-cntlr:hover .our-clints-item a{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
 /**
 ---------------------
 Our services section
