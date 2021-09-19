@@ -293,7 +293,7 @@ Our clints section
 }
 .our-clints-item{
 	text-align: center;
-	
+	overflow: hidden;
 }
 .our-clints-item a{
 	display: inline-block;
