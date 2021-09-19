@@ -25,6 +25,7 @@
 	padding-left: 60px;
 	padding-bottom: 30px;
 	position: relative;
+	height: 100%;
 }
 
 .iit-service-grd-item-img{
@@ -45,7 +46,7 @@
 
 
 .iit-service-grd-item-des > a{
-	display: inline-block;
+	display: none;
 	vertical-align: baseline;
 	color: #000;
 	padding-left: 28px;
@@ -70,7 +71,34 @@
 	-ms-transition: all 0.3s ease;
 	margin-top: -1px;
 }
-
+.iit-service-grd-item > a{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #000;
+	padding-left: 28px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	position: absolute;
+	bottom: 0;
+}
+.iit-service-grd-item > a:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 15px;
+	height: 1px;
+	background: #000;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	margin-top: -1px;
+}
 
 
 .iit-service-grd-item-des h5 a{
@@ -128,7 +156,7 @@
 .iit-service-col-des-con ul{
 	display: flex;
 	flex-wrap: wrap;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 .iit-service-col-des-con ul li{
 	width: 50%;
