@@ -682,9 +682,8 @@ Our Features section
 .features-item-icon{
 	margin-bottom: 30px;
 }
-.features-item-icon img{
-	min-height: 44px;
-	width: auto;
+.features-item-icon i{
+	font-size: 35px;
 }
 .features-item-title{
 	margin-bottom: 30px;
