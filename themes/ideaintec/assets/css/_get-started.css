@@ -344,10 +344,11 @@ input[type="file"]:valid + .file-upload-success {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #fff;
     border: 1px solid #b5b5b5;
+    margin-top: -3px;
 }
 .checkmark:after{
     content: "";
@@ -362,10 +363,10 @@ input[type="file"]:valid + .file-upload-success {
 
 /* Style the checkmark/indicator */
 .filter-check-row .checkmark::after {
-	left: 8px;
+	left: 6px;
 	top: 2px;
-	width: 8px;
-	height: 15px;
+	width: 5px;
+	height: 12px;
 	border: solid #fff;
 	border-width: 0 2px 2px 0;
 	-webkit-transform: rotate(45deg);

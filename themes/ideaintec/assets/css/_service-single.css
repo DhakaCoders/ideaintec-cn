@@ -170,11 +170,11 @@
 	border-bottom: 1px solid #d1dbde;
 }
 .iit-wyg-hdr-img{
-	width: 30%;
-	padding-right: 20px;
+	width: 20%;
 }
 .iit-wyg-hdr-title{
-	width: 70%;
+	width: 80%;
+	padding-left: 10px;
 }
 .iit-wyg-hdr-img i{
 	display: inline-block;
