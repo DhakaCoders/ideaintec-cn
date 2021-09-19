@@ -153,9 +153,10 @@ ul.about-overview-feature li div p{
 .believe-in-tab ul{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 -10px;
-	margin-bottom: 30px!important;
+	/*margin-bottom: 30px!important;*/
 }
 .believe-in-tab ul li{
 	padding: 0 10px;
@@ -164,28 +165,16 @@ ul.about-overview-feature li div p{
 .believe-in-tab ul li a{
 	font-size: 18px;
 	text-decoration: none;
-	border-bottom: 2px solid transparent;
+	border-bottom: 1px solid transparent;
 	color: inherit;
-	padding-bottom: 15px;
-	position: relative;
+	padding-bottom: 8px;
 }
 .believe-in-tab ul li a:hover{
 	color: #ff9140;
 }
 .believe-in-tab ul li a.ui-tabs-active{
 	color: #ff9140;
-	/*border-color: #ff9140;*/
-}
-.believe-in-tab ul li a.ui-tabs-active:after{
-	position: absolute;
-	content: "";
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px solid #000;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-
+	border-color: #ff9140;
 }
 
 
@@ -197,7 +186,8 @@ ul.about-overview-feature li div p{
 	display: block;
 }
 .believe-in-tab-des-bx {
-    border: 1px solid #fbfbfb;
+    border: 1px solid #ddd;
+    background: #fbfbfb;
     padding: 0px 15px;
     padding-top: 20px;
     padding-bottom: 10px;
