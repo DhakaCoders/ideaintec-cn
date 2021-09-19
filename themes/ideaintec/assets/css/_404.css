@@ -40,7 +40,7 @@
     width: 27px;
     height: 27px;
     border-radius: 3px;
-    background-color: #f8f8f8;
+    background-color: #fbfbfb;
     position: absolute;
     margin-top: 182px;
     transform: translate(0px, 5px) rotate(45deg);
@@ -145,12 +145,6 @@
   font-family: sans-serif;
 }
 
-
-
-
-.page-404-sec {
-    background-color: #f8f8f8;
-}
 .page-404-btn {
     padding-top: 20px;
     padding-bottom: 20px;
