@@ -91,10 +91,6 @@
 	width: 50%;
 	padding-left: 40px;
 }
-.iit-service-col-img img{
-	width: 100%;
-}
-
 .iit-service-row-lftdes-rgtimg .iit-service-col-lft{
 	order: 2;
 }
@@ -107,10 +103,13 @@
 	display: inline-block;
 	vertical-align: baseline;
 	padding-right: 20px;
+	font-size: 35px;
 }
 
 .iit-service-col-img{
 	padding-top: 68px;
+	display: flex;
+    justify-content: center;
 }
 
 
