@@ -112,7 +112,7 @@
 .iit-ssbc-form-submit-btn{
 	text-align: center;
 }
-.iit-ssbc-form-submit-btn input[type="submit"]{
+/*.iit-ssbc-form-submit-btn input[type="submit"]{
 	display: inline-block;
     vertical-align: baseline;
     max-width: 210px;
@@ -132,12 +132,20 @@
     overflow: hidden;
     padding-top: 16px;
     cursor: pointer;
-}
-.iit-ssbc-form-submit-btn input[type="submit"]:hover{
+}*/
+/*.iit-ssbc-form-submit-btn input[type="submit"]:hover{
 	background: #5d9d32;
 	border-color: #5d9d32;
-}
+}*/
 
+.iit-ssbc-form-submit-btn input[type="submit"]{
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	cursor: pointer;
+	height: 46px;
+	padding: 14px 0 10px;
+}
 
 
 .iit-wyg-grds ul{
@@ -249,7 +257,7 @@
 	color: #fff;
 	margin-bottom: 0;
 }
-.iit-promo-btn a{
+/*.iit-promo-btn a{
     background: transparent;
     color: #fff;
     font-size: 14px;
@@ -260,8 +268,8 @@
     border: 2px solid #fff;
     border-radius: 30px;
     text-transform: capitalize;
-}
-.iit-promo-btn a:hover{
+}*/
+/*.iit-promo-btn a:hover{
 	background: #ff9140;
 	border-color: #ff9140;
-}
+}*/
