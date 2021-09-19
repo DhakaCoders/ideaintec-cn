@@ -119,10 +119,9 @@
 
 
 
-.info-img h6 {
+.info-img strong{
 	margin-left: -70px;
 	color: #000;
-	text-transform: capitalize;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;

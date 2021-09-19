@@ -113,7 +113,7 @@ nav.main-nav ul li.current-menu-item a{
 .our-works-grd-item-inr:hover span{
     margin-left: 0px;
 }
-.our-works-grd-item-inr .overlay h6:hover {
+.our-works-grd-item-inr .overlay strong:hover {
     color: #ff9140;
 }
 .info-img span:hover{
@@ -122,7 +122,7 @@ nav.main-nav ul li.current-menu-item a{
 .info-img span:hover:before{
     background: #ff9140;
 }
-.our-works-grd-item-inr:hover .overlay h6 {
+.our-works-grd-item-inr:hover .overlay strong{
     margin-left: 0px;
 }
 .blog-grd-item:hover .blog-grd-item-img img {
