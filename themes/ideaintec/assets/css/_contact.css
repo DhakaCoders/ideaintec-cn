@@ -128,6 +128,13 @@
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    margin-left: 5px;
+}
+.map-dsc span a{
+    color: #000;
+}
+.map-dsc span a:hover{
+    color: #F8800B;
 }
 #googlemap,
 #mapID {
