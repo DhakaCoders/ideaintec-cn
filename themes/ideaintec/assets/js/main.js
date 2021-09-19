@@ -101,8 +101,8 @@ $(window).scroll(function() {
 });
 
 
-if($('.fancybox').length){
-$('.fancybox').fancybox({
+if($('[data-fancybox="gallery"]').length){
+$('[data-fancybox="gallery"]').fancybox({
     //openEffect  : 'none',
     //closeEffect : 'none'
   });
