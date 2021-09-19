@@ -29,7 +29,7 @@
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
-	z-index: 12;
+
 }
 
 .pgrd-item-img{
@@ -42,12 +42,12 @@
 
 
 
-.our-works-grd-item-inr a.pgrd-item-icon-img{
+.our-works-grd-item-overlay{
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
+	top: 25px;
+	left: 25px;
+	right: 25px;
+	bottom: 25px;
 	padding: 30px;
 	background: rgba(255, 255, 255, 0.98);
 	opacity: 0;
@@ -56,6 +56,12 @@
 	-moz-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
 	text-decoration: none;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	z-index: 11;
 }
 
 
@@ -68,7 +74,7 @@
 	height: 40px;
 	width: 40px;
 	background: #f9f9f9;
-	color: #2a6171;
+	color: #000;
 	line-height: 40px;
 	font-size: 20px;
 	text-align: center;
@@ -80,6 +86,7 @@
 	transition: 0.4s ease-in-out;
 	opacity: 0;
 	visibility: hidden;
+	z-index: 11;
 }
 .pgrd-item-icon-img .icon-img i{
 	color: #000;
@@ -92,6 +99,7 @@
 	bottom: 50px;
 	left: 30px;
 	opacity: 0;
+	z-index: 11;
 }
 
 .info-img span a{
