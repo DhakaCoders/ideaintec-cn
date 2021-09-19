@@ -184,6 +184,11 @@ ul.about-overview-feature li div p{
 .believe-in-tab-des.believe-tab-active{
 	display: block;
 }
+.believe-in-tab-des-bx {
+    border: 1px solid;
+    padding: 0px 8px;
+    padding-top: 20px;
+}
 .believe-in-tab-des i{
 	margin-bottom: 30px;
 	display: block;
