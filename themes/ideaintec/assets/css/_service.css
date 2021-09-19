@@ -124,8 +124,15 @@
 	text-transform: capitalize;
 	margin-bottom: 0;
 }
-.iit-service-col-des p{
+.iit-service-col-des-con ul{
+	padding-bottom: 20px;
+}
+.iit-service-col-des-con p{
 	margin-bottom: 30px;
+}
+.iit-service-col-des-con strong{
+	display: block;
+	padding-bottom: 10px;
 }
 .iit-service-col-des-title a{
 	color: #000;
