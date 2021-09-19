@@ -39,7 +39,7 @@ ul.about-overview-feature{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	padding-top: 50px;
+	padding-top: 0;
 }
 ul.about-overview-feature li{
 	width: 33.333%;
