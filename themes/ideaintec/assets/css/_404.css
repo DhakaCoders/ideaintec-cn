@@ -144,7 +144,9 @@
   font-weight: 900;
   font-family: sans-serif;
 }
-
+.page-404-sec.section {
+    padding-top: 0;
+}
 .page-404-btn {
     padding-top: 20px;
     padding-bottom: 20px;
