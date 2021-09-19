@@ -1323,22 +1323,22 @@ home about us sec
 /*.hm-abt-us-sub-heading{
 	font-weight: 500;
 }*/
-.hm-about-us-lft-inr p{
+.hm-about-us-lft-con p{
 	font-size: 16px;
 }
-.hm-about-us-lft-inr ul li {
+.hm-about-us-lft-con ul li {
     font-weight: 500;
     font-size: 16px;
     position: relative;
     padding: 4px 0 6px 25px;
     text-align: left;
 }
-.hm-about-us-lft-inr ul{
+.hm-about-us-lft-con ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.hm-about-us-lft-inr ul li:after {
+.hm-about-us-lft-con ul li:after {
     border: 2px solid #f7f9f8;
     border-radius: 100%;
     content: "";
@@ -1348,7 +1348,7 @@ home about us sec
     top: 6px;
     width: 11px;
 }
-.hm-about-us-lft-inr ul li:before {
+.hm-about-us-lft-con ul li:before {
     position: absolute;
     content: '';
     width: 13px;
@@ -1358,7 +1358,7 @@ home about us sec
     background-color: #000;
     top: -1px;
 }
-.hm-about-us-lft-inr .view-more-btn{
+.hm-about-us-lft-con .view-more-btn{
 	text-align: left;
 }
 .hm-about-us-rgt-cntlr{
