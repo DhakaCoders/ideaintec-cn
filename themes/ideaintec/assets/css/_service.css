@@ -114,7 +114,7 @@
 }
 
 .iit-service-col-des-title{
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .iit-service-col-des p{
 	margin-bottom: 30px;

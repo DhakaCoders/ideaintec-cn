@@ -293,10 +293,17 @@ Our clints section
 }
 .our-clints-item{
 	text-align: center;
+	overflow: hidden;
 }
 .our-clints-item a{
 	display: inline-block;
 	text-align: center;
+}
+
+.our-clints-item-cntlr:hover .our-clints-item a{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 /**

@@ -70,10 +70,10 @@
 .ftr-desc p:last-of-type{
 	margin-bottom: 0;
 }
-.ftr-search{
+.newsletter-form{
 	position: relative;
 }
-.ftr-search input{
+.newsletter-form input{
 	width: 100%;
 	border-radius: 30px;
 	padding: 10px 15px;
@@ -84,30 +84,30 @@
 	-webkit-transition: all 0.5s;
 	font-size: 14px;
 }
-.ftr-search input:focus{
+.newsletter-form input:focus{
 	border-color: #333;
 }
 
 
 
 
-.ftr-search input::-webkit-input-placeholder { 
+.newsletter-form input::-webkit-input-placeholder { 
   color: inherit;
   opacity: 1;
 }
-.ftr-search input::-moz-placeholder {
+.newsletter-form input::-moz-placeholder {
   color: inherit;
   opacity: 1;
 }
-.ftr-search input:-ms-input-placeholder { 
+.newsletter-form input:-ms-input-placeholder { 
   color: inherit;
   opacity: 1;
 }
-.ftr-search input:-moz-placeholder { 
+.newsletter-form input:-moz-placeholder { 
   opacity: 1;
 }
 
-.ftr-search button{
+.newsletter-form button{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -122,7 +122,7 @@
 	background: #ff9140;
 	color: #fff;
 }
-.ftr-search button:hover{
+.newsletter-form button:hover{
 	background: #5EAD46;
 	color: #fff;
 }
