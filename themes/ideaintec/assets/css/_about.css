@@ -46,8 +46,10 @@ ul.about-overview-feature li i {
 	left: 0;
 	top: 3px;
 }
-ul.about-overview-feature li strong{
-	text-transform: uppercase;
+ul.about-overview-feature li strong {
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    display: block;
 }
 .ethics-cntlr-grid{
 	
