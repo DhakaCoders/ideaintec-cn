@@ -166,14 +166,26 @@ ul.about-overview-feature li div p{
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 	color: inherit;
-	padding-bottom: 4px;
+	padding-bottom: 15px;
+	position: relative;
 }
 .believe-in-tab ul li a:hover{
 	color: #ff9140;
 }
 .believe-in-tab ul li a.ui-tabs-active{
 	color: #ff9140;
-	border-color: #ff9140;
+	/*border-color: #ff9140;*/
+}
+.believe-in-tab ul li a.ui-tabs-active:after{
+	position: absolute;
+	content: "";
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #000;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
 }
 
 
@@ -185,9 +197,10 @@ ul.about-overview-feature li div p{
 	display: block;
 }
 .believe-in-tab-des-bx {
-    border: 1px solid;
-    padding: 0px 8px;
+    border: 1px solid #fbfbfb;
+    padding: 0px 15px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 .believe-in-tab-des i{
 	margin-bottom: 30px;
