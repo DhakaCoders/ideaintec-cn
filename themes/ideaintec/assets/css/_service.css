@@ -106,16 +106,19 @@
 .iit-service-col-des i{
 	display: inline-block;
 	vertical-align: baseline;
-	padding-bottom: 20px;
+	padding-right: 20px;
 }
 
 .iit-service-col-img{
 	padding-top: 68px;
 }
 
+
 .iit-service-col-heading{
 	position: relative;
 	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
 }
 .iit-service-col-des-title{
 	text-transform: capitalize;
