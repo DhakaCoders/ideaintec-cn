@@ -104,25 +104,30 @@ nav.main-nav ul li.current-menu-item a{
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
-.our-works-grd-item-inr:hover a.overlay{
+
+.our-works-grd-item-inr:hover .info-img{
+    opacity: 1;
+}
+.our-works-grd-item-inr:hover .pgrd-item-icon-img{
     opacity: 1;
     visibility: visible;
     -moz-transform: scale(1, 1);
     transform: scale(1, 1);
 }
-.our-works-grd-item-inr:hover span{
+.our-works-grd-item-inr:hover .info-img span a{
     margin-left: 0px;
 }
-.our-works-grd-item-inr .overlay strong:hover {
+.our-works-grd-item-inr .info-img strong a:hover {
     color: #ff9140;
 }
-.info-img span:hover{
+
+.info-img span a:hover{
     color: #ff9140;
 }
-.info-img span:hover:before{
+.info-img span a:hover:before{
     background: #ff9140;
 }
-.our-works-grd-item-inr:hover .overlay strong{
+.our-works-grd-item-inr:hover .info-img strong a{
     margin-left: 0px;
 }
 .blog-grd-item:hover .blog-grd-item-img img {

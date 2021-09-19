@@ -29,6 +29,7 @@
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
+	z-index: 12;
 }
 
 .pgrd-item-img{
@@ -41,7 +42,7 @@
 
 
 
-.our-works-grd-item-inr a.overlay{
+.our-works-grd-item-inr a.pgrd-item-icon-img{
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -59,7 +60,7 @@
 
 
 
-.overlay .icon-img {
+.pgrd-item-icon-img {
 	position: absolute;
 	right: 30px;
 	top: 50px;
@@ -72,8 +73,15 @@
 	font-size: 20px;
 	text-align: center;
 	border-radius: 2px;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
 }
-.overlay .icon-img i{
+.pgrd-item-icon-img .icon-img i{
 	color: #000;
 }
 
@@ -83,9 +91,10 @@
 	z-index: 33;
 	bottom: 50px;
 	left: 30px;
+	opacity: 0;
 }
 
-.info-img span {
+.info-img span a{
 	margin-left: 50px;
 	margin-bottom: 10px;
 	color: #000;
@@ -102,8 +111,12 @@
 	-o-transition: 0.4s ease-in-out;
 	transition: 0.4s ease-in-out;
 }
+/*.info-img span a{
+	color: #000;
+	position: relative;
+}*/
 
-.info-img span::before {
+.info-img span a::before {
 	content: " ";
 	display: block;
 	background: #000;
@@ -119,7 +132,7 @@
 
 
 
-.info-img strong{
+.info-img strong a{
 	margin-left: -70px;
 	color: #000;
 	font-size: 12px;
