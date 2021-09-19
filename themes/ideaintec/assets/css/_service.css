@@ -29,7 +29,7 @@
 .iit-service-grd-item-img{
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 9px;
 }
 .iit-service-grd-item-img i{
 	display: inline-block;
