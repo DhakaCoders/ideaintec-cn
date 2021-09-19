@@ -84,7 +84,7 @@
 
 
 
-.blog-sec .load-more-btn a.fl-button{
+.blog-sec .view-more-btn a.fl-button{
 	position: relative;
 	z-index: 4;
 }
@@ -140,7 +140,7 @@
 
 
 @media(max-width: 1399px){
-	.load-more-btn{
+	.view-more-btn{
 		padding-top: 20px;
 	}
 }
@@ -191,10 +191,10 @@
 	    position: initial;
 	    top: initial;
 	}
-	.load-more-btn{
+	.view-more-btn{
 		padding-bottom: 20px;
 	}
-	.blog-sec .load-more-btn .fl-button{
+	.blog-sec .view-more-btn .fl-button{
 		width: 100%;
 	}
 }

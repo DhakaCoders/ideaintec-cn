@@ -293,7 +293,7 @@
 }
 
 @media(max-width: 479px){
-	.our-works-sec .load-more-btn .fl-button{
+	.our-works-sec .view-more-btn .fl-button{
 		width: 100%;
 	}
 }
