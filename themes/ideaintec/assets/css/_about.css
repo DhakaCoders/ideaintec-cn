@@ -56,10 +56,10 @@ ul.about-overview-feature li i {
 }
 ul.about-overview-feature li strong {
     text-transform: capitalize;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     display: block;
     position: relative;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 ul.about-overview-feature li strong:after{
     content: "";
