@@ -231,6 +231,7 @@
 	margin-bottom: 25px;
 	color: #fff;
 	text-align: center;
+
 }
 .hm-bnr-desc p{
 	font-size: 24px;
@@ -244,13 +245,7 @@
 }
 .hm-bnr-desc{
 	color: #fff;
-	/*padding-top: 100px;*/
 	text-align: center;
-}
-.hm-bnr-desc h1{
-	margin: 0;
-	padding-bottom: 15px;
-	text-transform: capitalize;
 }
 
 .hdr-btn{
@@ -1367,6 +1362,9 @@ home about us sec
 }
 .hm-about-us-rgt-cntlr{
 	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
 }
 .hm-about-us-img-one img,
 .hm-about-us-img-two img{
@@ -1380,7 +1378,89 @@ home about us sec
     z-index: 1;
 }
 .hm-about-us-img-two {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     right: 0;
+}
+
+
+/*responsive*/
+@media(max-width: 1699px){
+	/*hm banner*/
+
+
+
+
+}
+@media(max-width: 1399px){
+	/*hm banner*/
+
+
+
+
+}
+@media(max-width: 1199px){
+	/*hm banner*/
+
+
+	.hm-about-us-lft{
+		width: 40%;
+	}
+	.hm-about-us-rgt{
+		width: 60%;
+	}
+
+}
+@media(max-width: 991px){
+	/*hm banner*/
+
+
+	.hm-about-us-lft{
+		width: 45%;
+	}
+	.hm-about-us-rgt{
+		width: 55%;
+	}
+
+}
+@media(max-width: 767px){
+	/*hm banner*/
+	.hm-banner-cntlr{
+		height: 550px;
+	}
+
+	.hm-about-us-cntlr{
+		margin: 0;
+	}
+	.hm-about-us-rgt{
+		padding: 0;
+		order: 1;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.hm-about-us-lft{
+		padding: 0;
+		order: 2;
+		width: 100%;
+		
+	}
+
+
+}
+@media(max-width: 639px){
+	/*hm banner*/
+
+
+
+
+
+}
+@media(max-width: 575px){
+	/*hm banner*/
+	.fl-h1.hm-bnr-title-2,
+	.hm-bnr-title.fl-h1{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
 }
