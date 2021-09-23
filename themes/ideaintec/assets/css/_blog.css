@@ -2,9 +2,12 @@
 .blog-grds ul{
 	margin-left: -15px;
 	margin-right: -15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .blog-grds ul li{
-	float: left;
 	width: 33.3333%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -39,7 +42,7 @@
 	height: 50px;
 	line-height: 20px;
 	text-align: center;
-	background-color: #0c224b;
+	background-color: #000;
 	color: #fff;
 	padding: 5px;
 	transform: rotate(45deg);
@@ -77,6 +80,9 @@
 	transition: all 0.3s ease-in-out;
 }
 
+.blog-grd-item-title a{
+	color: #000;
+}
 .blog-grd-item a{
 	display: inline-block;
 	vertical-align: baseline;
