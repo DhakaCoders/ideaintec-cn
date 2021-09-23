@@ -54,6 +54,7 @@
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
+	margin-top: auto;
 }
 .iit-service-grd-item-des > a:after{
 	content: "";
@@ -99,7 +100,12 @@
 	-ms-transition: all 0.3s ease;
 	margin-top: -1px;
 }
-
+.iit-service-grd-item-des {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
 
 .iit-service-grd-item-des h5 a{
 	padding-left: 0;
