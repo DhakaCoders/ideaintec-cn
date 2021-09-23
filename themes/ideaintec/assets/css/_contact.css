@@ -483,10 +483,6 @@
 }
 
 /*responsive-start*/
-
-@media (max-width: 1499px){
-
-}
 @media (max-width: 1399px){
     .contact-form-lft-con{
         padding-right: 60px;
