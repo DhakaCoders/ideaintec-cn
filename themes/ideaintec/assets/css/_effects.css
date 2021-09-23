@@ -153,3 +153,20 @@ nav.main-nav ul li.current-menu-item a{
 
 
 /*start of Keshob*/
+
+
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover:before {
+    opacity: 1;
+    animation: circle .75s;
+    -webkit-animation: circle .75s;
+    -ms-animation: circle .75s;
+    -o-animation: circle .75s;
+}
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:hover {
+    color: #fff;
+    background: #5EAD46;
+    /*border-color: #5EAD46;*/
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
