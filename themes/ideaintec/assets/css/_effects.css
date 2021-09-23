@@ -85,10 +85,12 @@ nav.main-nav ul li.current-menu-item a{
     color: #fff;
     opacity: 0.7;
 }
+.iit-service-grd-item > a:hover,
 .iit-service-grd-item-des > a:hover{
     padding-left: 38px;
     letter-spacing: 1px;
 }
+.iit-service-grd-item > a:hover:after,
 .iit-service-grd-item-des > a:hover:after{
     width: 25px;
 }
