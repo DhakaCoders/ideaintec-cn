@@ -456,15 +456,11 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	    display: block;
 	}
 	.page-bnr-des-inr{
-		display: block;
+		display: inline-block;
 		padding-top: 85px;
 	}
 	.breadcrumb-cntlr{
 		margin-left: initial;
-		max-width: 165px;
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	.breadcrumb-cntlr ul{
 		display: block;
