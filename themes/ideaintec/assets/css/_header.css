@@ -751,6 +751,18 @@ body.allWork {
 	.logo a{
 		max-width: 170px;
 	}
+	nav.main-nav > ul{
+		margin: 0 -8px;
+	}
+	nav.main-nav > ul > li{
+		padding: 0 8px;
+	}
+	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
+		padding-left: 8px;
+	}
+	nav.main-nav > ul > li > a{
+		font-size: 14px;
+	}
 }
 @media(max-width: 767px){
 	.sticky-hdr{
@@ -760,7 +772,12 @@ body.allWork {
 	.logo a{
 		max-width: 160px;
 	}
-
+	.hdr-topbar{
+		display: none;
+	}
+	.header-sticky .sticky-hdr{
+		padding: 10px 0;
+	}
 
 	nav.main-nav > ul {
 		padding: 0;
@@ -820,6 +837,12 @@ body.allWork {
 		border-top: 1px solid rgba(0,0,0,0.10);
 		border-bottom: 1px solid rgba(0,0,0,0.10);
 		padding: 12px 20px 12px 40px;
+	}
+	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu{
+		padding-top: 0;
+	}
+	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu:before{
+		content: none;
 	}
 	/*nav.main-nav > ul > li.menu-item-has-children > a:before {
 		content: "";
