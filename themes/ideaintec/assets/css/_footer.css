@@ -119,7 +119,6 @@
 	width: 38px;
 	cursor: pointer;
 	border-radius: 50%;
-	background: #ff9140;
 	color: #fff;
 }
 .newsletter-form button:hover{
@@ -174,11 +173,7 @@
 	left: 5px;
 
 }
-.ftr-col-menu ul li a:hover:after{
-	color: #F7961E;
-}
 .ftr-col-menu ul li a:hover{
-	color: #F7961E;
 	padding-left: 20px;
 }
 
@@ -217,9 +212,6 @@
 }
 .ftr-details-col a:last-of-type{
 	margin-bottom: 0;
-}
-.ftr-details-col a:hover{
-	color: #ff9140;
 }
 .ftr-btm{
 	display: flex;

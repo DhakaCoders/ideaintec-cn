@@ -42,14 +42,16 @@
 	text-transform: capitalize;
 }
 .sitemap ol li{
-	padding-left: 5px;
+	padding-left: 25px;
 	padding-bottom: 10px;
 }
 
 .sitemap ol li a:focus{
 	text-decoration: underline;
 }
-
+.sitemap ol li:before{
+	margin-top:3px;
+}
 
 
 /*breadcrumb*/

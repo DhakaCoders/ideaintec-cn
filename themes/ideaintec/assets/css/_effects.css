@@ -34,6 +34,47 @@ nav.main-nav ul li a,
     text-decoration: none;
 }
 
+/* all hover color */
+
+.hdr-details-col a:hover i,
+.hdr-details-col a:hover,
+nav.main-nav > ul > li.menu-item-has-children:hover > a:before,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover,
+nav.main-nav > ul > li.menu-item-has-children:hover a,
+nav.main-nav > ul > li > a:hover,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover a,
+.iit-service-grd-item-des h5 a:hover,
+.info-img span a:hover,
+.our-works-grd-item .info-img strong a:hover,
+.ftr-col-menu ul li a:hover,
+.ftr-col-menu ul li a:hover:after,
+.ftr-details-col a:hover{
+    color: #F8800B;
+}
+
+
+/* hover background color */
+
+nav.main-nav > ul > li > a:after,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after,
+.info-img span a:hover:before,
+.newsletter-form button{
+    background: #F8800B;
+}
+
+/* all background color */
+
+
+
+
+
+
+
+
+
+
+
+
 .fl-button {
     position: relative;
     display: block;
@@ -97,7 +138,6 @@ nav.main-nav ul li.current-menu-item a{
 .iit-service-grd-item-des h5 a:hover{
     padding-left: 0;
     letter-spacing: initial;
-    color: #ff9140;
 }
 .our-works-grd-item:hover .pgrd-item-img img{
     -webkit-transform: scale(1.1);
@@ -118,16 +158,6 @@ nav.main-nav ul li.current-menu-item a{
 }
 .our-works-grd-item:hover .info-img span a{
     margin-left: 0px;
-}
-.our-works-grd-item .info-img strong a:hover {
-    color: #ff9140;
-}
-
-.info-img span a:hover{
-    color: #ff9140;
-}
-.info-img span a:hover:before{
-    background: #ff9140;
 }
 .our-works-grd-item:hover .info-img strong a{
     margin-left: 0px;
@@ -170,3 +200,6 @@ nav.main-nav ul li.current-menu-item a{
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+
+
+
