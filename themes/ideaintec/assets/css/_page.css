@@ -120,12 +120,6 @@
 }
 
 
-.breadcrumb-cntlr ul li a:hover, 
-.breadcrumb-cntlr ul li span:hover, 
-.breadcrumb-cntlr ul li a span:hover {
-    color: #ff9140;
-}
-
 
 
 /*pagination*/
@@ -186,7 +180,6 @@
 	font-weight: 700;
 	letter-spacing: -0.02em;
 	line-height: 1.3;
-	color: #ff9140;
 }
 .fl-pagination-ctlr ul li span.current,
 .fl-pagination-ctlr ul li a:hover{

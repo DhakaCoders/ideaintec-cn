@@ -280,7 +280,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
     line-height: 1;
     display: block;
     position: relative;
-   border-bottom: 1px solid #F7961E;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
     display: block;
@@ -325,7 +326,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     bottom: 0;
     width: 2px;
     height: 0;
-    background: #F7961E;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -346,7 +346,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 
 
 #toTop{
-	background:#ff9140;
 	width: 40px;
 	height: 40px;
 	border-radius: 50% 50%;

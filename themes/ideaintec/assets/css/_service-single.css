@@ -102,9 +102,6 @@
 	color: #000;
 	font-weight: 500;
 }
-.iit-ssbc-form .filter-check-row label a:hover{
-	color: #f8800b;
-}
 
 .iit-ssbc-form-submit-btn{
 	text-align: center;
@@ -234,7 +231,6 @@
 .iit-testi-rating i{
 	display: inline-block;
 	vertical-align: baseline;
-	color: #ff9140;
 }
 .iit-testi-blockquote:after{
 	content: "\f10d";

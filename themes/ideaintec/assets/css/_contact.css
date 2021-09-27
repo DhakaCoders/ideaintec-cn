@@ -137,9 +137,6 @@
 .map-dsc span a{
     color: #000;
 }
-.map-dsc span a:hover{
-    color: #F8800B;
-}
 #googlemap,
 #mapID {
     height: 360px;

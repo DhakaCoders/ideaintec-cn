@@ -420,9 +420,7 @@ ul.filter-check-row-wrp li{
 }
 .iit-form-fields-tabs > ul > li a:hover,
 .iit-form-fields-tabs > ul > li a.ui-tabs-active{
-	background: #ff9140;
 	color: #fff;
-	border-color: #ff9140;
 }
 
 .privacy-policy-link a{

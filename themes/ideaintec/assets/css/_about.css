@@ -17,7 +17,6 @@
   text-align: justify;
 }
 .about-overview-con p:first-letter{
-  color: #ff9140;
   float: left;
   font-size: 60px;
   line-height: 1;
@@ -98,8 +97,10 @@ ul.about-overview-feature li div p{
 	padding: 40px 20px;
 	border-bottom: 4px solid #0c224b;
 }
-.ethics-cntlr-grid ul li:nth-child(2) .ethics-item{
-	border-bottom: 4px solid #F8800B;
+.ethics-cntlr-grid ul li:nth-child(2) .ethics-item,
+.philosophy-grid ul li:nth-child(2) .philosophy-item{
+	border-bottom-width:4px;
+	border-bottom-style:solid;
 }
 .ethics-cntlr-grid ul li:nth-child(3) .ethics-item{
 	border-bottom: 4px solid #5d9d32;
@@ -118,9 +119,6 @@ ul.about-overview-feature li div p{
 .ethics-item-title.fl-h6 a{
 	display: inline-block;
 	color: inherit;
-}
-.ethics-item-title.fl-h6 a:hover{
-	color: #ff9140;
 }
 .ethics-item-desc p:last-of-type{
 	margin-bottom: 0;
@@ -170,15 +168,6 @@ ul.about-overview-feature li div p{
 	color: inherit;
 	padding-bottom: 8px;
 }
-.believe-in-tab ul li a:hover{
-	color: #ff9140;
-}
-.believe-in-tab ul li a.ui-tabs-active{
-	color: #ff9140;
-	border-color: #ff9140;
-}
-
-
 .believe-in-tab-des{
 	text-align: center;
 	display: none;
@@ -220,9 +209,7 @@ ul.about-overview-feature li div p{
 	padding: 40px 20px;
 	border-bottom: 4px solid #0c224b;
 }
-.philosophy-grid ul li:nth-child(2) .philosophy-item{
-	border-bottom: 4px solid #F8800B;
-}
+
 .philosophy-grid ul li:nth-child(3) .philosophy-item{
 	border-bottom: 4px solid #5d9d32;
 }
@@ -240,9 +227,6 @@ ul.about-overview-feature li div p{
 .philosophy-item-title.fl-h6 a{
 	display: inline-block;
 	color: inherit;
-}
-.philosophy-item-title.fl-h6 a:hover{
-	color: #ff9140;
 }
 .philosophy-item-desc p:last-of-type{
 	margin-bottom: 0;

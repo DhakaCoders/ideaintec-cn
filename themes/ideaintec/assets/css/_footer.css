@@ -190,7 +190,6 @@
 	-webkit-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	left: 0;
-	color: #ff9140;
 	font-size: 20px;
 	height: 35px;
 	width: 35px;
@@ -252,9 +251,7 @@
 	-webkit-transition: all 0s;
 }
 .ftr-socials ul li a:hover{
-	background-color: #F8800B;
  	color: #fff;
- 	border-color: #F8800B;
 }
 .ftr-socials {
     padding-top: 20px;
