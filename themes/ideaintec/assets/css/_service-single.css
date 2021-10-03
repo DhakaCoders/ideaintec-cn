@@ -159,11 +159,12 @@
 }
 
 .iit-wyg-grds ul{
+	display: flex;
+	flex-wrap: wrap;
 	margin-left: -15px;
 	margin-right: -15px;
 }
 .iit-wyg-grds ul li{
-	float: left;
 	width: 33.3333%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -197,15 +198,16 @@
     letter-spacing: 1px;
     margin-bottom: 0;
 }
-
+.service-single-ctlr .iit-faq-accordion-des{
+	display: flex;
+}
 .iit-testi-info{
-	float: left;
 	width: 30%;
 	position: relative;
     padding-left: 50px;
+    padding-right: 20px;
 }
 .iit-testi-blockquote{
-	float: left;
 	width: 70%;
     padding-left: 45px;
     padding-right: 70px;
@@ -258,10 +260,17 @@
 	margin-bottom: 0;
 }
 
-
+@media(max-width: 1699px){
+	.iit-testi-blockquote{
+		padding-right: 50px;
+	}
+}
 @media(max-width: 1199px){
 	.iit-ssbc-des {
 	    padding-left: 40px;
+	}
+	.iit-testi-info > i{
+		font-size: 35px;
 	}
 }
 @media(max-width: 991px){
@@ -269,6 +278,74 @@
 		padding: 25px 20px;
 	}
 	.iit-ssbc-des {
-	    padding-left: 40px;
+	    padding-left: 30px;
+	}
+	.iit-testi-info{
+		width: 35%;
+	}
+	.iit-testi-blockquote {
+	    padding-right: 30px;
+	    width: 65%;
+	}
+}
+@media(max-width: 767px){
+	.iit-service-single-bnr-con-inr {
+	    display: block;
+	}
+	.iit-ssbc-form{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.iit-ssbc-des {
+	    padding-left: 0;
+	    width: 100%;
+	}
+	.iit-wyg-grds ul li{
+		width: 50%;
+	}
+	.iit-wyg-grds ul li:nth-child(3n+1) {
+	    clear: none;
+	}
+	.iit-wyg-grds ul li:nth-child(2n+1) {
+	    clear: left;
+	}
+	.service-single-ctlr .iit-faq-accordion-des {
+	    display: block;
+	}
+	.iit-testi-info {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.iit-testi-blockquote {
+	    padding-right: 0;
+	    width: 100%;
+	}
+}
+
+@media(max-width: 575px){
+	.input-field-row {
+	    padding-bottom: 20px;
+	}
+	.iit-wyg-grds ul {
+	    display: block;
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.iit-wyg-grds ul li:nth-child(2n+1) {
+	    clear: none;
+	}
+	.iit-wyg-grds ul li {
+	    width: 100%;
+	    padding-left: 0;
+   		padding-right: 0;
+	}
+	.iit-wyg-item{
+		max-width:350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.iit-testi-info > i {
+	    font-size: 30px;
 	}
 }
