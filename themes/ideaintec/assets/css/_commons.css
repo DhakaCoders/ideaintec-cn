@@ -36,6 +36,12 @@ p{
 strong, b{
 	font-weight: 700;
 }
+i, em{
+	font-style: italic;
+}
+u{
+	text-decoration: underline;
+}
 
 input[type=text],
 input[type=email],
