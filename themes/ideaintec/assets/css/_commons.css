@@ -374,8 +374,7 @@ ol li::before {
 .fl-button{
 	display: inline-block;
 	vertical-align: baseline;
-	width: 210px;
-	height: 41px;
+	min-width: 210px;
 	position: relative;
 	color: #fff;
 	background: #F8800B;
@@ -384,7 +383,7 @@ ol li::before {
 	line-height: 100%;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 14px 0 0;
+    padding: 14px 15px 13px 15px;
 	overflow: hidden;
 	letter-spacing: 0.25px;
 }

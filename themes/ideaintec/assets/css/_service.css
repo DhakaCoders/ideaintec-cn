@@ -98,7 +98,7 @@
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
-	margin-top: -1px;
+	margin-top: 0px;
 }
 .iit-service-grd-item-des {
     display: flex;

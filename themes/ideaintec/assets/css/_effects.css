@@ -82,7 +82,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after,
 #toTop,
 .link__line,
 .iit-form-fields-tabs > ul > li a:hover,
-.iit-form-fields-tabs > ul > li a.ui-tabs-active{
+.iit-form-fields-tabs > ul > li a.ui-tabs-active,
+.fl-button{
     background-color: #F8800B;
 }
 
@@ -118,18 +119,16 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li,
 .fl-button {
     display: inline-block;
     vertical-align: baseline;
-    width: 210px;
-    height: 41px;
+    min-width: 210px;
     position: relative;
     color: #fff;
-    background: #ff9140;
     border-radius: 5px;
     font-weight: 700;
     font-size: 14px;
     line-height: 100%;
     text-transform: uppercase;
     text-align: center;
-    padding: 14px 0 0;
+    padding: 14px 15px 13px 15px;
     overflow: hidden;
     letter-spacing: 1px;
 }
