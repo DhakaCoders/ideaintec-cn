@@ -212,7 +212,7 @@ input#iit-file-upload {
 	color: #000;
 	font-size: 18px;
 	position: absolute;
-	top: 12px;
+	top: 11px;
 	right: 22px;
 }
 input[type="file"]:valid + .file-upload-success {
@@ -479,4 +479,48 @@ ul.filter-check-row-wrp li{
 }
 .lft-col-label i.fa-search{
 	font-size: 35px;	
+}
+
+
+
+
+/*responsive*/
+@media(max-width: 1699px){
+
+}
+@media(max-width: 1399px){
+	
+}
+@media(max-width: 1199px){
+	
+}
+@media(max-width: 991px){
+	
+}
+@media(max-width: 767px){
+	.iit-col-3{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.iit-col-9{
+		width: 100%;
+		padding-left: 0;
+	}
+	.iit-form-row-container{
+		padding-bottom: 15px;
+	}
+	.iit-d2-wrap{
+		margin: 0 -7px;
+	}
+	.iit-d2{
+		padding: 0 7px;
+	}
+}
+@media(max-width: 639px){
+	
+}
+@media(max-width: 575px){
+	.iit-d2{
+		width: 100%;
+	}
 }

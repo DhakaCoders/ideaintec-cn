@@ -244,6 +244,9 @@ ul.select2-results__options li {
     padding: 13px 10px 13px!important;
     background: #ff9140!important;
 }
+.select2-container{
+	width: 100%!important;
+}
 ul.select2-results__options li:before{
 	content: none!important;
 	display: none!important;
