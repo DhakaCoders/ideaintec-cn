@@ -52,7 +52,7 @@
 	background: -webkit-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
 	background: -ms-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
 	position: absolute;
-	top: 25px;
+	top: 26px;
 	left: 0;
 }
 
@@ -226,6 +226,11 @@
 
 
 /*responsive*/
+@media(max-width: 1699px){
+	.progressbar-value{
+		top: 34px;
+	}
+}
 
 @media(max-width: 1399px){
 	
