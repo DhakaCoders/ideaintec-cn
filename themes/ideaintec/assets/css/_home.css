@@ -267,11 +267,12 @@ Our clints section
 .our-clints-grid{
 	margin: 0 -20px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 }
 .our-clints-grid-item{
 	padding: 0 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	width: 20%;
 }
 .ourClintsSlider .our-clints-grid-item{
@@ -568,7 +569,7 @@ Start Our Process Section Area
 }
 
 .our-process-list ul li{
-	height: 300px;
+	height: 250px;
 }
 
 .pp-card {
@@ -576,7 +577,7 @@ Start Our Process Section Area
 	top: 0;
 	left: 0;
 	width: 94%;
-	height: 300px;
+	height: 250px;
 	perspective: 500px;
 	margin-right: 3%;
 	margin-left: 3%;
@@ -647,7 +648,6 @@ Our Features section
 .features-grid{
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 -20px;
 }
@@ -850,6 +850,7 @@ Let's Chat section
 }
 .lets-chat-des{
 	width: 50%;
+	padding-right: 20px;
 }
 .fl-h2.lets-chat-des-title{
 	text-transform: uppercase;
@@ -1387,7 +1388,9 @@ home about us sec
 @media(max-width: 1699px){
 	/*hm banner*/
 
-
+	.features-grid-item{
+		padding-top: 40px 15px 40px;
+	}
 
 
 }
@@ -1414,6 +1417,14 @@ home about us sec
 		width: 20%;
 		margin-bottom: 20px;
 	}
+	.features-grid{
+		padding: 0 50px;
+	}
+	.features-grid-item{
+		width: 33.33%;
+		/*margin-bottom: 30px;*/
+	}
+
 }
 @media(max-width: 991px){
 	/*hm banner*/
@@ -1425,7 +1436,21 @@ home about us sec
 	.hm-about-us-rgt{
 		width: 55%;
 	}
-
+	.features-grid{
+		padding: 0;
+	}
+	.our-process-list ul li{
+		width: 25%;
+	}
+	.our-clints-grid-item{
+		width: 25%;
+	}
+	.lets-chat-des{
+		width: 60%;
+	}
+	.get-in-touch-btn-wrp{
+		width: 40%;
+	}
 }
 @media(max-width: 767px){
 	/*hm banner*/
@@ -1448,16 +1473,45 @@ home about us sec
 		width: 100%;
 		
 	}
+	.our-process-list ul li{
+		width: 33.33%;
+	}
+	.features-grid{
+		padding: 0 50px;
+	}
+	.features-grid-item{
+		width: 50%;
+	}
 
-
+	.our-clints-grid-item{
+		width: 33.33%;
+	}
+	.lets-chat-des{
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+		padding-right: 0;
+	}
+	.get-in-touch-btn-wrp{
+		margin-right: auto;
+		width: 100%;
+		justify-content: center;
+	}
 }
 @media(max-width: 639px){
 	/*hm banner*/
 
 
+	.our-process-list ul li{
+		width: 50%;
+	}
+	.features-grid{
+		padding: 0;
+	}
 
-
-
+	.our-clints-grid-item{
+		width: 50%;
+	}
 }
 @media(max-width: 575px){
 	/*hm banner*/
@@ -1466,5 +1520,21 @@ home about us sec
 		font-size: 30px;
 		margin-bottom: 20px;
 	}
+	.our-clints-grid,
+	.features-grid,
+	.our-process-list{
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.features-grid-item,
+	.our-process-list ul li{
+		width: 100%;
+	}
+	.our-clints-grid-item{
+		width: 100%;
+	}
+	.get-in-touch-btn-wrp .fl-button{
 
+	}
 }
