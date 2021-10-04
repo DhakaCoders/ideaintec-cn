@@ -11,16 +11,19 @@
 }
 .iit-ssbc-form{
 	width: 45%;
-	padding: 25px 30px;
-    background: #fff;
-    position: relative;
-    border-radius: 3px;
+	
 }
 .iit-ssbc-des{
 	width: 55%;
 	padding-left: 50px;
 	color: #fff;
 	text-align: left;
+}
+.iit-ssbc-form-inr{
+	padding: 25px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
 }
 
 .iit-ssbc-form-title{
@@ -198,7 +201,7 @@
     letter-spacing: 1px;
     margin-bottom: 0;
 }
-.service-single-ctlr .iit-faq-accordion-des{
+.iit-faq-accordion-des-inr{
 	display: flex;
 }
 .iit-testi-info{
@@ -274,7 +277,7 @@
 	}
 }
 @media(max-width: 991px){
-	.iit-ssbc-form{
+	.iit-ssbc-form-inr{
 		padding: 25px 20px;
 	}
 	.iit-ssbc-des {
@@ -309,7 +312,7 @@
 	.iit-wyg-grds ul li:nth-child(2n+1) {
 	    clear: left;
 	}
-	.service-single-ctlr .iit-faq-accordion-des {
+	.iit-faq-accordion-des-inr {
 	    display: block;
 	}
 	.iit-testi-info {
@@ -319,6 +322,12 @@
 	.iit-testi-blockquote {
 	    padding-right: 0;
 	    width: 100%;
+	}
+	.iit-ssbc-form-inr{
+		max-width: 400px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
