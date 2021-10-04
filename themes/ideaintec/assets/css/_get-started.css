@@ -348,7 +348,10 @@ input[type="file"]:valid + .file-upload-success {
     width: 20px;
     background-color: #fff;
     border: 1px solid #b5b5b5;
-    margin-top: -3px;
+    margin-top: -2px;
+}
+.filter-check-row.iit-filter-check-row span.checkmark{
+	margin-top: 2px;
 }
 .checkmark:after{
     content: "";
@@ -413,10 +416,11 @@ ul.filter-check-row-wrp li{
 	padding-right: 0;
 }
 .iit-form-fields-tabs > ul > li > a{
-	display: block;
+	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 12px;
+	padding-top: 17px;
+	padding-bottom: 15px;
 }
 .iit-form-fields-tabs > ul > li a:hover,
 .iit-form-fields-tabs > ul > li a.ui-tabs-active{
