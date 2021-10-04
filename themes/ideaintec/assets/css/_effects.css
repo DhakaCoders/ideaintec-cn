@@ -66,6 +66,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover a,
 .fl-pagination-ctlr ul li span,
 .ftr-details-col-iocn,
 .map-dsc span a:hover,
+.header-sticky nav.main-nav > ul > li.menu-item-has-children:hover > a,
 .contact-details-rgt .ftr-details-col a:hover{
     color: #F8800B;
 }

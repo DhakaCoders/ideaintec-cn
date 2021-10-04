@@ -44,7 +44,7 @@
 }
 .bnr-btm-skew-img{
 	position: absolute;
-	bottom: -1px;
+	bottom: -2px;
 	left: 0;
 	right: 0;
 	background-size: contain!important;
@@ -1409,6 +1409,11 @@ home about us sec
 		width: 60%;
 	}
 
+
+	.our-process-list ul li{
+		width: 20%;
+		margin-bottom: 20px;
+	}
 }
 @media(max-width: 991px){
 	/*hm banner*/
