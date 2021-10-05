@@ -269,6 +269,7 @@ Our clints section
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 }
 .our-clints-grid-item{
 	padding: 0 20px;
@@ -1491,6 +1492,9 @@ home about us sec
 		margin-bottom: 30px;
 		text-align: center;
 		padding-right: 0;
+		max-width: 440px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.get-in-touch-btn-wrp{
 		margin-right: auto;
@@ -1502,6 +1506,10 @@ home about us sec
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.pp-process-polygon-bx i, 
+	.pp-polygon-bx i{
+		font-size: 35px;
 	}
 }
 @media(max-width: 639px){
