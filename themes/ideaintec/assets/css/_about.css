@@ -489,3 +489,29 @@ ul.about-overview-feature li div p{
 	opacity: 3;
 }
 
+
+
+
+
+@media (max-width: 1399px){
+	.skill-section-con ul li{
+		min-height: 420px;
+	}
+}
+@media (max-width: 1199px){
+	.about-overview-con-desc {
+    	margin-bottom: 50px;
+	}
+	.believe-in-tab ul{
+		margin: 0 -7px;
+	}
+	.believe-in-tab ul li{
+		padding: 0 7px;
+	}
+	.believe-in-tab-des i {
+    	margin-bottom: 27px;
+    	max-width: 70px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+}
