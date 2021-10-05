@@ -638,10 +638,32 @@ ul.about-overview-feature li div p{
 	.ethics-cntlr-grid ul li{
 		width: 100%;
 	}
+	.philosophy-item,
 	.ethics-cntlr-grid {
     	max-width: 400px;
     	width: 100%;
     	margin-left: auto;
     	margin-right: auto;
+	}
+	.philosophy-grid ul li{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.believe-in-tab ul li a{
+		padding-bottom: 5px;
+	}
+	.believe-in-tab ul li{
+		margin-bottom: 15px;
+	}
+	.about-overview-con p{
+		font-size: 17px;
+	}
+	.about-overview-con p:first-letter{
+		font-size: 50px;
+	}
+}
+@media (max-width: 479px){
+	.sec-entry-hdr-title br{
+		display: none;
 	}
 }
