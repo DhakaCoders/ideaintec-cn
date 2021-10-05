@@ -451,6 +451,16 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	.page-banner {
 	    height: 270px;
 	}
+	.sec-entry-hdr {
+	    padding-bottom: 20px;
+	}
+	.btm-line .sec-entry-heading-title {
+	    padding-bottom: 17px;
+	    margin-bottom: 20px;
+	}
+	.sec-entry-heading-title {
+	    padding-top: 20px;
+	}
 }
 @media(max-width: 767px){
 	.page-banner {
@@ -484,5 +494,11 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	}
 	.sec-entry-heading-title {
 	    padding-top: 20px;
+	}
+}
+
+@media(max-width: 575px){
+	.sec-entry-hdr-title{
+		font-size: 24px!important;
 	}
 }
