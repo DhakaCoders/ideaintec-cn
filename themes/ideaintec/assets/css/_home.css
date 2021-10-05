@@ -1497,6 +1497,12 @@ home about us sec
 		width: 100%;
 		justify-content: center;
 	}
+	.hm-about-us-rgt-cntlr{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media(max-width: 639px){
 	/*hm banner*/
@@ -1536,5 +1542,11 @@ home about us sec
 	}
 	.get-in-touch-btn-wrp .fl-button{
 
+	}
+}
+
+@media(max-width: 359px){
+	.hm-abt-us-sub-heading{
+		font-size: 22px!important;
 	}
 }
