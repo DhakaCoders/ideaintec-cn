@@ -24,7 +24,7 @@
 }
 
 .about-overview-rgt-img{
-	margin-top: -40px;
+	margin-top: -30px;
 	padding-left: 20px;
 }
 .about-overview-feature-con {
@@ -508,10 +508,21 @@ ul.about-overview-feature li div p{
 	.believe-in-tab ul li{
 		padding: 0 7px;
 	}
-	.believe-in-tab-des i {
-    	margin-bottom: 27px;
-    	max-width: 70px;
-    	margin-left: auto;
-    	margin-right: auto;
+	.skill-section-con ul li {
+    	min-height: 300px;
+	}
+}
+@media (max-width: 991px){
+	.about-overview-rgt-img{
+		margin-top: -15px;
+	}
+	.about-overview-con p{
+		line-height: 1.6;
+	}
+	ul.about-overview-feature li{
+		padding-left: 50px;
+	}
+	ul.about-overview-feature li div p{
+		font-size: 14px;
 	}
 }
