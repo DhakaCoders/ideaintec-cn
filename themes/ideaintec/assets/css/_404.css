@@ -143,6 +143,7 @@
   text-align: center;
   font-weight: 900;
   font-family: sans-serif;
+  line-height: 1;
 }
 .page-404-sec.section {
     padding-top: 0;
@@ -210,23 +211,6 @@
   .ghost{
     top: 170px;
   }
-}
-@media (max-width: 1499px){
-  .page-404-content .error {
-    top: 120px;
-  }
-  .ghost {
-    top: 160px;
-  }
-  
-}
-@media (max-width: 1399px){
-  
-  
-}
-@media (max-width: 1299px){
-  
-  
 }
 @media (max-width: 1199px){
   
