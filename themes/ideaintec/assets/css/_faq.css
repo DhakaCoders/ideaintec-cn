@@ -184,4 +184,7 @@
 	.iit-faq-accordion-des ul li{
 		word-break: break-all;
 	}
+	.iit-faq-accordion-title{
+		font-size: 15px;
+	}
 }
