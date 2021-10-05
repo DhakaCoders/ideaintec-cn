@@ -24,3 +24,35 @@
 .iit-courses-grd-item .iit-service-grd-item-des ul li:hover::before{
 	background: #ff9140;
 }
+
+
+
+
+
+/*responsive*/
+@media(max-width: 1199px){
+	.iit-service-grd-item-img img{
+		max-width: 36px;
+		width: 100%;
+		height: auto;
+	}
+}
+@media(max-width: 991px){
+
+}
+@media(max-width: 767px){
+
+}
+@media(max-width: 575px){
+
+}
+@media(max-width: 479px){
+	.iit-service-grd-item-img img{
+		max-width: 30px;
+		width: 100%;
+		height: auto;
+	}
+	.iit-courses-grd-item .iit-service-grd-item-img{
+		left: -5px;
+	}
+}
