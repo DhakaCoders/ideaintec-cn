@@ -324,13 +324,13 @@
 	}
 	.ftr-col-03{
 		max-width: 100%;
-		margin-top: 0;
+		margin-right: 0;
 	}
 	.ftr-col-menu ul{
 		text-align: center;
 	}
 	.ftr-details-col{
-		max-width: 320px;
+		max-width: 220px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
