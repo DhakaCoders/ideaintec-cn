@@ -245,7 +245,9 @@
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		
+	}
+	.iit-service-col-heading{
+		margin-bottom: 25px;
 	}
 }
 
