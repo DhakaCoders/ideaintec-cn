@@ -1,8 +1,3 @@
-.iit-service-sec{
-
-}
-
-
 
 .iit-service-grds > ul{
 	display: flex;
@@ -255,9 +250,6 @@
 	}
 }
 
-@media(max-width: 575px){
-
-}
 
 @media(max-width: 479px){
 	.iit-service-col-des-con ul{
