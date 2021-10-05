@@ -218,7 +218,11 @@
 		margin-right: auto;
 	}
 }
-@media(max-width: 575px){
 
+
+@media(max-width: 479px){
+	.info-img{
+		left: 10px;
+	}
 }
 
