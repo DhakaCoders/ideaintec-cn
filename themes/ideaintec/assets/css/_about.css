@@ -114,6 +114,7 @@ ul.about-overview-feature li div p{
 	width: auto;
 }
 .ethics-item-title.fl-h6{
+	text-align: center;
 	text-transform: uppercase;
 }
 .ethics-item-title.fl-h6 a{
@@ -222,7 +223,11 @@ ul.about-overview-feature li div p{
 	width: auto;
 }
 .philosophy-item-title.fl-h6{
+	text-align: center;
 	text-transform: uppercase;
+}
+.philosophy-item-desc{
+	text-align: center;
 }
 .philosophy-item-title.fl-h6 a{
 	display: inline-block;
@@ -489,7 +494,12 @@ ul.about-overview-feature li div p{
 	opacity: 3;
 }
 
-
+.believe-in-rgt .sec-entry-hdr.text-center.btm-line.line-bg-black{
+	display: none;
+}
+.ethics-item-desc p{
+	text-align: center;
+}
 
 
 
@@ -524,5 +534,114 @@ ul.about-overview-feature li div p{
 	}
 	ul.about-overview-feature li div p{
 		font-size: 14px;
+	}
+	.ethics-item{
+	    padding: 30px 15px;
+	}
+	.ethics-item-img img{
+		max-height: 70px;
+		min-height: 0;
+	}
+	.ethics-item{
+		justify-content: initial;
+	}
+	.ethics-item-desc{
+		text-align: center;
+	}
+	.ethics-item-desc p{
+		font-size: 16px;
+	}
+	.believe-in-lft, 
+	.believe-in-rgt{
+		width: 100%;
+	}
+	.believe-in-rgt{
+		padding-left: 0;
+	}
+	.believe-in-lft img{
+		width: 100%;
+	}
+	.believe-in-lft {
+    	padding-bottom: 30px;
+	}
+	.believe-in-rgt .sec-entry-hdr.seht-only-two.btm-line.line-bg-black{
+		display: none;
+	}
+	.believe-in-rgt .sec-entry-hdr.text-center.btm-line.line-bg-black{
+		display: block;
+	}
+	.philosophy-item{
+		padding: 30px 15px;
+	}
+	.philosophy-item-img img{
+		min-height: 80px;
+	}
+	.skill-bx h4{
+		font-size: 18px;
+	}
+	.skill-bx p{
+		font-size: 15px;
+	}
+	.skill-bx{
+		padding: 0 16px;
+	}
+	.skill-section-con ul li {
+    	min-height: 280px;
+	} 
+
+}
+@media (max-width: 767px){
+	.about-overview-rgt-img,
+	.about-overview-con-desc{
+		width: 100%;
+	}
+	.about-overview-con-desc{
+		padding-right: 0;
+		order: 2;
+	}
+	.about-overview-rgt-img{
+		padding-left: 0;
+		order: 1;
+		max-width: 400px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.about-overview-rgt-img img{
+		width: 100%;
+	}
+	.about-overview-feature-con{
+		order: 3;
+	}
+	ul.about-overview-feature li{
+		width: 50%;
+	}
+	.skill-section-con ul li,
+	.philosophy-grid ul li, 
+	.ethics-cntlr-grid ul li{
+		width: 50%;
+	}
+	.philosophy-grid ul li, 
+	.ethics-cntlr-grid ul li{
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 575px){
+	ul.about-overview-feature li{
+		width: 100%;
+		margin-right: 0;
+	}
+	.skill-section-con ul li, 
+	.philosophy-grid ul li, 
+	.ethics-cntlr-grid ul li{
+		width: 100%;
+	}
+	.ethics-cntlr-grid {
+    	max-width: 400px;
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
 	}
 }
