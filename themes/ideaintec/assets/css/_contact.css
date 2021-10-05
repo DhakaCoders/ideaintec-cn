@@ -489,6 +489,9 @@
     .contact-form-lft-con{
         padding-right: 60px;
     }
+    .map-dsc{
+        top: -47px;
+    }
 }
 @media (max-width: 991px){
     .contact-form-lft-con,
@@ -511,7 +514,7 @@
         width: 100%;
     }
     .contect-form-btm{
-        max-width: 500px;
+        max-width: 450px;
         width: 100%;
         margin: 0 auto;
     }
