@@ -495,12 +495,9 @@ ul.filter-check-row-wrp li{
 	
 }
 @media(max-width: 991px){
-	
-}
-@media(max-width: 767px){
 	.iit-col-3{
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
 	.iit-col-9{
 		width: 100%;
@@ -510,17 +507,47 @@ ul.filter-check-row-wrp li{
 		padding-bottom: 15px;
 	}
 	.iit-d2-wrap{
-		margin: 0 -7px;
+		margin: 0 -10px;
 	}
 	.iit-d2{
-		padding: 0 7px;
+		padding: 0 10px;
+	}
+	.iit-fields-row input[type="text"], 
+	.iit-fields-row input[type="email"], 
+	.iit-fields-row input[type="file"], 
+	.iit-fields-row textarea, 
+	.iit-select select, 
+	.iit-form-fields-tabs > ul > li a{
+		margin-bottom: 25px;
+	}
+}
+@media(max-width: 767px){
+	.lft-col-label label{
+		font-size: 18px;
+	}
+	.iit-fields-row input[type="text"], 
+	.iit-fields-row input[type="email"], 
+	.iit-fields-row input[type="file"], 
+	.iit-fields-row textarea, 
+	.iit-select select, 
+	.iit-form-fields-tabs > ul > li a{
+		margin-bottom: 20px;
 	}
 }
 @media(max-width: 639px){
-	
+	ul.filter-check-row-wrp li{
+		width: 50%;
+	}
 }
 @media(max-width: 575px){
 	.iit-d2{
+		width: 100%;
+	}
+	.iit-form-fields-tabs ul li{
+		padding-right: 0;
+		width: 100%;
+	}
+	ul.filter-check-row-wrp li{
 		width: 100%;
 	}
 }
