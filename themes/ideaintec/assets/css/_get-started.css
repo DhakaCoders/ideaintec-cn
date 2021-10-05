@@ -495,9 +495,6 @@ ul.filter-check-row-wrp li{
 	
 }
 @media(max-width: 991px){
-	
-}
-@media(max-width: 767px){
 	.iit-col-3{
 		width: 100%;
 		margin-bottom: 20px;
@@ -516,11 +513,28 @@ ul.filter-check-row-wrp li{
 		padding: 0 7px;
 	}
 }
+@media(max-width: 767px){
+	.lft-col-label label{
+		font-size: 18px;
+	}
+	.iit-fields-row input[type="text"], .iit-fields-row input[type="email"], .iit-fields-row input[type="file"], .iit-fields-row textarea, .iit-select select, .iit-form-fields-tabs > ul > li a{
+		margin-bottom: 20px;
+	}
+}
 @media(max-width: 639px){
-	
+	ul.filter-check-row-wrp li{
+		width: 50%;
+	}
 }
 @media(max-width: 575px){
 	.iit-d2{
+		width: 100%;
+	}
+	.iit-form-fields-tabs ul li{
+		padding-right: 0;
+		width: 100%;
+	}
+	ul.filter-check-row-wrp li{
 		width: 100%;
 	}
 }

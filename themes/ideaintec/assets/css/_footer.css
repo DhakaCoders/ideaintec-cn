@@ -220,6 +220,7 @@
 .ftr-btm p{
 	margin-bottom: 0;
 	color: #fff;
+	text-align: center;
 	font-size: 14px;
 }
 .ftr-socials ul{
@@ -280,7 +281,10 @@
 @media(max-width: 991px){
 	.ftr-col-01{
 		float: none;
-		max-width: 100%;
+		max-width: 570px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		text-align: center;
 		padding-right: 0;
 		margin-bottom: 50px;
@@ -290,10 +294,12 @@
 	}
 	.ftr-col-02{
 		padding-left: 0;
-		max-width: 50%;
+		max-width: 40%;
+		margin-left: 10%;
 	}
 	.ftr-col-03{
-		max-width: 50%;
+		max-width: 40%;
+		margin-right: 10%;
 	}
 }
 @media(max-width: 767px){
@@ -302,9 +308,11 @@
 	}
 	.ftr-col-02{
 		max-width: 40%;
+		margin-left: 5%;
 	}
 	.ftr-col-03{
-		max-width: 60%;
+		max-width: 50%;
+		margin-right: 5%;
 	}
 }
 @media(max-width: 575px){
@@ -312,15 +320,17 @@
 		max-width: 100%;
 		margin-bottom: 40px;
 		padding: 0;
+		margin-left: 0;
 	}
 	.ftr-col-03{
 		max-width: 100%;
+		margin-right: 0;
 	}
 	.ftr-col-menu ul{
 		text-align: center;
 	}
 	.ftr-details-col{
-		max-width: 320px;
+		max-width: 220px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;

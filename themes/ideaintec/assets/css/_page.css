@@ -245,7 +245,7 @@ ul.select2-results__options li {
     background: #ff9140!important;
 }
 .select2-container{
-	width: 100%!important;
+	/*width: 100%!important;*/
 }
 ul.select2-results__options li:before{
 	content: none!important;

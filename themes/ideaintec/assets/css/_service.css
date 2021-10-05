@@ -236,6 +236,10 @@
 	    display: block;
 	    margin-left: 0;
 	    margin-right: 0;
+	    max-width: 400px;
+	    width: 100%;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 	.iit-service-grds > ul > li {
 	    width: 100%;
@@ -262,5 +266,14 @@
 	}
 	.iit-service-col-des-con ul li{
 		width: 100%;
+	}
+	.iit-service-grd-item {
+	    padding-left: 35px;
+	}
+	.iit-service-grd-item-img {
+	    top: 14px;
+	}
+	.iit-service-grd-item-img i {
+	    font-size: 20px;
 	}
 }
