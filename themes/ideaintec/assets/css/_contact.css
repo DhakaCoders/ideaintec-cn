@@ -480,6 +480,12 @@
 }
 
 /*responsive-start*/
+@media(max-width: 1699px){
+    .map-dsc{
+        top: -46px;
+    }
+}
+
 @media (max-width: 1399px){
     .contact-form-lft-con{
         padding-right: 60px;
@@ -529,6 +535,13 @@
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.NameField {
         padding-top: 3px;
+    }
+    .contact-details-rgt-inner .ftr-details-col{
+        max-width: 100%;
+        transform: translateX(0);
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 @media (max-width: 479px){

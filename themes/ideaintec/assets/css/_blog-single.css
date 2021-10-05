@@ -3,9 +3,6 @@
 	padding: 150px 0;
 }
 
-
-
-
 .iit-blog-single-page-sidebar{
 	float: left;
 	width: 215px;
@@ -16,8 +13,6 @@
 	float: right;
     padding-left: 150px;
 }
-
-
 
 .iit-blog-single-page-content blockquote{
 	font-weight: 700;
@@ -41,8 +36,6 @@
     position: absolute;
     top: 30px;
 }
-
-
 .post-info > div{
     margin-bottom: 20px;
 }
@@ -60,7 +53,6 @@
     font-weight: normal;
     color: #000;
 }
-
 .cat-links ul li{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -75,8 +67,6 @@
     padding: 0 0 5px;
     transition: initial;
 }
-
-
 .iit-sidebar-menu{
     padding: 30px 20px 50px 0;
 }
