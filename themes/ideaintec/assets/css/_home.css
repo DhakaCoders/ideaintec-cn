@@ -44,7 +44,7 @@
 }
 .bnr-btm-skew-img{
 	position: absolute;
-	bottom: -2px;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	background-size: contain!important;
@@ -650,7 +650,6 @@ Our Features section
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 0 -20px;
 }
 .features-grid-item{
 	width: 25%;
@@ -1390,7 +1389,7 @@ home about us sec
 	/*hm banner*/
 
 	.features-grid-item{
-		padding-top: 40px 15px 40px;
+		padding: 40px 15px 40px;
 	}
 
 
@@ -1424,6 +1423,13 @@ home about us sec
 	.features-grid-item{
 		width: 33.33%;
 		/*margin-bottom: 30px;*/
+	}
+
+	.our-clints-grid{
+		margin: 0 -15px;
+	}
+	.our-clints-grid-item{
+		padding: 0 15px;
 	}
 
 }
