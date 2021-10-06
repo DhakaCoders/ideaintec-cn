@@ -103,7 +103,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li,
 }
 
 
-
+.hdr-socials ul li a:hover{
+    background: #F8800B;
+    border-color: #F8800B;
+    color: #fff;
+}
 
 
 
