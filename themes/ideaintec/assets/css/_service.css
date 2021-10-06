@@ -234,6 +234,7 @@
 	}
 	.iit-service-grds > ul > li {
 	    width: 100%;
+	    margin-bottom: 20px;
 	}
 	.iit-service-grd-item{
 		max-width: 350px;

@@ -1551,6 +1551,9 @@ home about us sec
 	.our-process-list ul li{
 		width: 100%;
 	}
+	.features-grid-item{
+		margin-bottom: 20px;
+	}
 	.our-clints-grid-item{
 		width: 100%;
 	}
