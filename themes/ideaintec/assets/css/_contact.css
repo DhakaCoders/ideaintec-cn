@@ -350,7 +350,6 @@
 .contect-form-btm ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -12px;
     padding-top: 10px;
 }
 .contect-form-btm ul li{
