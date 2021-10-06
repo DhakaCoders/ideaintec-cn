@@ -743,6 +743,15 @@ body.allWork {
 	}
 }
 @media(max-width: 991px){
+	.ftr-top{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ftr-socials{
+		padding-top: 10px;
+	}
 	.header-sticky .logo a,
 	.logo a{
 		max-width: 170px;
