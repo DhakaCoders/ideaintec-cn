@@ -638,7 +638,7 @@ ul.about-overview-feature li div p{
 @media (max-width: 575px){
 	ul.about-overview-feature li{
 		width: 100%;
-		margin-right: 0;
+		padding-right: 0;
 	}
 	.skill-section-con ul, 
 	.philosophy-grid ul, 
@@ -674,6 +674,10 @@ ul.about-overview-feature li div p{
 	}
 	.about-overview-con p:first-letter{
 		font-size: 50px;
+	}
+	.believe-in-tab-des-bx i img {
+    	max-height: 70px;
+    	width: auto;
 	}
 }
 @media (max-width: 479px){
