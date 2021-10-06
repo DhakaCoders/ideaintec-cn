@@ -298,6 +298,12 @@ ul.about-overview-feature li div p{
 	margin-bottom: 25px;
 	text-transform: uppercase;
 }
+.skill-bx h4 a{
+	color: #fff;
+}
+.skill-bx h4 a:hover{
+	color: #F7961E;
+}
 .skill-bx p{
 	opacity: 0;
 }
@@ -633,10 +639,17 @@ ul.about-overview-feature li div p{
 		width: 100%;
 		margin-right: 0;
 	}
+	.skill-section-con ul, 
+	.philosophy-grid ul, 
+	.ethics-cntlr-grid ul{
+		margin: 0;
+	}
 	.skill-section-con ul li, 
 	.philosophy-grid ul li, 
 	.ethics-cntlr-grid ul li{
 		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.philosophy-item,
 	.ethics-cntlr-grid {
