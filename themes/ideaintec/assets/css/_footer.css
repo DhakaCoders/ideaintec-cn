@@ -164,7 +164,8 @@
 	-webkit-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	font-size: 11px;
-	font-family: FontAwesome;
+	font-family: 'Font Awesome\ 5 Free';
+	font-weight:600;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
