@@ -137,12 +137,13 @@
   margin: auto;
   left: 0;
   right: 0;
-  top: 140px;
+  top: -16px;
   color: rgba(0,0,0,.03);
   font-size: 330px;
   text-align: center;
   font-weight: 900;
   font-family: sans-serif;
+  line-height: 1;
 }
 .page-404-sec.section {
     padding-top: 0;
@@ -203,53 +204,189 @@
 
 
 /*responsive-strat*/
-@media (max-width: 1699px){
-  .page-404-content .error {
-    top: 130px;
+@media (max-width: 1199px){
+  .page-404-content .error{
+    font-size: 300px;
+    margin-top: -15px;
   }
   .ghost{
-    top: 170px;
+    top: 135px;
   }
-}
-@media (max-width: 1499px){
-  .page-404-content .error {
-    top: 120px;
+  .page-404-content{
+    margin-top: 250px;
+    margin-bottom: 35px;
   }
-  .ghost {
-    top: 160px;
+  @-webkit-keyframes shadow {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px);
+    }
+    100% {
+      -webkit-transform: scale(0.8) translateY(50px);
+      transform: scale(0.8) translateY(50px);
+    }
   }
-  
-}
-@media (max-width: 1399px){
-  
-  
-}
-@media (max-width: 1299px){
-  
-  
-}
-@media (max-width: 1199px){
-  
+
+  @keyframes shadow {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px);
+    }
+    100% {
+      -webkit-transform: scale(0.8) translateY(50px);
+      transform: scale(0.8) translateY(50px);
+    }
+  }
+  @-webkit-keyframes ghost {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px)
+    }
+    100% {
+      -webkit-transform: scale(1) translateY(-30px);
+      transform: scale(1) translateY(-30px)
+    }
+  }
+  @keyframes ghost {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px)
+    }
+    100% {
+      -webkit-transform: scale(1) translateY(-30px);
+      transform: scale(1) translateY(-30px)
+    }
+  }
   
 }
 @media (max-width: 991px){
-  
+  .page-404-content .error {
+      font-size: 250px;
+      margin-top: -10px;
+  }
+  .ghost {
+      top: 118px;
+  }
+  .page-404-content {
+      margin-top: 235px;
+      margin-bottom: 25px;
+  }
   
 }
 @media (max-width: 767px){
-  
+  .page-404-content .error {
+      font-size: 180px;
+      margin-top: 0px;
+  }
+  .ghost{
+      width: 120px;
+      height: 190px;
+  }
+  .text{
+      bottom: 40px;
+      font-size: 2em;
+  }
+  .over, .corner{
+      height: 26px;
+      width: 26px;
+      margin-top: 174px;
+  }
+  .over.two, .corner.two {
+      margin-left: 29px;
+  }
+  .over.three, .corner.three{
+      margin-left: 58px;
+  }
+  .over.four, .corner.four{
+      margin-left: 87px;
+  }
+  .ghost {
+      top: 90px;
+  }
+  @-webkit-keyframes shadow {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px);
+    }
+    100% {
+      -webkit-transform: scale(0.8) translateY(30px);
+      transform: scale(0.8) translateY(30px);
+    }
+  }
+
+  @keyframes shadow {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px);
+    }
+    100% {
+      -webkit-transform: scale(0.8) translateY(30px);
+      transform: scale(0.8) translateY(30px);
+    }
+  }
+  @-webkit-keyframes ghost {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px)
+    }
+    100% {
+      -webkit-transform: scale(1) translateY(-20px);
+      transform: scale(1) translateY(-20px)
+    }
+  }
+  @keyframes ghost {
+    0% {
+      -webkit-transform: scale(1) translateY(0px);
+      transform: scale(1) translateY(0px)
+    }
+    100% {
+      -webkit-transform: scale(1) translateY(-20px);
+      transform: scale(1) translateY(-20px)
+    }
+  }
+  .page-404-content{
+      margin-top: 215px;
+  }
+  .page-404-content p br{
+      display: none;
+  }
   
 }
 @media (max-width: 575px){
-  
+  .page-404-content .error {
+      font-size: 150px;
+      margin-top: 15px;
+  }
   
 }
 @media (max-width: 479px){
-  
+  .page-404-content .error {
+      font-size: 110px;
+      margin-top: 25px;
+  }
+  .ghost{
+      height: 180px;
+  }
+  .over, .corner{
+      margin-top: 164px;
+  }
+  .shadow{
+      margin: 224px auto;
+  }
+  .page-404-content {
+      margin-top: 205px;
+      margin-bottom: 20px;
+  } 
+  .page-404-btn a{
+    max-width: 100%;
+  }
   
 }
 @media (max-width: 359px){
-  
+  .page-404-content .error {
+      font-size: 100px;
+      margin-top: 35px;
+  }
   
 }
 

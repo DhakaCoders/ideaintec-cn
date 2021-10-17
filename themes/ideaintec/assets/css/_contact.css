@@ -350,7 +350,6 @@
 .contect-form-btm ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -12px;
     padding-top: 10px;
 }
 .contect-form-btm ul li{
@@ -480,6 +479,12 @@
 }
 
 /*responsive-start*/
+@media(max-width: 1699px){
+    .map-dsc{
+        top: -46px;
+    }
+}
+
 @media (max-width: 1399px){
     .contact-form-lft-con{
         padding-right: 60px;
@@ -488,6 +493,9 @@
 @media (max-width: 1199px){
     .contact-form-lft-con{
         padding-right: 60px;
+    }
+    .map-dsc{
+        top: -47px;
     }
 }
 @media (max-width: 991px){
@@ -511,7 +519,7 @@
         width: 100%;
     }
     .contect-form-btm{
-        max-width: 500px;
+        max-width: 450px;
         width: 100%;
         margin: 0 auto;
     }
@@ -526,6 +534,13 @@
     }
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field.NameField {
         padding-top: 3px;
+    }
+    .contact-details-rgt-inner .ftr-details-col{
+        max-width: 100%;
+        transform: translateX(0);
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 @media (max-width: 479px){

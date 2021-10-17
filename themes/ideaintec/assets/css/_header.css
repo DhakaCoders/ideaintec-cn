@@ -86,11 +86,19 @@ Start header
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	position: relative;
 }
 .hdr-lft{
 	
 }
+.hdr-lft{
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+}
+.logo{
 
+}
 .logo a{
 	display: inline-block;
 	max-width: 195px;
@@ -494,11 +502,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 	background: #5d9d32;
 }
 
-.hdr-socials ul li a:hover {
+/*.hdr-socials ul li a:hover {
     background-color: #5d9d32;
     color: #fff;
     border-color: #5d9d32;
-}
+}*/
 
 
 /*hamburger-icon*/
@@ -594,7 +602,7 @@ body.allWork {
     height: 100%;
     max-width: 375px;
     width: 100%;
-    padding-bottom: 188px;
+    padding-bottom: 140px;
     border-left: 2px solid #F8800B;
 
 }
@@ -639,7 +647,6 @@ body.allWork {
 	height: 100%;
 	width: 100%;
 	padding: 0px;
-	padding-top: 20px;
 	z-index: 10;
 }
 
@@ -653,15 +660,15 @@ body.allWork {
 	background: initial;
 }*/
 .xs-pop-menu-btm .hdr-details{
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 .xs-pop-menu-btm .hdr-details ul{
 	padding: 0;
-	margin: -10px 0;
+	margin: -7px 0;
 	display: block;
 }
 .xs-pop-menu-btm .hdr-details ul li{
-	padding: 10px 0;
+	padding: 7px 0;
 }
 .xs-mobile-menu .hdr-details-col{
 
@@ -685,6 +692,7 @@ body.allWork {
 	height: 100%;
 	width: 100%;
 	overflow-y: auto;
+	padding-top: 10px;
 }
 .xs-pop-menu-btm{
 	padding: 0 20px;
@@ -692,7 +700,7 @@ body.allWork {
 .xs-social .hdr-socials{
 	padding-left: 0;
 	margin-left: 0;
-	padding: 20px 0;
+	padding: 15px 0;
 }
 .xs-social .hdr-socials ul{
 	justify-content: flex-start;
@@ -735,6 +743,7 @@ body.allWork {
 	}
 }
 @media(max-width: 991px){
+	
 	.header-sticky .logo a,
 	.logo a{
 		max-width: 170px;
@@ -764,7 +773,7 @@ body.allWork {
 		display: none;
 	}
 	.header-sticky .sticky-hdr{
-		padding: 10px 0;
+		padding: 20px 0;
 	}
 
 	nav.main-nav > ul {
@@ -886,6 +895,9 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
 	}
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after{
 		content: none;
+	}
+	.hdr-lft{
+		position: static;
 	}
 }
 @media(max-width: 575px){

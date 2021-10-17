@@ -3,8 +3,6 @@
 	position: initial;
 }
 
-
-
 .iit-service-single-bnr-con-inr{
 	display: flex;
 	align-items: center;
@@ -83,9 +81,6 @@
 .input-field-row textarea:focus{
 	border-color: #0c224b;
 }
-
-
-
 
 .filter-check-row{
 	position: relative;
@@ -172,9 +167,6 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 30px;
-}
-.iit-wyg-grds ul li:nth-child(3n+1){
-	clear: left;
 }
 .iit-wyg-hdr-cntlr{
 	display: flex;
@@ -306,12 +298,6 @@
 	.iit-wyg-grds ul li{
 		width: 50%;
 	}
-	.iit-wyg-grds ul li:nth-child(3n+1) {
-	    clear: none;
-	}
-	.iit-wyg-grds ul li:nth-child(2n+1) {
-	    clear: left;
-	}
 	.iit-faq-accordion-des-inr {
 	    display: block;
 	}
@@ -339,9 +325,6 @@
 	    display: block;
 	    margin-left: 0;
 	    margin-right: 0;
-	}
-	.iit-wyg-grds ul li:nth-child(2n+1) {
-	    clear: none;
 	}
 	.iit-wyg-grds ul li {
 	    width: 100%;
