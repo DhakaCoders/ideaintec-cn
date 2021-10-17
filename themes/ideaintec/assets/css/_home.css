@@ -113,7 +113,7 @@
 	font-size: 13px;
 	line-height: 1;
 	text-transform: uppercase;
-	color: #F8800B;
+	color: #5d9d32;
 	display: inline-block;
 }
 
@@ -147,7 +147,7 @@
     left: 0;
     width: 0;
     height: 3px;
-    background: #F8800B;
+    background: #5d9d32;
     animation: animation-arrow 1.5s forwards;
     animation-delay: 1s;
 	animation-iteration-count:infinite;
@@ -162,7 +162,7 @@
     transform-origin: left bottom;
     transform: rotate(-45deg);
     top: 0px;
-    left: -5px;
+    left: -4px;
 }
 
 .link__line {
@@ -182,7 +182,7 @@
     left: 0;
     width: 60px;
     height: 3px;
-    background: #F8800B;
+    background: #5d9d32;
     animation: up-down-animation 2.5s infinite ease-in-out;
     //animation: animation-arrow 2.5s infinite ease-in-out;
 	animation-iteration-count:infinite;
