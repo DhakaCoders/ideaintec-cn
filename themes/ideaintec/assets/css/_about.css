@@ -189,6 +189,7 @@ ul.about-overview-feature li div p{
 .believe-in-tab-des i{
 	margin-bottom: 30px;
 	display: block;
+	font-size: 50px;
 }
 
 .philosophy-grid ul{
@@ -219,6 +220,9 @@ ul.about-overview-feature li div p{
 }
 .philosophy-item-img{
 	margin-bottom: 30px;
+}
+.philosophy-item-img i{
+	font-size: 80px;
 }
 .philosophy-item-img img{
 	display: inline-block;
