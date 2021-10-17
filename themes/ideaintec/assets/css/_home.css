@@ -1704,6 +1704,9 @@ home about us sec
 	.get-in-touch-btn-wrp .fl-button{
 
 	}
+	.link__line{
+		width:70px;
+	}
 }
 
 @media(max-width: 359px){
