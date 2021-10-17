@@ -54,6 +54,22 @@
 }
 
 
+body::-webkit-scrollbar {
+  width: 6px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: #0c224b;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f8800b;    
+  border-radius: 5px;       
+  border: 2px solid #f8800b;
+  height: 100px;  
+}
+
+
 /*breadcrumb*/
 
 
