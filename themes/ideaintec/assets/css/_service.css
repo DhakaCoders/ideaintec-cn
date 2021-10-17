@@ -265,4 +265,8 @@
 	.iit-service-grd-item-img i {
 	    font-size: 20px;
 	}
+	.iit-service-col-des a{
+		max-width: 100%;
+		width: 100%;
+	}
 }
