@@ -134,7 +134,7 @@
 .link__arrow span {
     position: relative;
     width: 10px;
-    height: 2px;
+    height: 3px;
     border-radius: 2px;
     overflow: hidden;
     background: #fff;
@@ -146,7 +146,7 @@
     position: absolute;
     left: 0;
     width: 0;
-    height: 2px;
+    height: 3px;
     background: #F8800B;
     animation: animation-arrow 1.5s forwards;
     animation-delay: 1s;
@@ -170,7 +170,7 @@
     margin-left: -14px;
     margin-right: 20px;
     width: 85px;
-    height: 2px;
+    height: 3px;
     background: #FFFFFF;
     overflow: hidden;
     z-index: 1;
@@ -181,7 +181,7 @@
     position: absolute;
     left: 0;
     width: 60px;
-    height: 2px;
+    height: 3px;
     background: #F8800B;
     animation: up-down-animation 2.5s infinite ease-in-out;
     //animation: animation-arrow 2.5s infinite ease-in-out;
