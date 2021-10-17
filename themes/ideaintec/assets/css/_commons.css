@@ -36,6 +36,12 @@ p{
 strong, b{
 	font-weight: 700;
 }
+i, em{
+	font-style: italic;
+}
+u{
+	text-decoration: underline;
+}
 
 input[type=text],
 input[type=email],
@@ -374,16 +380,17 @@ ol li::before {
 .fl-button{
 	display: inline-block;
 	vertical-align: baseline;
-	min-width: 210px;
+	max-width: 210px;
+	width: 100%;
 	position: relative;
 	color: #fff;
 	background: #F8800B;
 	border-radius: 5px;
 	font-size: 14px;
-	line-height: 100%;
+	line-height: 1.1;
 	text-transform: uppercase;
 	text-align: center;
-    padding: 14px 15px 13px 15px;
+	padding: 14px 20px 14px;
 	overflow: hidden;
 	letter-spacing: 0.25px;
 }
