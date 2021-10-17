@@ -17,6 +17,7 @@ Start header
 	width: 100%;
 	display: block;
 	position: relative;
+	z-index:20;
 }
 .hdr-bdr{
 	background: rgb(12,34,75);
@@ -197,7 +198,7 @@ nav.main-nav > ul > li > ul.sub-menu li{
 
 }
 nav.main-nav > ul > li.menu-item-has-children > a{
-	padding-right: 20px;
+	padding-right: 16px;
 }
 nav.main-nav > ul > li.menu-item-has-children > a:before{
 	/*content: "";
@@ -218,7 +219,7 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
 	position: absolute;
 	right: 0;
 	color: #000;
-	font-size: 20px;
+	font-size: 17px;
 	top: -1px;
 	font-family: 'Font Awesome\ 5 Free';
 	font-style: normal;
