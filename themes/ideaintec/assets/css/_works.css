@@ -132,12 +132,13 @@
 	background: #000;
 	width: 30px;
 	height: 3px;
-	top: 3px;
+	top: 0;
 	left: 0;
 	position: absolute;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
+	margin-top: 4px;
 }
 
 
@@ -204,6 +205,10 @@
 @media(max-width: 479px){
 	.info-img{
 		left: 10px;
+	}
+	.our-works-sec a.fl-button{
+		max-width: 100%;
+		width: 100%;
 	}
 }
 

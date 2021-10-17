@@ -50,7 +50,7 @@
 	background-size: contain!important;
 	background-position: left bottom!important;
 	background-repeat: no-repeat!important;
-	z-index: 5;
+	z-index: 7;
     content: "";
     height: 100%;
     width: 100%;
@@ -61,8 +61,8 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 1;
-	background: #000;
+	z-index: 6;
+	background:rgba(0,0,0,0.4);
 }
 .hm-banner-overlay{
 	position: absolute;
@@ -134,7 +134,7 @@
 .link__arrow span {
     position: relative;
     width: 10px;
-    height: 3px;
+    height: 2px;
     border-radius: 2px;
     overflow: hidden;
     background: #fff;
@@ -146,7 +146,7 @@
     position: absolute;
     left: 0;
     width: 0;
-    height: 3px;
+    height: 2px;
     background: #5d9d32;
     animation: animation-arrow 1.5s forwards;
     animation-delay: 1s;
@@ -162,7 +162,7 @@
     transform-origin: left bottom;
     transform: rotate(-45deg);
     top: 0px;
-    left: -4px;
+    left: -5px;
 }
 
 .link__line {
@@ -170,7 +170,7 @@
     margin-left: -14px;
     margin-right: 20px;
     width: 85px;
-    height: 3px;
+    height: 2px;
     background: #FFFFFF;
     overflow: hidden;
     z-index: 1;
@@ -358,7 +358,7 @@
 	justify-content: center;
 	height: 660px;
 	position: relative;
-	z-index: 6;
+	z-index: 8;
 }
 .hm-bnr-desc{
 	max-width: 872px;
