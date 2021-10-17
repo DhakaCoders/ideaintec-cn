@@ -358,7 +358,7 @@
 	justify-content: center;
 	height: 660px;
 	position: relative;
-	z-index: 6;
+	z-index: 8;
 }
 .hm-bnr-desc{
 	max-width: 872px;
