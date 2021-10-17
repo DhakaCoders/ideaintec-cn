@@ -49,9 +49,11 @@ ul.about-overview-feature li{
 }
 
 ul.about-overview-feature li i {
-	position: absolute;
-	left: 0;
-	top: 3px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 35px;
+    color: #d3d3d3;
 }
 ul.about-overview-feature li strong {
     text-transform: capitalize;
