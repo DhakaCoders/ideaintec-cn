@@ -79,7 +79,7 @@
 	height: 157px;
 	position: absolute;
 	z-index: 8;
-	bottom: -25px;
+	bottom: 20px;
 	left: 50%;
 	cursor: pointer;
 
@@ -117,7 +117,114 @@
 	display: inline-block;
 }
 
+
 .link {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    transform:  translateX(-50%) rotate(-90deg);
+    -ms-transform: translateX(-50%) rotate(-90deg);
+    -webkit-transform: translateX(-50%) rotate(-90deg);
+}
+
+.link__arrow {
+    display: inline-flex;
+}
+
+.link__arrow span {
+    position: relative;
+    width: 10px;
+    height: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #fff;
+    z-index: 2;
+}
+.link__arrow span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #2DAB52;
+    animation: animation-arrow 1.5s forwards;
+    animation-delay: 1s;
+	animation-iteration-count:infinite;
+}
+
+.link__arrow span:nth-child(1) {
+    transform-origin: left bottom;
+    transform: rotate( 45deg) translate3d(2px, -3px, 0);
+}
+
+.link__arrow span:nth-child(2) {
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+    top: 0px;
+    left: -5px;
+}
+
+.link__line {
+    position: relative;
+    margin-left: -14px;
+    margin-right: 20px;
+    width: 85px;
+    height: 2px;
+    background: #FFFFFF;
+    overflow: hidden;
+    z-index: 1;
+}
+.link__line:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: #2DAB52;
+    animation: up-down-animation 2.5s infinite ease-in-out;
+    //animation: animation-arrow 2.5s infinite ease-in-out;
+	animation-iteration-count:infinite;
+}
+
+.link:hover .link__arrow span:after {
+    animation: animation-arrow 1.5s forwards;
+    animation-delay: 1s;
+}
+
+.link:hover .link__line:after {
+    animation: animation-line 1.5s forwards;
+}
+
+@keyframes up-down-animation{
+    0%,100%{width:0}50%{width:100%}
+}
+@-webkit-keyframes up-down-animation{
+    0%,100%{width:0}50%{width:100%}
+}
+
+@keyframes animation-line {
+  0% {
+    left: 80px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes animation-arrow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+/*.link {
     display: inline-flex;
     align-items: center;
     padding: 5px;
@@ -148,6 +255,9 @@
     width: 0;
     height: 2px;
     background: #2DAB52;
+    animation: animation-arrow 1.5s forwards;
+    animation-delay: 1s;
+	animation-iteration-count:infinite;
 }
 
 .link__arrow span:nth-child(1) {
@@ -175,10 +285,15 @@
     content: "";
     display: block;
     position: absolute;
-    left: 50%;
-    width: 50px;
+
+    background: #2DAB52;
+
+    left: 0;
+    width: 60px;
     height: 2px;
-    background: #2DAB52;;
+    animation: up-down-animation 2.5s infinite ease-in-out;
+    //animation: animation-arrow 2.5s infinite ease-in-out;
+	animation-iteration-count:infinite;
 }
 
 .link:hover .link__arrow span:after {
@@ -188,10 +303,10 @@
 
 .link:hover .link__line:after {
     animation: animation-line 1.5s forwards;
-}
+}*/
 
 
-@keyframes animation-line {
+/*@keyframes animation-line {
   0% {
     left: 80px;
   }
@@ -209,8 +324,34 @@
   100% {
     width: 100%;
   }
+}*/
+
+/*@keyframes up-down-animation{
+    0%,100%{width:0}50%{width:100%}
+}
+@-webkit-keyframes up-down-animation{
+    0%,100%{width:0}50%{width:100%}
 }
 
+@keyframes animation-line {
+  0% {
+    left: 80px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes animation-arrow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}*/
 
 .hm-banner-cntlr{
 	display: flex;
@@ -227,10 +368,13 @@
 
 }
 .hm-bnr-title.fl-h1{
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	color: #fff;
 	text-align: center;
 
+}
+.hm-bnr-title-2 {
+    margin-bottom: 15px;
 }
 .hm-bnr-desc p{
 	font-size: 24px;
@@ -245,6 +389,7 @@
 .hm-bnr-desc{
 	color: #fff;
 	text-align: center;
+	margin-top:-90px;
 }
 
 .hdr-btn{
