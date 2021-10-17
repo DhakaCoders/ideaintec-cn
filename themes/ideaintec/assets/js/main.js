@@ -17,7 +17,7 @@ $('.navbar-toggle').on('click', function(){
 //fixed header
 $(window).scroll(function() { 
     var scroll = $(window).scrollTop();   
-    if (scroll >= 100) {
+    if (scroll >= 300) {
         $('.header-sticky').addClass('fixed-hdr');
     } else {
         $('.header-sticky').removeClass('fixed-hdr');
