@@ -113,7 +113,7 @@
 	font-size: 13px;
 	line-height: 1;
 	text-transform: uppercase;
-	color: #2DAB52;
+	color: #F8800B;
 	display: inline-block;
 }
 
@@ -148,7 +148,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #2DAB52;
+    background: #F8800B;
     animation: animation-arrow 1.5s forwards;
     animation-delay: 1s;
 	animation-iteration-count:infinite;
@@ -183,7 +183,7 @@
     left: 0;
     width: 60px;
     height: 2px;
-    background: #2DAB52;
+    background: #F8800B;
     animation: up-down-animation 2.5s infinite ease-in-out;
     //animation: animation-arrow 2.5s infinite ease-in-out;
 	animation-iteration-count:infinite;
