@@ -206,5 +206,9 @@
 	.info-img{
 		left: 10px;
 	}
+	.our-works-sec a.fl-button{
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
