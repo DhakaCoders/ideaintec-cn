@@ -83,6 +83,9 @@ Start header
 	-webkit-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 }
+.header-sticky .hdr-lft{
+	position:static;
+}
 .hdr-inner{
 	display: flex;
 	align-items: center;
