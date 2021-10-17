@@ -107,10 +107,11 @@ ul.about-overview-feature li div p{
 .ethics-cntlr-grid ul li:nth-child(3) .ethics-item{
 	border-bottom: 4px solid #5d9d32;
 }
-.ethics-item-img{
+.ethics-item-icon{
 	margin-bottom: 30px;
+	font-size: 75px;
 }
-.ethics-item-img img{
+.ethics-item-icon img{
 	display: inline-block;
 	min-height: 100px;
 	width: auto;
@@ -546,7 +547,7 @@ ul.about-overview-feature li div p{
 	.ethics-item{
 	    padding: 30px 15px;
 	}
-	.ethics-item-img img{
+	.ethics-item-icon img{
 		max-height: 70px;
 		min-height: 0;
 	}
