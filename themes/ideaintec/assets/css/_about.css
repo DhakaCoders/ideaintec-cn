@@ -622,6 +622,7 @@ ul.about-overview-feature li div p{
 	}
 	ul.about-overview-feature li{
 		width: 50%;
+		padding-right: 25px;
 	}
 	.skill-section-con ul li,
 	.philosophy-grid ul li, 
