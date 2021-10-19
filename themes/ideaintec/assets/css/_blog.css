@@ -31,6 +31,7 @@
 .blog-grd-item .blog-grd-item-info {
 	padding: 30px;
 	position: relative;
+	z-index: 11;
 }
 .blog-grd-item .blog-grd-item-info .date {
 	position: absolute;
@@ -76,6 +77,24 @@
 	text-align: center;
 	transform: translate(0 , 100px);
 	transition: all 0.3s ease-in-out;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.blog-grd-item .blog-grd-item-more:hover{
+	background: #F8800B;
+	color: #fff;
+}
+.blog-grd-item .blog-grd-item-more i{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.blog-grd-item a:hover{
+	color: #F8800B;
+}
+.blog-grd-item .blog-grd-item-more:hover i{
+	color: #fff;
 }
 
 .blog-grd-item-title a{
@@ -102,10 +121,25 @@
 		padding-top: 20px;
 	}
 }
-
+@media(max-width: 1199px){
+	.blog-grds ul{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.blog-grds ul li{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
 @media(max-width: 991px){
 	.blog-grds ul li{
 		width: 50%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.blog-grds ul{
+		margin-left: -15px;
+		margin-right: -15px;
 	}
 }
 

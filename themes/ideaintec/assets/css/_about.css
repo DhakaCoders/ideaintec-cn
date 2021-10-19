@@ -593,6 +593,13 @@ ul.about-overview-feature li div p{
 	.skill-section-con ul li {
     	min-height: 280px;
 	} 
+	.philosophy-grid ul{
+		padding: 0 50px;
+	}
+	.philosophy-grid ul li{
+		width: 50%;
+		margin-bottom: 35px;
+	}
 
 }
 @media (max-width: 767px){
@@ -632,6 +639,9 @@ ul.about-overview-feature li div p{
 	.philosophy-grid ul li, 
 	.ethics-cntlr-grid ul li{
 		margin-bottom: 35px;
+	}
+	.philosophy-grid ul{
+		padding: 0;
 	}
 }
 @media (max-width: 575px){
