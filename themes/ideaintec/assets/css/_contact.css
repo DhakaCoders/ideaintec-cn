@@ -494,6 +494,9 @@
     .contact-form-lft-con{
         padding-right: 60px;
     }
+    .contect-grid-des p{
+        font-size: 15px;
+    }
 }
 @media (max-width: 1199px){
     .contact-form-lft-con{
