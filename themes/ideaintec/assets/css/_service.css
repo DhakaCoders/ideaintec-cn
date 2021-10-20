@@ -110,6 +110,9 @@
 
 .iit-service-row-item{
 	display: flex;
+	background: rgba(94, 173, 70, 0.1);
+	padding: 40px 30px;
+	border-radius: 5px;
 }
 
 .iit-service-col-lft{
@@ -199,6 +202,9 @@
 	}
 	.iit-service-col-des-con p {
 	    margin-bottom: 20px;
+	}
+	.iit-service-col-des-con ul li{
+		width: 100%;
 	}
 }
 

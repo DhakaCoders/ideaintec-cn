@@ -518,7 +518,5 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 }
 
 @media(max-width: 575px){
-	.sec-entry-hdr-title{
-		font-size: 24px!important;
-	}
+	
 }
