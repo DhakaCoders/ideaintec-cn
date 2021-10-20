@@ -46,7 +46,6 @@
 
 .progressbar-value{
 	height: 10px;
-	float: left;
 	border-radius: 10px;
 	background: linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
 	background: -webkit-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);

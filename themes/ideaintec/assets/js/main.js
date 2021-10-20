@@ -464,7 +464,7 @@ if( $('#particles-js').length ){
 }
 
 
-var skill = {
+/*var skill = {
   html: 90,
   css: 80,
   js: 70
@@ -477,7 +477,7 @@ $.each(skill, function(key, value){
         width: value + "%"
       },3000
     );
-});
+});*/
 
 
 if( $('#sidebar').length ){
