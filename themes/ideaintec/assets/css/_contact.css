@@ -297,7 +297,7 @@
     text-decoration: underline;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-description p a:hover{
-	color: #ff9140;
+	color: #F8800B;
     text-decoration: none;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
@@ -307,7 +307,6 @@
     height: 48px;
     position: relative;
     color: #fff;
-    background: #ff9140;
     border-radius: 5px;
     font-weight: 700;
     font-size: 17px;

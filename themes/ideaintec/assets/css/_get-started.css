@@ -335,7 +335,10 @@ input[type="file"]:valid + .file-upload-success {
 }*/
 
 .iit-form-row-container{
-	padding-bottom: 50px;
+	padding: 40px 30px 8px 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background: rgba(94, 173, 70, 0.1);
 }
 .iit-col-3{
 	float: left;
@@ -398,7 +401,7 @@ input[type="file"]:valid + .file-upload-success {
     left: 0;
     height: 20px;
     width: 20px;
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid #b5b5b5;
     margin-top: -2px;
 }

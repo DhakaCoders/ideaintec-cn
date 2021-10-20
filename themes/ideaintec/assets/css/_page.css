@@ -222,6 +222,7 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 0!important;
 	height: 46px!important;
 	border-color: #d7d4d4!important;
+	background: transparent!important;
 }
 .select2-search--dropdown{
 	padding: 0!important;
