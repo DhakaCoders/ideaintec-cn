@@ -109,20 +109,19 @@
     vertical-align: baseline;
     max-width: 210px;
     width: 100%;
-    height: 46px;
+    height: 43px;
     position: relative;
     color: #fff;
-    border: 2px solid #F8800B;
     border-radius: 5px;
-    font-weight: 500;
     font-size: 14px;
     line-height: 100%;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 20px 12px;
+    padding: 14px 20px 14px;
     overflow: hidden;
     padding-top: 16px;
     cursor: pointer;
+    letter-spacing: 0.25px;
 }
 .iit-ssbc-form-submit-btn button:before{
 	position: absolute;
@@ -257,6 +256,9 @@
 .iit-testimonial-sec .iit-faq-accordion-des{
 	padding-top: 30px;
 }
+.iit-wyg-grds {
+    padding-top: 30px;
+}
 
 @media(max-width: 1699px){
 	.iit-testi-blockquote{
@@ -358,6 +360,7 @@
 	.iit-wyg-hdr-title{
 		width: initial;
 	}
+
 }
 
 
