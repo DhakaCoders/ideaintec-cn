@@ -207,6 +207,9 @@ nav.main-nav ul li.current-menu-item a{
     opacity: 1;
     visibility: visible;
 }
+.our-works-grd-item:hover .our-works-grd-item-inr:after{
+    opacity: 1;
+}
 
 .blog-grd-item:hover .blog-grd-item-more {
     transform: translate(0 , 0);
