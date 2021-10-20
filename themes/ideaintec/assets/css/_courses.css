@@ -24,6 +24,9 @@
 .iit-courses-grd-item .iit-service-grd-item-des ul li:hover::before{
 	background: #ff9140;
 }
+.iit-courses-grd-item .iit-service-grd-item-img i{
+	font-size: 40px;
+}
 
 
 
