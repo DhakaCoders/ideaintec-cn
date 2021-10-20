@@ -304,13 +304,13 @@
     display: inline-block;
     vertical-align: baseline;
     width: 210px;
-    height: 48px;
+    height: 43px;
     position: relative;
     color: #fff;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 100%;
+    font-size: 14px;
+    line-height: 1.1;
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
