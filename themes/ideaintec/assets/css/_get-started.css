@@ -343,7 +343,8 @@ input[type="file"]:valid + .file-upload-success {
 .iit-form-yr-pro-row-container{
 	padding-bottom: 20px;
 }
-.iit-form-yr-pro-row-container{
+.iit-form-lst-least-row-container,
+.iit-form-yr-dgn-row-container{
 	padding-bottom: 40px;
 }
 .iit-col-3{
@@ -584,6 +585,12 @@ ul.filter-check-row-wrp li{
 	.iit-form-fields-tabs > ul > li a{
 		margin-bottom: 25px;
 	}
+	.iit-form-yr-pro-row-container{
+		padding-bottom: 13px;
+	}
+	.iit-form-yr-dgn-row-container{
+		padding-bottom: 8px;
+	}
 }
 @media(max-width: 767px){
 	.lft-col-label label{
@@ -596,6 +603,10 @@ ul.filter-check-row-wrp li{
 	.iit-select select, 
 	.iit-form-fields-tabs > ul > li a{
 		margin-bottom: 20px;
+	}
+	.iit-form-row-container{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 @media(max-width: 639px){
