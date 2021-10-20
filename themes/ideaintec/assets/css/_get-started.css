@@ -340,10 +340,19 @@ input[type="file"]:valid + .file-upload-success {
 	border-radius: 5px;
 	background: rgba(94, 173, 70, 0.1);
 }
+.iit-form-yr-pro-row-container{
+	padding-bottom: 20px;
+}
+.iit-form-yr-pro-row-container{
+	padding-bottom: 40px;
+}
 .iit-col-3{
 	float: left;
 	width: 30%;
 	padding-right: 5px;
+}
+.iit-col-3 > p:last-of-type{
+	margin-bottom: 0;
 }
 .iit-col-9{
 	float: left;
@@ -559,7 +568,7 @@ ul.filter-check-row-wrp li{
 		padding-left: 0;
 	}
 	.iit-form-row-container{
-		padding-bottom: 15px;
+		
 	}
 	.iit-d2-wrap{
 		margin: 0 -10px;
