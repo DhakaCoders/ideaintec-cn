@@ -53,6 +53,17 @@
 	position: absolute;
 	top: 26px;
 	left: 0;
+	animation-duration: 3s;
+	animation-name: leftToRight;
+}
+
+@keyframes leftToRight{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
 }
 
 .css.progressbar-value{
