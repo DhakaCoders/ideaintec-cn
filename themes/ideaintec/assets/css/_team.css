@@ -223,8 +223,12 @@
 	}
 }
 
-@media(max-width: 1399px){
-	
+@media(max-width: 1199px){
+	.iit-team-grds ul li{
+		padding-left: 10px;
+	    padding-right: 10px;
+	    padding-bottom: 20px;
+	}
 }
 
 @media(max-width: 991px){
