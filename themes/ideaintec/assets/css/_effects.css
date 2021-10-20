@@ -204,10 +204,10 @@ nav.main-nav ul li.current-menu-item a{
 .our-works-grd-item:hover .our-works-grd-item-overlay{
     opacity: 1;
     visibility: visible;
-    top: 25px;
+    /*top: 25px;
     left: 25px;
     right: 25px;
-    bottom: 25px;
+    bottom: 25px;*/
 }
 
 .blog-grd-item:hover .blog-grd-item-more {
