@@ -46,7 +46,6 @@
 
 .progressbar-value{
 	height: 10px;
-	float: left;
 	border-radius: 10px;
 	background: linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
 	background: -webkit-linear-gradient(120deg, #f8800b 0%, #fb9c3f 100%);
@@ -112,8 +111,6 @@
 	position: relative;
 	overflow: hidden;
 	border-radius: 5px;
-	-webkit-box-shadow: 0px 0px 10px 3px #f1eaea; 
-	box-shadow: 0px 0px 10px 3px #f1eaea;
 }
 
 
@@ -226,8 +223,12 @@
 	}
 }
 
-@media(max-width: 1399px){
-	
+@media(max-width: 1199px){
+	.iit-team-grds ul li{
+		padding-left: 10px;
+	    padding-right: 10px;
+	    padding-bottom: 20px;
+	}
 }
 
 @media(max-width: 991px){
