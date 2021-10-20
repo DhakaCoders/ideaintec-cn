@@ -27,7 +27,7 @@
 .our-works-grd-item-inr{
 	position: relative;
 	overflow: hidden;
-	border: 5px solid transparent;
+	border: 5px solid #e6e6e6;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -194,7 +194,7 @@
 		visibility: visible;
 		background: transparent;
 		position: static;
-		padding: 30px 15px;
+		padding: 22px 15px;
 		-webkit-transform: none;
 	    -moz-transform: none;
 	    transform: none;
@@ -238,11 +238,14 @@
 	    display: block;
 	    background: #000;
 	    width: 30px;
-	    height: 3px;
+	    height: 2px;
 	    top: 0;
 	    right: 0;
 	    position: absolute;
-	    margin-top: 4px;
+	    margin-top: 5px;
+	}
+	.info-img span a::before{
+		height: 2px;
 	}
 	.info-img strong {
 	    -webkit-transition: none;
