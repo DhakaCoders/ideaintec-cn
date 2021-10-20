@@ -61,10 +61,10 @@ Start header
 	right: 0;
 	top: -76px;
 	background: #000;
-	transition: all 1s;
-	-ms-transition: all 1s;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
+	transition: all 0.51s ease-out;
+	-ms-transition: all 0.51s ease-out;
+	-webkit-transition: all 0.51s ease-out;
+	-o-transition: all 0.51s ease-out;
 	z-index: 999;
 	opacity: 0;
 }
@@ -78,10 +78,7 @@ Start header
 .header-sticky.fixed-hdr{
 	top: 0;
 	opacity: 1;
-	transition: all 0.51s ease-out;
-	-ms-transition: all 0.51s ease-out;
-	-webkit-transition: all 0.51s ease-out;
-	-o-transition: all 0.51s ease-out;
+	
 }
 .header-sticky .hdr-lft{
 	position:static;

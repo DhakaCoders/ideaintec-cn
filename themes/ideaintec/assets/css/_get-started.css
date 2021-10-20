@@ -608,6 +608,10 @@ ul.filter-check-row-wrp li{
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.lft-col-label i{
+		font-size: 25px!important;
+		padding-right: 15px;
+	}
 }
 @media(max-width: 639px){
 	ul.filter-check-row-wrp li{
