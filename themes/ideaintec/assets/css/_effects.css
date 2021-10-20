@@ -73,7 +73,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover a,
 
 
 /* hover background color */
-
+.contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button,
+.iit-ssbc-form-submit-btn button,
 nav.main-nav > ul > li > a:after,
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after,
 .info-img span a:hover:before,
@@ -91,6 +92,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after,
 /* all background color */
 
 /* all border color */
+.iit-ssbc-form-submit-btn button,
 .ftr-socials ul li a:hover,
 .believe-in-tab ul li a.ui-tabs-active,
 .iit-form-fields-tabs > ul > li a:hover,
