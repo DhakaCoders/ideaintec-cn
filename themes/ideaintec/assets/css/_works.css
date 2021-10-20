@@ -27,8 +27,6 @@
 .our-works-grd-item-inr{
 	position: relative;
 	overflow: hidden;
-	height: 100%;
-	width: 100%;
 }
 .our-works-grd-item-inr:after{
 	content: "";
@@ -73,7 +71,7 @@
 	-ms-transition: 0.4s ease-in-out;
 	-o-transition: 0.4s ease-in-out;
 	transition: 0.4s ease-in-out;
-	z-index: 11;
+	z-index: 13;
 }
 
 
@@ -136,6 +134,7 @@
 	-ms-transition: 0.5s ease-in-out;
 	-o-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
+	z-index: 15;
 }
 
 .info-img span a::before {
@@ -173,6 +172,8 @@
 	-ms-transition: 0.5s ease-in-out;
 	-o-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
+	position: relative;
+	z-index: 15;
 }
 
 
@@ -185,6 +186,12 @@
 @media(max-width: 991px){
 	.our-works-grds ul li{
 		width: 50%;
+	}
+	.our-works-grds{
+		max-width: 700px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 }
