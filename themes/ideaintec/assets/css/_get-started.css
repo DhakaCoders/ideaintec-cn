@@ -602,4 +602,13 @@ ul.filter-check-row-wrp li{
 	ul.filter-check-row-wrp li{
 		width: 100%;
 	}
+	.filter-check-row span.checkmark{
+		height: 17px;
+		width: 17px;
+		margin-top: -1px;
+	}
+	.filter-check-row .checkmark::after{
+		left: 5px;
+    	top: 1px;
+	}
 }
