@@ -303,11 +303,13 @@
 		width: 50%;
 	}
 	.iit-faq-accordion-des-inr {
-	    display: block;
+	    display: flex;
+    	flex-wrap: wrap;
 	}
 	.iit-testi-info {
 	    width: 100%;
-	    margin-bottom: 30px;
+	    margin-bottom: 20px;
+	    order: 2;
 	}
 	.iit-testi-blockquote {
 	    padding-right: 0;
@@ -346,6 +348,16 @@
 	}
 	.iit-testi-info > i {
 	    font-size: 30px;
+	}
+	.iit-wyg-hdr-cntlr{
+		justify-content: center;
+	}
+	.iit-wyg-des{
+		text-align: center;
+	}
+	.iit-wyg-hdr-img,
+	.iit-wyg-hdr-title{
+		width: initial;
 	}
 }
 
