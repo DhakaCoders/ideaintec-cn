@@ -67,16 +67,36 @@
 }
 
 
-.css.progressbar-value{
+.development.progressbar-value{
 	background: linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
 	background: -webkit-linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
 	background: -ms-linear-gradient(120deg, #5d9d32 0%, #5ac90f 100%);
+	animation-duration: 3s;
+	animation-name: leftToRight2;
+}
+@keyframes leftToRight2{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%;
+	}
 }
 
-.js.progressbar-value{
+.performance.progressbar-value{
 	background: linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
 	background: -webkit-linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
 	background: -ms-linear-gradient(120deg, #0c224b 0%, #4f6b9d 100%);
+	animation-duration: 3s;
+	animation-name: leftToRight3;
+}
+@keyframes leftToRight3{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
 }
 
 .progressbar-percentage span{
@@ -236,10 +256,35 @@
 }
 
 @media(max-width: 1199px){
+	.iit-team-grds ul{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
 	.iit-team-grds ul li{
 		padding-left: 10px;
 	    padding-right: 10px;
 	    padding-bottom: 20px;
+	}
+	.social-media{
+		top: -13px;
+    	right: 20px;
+	}
+	.share-button{
+		width: 36px;
+    	height: 36px;
+	}
+	.social-media label i {
+	    font-size: 11px;
+	}
+	.share-icon-sm{
+		width: 36px;
+		height: 36px;
+	}
+	.smi-show .share-icon-sm:nth-child(3) {
+	    transform: translateY(-60px) rotate(0);
+	}
+	.smi-show .share-icon-sm:nth-child(4) {
+	    transform: translateY(-110px) rotate(0);
 	}
 }
 
@@ -272,6 +317,12 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.iit-team-grds{
+		max-width: 550px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media(max-width: 575px){
 	.iit-team-grds ul {
@@ -285,10 +336,13 @@
 		padding-bottom: 20px;
 	}
 	.iit-team-grd-item{
-		max-width: 350px;
+		max-width: 300px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.iit-team-grd-item-des{
+		padding-top: 30px;
 	}
 }
 
