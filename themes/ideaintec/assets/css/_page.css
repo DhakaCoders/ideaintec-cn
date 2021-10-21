@@ -152,8 +152,9 @@ body::-webkit-scrollbar-thumb {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 0 -15px;
 	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 .fl-pagination-ctlr ul li{
 	padding: 0 15px!important;
@@ -163,7 +164,7 @@ body::-webkit-scrollbar-thumb {
 
 .fl-pagination-ctlr ul li a.next{
 	position: absolute;
-	right: 15px;
+	right: 0;
 	top: 0;
 	padding-right: 25px;
 }
@@ -179,7 +180,7 @@ body::-webkit-scrollbar-thumb {
 }
 .fl-pagination-ctlr ul li a.prev{
 	position: absolute;
-	left: 15px;
+	left: 0;
 	top: 0;
 	padding-left: 25px;
 }
