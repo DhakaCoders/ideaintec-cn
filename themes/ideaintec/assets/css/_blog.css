@@ -150,16 +150,16 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.blog-grd-item .blog-grd-item-more{
+		position: static;
+		transform: translate(0 , 0);
+		margin-left: auto;
+	}
 }
 
 @media(max-width: 767px){
 	.blog-grd-item .blog-grd-item-info{
 		padding: 20px;
-	}
-	.blog-grd-item .blog-grd-item-more{
-		position: static;
-		transform: translate(0 , 0);
-		margin-left: auto;
 	}
 	
 }
