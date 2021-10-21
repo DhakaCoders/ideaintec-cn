@@ -482,12 +482,11 @@ $.each(skill, function(key, value){
 var progressBar = $('.progressbar-value');
 
 progressBar.each(function(){
-  /*var parcent = $(this).attr('data-parcent');*/
+  
   var PWidth = $(this).attr('data-width');
-  $(this).css('width', PWidth);
   progressBar.animate(
       {
-        width: PWidth + "%"
+        width: PWidth
       },3000
     );
 });
