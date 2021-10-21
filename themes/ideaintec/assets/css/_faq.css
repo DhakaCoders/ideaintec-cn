@@ -99,6 +99,16 @@
 }
 
 
+.iit-faq-accordion-menu .default-page-con ol, 
+.iit-faq-accordion-menu ol{
+	padding-bottom: 0;
+}
+
+.iit-faq-accordion-menu .default-page-con ol li::before, 
+.iit-faq-accordion-menu ol li::before{
+	margin-top: 4px;
+}
+
 
 @media(max-width: 1699px){
 	.iit-faq-ctlr {
