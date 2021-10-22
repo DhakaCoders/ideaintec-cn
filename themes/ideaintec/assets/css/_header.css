@@ -462,6 +462,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
     align-items: center;
     flex-wrap: wrap;
     margin: 0 -10px;
+    margin-top: -1px;
 }
 .hdr-details ul li {
     padding: 0 10px;
