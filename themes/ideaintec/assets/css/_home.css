@@ -546,6 +546,10 @@ Start Our Process Section Area
 	font-size: 18px;
 	text-transform: uppercase;
 }
+.our-process-list ul li{
+	border: 1px solid #ddd;
+	padding: 20px;
+}
 .include-list ul li{
 	width: 25%;
 }
@@ -736,10 +740,10 @@ Start Our Process Section Area
 
 .pp-card {
 	position: absolute;
-	top: 0;
+	top: 20px;
 	left: 0;
 	width: 94%;
-	height: 250px;
+	height: 225px;
 	perspective: 500px;
 	margin-right: 3%;
 	margin-left: 3%;
