@@ -9,7 +9,12 @@
 
 
 
-
+.iit-service-grd-item-title.fl-h5 a{
+	color: inherit;
+}
+.iit-service-grd-item-title.fl-h5 a:hover{
+	color: #ff9140;
+}
 .iit-courses-grd-item .iit-service-grd-item-des{
 	padding-right: 10px;
 }
