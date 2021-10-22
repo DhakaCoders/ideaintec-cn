@@ -1509,7 +1509,7 @@ home about us sec
     height: 11px;
     left: 2px;
     position: absolute;
-    top: 6px;
+    top: 9px;
     width: 11px;
 }
 .hm-about-us-lft-con ul li:before {
@@ -1520,7 +1520,7 @@ home about us sec
     left: 1px;
     border-radius: 100%;
     background-color: #000;
-    top: -1px;
+    top: 2px;
 }
 .hm-about-us-lft-con .view-more-btn{
 	text-align: left;
