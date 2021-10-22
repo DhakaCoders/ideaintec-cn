@@ -752,6 +752,9 @@ Start Our Process Section Area
 	perspective: 500px;
 	margin-right: 3%;
 	margin-left: 3%;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .content {
@@ -766,6 +769,16 @@ Start Our Process Section Area
   transform: rotateY( 180deg ) ;
   transition: transform 0.5s;
 }
+.pp-card:hover{
+	top: 0;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 248px;
+}
+/*.pp-card:hover .back{
+	background: rgba(94, 173, 70, 0.1);
+}*/
 
 .front,
 .back {
@@ -775,7 +788,6 @@ Start Our Process Section Area
 }
 
 .back {
-  background: #fff;
   color: white;
   transform: rotateY( 180deg );
   font-size: 18px;
@@ -787,7 +799,7 @@ Start Our Process Section Area
   backface-visibility: hidden;
   background: #fff; 
   text-transform: initial;
-  padding: 20px 15px;
+  padding: 30px 15px;
   z-index: 5;
 }
 .back strong{
@@ -800,6 +812,7 @@ Start Our Process Section Area
 }
 .pp-card:hover .back{
 	z-index: 5;
+	/*background: rgba(94, 173, 70, 0.1)*/
 }
 
 
@@ -1587,8 +1600,11 @@ home about us sec
 
 
 	.our-process-list ul li{
-		width: 20%;
-		margin-bottom: 20px;
+		width: 33.33%;
+		/*border-bottom: none;*/
+	}
+	.our-process-list ul li:nth-child(3n+3){
+		border-right: 1px solid #ddd;
 	}
 	.features-grid-cntlr{
 		max-width: 800px;
