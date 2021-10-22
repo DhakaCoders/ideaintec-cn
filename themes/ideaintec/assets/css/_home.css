@@ -1762,6 +1762,21 @@ home about us sec
 	.our-process-list ul li{
 		width: 100%;
 	}
+	.our-process-list ul li{
+		border: 1px solid #ddd;
+		padding: 20px;
+		height: initial;
+	}
+	.pp-card{
+		height: initial;
+		margin-right: 0;
+    	margin-left: 0;
+    	width: 100%;
+	}
+	.content,
+	.front{
+		position: static;
+	}
 	.features-grid-item{
 		margin-bottom: 20px;
 	}
