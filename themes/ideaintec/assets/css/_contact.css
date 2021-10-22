@@ -338,7 +338,7 @@
 .contact-form-top .sec-entry-hdr .sec-entry-heading-title{
 	padding-top: 0px;
 }
-.contact-form-top .sec-entry-hdr .sec-entry-heading-title h2{
+.contact-form-top .sec-entry-hdr .sec-entry-heading-title .sec-entry-hdr-title{
 	margin-bottom: 0px;
 }
 .contact-form-top .sec-entry-hdr .sec-entry-hdr-des{
@@ -354,7 +354,7 @@
 .contect-form-btm ul {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 10px;
+    margin-top: 10px;
     border-bottom: 1px solid #ddd;
     border-right: 1px solid #ddd;
 }
@@ -526,8 +526,13 @@
         width: 100%;
         margin: auto;
     }
+    .contect-form-btm ul{
+        border: none;
+    }
     .contect-form-btm ul li{
         width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
     }
     .contect-form-btm{
         max-width: 450px;

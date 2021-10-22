@@ -27,7 +27,7 @@
 .our-works-grd-item-inr{
 	position: relative;
 	overflow: hidden;
-	border: 5px solid #e6e6e6;
+	border: 5px solid #ddd;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -139,7 +139,7 @@
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
-	margin-top: 4px;
+	margin-top: 7px;
 }
 
 
@@ -182,7 +182,6 @@
 		margin-right: auto;
 	}
 	.our-works-grd-item-inr{
-		border: none;
 		-webkit-transition: none;
 	    -moz-transition: none;
 	    -ms-transition: none;
@@ -242,7 +241,7 @@
 	    top: 0;
 	    right: 0;
 	    position: absolute;
-	    margin-top: 5px;
+	    margin-top: 8px;
 	}
 	.info-img span a::before{
 		height: 2px;
@@ -298,6 +297,17 @@
 	.our-works-sec a.fl-button{
 		max-width: 100%;
 		width: 100%;
+	}
+}
+
+@media(max-width: 359px){
+	.info-img span a{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.info-img span a::before,
+	.info-img span a:after{
+		width: 22px;
 	}
 }
 
