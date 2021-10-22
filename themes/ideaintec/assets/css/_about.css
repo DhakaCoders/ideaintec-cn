@@ -55,6 +55,9 @@ ul.about-overview-feature li i {
     font-size: 35px;
     color: #d3d3d3;
 }
+ul.about-overview-feature li.iit-etu-col-04 i{
+	font-size: 30px;
+}
 ul.about-overview-feature li strong {
     text-transform: capitalize;
     padding-bottom: 8px;
