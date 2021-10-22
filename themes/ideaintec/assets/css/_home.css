@@ -546,9 +546,12 @@ Start Our Process Section Area
 	font-size: 18px;
 	text-transform: uppercase;
 }
-.our-process-list ul li{
+.our-process-list ul{
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
+	padding-top: 0;
+}
+.our-process-list ul li{
 	border-left: 1px solid #ddd;
 	padding: 20px;
 }
@@ -1598,10 +1601,14 @@ home about us sec
 		width: 60%;
 	}
 
-
+	.our-process-list ul{
+		border-top: none;
+		border-bottom: none;
+	}
 	.our-process-list ul li{
 		width: 33.33%;
-		/*border-bottom: none;*/
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
 	}
 	.our-process-list ul li:nth-child(3n+3){
 		border-right: 1px solid #ddd;
@@ -1637,9 +1644,6 @@ home about us sec
 	}
 	.features-grid{
 		padding: 0;
-	}
-	.our-process-list ul li{
-		width: 25%;
 	}
 	.our-clints-grid-item{
 		width: 25%;
@@ -1751,6 +1755,18 @@ home about us sec
 	}
 	.pp-card{
 		position: static;
+		top: 0;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		height: initial;
+	}
+	.content,
+	.front{
+		position: static;
+	}
+	.our-process-list ul li{
+		height: initial!important;
 	}
 }
 @media(max-width: 639px){
@@ -1766,6 +1782,12 @@ home about us sec
 
 	.our-clints-grid-item{
 		width: 50%;
+	}
+	.our-process-list ul li:nth-child(3n+3) {
+	    border-right: none;
+	}
+	.our-process-list ul li:nth-child(2n+2) {
+	    border-right: 1px solid #ddd;
 	}
 }
 @media(max-width: 575px){
@@ -1818,6 +1840,20 @@ home about us sec
 	}
 	.features-grid-item{
 		border: 1px solid #ddd;
+	}
+	.our-process-list ul li:nth-child(2n+2) {
+	    border-right: none;
+	}
+	.our-process-list ul li:nth-child(1n+1) {
+	    border-right: 1px solid #ddd;
+	}
+	/*.our-process-list ul{
+		border-top: none;
+		border-bottom: none;
+	}*/
+	.our-process-list ul li{
+		border: 1px solid #ddd;
+		margin-bottom: 20px;
 	}
 }
 
