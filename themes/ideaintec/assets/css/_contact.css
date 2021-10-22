@@ -355,11 +355,15 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 .contect-form-btm ul li{
     padding: 0 12px;
     width: 33.33%;
     background: linear-gradient(236.41deg, #FFFFFF 3.15%, rgba(255, 255, 255, 0) 67.79%), #F4F4F4;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
 }
 .contect-grid-img i {
     display: inline-block;
