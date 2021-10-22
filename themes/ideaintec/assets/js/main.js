@@ -465,9 +465,9 @@ if( $('#particles-js').length ){
 
 
 /*var skill = {
-  html: 90,
-  css: 80,
-  js: 70
+  satisfaction: 90,
+  development: 80,
+  performance: 70
 };
 
 $.each(skill, function(key, value){
@@ -478,6 +478,18 @@ $.each(skill, function(key, value){
       },3000
     );
 });*/
+
+var progressBar = $('.progressbar-value');
+
+progressBar.each(function(){
+  
+  var PWidth = $(this).attr('data-width');
+  progressBar.animate(
+      {
+        width: PWidth
+      },3000
+    );
+});
 
 
 if( $('#sidebar').length ){

@@ -56,10 +56,15 @@
 	margin-bottom: 0;
 	cursor: pointer;
 	position: relative;
-	padding: 25px 50px 25px 28px;
+	padding: 25px 50px 25px 38px;
 	border-top: 1px solid #d5dbdd;
 	background: #ccc;
-	line-height: 1.3;
+	line-height: 1.4;
+}
+.iit-faq-accordion-title span{
+	position: absolute;
+	top: 25px;
+	left: 18px;
 }
 .iit-faq-accordion-title:after{
 	content: "";
@@ -114,7 +119,10 @@
 		padding: 20px 60px 50px 30px;
 	}
 	.iit-faq-accordion-title{
-		padding: 20px 50px 20px 28px;
+		padding: 20px 50px 20px 38px;
+	}
+	.iit-faq-accordion-title span{
+		top: 20px;
 	}
 }
 @media(max-width: 1399px){
@@ -188,7 +196,10 @@
 		font-size: 15px;
 	}
 	.iit-faq-accordion-title {
-	    padding: 20px 50px 20px 20px;
+	    padding: 20px 50px 20px 30px;
+	}
+	.iit-faq-accordion-title span {
+	    left: 10px;
 	}
 	.iit-faq-accordion-des {
 	    padding: 20px 20px 30px 22px;
