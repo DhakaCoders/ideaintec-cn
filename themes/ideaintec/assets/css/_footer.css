@@ -325,6 +325,9 @@
 		max-width: 50%;
 		margin-right: 5%;
 	}
+	.ftr-btm-skew svg{
+		height: 180px;
+	}
 }
 @media(max-width: 575px){
 	.ftr-col-02{
@@ -356,6 +359,9 @@
 	}
 	.ftr-socials ul{
 		justify-content: center;
+	}
+	.ftr-btm-skew svg{
+		height: 150px;
 	}
 	
 }
