@@ -1602,12 +1602,10 @@ home about us sec
 	}
 
 	.our-process-list ul{
-		border-top: none;
 		border-bottom: none;
 	}
 	.our-process-list ul li{
 		width: 33.33%;
-		border-top: 1px solid #ddd;
 		border-bottom: 1px solid #ddd;
 	}
 	.our-process-list ul li:nth-child(3n+3){
