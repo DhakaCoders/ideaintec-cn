@@ -205,23 +205,7 @@ if( windowWidth > 0 && responsiveSlider < 2 ){
 })();
 
 
-/**
-------------------
-To top
-------------------
-*/
-$(window).scroll(function() {
-    if($(this).scrollTop() != 0) {
-        $('#toTop').fadeIn();    
-    } else {
-        $('#toTop').fadeOut();
-    }
-});
 
-
-$('#toTop').click(function() {
-    $('body,html').animate({scrollTop:0},800);
-}); 
 
 
 $('.share-btn span').on('click', function(e){
@@ -231,9 +215,6 @@ $('.share-btn span').on('click', function(e){
 });
 
 
-
-new WOW().init();
-
 /* stary of Noyon*/
 
 if( $('.hamburgar-cntlr').length ){
@@ -242,12 +223,12 @@ if( $('.hamburgar-cntlr').length ){
   });
 }
 
-if (windowWidth > 767) {
+if (windowWidth > 768) {
   if( $('.hm-banner-cntlr').length ){
     var windowHeight = $(window).height();
     var HeaderH = $('.sticky-hdr').outerHeight();
     var decWindowHeight = (windowHeight - HeaderH) + 18;
-    if (windowHeight > 1) {
+    if (windowHeight > 300) {
       $('.hm-banner-cntlr').css('height', decWindowHeight);
     }
   }
@@ -292,9 +273,9 @@ $('.iit-form-fields-tabs ul li a').on('click', function(e){
   $(dataTo).addClass('iit-fl-up-tab-active');
 });
 
-
-$('.select-2-cntlr').select2();
-
+if( $('.select-2-cntlr').length ){
+  $('.select-2-cntlr').select2();
+}
 
 $('.believe-in-tab ul li a').on('click', function(e){
   e.preventDefault();
@@ -327,7 +308,6 @@ $('.skill-section-con ul li').hover(
 
 
 /* stary of Shariful*/
-
 
 if( $('#particles-js').length ){
     particlesJS("particles-js",{
@@ -507,8 +487,6 @@ $('.iit-faq-accordion-title').on('click', function(){
 
 
 /* stary of keshob*/
-
-
 $(".map-section").click(function(){
   $(this).toggleClass("js-active");
   $(this).find(".mt-open").toggle();
@@ -528,5 +506,28 @@ if( $('.wpforms-error').length ){
     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
   });
 }
+
+
+
+
+/**
+------------------
+To top
+------------------
+*/
+$(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+        $('#toTop').fadeIn();    
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
+
+
+$('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+}); 
+
+new WOW().init();
 
 })(jQuery);

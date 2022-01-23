@@ -168,10 +168,12 @@ nav.main-nav ul li.current-menu-item a{
 .iit-service-grd-item-des > a:hover{
     padding-left: 38px;
     letter-spacing: 1px;
+    color: #F8800B;
 }
 .iit-service-grd-item > a:hover:after,
 .iit-service-grd-item-des > a:hover:after{
     width: 25px;
+    background: #F8800B;
 }
 .iit-service-grd-item-des h5 a:hover{
     padding-left: 0;
