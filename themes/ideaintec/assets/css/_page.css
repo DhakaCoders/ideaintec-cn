@@ -134,7 +134,7 @@ body::-webkit-scrollbar-thumb {
 	width: 13px;
 	height: 14px;
 }
-
+.breadcrumb-cntlr ul li a:hover span,
 .breadcrumb-cntlr ul li.active a{
 	color: #F8800B;
 }
