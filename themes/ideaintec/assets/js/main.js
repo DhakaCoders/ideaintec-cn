@@ -441,9 +441,8 @@ $.each(skill, function(key, value){
 var progressBar = $('.progressbar-value');
 
 progressBar.each(function(){
-  
   var PWidth = $(this).attr('data-width');
-  progressBar.animate(
+  $(this).animate(
       {
         width: PWidth
       },3000
