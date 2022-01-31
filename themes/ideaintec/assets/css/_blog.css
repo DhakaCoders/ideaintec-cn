@@ -23,6 +23,8 @@
 }
 .blog-grd-item .blog-grd-item-img {
 	clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%, 0 75%);
+	-ms-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%, 0 75%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%, 0 75%);
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;
