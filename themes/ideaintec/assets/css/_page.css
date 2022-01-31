@@ -177,9 +177,9 @@ body::-webkit-scrollbar-thumb {
     font-style: normal;
     font-weight: 600;
     text-decoration: inherit;
-    transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 .fl-pagination-ctlr ul li a.prev{
 	position: absolute;
@@ -196,9 +196,9 @@ body::-webkit-scrollbar-thumb {
     font-style: normal;
     font-weight: 600;
     text-decoration: inherit;
-    transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 
 .fl-pagination-ctlr ul li a,
@@ -210,6 +210,16 @@ body::-webkit-scrollbar-thumb {
 }
 .fl-pagination-ctlr ul li span.current,
 .fl-pagination-ctlr ul li a:hover{
+	color: #5EAD46;
+}
+.fl-pagination-ctlr ul li a.prev span,
+.fl-pagination-ctlr ul li a.next span{
+	transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.fl-pagination-ctlr ul li a.prev:hover span,
+.fl-pagination-ctlr ul li a.next:hover span{
 	color: #5EAD46;
 }
 .fl-pagination-ctlr ul li a.prev:hover:after{
@@ -530,6 +540,10 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	}
 	.sec-entry-heading-title {
 	    padding-top: 20px;
+	}
+	.fl-pagination-ctlr ul li a.prev span, 
+	.fl-pagination-ctlr ul li a.next span{
+		display: none;
 	}
 }
 
