@@ -267,6 +267,9 @@
 	.iit-team-grds ul li{
 		width: 33.3333%;
 	}
+	.iit-team-skill-rgt .sec-entry-hdr{
+		max-width: 100%;
+	}
 }
 @media(max-width: 767px){
 	.iit-team-skill-sec-inr{
