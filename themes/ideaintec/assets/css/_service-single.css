@@ -362,5 +362,10 @@
 	}
 
 }
+@media(max-width: 359px){
+	.iit-ssbc-form-title{
+		font-size: 18.5px!important;
+	}
+}
 
 
