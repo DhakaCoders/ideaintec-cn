@@ -147,6 +147,11 @@
     height: 360px;
     margin-top: 10px;
 }
+.ifrem-google-map iframe,
+.ifrem-google-map{
+    height: 100%;
+    width: 100%;
+}
 .wpforms-field-container{
 	margin: 0 -12px;
 }
