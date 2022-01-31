@@ -743,7 +743,7 @@ Start Our Process Section Area
 }
 
 .our-process-list ul li{
-	height: 250px;
+	min-height: 250px;
 }
 
 .pp-card {
@@ -793,6 +793,8 @@ Start Our Process Section Area
 .back {
   color: white;
   transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  -webkit-transform: rotateY( 180deg );
   font-size: 18px;
   color: #000;
   background: white;
@@ -800,6 +802,8 @@ Start Our Process Section Area
   font-size: 15px;
   border-radius: 5px;
   backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   background: #fff; 
   text-transform: initial;
   padding: 30px 15px;
@@ -864,9 +868,12 @@ Our Features section
 }
 .features-item-icon{
 	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .features-item-icon i{
-	font-size: 35px;
+	font-size: 45px;
 }
 .features-item-title{
 	margin-bottom: 30px;
@@ -884,42 +891,6 @@ Our Features section
 }
 
 
-/**
----------------------
-Experiences section
----------------------
-*/
-
-.experiences-sec{
-	font-size: 20px;
-	line-height: 30px;
-}
-.experiences-sec-hdr{
-	padding: 0 100px 35px;
-	text-align: center;
-}
-.experiences-list ul{
-	margin: 0 auto;
-	padding: 0;
-	list-style: none;
-	max-width: 720px;
-}
-.experiences-list ul li{
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 16px;
-	line-height: 18px;
-	padding: 0 30px 25px;
-	float: left;
-	width: 33.3333%;
-	text-align: left;
-	background: url(../images/list-icon.png);
-	background-repeat: no-repeat;
-	background-position: left 2px;
-}
-.experiences-list ul li:before{
-	content: none;
-}
 
 /**
 ---------------------

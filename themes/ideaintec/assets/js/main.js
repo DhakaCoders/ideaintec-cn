@@ -1,8 +1,5 @@
 (function($) {
 
-/*Google Map Style*/
-var CustomMapStyles  = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-
 $(window).load(function() {
     $('.home').addClass('banner-effect');
 });
@@ -35,10 +32,7 @@ if (windowWidth <= 767) {
 
 }
 
-	
-if($("ul.slick-dots li").length == 1){
-   $("ul.slick-dots").hide();
-}
+
 //matchHeightCol
 if($('.mHc').length){
   $('.mHc').matchHeight();
@@ -172,38 +166,22 @@ if( $('.responsive-slider').length ){
     });
 }
 
-
-
-
-if( $('#mapID').length ){
-var latitude = $('#mapID').data('latitude');
-var longitude = $('#mapID').data('longitude');
-
-var myCenter= new google.maps.LatLng(latitude,  longitude);
-function initialize(){
-    var mapProp = {
-      center:myCenter,
-      mapTypeControl:true,
-      scrollwheel: false,
-      zoomControl: true,
-      disableDefaultUI: true,
-      zoom:7,
-      streetViewControl: false,
-      rotateControl: true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP,
-      styles: CustomMapStyles
-      };
-
-    var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
-    var marker= new google.maps.Marker({
-      position:myCenter,
-        icon:'map-marker.png'
-      });
-    marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
+/* slider custom prev and next control */
+var responsiveSlider = $('.responsive-slider-cntlr').length;
+if( windowWidth > 0 && responsiveSlider < 2 ){
+    $('.mbc-team-slider-ctlr .mbc-slider-prev-nxt').hide();
+}else if( windowWidth > 639 && responsiveSlider < 3 ){
+    $('.mbc-team-slider-ctlr .mbc-slider-prev-nxt').hide();
+}else if( windowWidth > 991 && responsiveSlider < 4 ){
+    $('.mbc-team-slider-ctlr .mbc-slider-prev-nxt').hide();
+}else if( windowWidth > 1199 && responsiveSlider < 5 ){
+    $('.mbc-team-slider-ctlr .mbc-slider-prev-nxt').hide();
+}else{
 
 }
+
+
+
 
 
 
@@ -227,23 +205,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 })();
 
 
-/**
-------------------
-To top
-------------------
-*/
-$(window).scroll(function() {
-    if($(this).scrollTop() != 0) {
-        $('#toTop').fadeIn();    
-    } else {
-        $('#toTop').fadeOut();
-    }
-});
 
-
-$('#toTop').click(function() {
-    $('body,html').animate({scrollTop:0},800);
-}); 
 
 
 $('.share-btn span').on('click', function(e){
@@ -253,9 +215,6 @@ $('.share-btn span').on('click', function(e){
 });
 
 
-
-new WOW().init();
-
 /* stary of Noyon*/
 
 if( $('.hamburgar-cntlr').length ){
@@ -264,12 +223,12 @@ if( $('.hamburgar-cntlr').length ){
   });
 }
 
-if (windowWidth > 767) {
+if (windowWidth > 768) {
   if( $('.hm-banner-cntlr').length ){
     var windowHeight = $(window).height();
     var HeaderH = $('.sticky-hdr').outerHeight();
     var decWindowHeight = (windowHeight - HeaderH) + 18;
-    if (windowHeight > 1) {
+    if (windowHeight > 300) {
       $('.hm-banner-cntlr').css('height', decWindowHeight);
     }
   }
@@ -314,9 +273,9 @@ $('.iit-form-fields-tabs ul li a').on('click', function(e){
   $(dataTo).addClass('iit-fl-up-tab-active');
 });
 
-
-$('.select-2-cntlr').select2();
-
+if( $('.select-2-cntlr').length ){
+  $('.select-2-cntlr').select2();
+}
 
 $('.believe-in-tab ul li a').on('click', function(e){
   e.preventDefault();
@@ -349,7 +308,6 @@ $('.skill-section-con ul li').hover(
 
 
 /* stary of Shariful*/
-
 
 if( $('#particles-js').length ){
     particlesJS("particles-js",{
@@ -483,9 +441,8 @@ $.each(skill, function(key, value){
 var progressBar = $('.progressbar-value');
 
 progressBar.each(function(){
-  
   var PWidth = $(this).attr('data-width');
-  progressBar.animate(
+  $(this).animate(
       {
         width: PWidth
       },3000
@@ -529,8 +486,6 @@ $('.iit-faq-accordion-title').on('click', function(){
 
 
 /* stary of keshob*/
-
-
 $(".map-section").click(function(){
   $(this).toggleClass("js-active");
   $(this).find(".mt-open").toggle();
@@ -550,5 +505,28 @@ if( $('.wpforms-error').length ){
     $(this).parents('.wpforms-field').removeClass('wpforms-has-error');
   });
 }
+
+
+
+
+/**
+------------------
+To top
+------------------
+*/
+$(window).scroll(function() {
+    if($(this).scrollTop() != 0) {
+        $('#toTop').fadeIn();    
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
+
+
+$('#toTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+}); 
+
+new WOW().init();
 
 })(jQuery);

@@ -111,6 +111,54 @@
 	content: none;
 }
 
+.iit-service-grd-item-cntlr-01 .iit-service-grd-item-img i{
+	color: #F8800B;
+}
+.iit-service-grd-item-cntlr-02 .iit-service-grd-item-img i{
+	color: #5d9d32;
+}
+.iit-service-grd-item-cntlr-03 .iit-service-grd-item-img i{
+	color: #0c224b;
+}
+
+.iit-service-grd-item-cntlr-04 .iit-service-grd-item-img i{
+	color: #F8800B;
+}
+.iit-service-grd-item-cntlr-05 .iit-service-grd-item-img i{
+	color: #5d9d32;
+}
+.iit-service-grd-item-cntlr-06 .iit-service-grd-item-img i{
+	color: #0c224b;
+}
+
+
+.iit-service-grd-item-cntlr-02 .iit-service-grd-item-title.fl-h5 a:hover,
+.iit-service-grd-item-cntlr-05 .iit-service-grd-item-title.fl-h5 a:hover{
+	color: #5d9d32;
+}
+.iit-service-grd-item-cntlr-03 .iit-service-grd-item-title.fl-h5 a:hover,
+.iit-service-grd-item-cntlr-06 .iit-service-grd-item-title.fl-h5 a:hover{
+	color: #0c224b;
+}
+
+.iit-service-grd-item-cntlr-02 .iit-service-grd-item > a:hover,
+.iit-service-grd-item-cntlr-05 .iit-service-grd-item > a:hover{
+	color: #5d9d32;
+}
+.iit-service-grd-item-cntlr-03 .iit-service-grd-item > a:hover,
+.iit-service-grd-item-cntlr-06 .iit-service-grd-item > a:hover{
+	color: #0c224b;
+}
+
+.iit-service-grd-item-cntlr-02 .iit-service-grd-item > a:hover:after,
+.iit-service-grd-item-cntlr-05 .iit-service-grd-item > a:hover:after{
+	background: #5d9d32;
+}
+.iit-service-grd-item-cntlr-03 .iit-service-grd-item > a:hover:after,
+.iit-service-grd-item-cntlr-06 .iit-service-grd-item > a:hover:after{
+	background: #0c224b;
+}
+
 
 .iit-service-row-item{
 	display: flex;
