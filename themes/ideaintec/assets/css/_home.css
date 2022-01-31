@@ -454,9 +454,10 @@ Our clints section
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
-.our-clints-item-cntlr:hover .our-clints-item a{
+.our-clints-item-cntlr:hover .our-clints-item a img{
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
