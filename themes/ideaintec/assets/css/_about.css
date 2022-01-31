@@ -697,3 +697,8 @@ ul.about-overview-feature li div p{
 		display: none;
 	}
 }
+@media (max-width: 359px){
+	.philosophy-cntlr .sec-entry-hdr-title.fl-h2{
+	    font-size: 25px;
+	}
+}

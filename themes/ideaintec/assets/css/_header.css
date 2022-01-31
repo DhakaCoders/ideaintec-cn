@@ -936,5 +936,7 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
 
 }
 @media(max-width: 479px){
-	
+	.xs-mobile-menu{
+		max-width: 100%;
+	}
 }
