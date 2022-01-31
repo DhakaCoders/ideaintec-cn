@@ -68,12 +68,13 @@
 .blog-grd-item .blog-grd-item-more {
 	position: absolute;
 	right: 20px;
-	bottom: 15px;
+	bottom: 10px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-	color: #000;
+	color: #fff;
+	background: #000;
 	font-size: 19px;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	border-radius: 50%;
 	line-height: 40px;
 	text-align: center;
@@ -108,6 +109,10 @@
 .blog-grd-item a{
 	display: inline-block;
 	vertical-align: baseline;
+}
+.blog-grd-item-title {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -197,20 +202,12 @@
 		width: 100%;
 	}
 	.fl-pagination-ctlr ul li{
-		padding: 0 7px!important;
+		padding: 0 10px!important;
 	}
 	.fl-pagination-ctlr ul li a, 
 	.fl-pagination-ctlr ul li span{
-		font-size: 12px;
-	}
-	.fl-pagination-ctlr ul li a.prev{
-		top: 6px;
-    	padding-left: 16px;
-	}
-	.fl-pagination-ctlr ul li a.next{
-		top: 6px;
-    	padding-right: 16px;
-	}
+		font-size: 16px;
+	}	
 	.fl-pagination-ctlr ul{
 		padding-left: 70px;
 		padding-right: 70px;
