@@ -129,6 +129,15 @@
         padding-left: 0;
         width: 100%;
     }
+    .iit-sidebar-menu{
+        padding: 0;
+    }
+    .post-info:after{
+        content: none;
+    }
+    .post-info{
+        text-align: center;
+    }
 }
 @media(max-width: 575px){
     .iit-blog-single-page-des{
