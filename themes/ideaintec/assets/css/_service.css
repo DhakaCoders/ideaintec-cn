@@ -258,12 +258,9 @@
 	.iit-service-col-des-con ul li{
 		width: 100%;
 	}
-}
-
-
-@media(max-width: 767px){
 	.iit-service-row-item {
 	    display: block;
+	    padding-top: 20px;
 	}
 	.iit-service-col-lft {
 	    width: 100%;
@@ -273,6 +270,14 @@
 	    padding-left: 0;
 	    width: 100%;
 	}
+	.iit-service-col-des .sec-entry-hdr{
+		max-width: 100%;
+	}
+}
+
+
+@media(max-width: 767px){
+	
 	.iit-service-row-lftdes-rgtimg .iit-service-col-rgt {
 	    padding-right: 0;
 	}
@@ -304,6 +309,10 @@
 	}
 	.iit-service-col-heading{
 		margin-bottom: 25px;
+	}
+	.iit-service-row-item{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
