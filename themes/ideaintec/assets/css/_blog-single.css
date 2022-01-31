@@ -138,6 +138,9 @@
     .post-info{
         text-align: center;
     }
+    .iit-blog-single-page-des{
+        padding-top: 60px;
+    }
 }
 @media(max-width: 575px){
     .iit-blog-single-page-des{
