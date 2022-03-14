@@ -405,8 +405,8 @@ ol li::before {
     border-bottom: 5.5px solid transparent;
 }
 .fl-button:hover:after{
-	border-left: 10px solid #fff;
-    margin-left: 6px;
+	border-left: 11px solid #fff;
+    margin-left: 5.5px;
     opacity: 1;
 }
 .circle:before,
