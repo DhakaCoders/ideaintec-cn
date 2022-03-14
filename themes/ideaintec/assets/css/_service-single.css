@@ -267,16 +267,23 @@
 	width: 33.33%;
 }
 .iit-tstmnl-grids{
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
-	margin: 0 -12px;
+	margin: 0 -12px;*/
+	column-count: 3;
+	column-gap: 24px;
 }
 .iit-tstmnl-item-cntlr{
+	/*margin-bottom: 24px;*/
+}
+.iit-tstmnl-item-cntlr{
+	/*width: 33.33%;
+	padding: 0 12px;*/
+	max-width: 100%;
 	margin-bottom: 24px;
-}
-.iit-tstmnl-item-cntlr{
-	width: 33.33%;
-	padding: 0 12px;
+	-webkit-column-break-inside:  avoid;
+	page-inside: avoid;
+	break-inside: avoid;
 }
 .iit-tstmnl-item{
 	padding-left: 15px;
@@ -295,6 +302,17 @@
 }
 .iit-tstmnl-item-pro{
 	margin-bottom: 25px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.iit-tstmnl-item-pro-img{
+	padding-right: 20px;
+}
+.fl-h6.iit-tstmnl-item-sub-title{
+	margin-bottom: 0;
+	text-transform: capitalize;
+	color: #F8800B;
 }
 .iit-tstmnl-item-pro-img img{
 	max-width: 120px;
@@ -317,7 +335,9 @@
 	color: #F8800B;
 }
 .iit-tstmnl-item-title{
-	margin-bottom: 0;
+	margin-bottom: 5px;
+	line-height: 1;
+	text-transform: capitalize;
 }
 .iit-tstmnl-item-title a{
 	display: inline-block;
