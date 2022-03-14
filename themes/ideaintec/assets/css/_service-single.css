@@ -263,16 +263,16 @@
     padding-top: 30px;
 }
 .iit-tstmnl-grid-col{
-	padding: 0 15px;
+	padding: 0 12px;
 	width: 33.33%;
 }
 .iit-tstmnl-grids{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -15px;
+	margin: 0 -12px;
 }
 .iit-tstmnl-item-cntlr{
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 }
 .iit-tstmnl-item{
 	padding-left: 15px;
@@ -280,7 +280,10 @@
 	padding-top: 20px;
 	padding-bottom: 30px;
 	background: #fff;
-
+	border: 1px solid #f7f7f7;
+	-webkit-box-shadow: 2px 2px 6px 2px #f7f7f7;
+	-moz-box-shadow: 2px 2px 6px 2px #f7f7f7;
+	box-shadow: 2px 2px 6px 2px #f7f7f7;
 }
 .iit-testimonial-sec{
 	background: #fbfbfb;
@@ -336,6 +339,9 @@
 .iit-tstmnl-prmo-title span{
 	position: relative;
 	z-index: 2;
+}
+.iit-tstmnl-grid-col-03{
+	padding-top: 80px;
 }
 
 @media(max-width: 1699px){
