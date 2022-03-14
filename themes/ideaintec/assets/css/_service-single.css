@@ -274,6 +274,10 @@
 .iit-tstmnl-item-cntlr{
 	margin-bottom: 24px;
 }
+.iit-tstmnl-item-cntlr{
+	width: 33.33%;
+	padding: 0 12px;
+}
 .iit-tstmnl-item{
 	padding-left: 15px;
 	padding-right: 15px;
@@ -298,7 +302,7 @@
 	border-radius: 50% 50%;
 }
 .iit-tstmnl-item-desc{
-
+	color: #363535;
 }
 .dfp-blockqoute{
 	position: relative;
