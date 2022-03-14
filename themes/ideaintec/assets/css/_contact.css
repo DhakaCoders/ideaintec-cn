@@ -35,6 +35,8 @@
     position: relative;
     height: 370px;
     /*display: flex;*/
+    margin-bottom: 30px!important;
+    background: #fbfbfb;
 }
 .contact-form-img {
     position: absolute;
@@ -106,9 +108,14 @@
 .contact-details-rgt .ftr-details-col a,
 .contact-details-lft-inner p,
 .cnt-details-sub-heading{
-    color: #fff;
+    color: #000;
 }
-
+.contact-form-details .ftr-details-col-iocn{
+    background: #666;
+}
+.contact-form-details .cnt-details-heading:after{
+        background: #000;
+}
 .contact-form-fea-img img{
 	display: none;
 }
@@ -128,16 +135,12 @@
 .map-dsc {
     background: #fff;
     position: absolute;
-    top: -55px;
     z-index: 10;
     width: 100%;
     max-width: 392px;
-    padding: 17px 22px;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin-left: 5px;
+    padding: 10px 15px;
+    left: 10px;
+    bottom: 10px;
 }
 .map-dsc span a{
     color: #000;
@@ -493,9 +496,6 @@
 
 /*responsive-start*/
 @media(max-width: 1699px){
-    .map-dsc{
-        top: -46px;
-    }
 }
 
 @media (max-width: 1399px){
@@ -509,9 +509,6 @@
 @media (max-width: 1199px){
     .contact-form-lft-con{
         padding-right: 60px;
-    }
-    .map-dsc{
-        top: -47px;
     }
 }
 @media (max-width: 991px){
@@ -544,10 +541,6 @@
         width: 100%;
         margin: 0 auto;
     }
-    .map-dsc{
-        margin-left: 0;
-        top: -48px;
-    }
 }
 @media (max-width: 575px){
     .contact-form-wrp .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field{
@@ -569,7 +562,6 @@
         max-width: 300px;
         padding: 17px 17px;
         font-size: 13px;
-        top: -44px;
     }
 }
 @media (max-width: 359px){
@@ -580,7 +572,6 @@
         max-width: 250px;
         padding: 10px 10px;
         font-size: 11px;
-        top: -40px;
     }
 }
 
