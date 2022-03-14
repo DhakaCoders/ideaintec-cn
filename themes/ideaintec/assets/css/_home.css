@@ -1531,12 +1531,14 @@ home about us sec
 .hm-about-us-img-two img{
 	width: 100%;
 	height: auto;
+	border-radius: 63% 37% 30% 70%/50% 45% 55% 50%;
 }
 .hm-about-us-img-one {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+
 }
 .hm-about-us-img-two {
     /*position: absolute;*/
