@@ -266,6 +266,16 @@
 	color: #000;
 }
 
+.iit-service-grd-2 ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.iit-service-grd-2 ul li{
+	width: 33.3333%;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
 @media(max-width: 1399px){
 	.iit-service-col-rgt{
 		padding-left: 30px;
