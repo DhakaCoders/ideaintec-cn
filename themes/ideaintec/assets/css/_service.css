@@ -266,14 +266,105 @@
 	color: #000;
 }
 
+.iit-service-grd-2{
+	position: relative;
+	margin-top: 50px;
+}
+.iit-service-grd-2-mdl-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 33.3333%;
+}
 .iit-service-grd-2 ul{
-	display: flex;
-	flex-wrap: wrap;
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: -12px;
+	margin-right: -12px;
 }
 .iit-service-grd-2 ul li{
 	width: 33.3333%;
 	padding-left: 12px;
 	padding-right: 12px;
+}
+.clear{
+	clear: both;
+}
+.pull-left{
+	float: left;
+	text-align: right;
+}
+.pull-right{
+	float: right;
+	text-align: left;
+}
+.iit-service-grd-2-item-inr{
+	padding-right: 100px;
+	position: relative;
+	margin-bottom: 100px;
+}
+.iit-service-grd-2 .iit-service-grd-item-img{
+	height: 82px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: inherit;
+}
+.pull-right .iit-service-grd-2-item-inr{
+	padding-right: 0;
+	padding-left: 100px;
+}
+.pull-right .iit-service-grd-item-img{
+	right: initial;
+	left: 0;
+	margin-left: initial;
+	margin-right: inherit;
+}
+.iit-service-grd-2 .iit-service-grd-item-img i{
+	font-size: 25px;
+	height: 28px;
+    width: 36px;
+    line-height: 28px;
+}
+.iit-service-grd-2-title{
+	margin-bottom: 12px;
+}
+.option-dots{
+	position: absolute;
+	bottom: -50px;
+	right: 35px;
+	background: #eee;
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+}
+.pull-right .option-dots{
+	right: initial;
+	left: 35px;
+}
+.option-dots:before{
+	content: "";
+	position: absolute;
+	top: -20px;
+	right: 0;
+	background: #eee;
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+}
+.option-dots:after{
+	content: "";
+	position: absolute;
+	top: 20px;
+	right: 0;
+	background: #eee;
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
 }
 
 @media(max-width: 1399px){
