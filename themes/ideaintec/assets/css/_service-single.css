@@ -263,6 +263,62 @@
     padding-top: 30px;
 }
 
+
+/*.iit-tstmnl-grids{
+	display: flex;
+	flex-wrap: wrap;
+}*/
+.iit-tstmnl-item-cntlr{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+	width: 33.33%;
+}
+.iit-tstmnl-item-cntlr:nth-child(3n+1){
+	clear: left;
+}
+.iit-tstmnl-item{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: #fff;
+}
+.iit-testimonial-sec{
+	background: #f7f7f7;
+	padding-top: 100px!important;
+}
+.iit-tstmnl-item-pro{
+	margin-bottom: 25px;
+}
+.iit-tstmnl-item-desc{
+
+}
+.dfp-blockqoute{
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 30px;
+}
+.dfp-blockqoute blockquote i{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	color: #F8800B;
+}
+.iit-tstmnl-item-title{
+	margin-bottom: 0;
+}
+.iit-tstmnl-item-title a{
+	display: inline-block;
+	text-decoration: none;
+	color: initial;
+}
+.iit-tstmnl-item-title a:hover{
+	color: #F8800B;
+}
+
 @media(max-width: 1699px){
 	.iit-testi-blockquote{
 		padding-right: 50px;
