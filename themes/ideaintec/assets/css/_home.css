@@ -406,7 +406,7 @@
 .hm-bnr-2{
 	padding-top: 140px;
 	padding-bottom: 140px;
-	background-color: #0c224b;
+	background-color: rgba(12,34,75,0.75);
 }
 .hm-bnr2-inr{
 	display: flex;

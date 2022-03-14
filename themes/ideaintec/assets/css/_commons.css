@@ -387,6 +387,7 @@ ol li::before {
 	background: #F8800B;
 	border-radius: 5px;
 	font-size: 14px;
+	font-weight: 500;
 	line-height: 1.1;
 	text-transform: uppercase;
 	text-align: center;
