@@ -394,6 +394,21 @@ ol li::before {
 	overflow: hidden;
 	letter-spacing: 0.25px;
 }
+.fl-button:after{
+	transition: all 0.25s;
+    content: "";
+    display: inline-block;
+    border-left: 0 solid #fff;
+    margin-left: 0;
+    opacity: 0;
+    border-top: 5.5px solid transparent;
+    border-bottom: 5.5px solid transparent;
+}
+.fl-button:hover:after{
+	border-left: 10px solid #fff;
+    margin-left: 6px;
+    opacity: 1;
+}
 .circle:before,
 .fl-button:before{
 	position: absolute;
