@@ -55,6 +55,9 @@
     right: 0;
     text-align: center;
     top: 0;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
 }
 
 .iit-service-grd-item-title{
