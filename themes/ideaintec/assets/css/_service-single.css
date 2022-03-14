@@ -263,20 +263,11 @@
     padding-top: 30px;
 }
 
+.iit-tstmnl-grids{
 
-/*.iit-tstmnl-grids{
-	display: flex;
-	flex-wrap: wrap;
-}*/
-.iit-tstmnl-item-cntlr{
-	float: left;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 30px;
-	width: 33.33%;
 }
-.iit-tstmnl-item-cntlr:nth-child(3n+1){
-	clear: left;
+.iit-tstmnl-item-cntlr{
+	
 }
 .iit-tstmnl-item{
 	padding-left: 15px;
@@ -284,6 +275,7 @@
 	padding-top: 20px;
 	padding-bottom: 30px;
 	background: #fff;
+
 }
 .iit-testimonial-sec{
 	background: #f7f7f7;
