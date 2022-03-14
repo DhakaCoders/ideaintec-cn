@@ -292,6 +292,11 @@
 .iit-tstmnl-item-pro{
 	margin-bottom: 25px;
 }
+.iit-tstmnl-item-pro-img img{
+	max-width: 120px;
+	height: auto;
+	border-radius: 50% 50%;
+}
 .iit-tstmnl-item-desc{
 
 }
