@@ -304,7 +304,7 @@
 	margin-bottom: 25px;
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
+	
 }
 .iit-tstmnl-item-pro-img{
 	padding-right: 20px;
@@ -385,6 +385,22 @@
 	.iit-testi-info > i{
 		font-size: 35px;
 	}
+	.iit-tstmnl-prmo-title i{
+		left: 0;
+	}
+	.iit-tstmnl-grids {
+		column-gap: 20px;
+	}
+	.iit-tstmnl-item-cntlr{
+		margin-bottom: 20px;
+	}
+	.iit-tstmnl-prmo-title{
+		font-size: 28px!important;
+	}
+	
+	.iit-testimonial-sec {
+		padding-top: 90px!important;
+	}
 }
 @media(max-width: 991px){
 	.iit-ssbc-form-inr{
@@ -400,6 +416,22 @@
 	    padding-right: 30px;
 	    width: 65%;
 	}
+	.iit-tstmnl-grids {
+		column-gap: 24px;
+		column-count: 2;
+	}
+	.iit-tstmnl-item-cntlr{
+		margin-bottom: 24px;
+	}
+	.iit-testimonial-sec {
+		padding-top: 80px!important;
+	}
+	.iit-tstmnl-grids{
+		max-width: 700px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
 }
 @media(max-width: 767px){
 	.iit-service-single-bnr-con-inr {
@@ -435,8 +467,38 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.iit-tstmnl-grids {
+		column-gap: 20px;
+	}
+	.iit-tstmnl-item-cntlr{
+		margin-bottom: 20px;
+	}
+	.iit-tstmnl-prmo-title{
+		font-size: 28px!important;
+	}
+	.iit-tstmnl-prmo-title i{
+		top: -54px;
+		font-size: 75px;
+	}
+	.iit-testimonial-sec {
+		padding-top: 70px!important;
+	}
 }
-
+@media(max-width: 639px){
+	.iit-tstmnl-grids{
+		max-width: 375px;
+		width: 100%;
+		margin: 0 auto;
+		column-count: 1;
+	}
+	.iit-tstmnl-item-pro-img img {
+		max-width: 100px;
+		max-height: 100px;
+	}
+	.iit-tstmnl-item{
+		padding-bottom: 20px;
+	}
+}
 @media(max-width: 575px){
 	.input-field-row {
 	    padding-bottom: 20px;
@@ -472,6 +534,19 @@
 	.iit-wyg-hdr-img,
 	.iit-wyg-hdr-title{
 		width: initial;
+	}
+	.iit-tstmnl-prmo-title {
+		font-size: 27px!important;
+	}
+	.iit-tstmnl-item-pro-img img {
+		max-width: 90px;
+		max-height: 90px;
+	}
+	.iit-testimonial-sec {
+		padding-top: 60px!important;
+	}
+	.iit-tstmnl-item{
+		padding-bottom: 15px;
 	}
 
 }
