@@ -32,7 +32,8 @@
 .iit-service-grd-item-img,
 .iit-etu-img,
 .ethics-item-icon,
-.philosophy-item-img{
+.philosophy-item-img,
+.contect-grid-img{
 	height: 122px;
 	width: 120px;
 	padding: 7px 2px;
@@ -44,7 +45,8 @@
 .iit-service-grd-item-img span,
 .iit-etu-img span,
 .ethics-item-icon span,
-.philosophy-item-img span{
+.philosophy-item-img span,
+.contect-grid-img span{
 	background-color: #fff;
     color: #666;
     display: block;
@@ -56,7 +58,8 @@
 .iit-service-grd-item-img i,
 .iit-etu-img i,
 .ethics-item-icon i,
-.philosophy-item-img i{
+.philosophy-item-img i,
+.contect-grid-img i{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 35px;

@@ -36,7 +36,7 @@
     height: 370px;
     /*display: flex;*/
     margin-bottom: 30px!important;
-    background: #fbfbfb;
+    background: #0c224b;
 }
 .contact-form-img {
     position: absolute;
@@ -108,13 +108,13 @@
 .contact-details-rgt .ftr-details-col a,
 .contact-details-lft-inner p,
 .cnt-details-sub-heading{
-    color: #000;
+    color: #fff;
 }
 .contact-form-details .ftr-details-col-iocn{
-    background: #666;
+    background: #fff;
 }
 .contact-form-details .cnt-details-heading:after{
-        background: #000;
+        background: #fff;
 }
 .contact-form-fea-img img{
 	display: none;
