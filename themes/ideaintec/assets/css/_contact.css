@@ -37,6 +37,9 @@
     /*display: flex;*/
     margin-bottom: 30px!important;
     background: #fbfbfb;
+    background: #c2f0c2;
+    border: 1px solid #191919;
+    border: 1px solid #87b666;
 }
 .contact-form-img {
     position: absolute;
@@ -111,7 +114,8 @@
     color: #000;
 }
 .contact-form-details .ftr-details-col-iocn{
-    background: #666;
+    background: #dddddb;
+    background: #fff;
 }
 .contact-form-details .cnt-details-heading:after{
         background: #000;
