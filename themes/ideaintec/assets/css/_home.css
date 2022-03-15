@@ -62,6 +62,10 @@
     height: 100%;
     width: 100%;
 }
+.page-banner-cntlr .bnr-btm-skew-img{
+
+	bottom: 0;
+}
 .hm-banner-bg-black{
 	position: absolute;
 	top: 0;
