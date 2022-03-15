@@ -311,19 +311,23 @@
 	margin-top: 50px;
 }
 .iit-service-grd-2-mdl-img{
-	position: absolute;
+	/*position: absolute;
 	top: 0;
 	left: 0;
-	right: 0;
-	margin: auto;
+	right: 0;*/
+	margin: 0 auto;
 	width: 33.3333%;
 }
 .iit-service-grd-2 ul{
-	float: left;
 	width: 100%;
 	margin-bottom: 50px;
 	margin-left: -12px;
 	margin-right: -12px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .iit-service-grd-2 ul li{
 	width: 33.3333%;
