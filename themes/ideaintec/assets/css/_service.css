@@ -16,6 +16,11 @@
     border-bottom: 1px solid #ddd;
 }
 
+.iit-service-grds > ul > li:hover .iit-service-grd-item-img i{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
 
 .iit-service-grd-item{
 	padding-bottom: 30px;
@@ -365,6 +370,10 @@
 	height: 8px;
 	width: 8px;
 	border-radius: 100%;
+}
+.iit-service-grd-2 ul li:last-child .option-dots,
+.iit-service-grd-2 ul li:nth-last-child(2) .option-dots{
+	display: none;
 }
 
 @media(max-width: 1399px){
