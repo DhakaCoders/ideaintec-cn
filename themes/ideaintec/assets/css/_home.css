@@ -909,7 +909,7 @@ Our Features section
 	width: 80px!important;
 }
 .features-item-icon i{
-	color: #000;
+	font-size: 32px!important;
 }
 .features-item-title{
 	margin-bottom: 30px;

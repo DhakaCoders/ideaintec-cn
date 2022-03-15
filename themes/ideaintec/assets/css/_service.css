@@ -57,7 +57,7 @@
 .iit-service-img span,
 .features-item-icon span{
 	background-color: #fff;
-    color: #666;
+    color: #242424;
     display: block;
     height: 100%;
     position: relative;
@@ -413,6 +413,10 @@
 .iit-service-grd-2 ul li:last-child .option-dots,
 .iit-service-grd-2 ul li:nth-last-child(2) .option-dots{
 	display: none;
+}
+.iit-service-grd-2 ul li:last-child .iit-service-grd-2-item-inr,
+.iit-service-grd-2 ul li:nth-last-child(2) .iit-service-grd-2-item-inr{
+	margin-bottom: 0;
 }
 
 @media(max-width: 1399px){
