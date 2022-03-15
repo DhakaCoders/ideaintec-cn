@@ -33,7 +33,7 @@
 }
 .contact-form-fea-img {
     position: relative;
-    height: 370px;
+    height: initial;
     /*display: flex;*/
     margin-bottom: 30px!important;
     background: #242424;
@@ -57,7 +57,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
-    padding-top: 20px;
     position: relative;
     z-index: 9;
 }
@@ -80,12 +79,15 @@
 .contact-details-rgt:after{
     position: absolute;
     content: "";
-    top: 40px;
+    top: 50%;
     right: 0;
-    bottom: 0;
     width: 1px;
-    height: 190px;
+    height: 200px;
     background: #fff;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 .cnt-details-heading {
     margin-bottom: 12px;
@@ -143,15 +145,21 @@
         background: #fff;
 }
 .contact-details-lft-inner{
-    padding-right: 35px;
-    padding-left: 8px;
+    padding-right: 25px;
+    padding-left: 0;
+    padding-bottom: 35px;
 }
 .contact-details-rgt-inner{
-    padding-top: 20px;
+    padding-top: 47px;
 }
+.contact-details-lft-inner .cnt-details-heading,
 .contact-details-lft-inner p,
 .cnt-details-sub-heading{
     text-align: right;
+}
+.contact-form-details .contact-details-lft-inner .cnt-details-heading:after{
+    left: initial;
+    right: 0;
 }
 .contact-form-fea-img img{
 	display: none;
