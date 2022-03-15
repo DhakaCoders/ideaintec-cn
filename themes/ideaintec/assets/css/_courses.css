@@ -20,8 +20,26 @@
 	background: #ff9140;
 }
 
-.courses-con-cntlr .iit-service-grds > ul > li ul li{
-	display: inline-block;
+.courses-con-cntlr .iit-service-grd-item{
+	text-align: inherit;
+}
+.iit-service-grd-item-des-hdng{
+	padding-left: 60px;
+}
+.courses-con-cntlr .iit-service-grd-item-img{
+	margin-left: inherit;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.courses-con-cntlr .iit-service-grd-item-img i{
+	font-size: 23px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	color: #000;
 }
 
 

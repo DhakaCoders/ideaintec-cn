@@ -33,7 +33,8 @@
 .iit-etu-img,
 .ethics-item-icon,
 .philosophy-item-img,
-.contect-grid-img{
+.contect-grid-img,
+.iit-service-img{
 	height: 122px;
 	width: 120px;
 	padding: 7px 2px;
@@ -46,7 +47,8 @@
 .iit-etu-img span,
 .ethics-item-icon span,
 .philosophy-item-img span,
-.contect-grid-img span{
+.contect-grid-img span,
+.iit-service-img span{
 	background-color: #fff;
     color: #666;
     display: block;
@@ -59,7 +61,8 @@
 .iit-etu-img i,
 .ethics-item-icon i,
 .philosophy-item-img i,
-.contect-grid-img i{
+.contect-grid-img i,
+.iit-service-img i{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 35px;
@@ -236,12 +239,12 @@
 	padding-left: 0;
 	padding-right: 40px;
 }
-.iit-service-col-des i{
+/*.iit-service-col-des i{
 	display: inline-block;
 	vertical-align: baseline;
 	padding-right: 20px;
 	font-size: 35px;
-}
+}*/
 
 .iit-service-col-img{
 	padding-top: 68px;
@@ -255,6 +258,21 @@
 	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
+	padding-left: 60px;
+}
+.iit-service-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 48px;
+	margin-top: -9px;
+}
+.iit-service-img i{
+	font-size: 23px;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
 }
 .iit-service-col-des-title{
 	text-transform: capitalize;
