@@ -1,14 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
 .iit-service-grd-item-title.fl-h5 a{
 	color: inherit;
 }
@@ -30,7 +20,9 @@
 	background: #ff9140;
 }
 
-
+.courses-con-cntlr .iit-service-grds > ul > li ul li{
+	display: inline-block;
+}
 
 
 

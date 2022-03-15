@@ -16,6 +16,11 @@
     border-bottom: 1px solid #ddd;
 }
 
+.iit-service-grds > ul > li:hover .iit-service-grd-item-img i{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
 
 .iit-service-grd-item{
 	padding-bottom: 30px;
@@ -24,10 +29,11 @@
 	text-align: center;
 }
 
-.iit-service-grd-item-img{
-	position: static;
-	left: 0;
-	top: 9px;
+.iit-service-grd-item-img,
+.iit-etu-img,
+.ethics-item-icon,
+.philosophy-item-img,
+.contect-grid-img{
 	height: 122px;
 	width: 120px;
 	padding: 7px 2px;
@@ -36,7 +42,11 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.iit-service-grd-item-img span{
+.iit-service-grd-item-img span,
+.iit-etu-img span,
+.ethics-item-icon span,
+.philosophy-item-img span,
+.contect-grid-img span{
 	background-color: #fff;
     color: #666;
     display: block;
@@ -45,7 +55,11 @@
     width: 100%;
     border-radius: 50%;
 }
-.iit-service-grd-item-img i{
+.iit-service-grd-item-img i,
+.iit-etu-img i,
+.ethics-item-icon i,
+.philosophy-item-img i,
+.contect-grid-img i{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 35px;
@@ -365,6 +379,10 @@
 	height: 8px;
 	width: 8px;
 	border-radius: 100%;
+}
+.iit-service-grd-2 ul li:last-child .option-dots,
+.iit-service-grd-2 ul li:nth-last-child(2) .option-dots{
+	display: none;
 }
 
 @media(max-width: 1399px){
