@@ -1590,6 +1590,7 @@ home about us sec
 }
 .hm-about-us-img-one img{
 	border-radius: 37% 63% 70% 30%/45% 50% 55% 50%;
+	border-radius: 37% 63% 63% 37%/55% 50% 50% 45%;
 }
 .hm-about-us-img-two {
     /*position: absolute;*/
