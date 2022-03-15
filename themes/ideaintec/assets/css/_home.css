@@ -902,9 +902,8 @@ Our Features section
 }
 .features-item-icon{
 	margin-bottom: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	height: 80px!important;
+	width: 80px!important;
 }
 .features-item-icon i{
 	font-size: 45px;
