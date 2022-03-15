@@ -29,10 +29,10 @@
 	text-align: center;
 }
 
-.iit-service-grd-item-img{
-	position: static;
-	left: 0;
-	top: 9px;
+.iit-service-grd-item-img,
+.iit-etu-img,
+.ethics-item-icon,
+.philosophy-item-img{
 	height: 122px;
 	width: 120px;
 	padding: 7px 2px;
@@ -41,7 +41,10 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.iit-service-grd-item-img span{
+.iit-service-grd-item-img span,
+.iit-etu-img span,
+.ethics-item-icon span,
+.philosophy-item-img span{
 	background-color: #fff;
     color: #666;
     display: block;
@@ -50,7 +53,10 @@
     width: 100%;
     border-radius: 50%;
 }
-.iit-service-grd-item-img i{
+.iit-service-grd-item-img i,
+.iit-etu-img i,
+.ethics-item-icon i,
+.philosophy-item-img i{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 35px;
