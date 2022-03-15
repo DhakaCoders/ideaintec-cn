@@ -54,6 +54,9 @@ ul.about-overview-feature li i {
     top: 3px;
     font-size: 20px;
     color: #F7961E;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
 }
 ul.about-overview-feature li.iit-etu-col-04 i{
 	font-size: 22px;
