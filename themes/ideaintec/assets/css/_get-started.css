@@ -415,6 +415,9 @@ input[type="file"]:valid + .file-upload-success {
     border: 1px solid #b5b5b5;
     margin-top: -2px;
 }
+.get-started-page-content .filter-check-row span.checkmark{
+	margin-top: 1px;
+}
 .filter-check-row.iit-filter-check-row span.checkmark{
 	margin-top: 2px;
 }
