@@ -9,14 +9,26 @@
 	padding-right: 10px;
 }
 .iit-courses-grd-item .iit-service-grd-item-des ul li > a{
+	display: inline-block;
+	vertical-align: baseline;
 	color: inherit;
+	padding: 2px 0 7px 18px;
+	position: relative;
 }
-.iit-courses-grd-item .iit-service-grd-item-des ul li:before{
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
+.iit-courses-grd-item .iit-service-grd-item-des ul li > a:before{
+	content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 7px;
+    height: 7px;
+    background: #000;
+    margin-top: 6px;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
 }
-.iit-courses-grd-item .iit-service-grd-item-des ul li:hover::before{
+.iit-courses-grd-item .iit-service-grd-item-des ul li >a:hover::before{
 	background: #ff9140;
 }
 
@@ -24,24 +36,28 @@
 	text-align: inherit;
 }
 .iit-service-grd-item-des-hdng{
-	padding-left: 65px;
+	padding-left: 75px;
 }
 .courses-con-cntlr .iit-service-grd-item-img{
 	margin-left: inherit;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     left: 0;
     top: 0;
 }
 .courses-con-cntlr .iit-service-grd-item-img i{
-	font-size: 20px;
-	width: 25px;
-	height: 25px;
-	line-height: 25px;
+	font-size: 24px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
 }
-
-
+.courses-con-cntlr .iit-service-grd-item-title{
+	padding-top: 20px;
+}
+.courses-con-cntlr .iit-service-grd-item-des-hdng{
+	padding-bottom: 15px;
+}
 
 
 /*responsive*/
