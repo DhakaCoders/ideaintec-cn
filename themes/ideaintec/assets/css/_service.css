@@ -259,6 +259,9 @@
 	align-items: center;
 	padding-left: 60px;
 }
+.iit-service-col-heading.seht-only-two .heading-divider{
+	width: 70px;
+}
 .iit-service-img{
 	position: absolute;
 	left: 0;
