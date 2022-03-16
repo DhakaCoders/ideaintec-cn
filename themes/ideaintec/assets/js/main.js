@@ -320,7 +320,7 @@ if( $('#particles-js').length ){
           }
         },
         "color": {
-          "value": ["#f8800b","#5d9d32","#0c224b"]
+          "value": ["#f8800b","#5d9d32","#0c224b", "#fff"]
         },
         "shape": {
           "type": "polygon",
