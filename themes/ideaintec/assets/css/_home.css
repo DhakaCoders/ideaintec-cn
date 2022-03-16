@@ -437,7 +437,7 @@
 }
 .hm-bnr2-des{
 	text-align: center;
-	padding: 140px 50px;
+	padding: 162px 50px;
 	background-image: url('../images/hm-bnr2-des-bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -450,15 +450,16 @@
 }
 
 .hm-bnr2-title{
-	font-size: 48px!important;
+	font-size: 45px!important;
 	color: #fff;
 }
 .hm-bnr2-sub-title{
-	font-size: 35px!important;
+	font-size: 30px!important;
 	color: #fff;
 }
 .hm-bnr2-btm-title{
 	color: #fff;
+	margin-bottom: 0;
 }
 
 /**
