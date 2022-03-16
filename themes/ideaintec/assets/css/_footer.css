@@ -243,9 +243,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #656565;
+	/*color: #656565;*/
+	color: #b3b2b1;
 	background: transparent;
-	border: 2px solid #656565;
+	/*border: 2px solid #656565;*/
+	border: 2px solid #b3b2b1;
 	border-radius: 100%;
 	font-size: 14px;
 	transition: all 0.5s;
@@ -266,8 +268,13 @@
     padding-top: 20px;
 }
 
-.ftr-desc p, .ftr-col-menu ul li a, .ftr-details-col a, .ftr-btm p, .ftr-col-menu ul li a:after{
- color: #969392;
+.ftr-desc p, 
+.ftr-col-menu ul li a, 
+.ftr-details-col a, 
+.ftr-btm p, 
+.ftr-col-menu ul li a:after{
+	color: #969392;
+	color: #b3b2b1;
 }
 
 
