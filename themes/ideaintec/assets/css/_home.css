@@ -446,9 +446,14 @@
 
 .hm-bnr2-title{
 	font-size: 48px!important;
+	color: #fff;
 }
 .hm-bnr2-sub-title{
 	font-size: 35px!important;
+	color: #fff;
+}
+.hm-bnr2-btm-title{
+	color: #fff;
 }
 
 /**

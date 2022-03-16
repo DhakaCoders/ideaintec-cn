@@ -368,6 +368,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 	color: #fff;
 	display: none;
 	z-index: 20;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#toTop:hover{
+	background: #F8800B;
 }
 #toTop i{
 	position: absolute;
