@@ -112,7 +112,7 @@
 .info-img span a{
 	margin-left: 50px;
 	margin-bottom: 10px;
-	color: #000;
+	color: #0c224b;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 600;
@@ -130,7 +130,7 @@
 .info-img span a::before {
 	content: " ";
 	display: block;
-	background: #000;
+	background: #0c224b;
 	width: 30px;
 	height: 3px;
 	top: 0;
@@ -141,7 +141,9 @@
 	-ms-transition: all 0.5s;
 	margin-top: 7px;
 }
-
+.info-img span a:hover::before{
+	background: #F8800B;
+}
 
 .info-img strong{
 	-webkit-transition: 0.5s ease-in-out;
@@ -152,7 +154,7 @@
 }
 .info-img strong a{
 	margin-left: -70px;
-	color: #000;
+	color: #0c224b;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;

@@ -123,7 +123,7 @@
 	color: #fff;
 }
 .newsletter-form button:hover{
-	background: #5EAD46;
+	background: #F8800B;
 	color: #fff;
 }
 .ftr-col-hding{
@@ -208,6 +208,7 @@
 }
 .ftr-details-col-iocn i{
 	display: inline-block;
+	color: #5d9d32;
 }
 .ftr-details-col a{
 	display: inline-block;
@@ -259,6 +260,7 @@
 }
 .ftr-socials ul li a:hover{
  	color: #fff;
+ 	border-color: #5d9d32;
 }
 .ftr-socials {
     padding-top: 20px;

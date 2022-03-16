@@ -656,7 +656,7 @@ Start Our Process Section Area
   position: relative;
   width: 100px; 
   height: 70px;
-  background-color: #242424;
+  background-color: #5d9d32;
   margin-left: auto;
   margin-right: auto;
 }
@@ -672,7 +672,7 @@ Start Our Process Section Area
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 25px solid #242424;
+  border-bottom: 25px solid #5d9d32;
   left: 50%;
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -682,7 +682,7 @@ Start Our Process Section Area
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 25px solid #242424;
+  border-top: 25px solid #5d9d32;
   left: 50%;
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -766,7 +766,7 @@ Start Our Process Section Area
 	color: #2a6171;
 }
 .polygon-bx-title{
-	color: #242424;
+	color: #0c224b;
 	font-size: 22px;
 	vertical-align: middle;
 	height: 70px;
@@ -860,7 +860,7 @@ Start Our Process Section Area
 }
 .back strong{
 	font-weight: normal;
-	color: #000;
+	color: #0c224b;
 	text-transform: capitalize;
 	font-size: 20px;
 	display: block;

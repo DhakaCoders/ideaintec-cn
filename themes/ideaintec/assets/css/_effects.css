@@ -86,9 +86,13 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after,
 .iit-form-fields-tabs > ul > li a:hover,
 .iit-form-fields-tabs > ul > li a.ui-tabs-active,
 .fl-button{
+    background-color: #5d9d32;
+}
+nav.main-nav > ul > li > a:after,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after,
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:after{
     background-color: #F8800B;
 }
-
 /* all background color */
 
 /* all border color */
@@ -107,8 +111,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li,
 
 
 .hdr-socials ul li a:hover{
-    background: #F8800B;
-    border-color: #F8800B;
+    background: #5d9d32;
+    border-color: #5d9d32;
     color: #fff;
 }
 

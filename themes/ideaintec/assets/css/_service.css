@@ -57,7 +57,7 @@
 .iit-service-img span,
 .features-item-icon span{
 	background-color: #fff;
-    color: #242424;
+    color: #0c224b;
     display: block;
     height: 100%;
     position: relative;
@@ -176,25 +176,6 @@
 	content: none;
 }
 
-.iit-service-grd-item-cntlr-01 .iit-service-grd-item-img i{
-	color: #F8800B;
-}
-.iit-service-grd-item-cntlr-02 .iit-service-grd-item-img i{
-	color: #5d9d32;
-}
-.iit-service-grd-item-cntlr-03 .iit-service-grd-item-img i{
-	color: #0c224b;
-}
-
-.iit-service-grd-item-cntlr-04 .iit-service-grd-item-img i{
-	color: #F8800B;
-}
-.iit-service-grd-item-cntlr-05 .iit-service-grd-item-img i{
-	color: #5d9d32;
-}
-.iit-service-grd-item-cntlr-06 .iit-service-grd-item-img i{
-	color: #0c224b;
-}
 
 
 .iit-service-grd-item-cntlr-02 .iit-service-grd-item-title.fl-h5 a:hover,
