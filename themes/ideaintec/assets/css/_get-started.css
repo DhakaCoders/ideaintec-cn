@@ -118,62 +118,31 @@
 	position: relative;
 
 }
+.iit-contact-submit-btn button:after{
+	-webkit-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	transition: all 0.25s;
+    content: "";
+    display: inline-block;
+    border-left: 0 solid #fff;
+    margin-left: 0;
+    opacity: 0;
+    border-top: 5.5px solid transparent;
+    border-bottom: 5.5px solid transparent;
+}
+.iit-contact-submit-btn button:hover:after{
+	border-left: 11px solid #fff;
+    margin-left: 5.5px;
+    opacity: 1;
+}
 .iit-contact-submit-btn{
 	position: relative;
 }
-.iit-contact-submit-btn button:before{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 10;
-    display: block;
-    content: '';
-    width: 0;
-    height: 0;
-    background: rgba(255,255,255,.2);
-    border-radius: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    z-index: 1;
-}
-.iit-contact-submit-btn button:hover:before{
-	opacity: 1;
-    animation: circle .75s;
-    -webkit-animation: circle .75s;
-    -ms-animation: circle .75s;
-    -o-animation: circle .75s;
-}
-@-webkit-keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 150%;
-		height: 150%;
-		opacity: 0;
-	}
-}
-@keyframes circle {
-	0% {
-		opacity: 1;
-	}
-	40% {
-		opacity: 1;
-	}
-	100% {
-		width: 150%;
-		height: 150%;
-		opacity: 0;
-	}
-}
+
 .iit-contact-submit-btn button:hover{
-	background: #F8800B;
+	background: #5d9d32;
 	color: #fff;
-	border-color: #F8800B;
+	border-color: #5d9d32;
 }
 
 .iit-file-upload {
@@ -487,8 +456,8 @@ ul.filter-check-row-wrp li{
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 17px;
-	padding-bottom: 15px;
+	padding-top: 14px;
+	padding-bottom: 14px;
 }
 .iit-form-fields-tabs > ul > li a:hover,
 .iit-form-fields-tabs > ul > li a.ui-tabs-active{

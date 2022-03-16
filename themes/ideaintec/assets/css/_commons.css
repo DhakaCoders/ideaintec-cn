@@ -396,6 +396,8 @@ ol li::before {
 	letter-spacing: 0.25px;
 }
 .fl-button:after{
+	-webkit-transition: all 0.25s;
+	-ms-transition: all 0.25s;
 	transition: all 0.25s;
     content: "";
     display: inline-block;

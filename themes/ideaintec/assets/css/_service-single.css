@@ -123,27 +123,22 @@
     cursor: pointer;
     letter-spacing: 0.25px;
 }
-.iit-ssbc-form-submit-btn button:before{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 10;
-    display: block;
-    content: '';
-    width: 0;
-    height: 0;
-    background: rgba(255,255,255,.2);
-    border-radius: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.iit-ssbc-form-submit-btn button:after{
+	-webkit-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	transition: all 0.25s;
+    content: "";
+    display: inline-block;
+    border-left: 0 solid #fff;
+    margin-left: 0;
     opacity: 0;
+    border-top: 5.5px solid transparent;
+    border-bottom: 5.5px solid transparent;
 }
-.iit-ssbc-form-submit-btn button:hover:before{
-	opacity: 1;
-    animation: circle .75s;
-    -webkit-animation: circle .75s;
-    -ms-animation: circle .75s;
-    -o-animation: circle .75s;
+.iit-ssbc-form-submit-btn button:hover:after{
+	border-left: 11px solid #fff;
+    margin-left: 5.5px;
+    opacity: 1;
 }
 .iit-ssbc-form-submit-btn button:hover{
 	color: #fff;

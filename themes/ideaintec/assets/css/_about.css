@@ -63,6 +63,7 @@ ul.about-overview-feature li strong {
     display: block;
     position: relative;
     margin-bottom: 10px;
+    color: #0c224b;
 }
 ul.about-overview-feature li strong:after{
     content: "";
