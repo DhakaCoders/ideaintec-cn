@@ -543,4 +543,22 @@ $('#toTop').click(function() {
 
 new WOW().init();
 
+
+
+var imgBox = document.querySelectorAll('.pgrd-item-hover-imgA img');
+  for(i=0; i<imgBox.length;i++){
+  imgBox[i].addEventListener('mouseenter', function(hover){
+  var imgHeight = this.scrollHeight;
+  var scrollheight = imgHeight - 500;
+  hover.target.style.objectPosition = `0px -${scrollheight}px`;
+
+  });
+
+  imgBox[i].addEventListener('mouseleave', function(hover){
+  hover.target.style.objectPosition = '0px 0px';
+
+  });
+
+}
+
 })(jQuery);
