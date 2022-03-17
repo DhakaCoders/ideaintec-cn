@@ -54,7 +54,7 @@
 	right: 0;
 	bottom: 0;
 	padding: 30px;
-	background: rgba(255, 255, 255, 0.98);
+	background: rgba(255, 255, 255, 0.5);
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transform: scale(1.1, 1.1);
@@ -138,9 +138,11 @@
 	top: 0;
 	left: 0;
 	position: absolute;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
+	-webkit-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
 	margin-top: 7px;
 }
 .info-img span a:hover::before{
@@ -174,6 +176,28 @@
 	padding-top: 30px;
 }
 
+.our-works-grd-item:hover .pgrd-item-img img{
+	margin-top: -400px;
+}
+.pgrd-item-hover-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+.pgrd-item-img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+.our-works-grd-item-inr{
+	height: 350px;
+}
 
 @media(max-width: 991px){
 	.our-works-grds ul li{
