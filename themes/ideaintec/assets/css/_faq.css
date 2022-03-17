@@ -25,11 +25,11 @@
 	color: #000;
 	padding: 20px 20px;
 	text-align: center;
-	border: 2px solid #ff9140;
+	border: 2px solid #5d9d32;
 }
 .iit-faq-tab ul li a.current,
 .iit-faq-tab ul li a:hover{
-	background: #ff9140;
+	background: #5d9d32;
 	color: #fff;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .iit-faq-accordion-title.active{
-	background: #000;
+	background: #0c224b;
 	color: #fff;
 }
 .iit-faq-accordion-title.active:after{
