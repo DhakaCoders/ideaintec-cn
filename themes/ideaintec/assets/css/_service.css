@@ -215,8 +215,9 @@
 
 .iit-service-row-item{
 	display: flex;
+	align-items: center;
 	background: rgba(94, 173, 70, 0.1);
-	padding: 40px 30px;
+	padding: 60px 30px;
 	border-radius: 5px;
 }
 
@@ -243,9 +244,13 @@
 }*/
 
 .iit-service-col-img{
-	padding-top: 68px;
 	display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 312px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 20px;
 }
 
 

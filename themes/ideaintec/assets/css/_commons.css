@@ -412,8 +412,7 @@ ol li::before {
     margin-left: 5.5px;
     opacity: 1;
 }
-/*.circle:before,
-.fl-button:before{
+.circle:before{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -427,7 +426,7 @@ ol li::before {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	opacity: 0;
-}*/
+}
 .fl-button:hover {
     color: #fff;
     background: #5EAD46;
@@ -441,6 +440,13 @@ ol li::before {
     -ms-animation: circle .75s;
     -o-animation: circle .75s;
 }*/
+.circle:hover:before{
+	opacity: 1;
+    animation: circle .75s;
+    -webkit-animation: circle .75s;
+    -ms-animation: circle .75s;
+    -o-animation: circle .75s;
+}
 .circle-transparent:before{
 	position: absolute;
 	top: 50%;
