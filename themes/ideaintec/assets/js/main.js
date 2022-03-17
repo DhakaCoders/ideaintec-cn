@@ -482,7 +482,21 @@ $('.iit-faq-accordion-title').on('click', function(){
   $(this).parents('.iit-faq-accordion-menu').siblings().find('.iit-faq-accordion-des').slideUp(300);
 });
 
+var imgBox = document.querySelectorAll('.pgrd-item-img img');
+for(i=0; i<imgBox.length;i++){
+  imgBox[i].addEventListener('mouseenter', function(hover){
+  var imgHeight = this.scrollHeight;
+  var scrollheight = imgHeight - 351;
+  hover.target.style.objectPosition = `0px -${scrollheight}px`;
 
+  });
+
+  imgBox[i].addEventListener('mouseleave', function(hover){
+  hover.target.style.objectPosition = '0px 0px';
+
+
+  });
+}
 
 
 /* stary of keshob*/
