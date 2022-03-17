@@ -253,7 +253,23 @@
     padding: 20px 20px;
 }
 
+.has-video .iit-service-col-img{
+	display: none;
+}
 
+.iit-service-col-video{
+	overflow: hidden;
+	min-height: 345px;
+	display: none;
+}
+#iit-video{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.has-video .iit-service-col-video{
+	display: block;
+}
 .iit-service-col-heading{
 	position: relative;
 	margin-bottom: 30px;
