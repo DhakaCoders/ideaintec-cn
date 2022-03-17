@@ -126,7 +126,7 @@ Start header
 nav.main-nav > ul{
 	display: flex;
 	align-items: center;
-	margin: 0 -15px;
+	margin: 0 -12px;
 	padding-top: 25px;
 	justify-content: flex-end;
 }
