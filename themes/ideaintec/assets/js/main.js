@@ -543,6 +543,18 @@ $('#toTop').click(function() {
     $('body,html').animate({scrollTop:0},100);
 }); 
 
+
+
+
+/*
+$('.our-works-grd-item').on('mouseenter', function(){
+  var imageItem = $('.our-works-grd-item').height();
+  var imageBoxHeight = $('.pgrd-item-hover-img img').height();
+  var Imagescroll = imageBoxHeight - imageItem;
+  $('.pgrd-item-hover-img img').css({'object-position': 'revert'});
+
+});*/
+
 new WOW().init();
 
 
