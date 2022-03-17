@@ -537,8 +537,10 @@ $(window).scroll(function() {
 });
 
 
+
+
 $('#toTop').click(function() {
-    $('body,html').animate({scrollTop:0},800);
+    $('body,html').animate({scrollTop:0},100);
 }); 
 
 new WOW().init();
