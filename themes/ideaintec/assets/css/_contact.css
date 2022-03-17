@@ -541,6 +541,9 @@
 .map-section.js-active .mt-text {
     font-size: 14px;
 }
+.contect-grid-img i{
+    font-size: 40px!important;
+}
 
 /*responsive-start*/
 @media(max-width: 1699px){
