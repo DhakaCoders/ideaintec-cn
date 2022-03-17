@@ -24,8 +24,13 @@
 }
 
 .about-overview-rgt-img{
-	margin-top: -30px;
 	padding-left: 20px;
+	margin-bottom: 50px;
+}
+.about-overview-rgt-img-inr{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px 20px;
 }
 .about-overview-feature-con {
    width: 100%;
@@ -53,9 +58,6 @@ ul.about-overview-feature li i {
     height: 32px;
     width: 32px;
     line-height: 32px;
-}
-ul.about-overview-feature li.iit-etu-col-04 i{
-	font-size: 22px;
 }
 ul.about-overview-feature li strong {
     text-transform: capitalize;
@@ -308,6 +310,9 @@ ul.about-overview-feature li div p{
 	padding: 0 20px;
 	color: #fff;
 	z-index: 2;
+}
+.skill-box-icon{
+	margin-bottom: 15px;
 }
 .skill-bx i{
 	display: block;
