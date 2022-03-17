@@ -168,7 +168,8 @@
     align-items: center;
     width: 45px;
     height: 45px;
-    color: #086AD8;
+    /*color: #086AD8;*/
+    color: #0c224b;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 0px 2px #ffffff;
