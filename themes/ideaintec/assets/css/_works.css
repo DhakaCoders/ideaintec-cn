@@ -195,9 +195,7 @@
 	-ms-transition: all 0.9s;
 	-webkit-transition: all 0.9s;
 }
-.our-works-grd-item:hover .pgrd-item-hover-img img{
-	object-position: center -310px;
-}
+
 .pgrd-item-img{
 	position: absolute;
 	top: 0;
