@@ -213,9 +213,16 @@ nav.main-nav ul li.current-menu-item a{
 .blog-grd-item:hover .blog-grd-item-img img {
     transform: rotate(-5deg) scale(1.2 , 1.2);
 }
-.our-works-grd-item:hover .our-works-grd-item-overlay{
+/*.our-works-grd-item:hover .our-works-grd-item-overlay{
     opacity: 1;
     visibility: visible;
+}*/
+.our-works-grd-item:hover .our-works-grd-item-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.our-works-grd-item:hover .our-works-grd-item-inr{
+ border: 15px solid #ddd;
 }
 .our-works-grd-item:hover .our-works-grd-item-inr{
     border-color: #ccc;

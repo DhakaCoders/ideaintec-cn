@@ -47,7 +47,7 @@
 
 
 
-.our-works-grd-item-overlay{
+/*.our-works-grd-item-overlay{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -67,8 +67,28 @@
 	-o-transition: 0.4s ease-in-out;
 	transition: 0.4s ease-in-out;
 	z-index: 11;
+}*/
+.our-works-grd-item-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.98);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    text-decoration: none;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    z-index: 11;
 }
-
 
 
 .pgrd-item-icon-img {
@@ -176,9 +196,9 @@
 	padding-top: 30px;
 }
 
-.our-works-grd-item:hover .pgrd-item-img img{
+/*.our-works-grd-item:hover .pgrd-item-img img{
 	margin-top: -400px;
-}
+}*/
 .pgrd-item-hover-img{
 	position: absolute;
 	top: 0;

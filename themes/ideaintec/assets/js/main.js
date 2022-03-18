@@ -559,11 +559,11 @@ new WOW().init();
 
 
 
-var imgBox = document.querySelectorAll('.pgrd-item-hover-imgA img');
+var imgBox = document.querySelectorAll('.pgrd-item-hover-img img');
   for(i=0; i<imgBox.length;i++){
   imgBox[i].addEventListener('mouseenter', function(hover){
   var imgHeight = this.scrollHeight;
-  var scrollheight = imgHeight - 500;
+  var scrollheight = imgHeight - 350;
   hover.target.style.objectPosition = `0px -${scrollheight}px`;
 
   });
@@ -571,8 +571,8 @@ var imgBox = document.querySelectorAll('.pgrd-item-hover-imgA img');
   imgBox[i].addEventListener('mouseleave', function(hover){
   hover.target.style.objectPosition = '0px 0px';
 
-  });
 
+  });
 }
 
 })(jQuery);
