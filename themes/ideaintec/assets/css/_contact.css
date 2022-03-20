@@ -359,18 +359,19 @@
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button {
     display: inline-block;
     vertical-align: baseline;
-    width: 210px;
+    max-width: 210px;
+    width: 100%;
     position: relative;
     color: #fff;
     border-radius: 5px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 0.25px;
     padding: 14px 20px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:after{
