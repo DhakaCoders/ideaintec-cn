@@ -433,15 +433,15 @@
 	padding-right: 12px;
 }
 .hm-bnr2-img{
-	margin-left: -100px;
+	margin-left: -50px;
 }
 .hm-bnr2-img img{
 	width: 100%;
 }
 .hm-bnr2-des{
 	text-align: center;
-	padding: 162px 50px;
-	background-image: url('../images/hm-bnr2-des-bg-2.png');
+	padding: 170px 50px;
+	background-image: url('../images/hm-bnr2-des-bg.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

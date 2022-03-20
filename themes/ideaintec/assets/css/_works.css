@@ -81,9 +81,9 @@
     transition: 0.4s ease-in-out;
     z-index: 11;
 }
-.our-works-grd-item:hover .pgrd-item-img-cntlr{
+/*.our-works-grd-item:hover .pgrd-item-img-cntlr{
 	border: 15px solid #cdcbcb;
-}
+}*/
 
 .pgrd-item-icon-img {
 	position: absolute;
