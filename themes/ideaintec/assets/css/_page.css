@@ -516,7 +516,13 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	top: initial;
 	bottom: 0;
 }
-
+.ftr-col .heading-divider,
+.believe-in-rgt .heading-divider,
+.contact-form-top .heading-divider,
+.iit-service-col-des .heading-divider,
+.iit-team-skill-rgt .heading-divider{
+	left: 0;
+}
 
 
 
