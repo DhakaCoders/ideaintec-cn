@@ -416,8 +416,9 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	left: 20px;
 	width: 80px;
 	height: 3px;
-	background: #ff9140;
+	background: #5d9d32;
 	border-radius: 3px;
+	overflow: hidden;
 	/*animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-name: lineBarAnimation;
@@ -491,7 +492,7 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 .line-bg-black .heading-divider,
 .line-bg-black .heading-divider:after,
 .line-bg-black .heading-divider:before{
-	background: #0c224b;
+	background: #5d9d32;
 }
 
 .line-bg-white .heading-divider,
