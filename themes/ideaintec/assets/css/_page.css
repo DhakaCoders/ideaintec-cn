@@ -469,7 +469,7 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	margin-right: -20px;
 }*/
 @keyframes lineBarAnimation{
-	from{transform: translateX(-15px);}
+	from{transform: translateX(-20px);}
 	to{transform: translateX(80px);}
 }
 .text-center .heading-divider{
