@@ -419,9 +419,6 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	background: #5d9d32;
 	border-radius: 3px;
 	overflow: hidden;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	transition: all 0.5s;
 }
 .heading-divider:after{
 	content: "";
@@ -435,9 +432,6 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	animation-iteration-count: infinite;
 	animation-name: lineBarAnimation;
 	animation-timing-function: linear;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	transition: all 0.5s;
 }
 .heading-divider:before{
 	content: "";
@@ -451,9 +445,6 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	animation-iteration-count: infinite;
 	animation-name: lineBarAnimation;
 	animation-timing-function: linear;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	transition: all 0.5s;
 }
 /*.heading-divider:after{
 	content: "";
