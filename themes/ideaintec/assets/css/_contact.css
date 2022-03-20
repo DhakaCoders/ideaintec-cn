@@ -360,7 +360,6 @@
     display: inline-block;
     vertical-align: baseline;
     width: 210px;
-    height: 43px;
     position: relative;
     color: #fff;
     border-radius: 5px;
@@ -372,6 +371,7 @@
     overflow: hidden;
     cursor: pointer;
     letter-spacing: 1px;
+    padding: 14px 20px;
 }
 .contact-form-wrp .wpforms-container .wpforms-form .wpforms-submit-container button:after{
     -webkit-transition: all 0.25s;

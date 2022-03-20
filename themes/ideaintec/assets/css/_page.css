@@ -419,10 +419,9 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	background: #5d9d32;
 	border-radius: 3px;
 	overflow: hidden;
-	/*animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-name: lineBarAnimation;
-	animation-timing-function: linear;*/
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .heading-divider:after{
 	content: "";
@@ -436,6 +435,9 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	animation-iteration-count: infinite;
 	animation-name: lineBarAnimation;
 	animation-timing-function: linear;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .heading-divider:before{
 	content: "";
@@ -449,6 +451,9 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	animation-iteration-count: infinite;
 	animation-name: lineBarAnimation;
 	animation-timing-function: linear;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 /*.heading-divider:after{
 	content: "";
@@ -473,7 +478,7 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	margin-right: -20px;
 }*/
 @keyframes lineBarAnimation{
-	from{transform: translateX(0);}
+	from{transform: translateX(-15px);}
 	to{transform: translateX(80px);}
 }
 .text-center .heading-divider{
