@@ -112,8 +112,10 @@
 .pgrd-item-icon-img a{
 	height: 40px;
 	width: 40px;
-
 	display: inline-block;
+	transition: 0.4s ease-in-out;
+	-ms-ransition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
 }
 .pgrd-item-icon-img .icon-img i{
 	color: #000;
