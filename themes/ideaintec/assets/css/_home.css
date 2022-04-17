@@ -1818,6 +1818,21 @@ home about us sec
 	.our-process-list ul li{
 		height: initial!important;
 	}
+	.home .hm-about-us-sec {
+	    padding-bottom: 70px;
+	}
+	.iit-service-grd-item-img, 
+	.iit-etu-img, 
+	.ethics-item-icon, 
+	.philosophy-item-img, 
+	.contect-grid-img, 
+	.iit-service-img, 
+	.features-item-icon, 
+	.iit-wyg-hdr-img-inr, 
+	.skill-box-icon {
+	    height: 90px;
+	    width: 90px;
+	}
 }
 @media(max-width: 639px){
 	/*hm banner*/
