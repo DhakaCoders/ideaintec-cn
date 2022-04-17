@@ -259,7 +259,6 @@
 
 .iit-service-col-video{
 	overflow: hidden;
-	min-height: 345px;
 	display: none;
 }
 #iit-video{
@@ -276,6 +275,7 @@
 	display: flex;
 	align-items: center;
 	padding-left: 60px;
+	padding-bottom: 40px;
 }
 /*.iit-service-col-heading.seht-only-two .heading-divider{
 	width: 70px;
@@ -286,7 +286,6 @@
 	top: 0;
 	height: 50px;
 	width: 48px;
-	margin-top: -9px;
 }
 .iit-service-img i{
 	font-size: 20px;
@@ -297,6 +296,8 @@
 .iit-service-col-des-title{
 	text-transform: capitalize;
 	margin-bottom: 0;
+	position: relative;
+	top: 9px;
 }
 .iit-service-col-des-con ul{
 	display: flex;
