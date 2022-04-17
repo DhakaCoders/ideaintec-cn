@@ -1671,6 +1671,9 @@ home about us sec
 	.our-clints-grid-item{
 		padding: 0 15px;
 	}
+	.home .hm-about-us-sec {
+	    padding-bottom: 115px;
+	}
 
 }
 @media(max-width: 991px){
@@ -1694,6 +1697,9 @@ home about us sec
 	}
 	.get-in-touch-btn-wrp{
 		width: 40%;
+	}
+	.home .hm-about-us-sec {
+	    padding-bottom: 90px;
 	}
 }
 @media(max-width: 767px){
