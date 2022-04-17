@@ -404,12 +404,12 @@ ol li::before {
     border-left: 0 solid #fff;
     margin-left: 0;
     opacity: 0;
-    border-top: 5.5px solid transparent;
-    border-bottom: 5.5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 .fl-button:hover:after{
-	border-left: 11px solid #fff;
-    margin-left: 5.5px;
+	border-left: 9px solid #fff;
+    margin-left: 5px;
     opacity: 1;
 }
 .circle:before{
