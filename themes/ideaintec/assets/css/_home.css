@@ -1715,7 +1715,10 @@ home about us sec
 		padding: 0;
 		order: 2;
 		width: 100%;
-		
+		text-align: center;
+	}
+	.hm-about-us-lft-con .view-more-btn{
+		text-align: center;
 	}
 	.our-process-list ul li{
 		width: 33.33%;
