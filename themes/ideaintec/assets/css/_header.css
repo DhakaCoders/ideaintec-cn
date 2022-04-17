@@ -223,7 +223,7 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
 	right: 0;
 	color: #0c224b;
 	font-size: 17px;
-	top: -1px;
+	top: 0px;
 	font-family: 'Font Awesome\ 5 Free';
 	font-style: normal;
 	font-weight: 600;
