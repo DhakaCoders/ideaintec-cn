@@ -547,14 +547,14 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after{
 body.allWork .hamburger-icon span:nth-child(1) {
     top: 13px;
     width: 16px;
-    left: 8px;
+    left: 7px;
     transform: rotate(
 45deg);
     background: #fff;
 }
 body.allWork .hamburger-icon span:nth-child(3) {
     top: 13px;
-    left: 8px;
+    left: 7px;
     width: 16px;
     transform: rotate(
 -45deg);
