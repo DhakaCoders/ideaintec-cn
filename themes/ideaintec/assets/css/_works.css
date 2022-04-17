@@ -79,7 +79,7 @@
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    z-index: 11;
+    z-index: 9;
 }
 /*.our-works-grd-item:hover .pgrd-item-img-cntlr{
 	border: 15px solid #cdcbcb;
@@ -103,6 +103,7 @@
 	transition: 0.4s ease-in-out;
 	opacity: 0;
 	visibility: hidden;
+	z-index: 11;
 }
 .pgrd-item-icon-img:hover{
 	background-color: #5d9d32;
