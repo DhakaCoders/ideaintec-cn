@@ -31,12 +31,12 @@
 .our-works-grd-item-inr{
 	position: relative;
 	overflow: hidden;
+	border: 5px solid #ddd;
 }
 
 .pgrd-item-img-cntlr{
 	position: relative;
 	overflow: hidden;
-	border: 5px solid #ddd;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -112,10 +112,14 @@
 .pgrd-item-icon-img a{
 	height: 40px;
 	width: 40px;
+
 	display: inline-block;
 }
 .pgrd-item-icon-img .icon-img i{
 	color: #000;
+	transition: 0.4s ease-in-out;
+	-ms-ransition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
 }
 .pgrd-item-icon-img:hover .icon-img i{
 	color: #fff;
@@ -343,6 +347,9 @@
 	.our-works-sec a.fl-button{
 		max-width: 100%;
 		width: 100%;
+	}
+	.pgrd-item-img{
+		height: 300px;
 	}
 }
 
