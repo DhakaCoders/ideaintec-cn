@@ -333,3 +333,8 @@
 		width: 100%;
 	}
 }
+@media(max-width: 374px){
+	.iit-team-skill-sec .sec-entry-hdr-title{
+		font-size: 25px!important;
+	}
+}

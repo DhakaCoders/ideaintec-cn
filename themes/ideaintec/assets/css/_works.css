@@ -31,12 +31,12 @@
 .our-works-grd-item-inr{
 	position: relative;
 	overflow: hidden;
+	border: 5px solid #ddd;
 }
 
 .pgrd-item-img-cntlr{
 	position: relative;
 	overflow: hidden;
-	border: 5px solid #ddd;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -79,7 +79,7 @@
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    z-index: 11;
+    z-index: 9;
 }
 /*.our-works-grd-item:hover .pgrd-item-img-cntlr{
 	border: 15px solid #cdcbcb;
@@ -103,6 +103,7 @@
 	transition: 0.4s ease-in-out;
 	opacity: 0;
 	visibility: hidden;
+	z-index: 11;
 }
 .pgrd-item-icon-img:hover{
 	background-color: #5d9d32;
@@ -112,9 +113,15 @@
 	height: 40px;
 	width: 40px;
 	display: inline-block;
+	transition: 0.4s ease-in-out;
+	-ms-ransition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
 }
 .pgrd-item-icon-img .icon-img i{
 	color: #000;
+	transition: 0.4s ease-in-out;
+	-ms-ransition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
 }
 .pgrd-item-icon-img:hover .icon-img i{
 	color: #fff;
@@ -342,6 +349,9 @@
 	.our-works-sec a.fl-button{
 		max-width: 100%;
 		width: 100%;
+	}
+	.pgrd-item-img{
+		height: 300px;
 	}
 }
 

@@ -490,7 +490,6 @@ Our clints section
 .our-clints-grid-item{
 	padding: 0 20px;
 	margin-bottom: 40px;
-	width: 20%;
 }
 .ourClintsSlider .our-clints-grid-item{
 	display: none;
@@ -1689,9 +1688,7 @@ home about us sec
 	.features-grid{
 		padding: 0;
 	}
-	.our-clints-grid-item{
-		width: 25%;
-	}
+	
 	.lets-chat-des{
 		width: 60%;
 	}
@@ -1740,10 +1737,6 @@ home about us sec
 	}
 	.features-grid-item{
 		width: 50%;
-	}
-
-	.our-clints-grid-item{
-		width: 33.33%;
 	}
 	.lets-chat-des{
 		width: 100%;
@@ -1844,10 +1837,6 @@ home about us sec
 	.features-grid{
 		padding: 0;
 	}
-
-	.our-clints-grid-item{
-		width: 50%;
-	}
 	.our-process-list ul li:nth-child(3n+3) {
 	    border-right: none;
 	}
@@ -1862,7 +1851,6 @@ home about us sec
 		font-size: 30px;
 		margin-bottom: 20px;
 	}
-	.our-clints-grid,
 	.features-grid,
 	.our-process-list{
 		max-width: 300px;
@@ -1890,9 +1878,6 @@ home about us sec
 	}
 	.features-grid-item{
 		margin-bottom: 20px;
-	}
-	.our-clints-grid-item{
-		width: 100%;
 	}
 	.get-in-touch-btn-wrp .fl-button{
 
