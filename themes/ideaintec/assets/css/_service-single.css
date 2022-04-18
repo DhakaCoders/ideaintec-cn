@@ -68,22 +68,22 @@
 
 .input-field-row input[type="text"]::-webkit-input-placeholder,
 .input-field-row input[type="email"]::-webkit-input-placeholder
-.input-field-row textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.input-field-row textarea::-webkit-input-placeholder { 
 	opacity: 1;
 }
 .input-field-row input[type="text"]::-moz-placeholder,
 .input-field-row input[type="email"]::-moz-placeholder
-.input-field-row textarea::-moz-placeholder { /* Firefox 19+ */
+.input-field-row textarea::-moz-placeholder { 
 	opacity: 1;
 }
 .input-field-row input[type="text"]:-ms-input-placeholder,
 .input-field-row input[type="email"]:-ms-input-placeholder
-.input-field-row textarea:-ms-input-placeholder { /* IE 10+ */
+.input-field-row textarea:-ms-input-placeholder { 
 	opacity: 1;
 }
 .input-field-row input[type="text"]:-moz-placeholder,
 .input-field-row input[type="email"]:-moz-placeholder
-.input-field-row textarea:-moz-placeholder { /* Firefox 18- */
+.input-field-row textarea:-moz-placeholder { 
 	opacity: 1;
 }
 
@@ -389,7 +389,34 @@
 .iit-service-intro-sec{
 	padding: 50px 0;
 }
-
+.iit-service-process-grd-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+}
+.iit-service-process-grd-col{
+	width: 25%;
+	padding: 0 12px;
+	padding-bottom: 30px;
+}
+.iit-svic-process-grd-img-cntlr {
+    /*text-align: center;*/    
+    margin-bottom: 30px;
+}
+.iit-svic-process-icon i{
+	font-size: 40px;
+	color: #5d9d32;
+}
+.iit-service-process-grd-item {
+    padding: 20px 20px;
+    border: 1px solid #dfdfdf;
+}
+.iit-svic-process-grd-des {
+    /*text-align: center;*/
+}
+.iit-svic-process-grd-des p:last-of-type{
+	margin-bottom: 0;
+}
 @media(max-width: 1699px){
 	.iit-testi-blockquote{
 		padding-right: 50px;
