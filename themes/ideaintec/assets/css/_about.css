@@ -162,6 +162,7 @@ ul.about-overview-feature li div p{
 .believe-in-lft{
 	width: 40%;
 	margin-top: 5px;
+	box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 10%) 
 }
 .believe-in-rgt{
 	width: 60%;
@@ -651,22 +652,19 @@ ul.about-overview-feature li div p{
 	overflow: hidden;
 	border-radius: 16px;
 }
+.mis-vis-grid-cntlr,
 .mis-vis-grid-cntlr4,
-.mis-vis-grid-cntlr3,
 .mis-vis-grid-cntlr2{
 	padding-bottom: 50px;
-}
-.mis-vis-grid-cntlr3 ul li{
-	width: 45%;
-}
-.mis-vis-grid-rgt.ethics-cntlr-grid ul li{
-	margin-left: auto;
 }
 .mis-vis-grid-cntlr4.ethics-cntlr-grid ul li:nth-child(2) {
 	margin-top: 100px;
 }
 .mis-vis-grid-cntlr4.ethics-cntlr-grid ul li:nth-child(3) {
 	margin-top: 200px;
+}
+.row-text-title{
+	text-transform: uppercase;
 }
 
 
