@@ -591,9 +591,11 @@
 	padding-top: 47px;
 	border-top: 1px solid #EEEEEE;
 }
-.iit-service-help-sec3 .iit-svic-help-rgt{
+.iit-service-help-sec5 .iit-svic-help-rgt{
 	background: transparent;
 	border-bottom: 1px solid #EEEEEE;
+	margin-top: 0;
+	min-height: initial;
 }
 
 
