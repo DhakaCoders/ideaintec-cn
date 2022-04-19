@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Service Single</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#EE3E15">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
+  <?php } ?> -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+  <svg style="display: none;">
+      <symbol id="home-icon-svg" width="17" height="18" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.7828 8.42145L15.2357 6.78507L9.04693 0.239555C8.90186 0.086168 8.70513 0 8.5 0C8.29487 0 8.09814 0.086168 7.95307 0.239555L1.76434 6.78507L0.217156 8.42145C0.0762403 8.57576 -0.00173332 8.78244 2.92438e-05 8.99697C0.00179181 9.21149 0.0831495 9.41671 0.22658 9.56841C0.37001 9.72011 0.564036 9.80615 0.766869 9.80802C0.969702 9.80988 1.16511 9.72741 1.31101 9.57837L1.53768 9.33864V17.1818C1.53768 17.3988 1.61918 17.6069 1.76426 17.7604C1.90933 17.9138 2.1061 18 2.31127 18H14.6887C14.8939 18 15.0907 17.9138 15.2357 17.7604C15.3808 17.6069 15.4623 17.3988 15.4623 17.1818V9.33864L15.689 9.57837C15.8349 9.72741 16.0303 9.80988 16.2331 9.80802C16.436 9.80615 16.63 9.72011 16.7734 9.56841C16.9168 9.41671 16.9982 9.21149 17 8.99697C17.0017 8.78244 16.9238 8.57576 16.7828 8.42145ZM13.9151 16.3636H3.08486V7.70226L8.5 1.97494L13.9151 7.70226V16.3636Z" fill="#fff"/>
+      </symbol>
+</svg>
+<!-- start header -->
+<div class="bdoverlay"></div>
+<header class="header">
+  <div class="hdr-bdr"></div>
+  <div class="clearfix sticky-hdr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="hdr-right">
+              <div class="hdr-topbar">
+                <div class="hdr-topbar-inr">
+                  <div class="hdr-details">
+                    <ul class="reset-list">
+                      <li>
+                        <div class="hdr-details-col hdr-mail">
+                          <a href="mailto:info@ideaintec.com">
+                            <i class="far fa-envelope"></i>
+                            <span>info@ideaintec.com</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="hdr-details-col hdr-tel">
+                          <a href="tel:01735519844">
+                            <i class="fas fa-phone"></i>
+                            <span>+880 1735519844</span>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hdr-socials">
+                    <ul class="reset-list clearfix">
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="service-single.html">Web Design</a></li>
+                        <li><a href="service-single.html">Web Development</a></li>
+                        <li><a href="service-single.html">Digital Marketing</a></li>
+                        <li><a href="service-single.html">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="header-sticky">
+  <div class="hdr-bdr"></div>
+  <div class="clearfix sticky-hdr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="hdr-right">
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="service-single.html">Web Design</a></li>
+                        <li><a href="service-single.html">Web Development</a></li>
+                        <li><a href="service-single.html">Digital Marketing</a></li>
+                        <li><a href="service-single.html">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="xs-mobile-menu">
+  <div class="xs-pop-up-menu-inr">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo-close-btn-cntlr">
+        <div class="xs-logo">
+          <a href="front-page.html">
+            <img src="assets/images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="hamburgar-cntlr show-sm">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="xs-pop-menu-con">
+      <div class="xs-menu">
+        <nav class="main-nav">
+          <ul class="clearfix reset-list">
+            <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="menu-item-has-children">
+              <a href="services.html">services</a>
+              <ul class="sub-menu">
+                <li><a href="service-single.html">Web Design</a></li>
+                <li><a href="service-single.html">Web Development</a></li>
+                <li><a href="service-single.html">Digital Marketing</a></li>
+                <li><a href="service-single.html">Training</a></li>
+              </ul>                  
+            </li>
+            <li><a href="works.html">works</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="xs-pop-menu-btm">
+      <div class="hdr-details">
+        <ul class="reset-list">
+          <li>
+            <div class="hdr-details-col hdr-mail">
+              <a href="mailto:info@ideaintec.com">
+                <i class="far fa-envelope"></i>
+                <span>info@ideaintec.com</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="hdr-details-col hdr-tel">
+              <a href="tel:01735519844">
+                <i class="fas fa-phone"></i>
+                <span>+880 1735519844</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="xs-social">
+        <div class="hdr-socials">
+          <ul class="reset-list clearfix">
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <section class="page-banner-cntlr">
+  <div class="bnr-btm-skew-img" style="background: url('assets/images/bnr-skew-img.png');"></div>
+  <div class="page-bnr-overlay"></div>
+  <div id="particles-js"></div>
+  <div class="page-banner">
+    <div class="page-banner-bg inline-bg" style="background:url(assets/images/banner-img.jpg);"></div>
+    <div class="page-bnr-des">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-bnr-des-inr">
+              <div class="page-bnr-title-ctlr">
+                <h1 class="page-bnr-title fl-h1">Our Team</h1>
+              </div>
+              <div class="breadcrumb-cntlr">
+                <ul class="reset-list clearfix">
+                  <li class="home">
+                    <a href="#">
+                      <span class="item">
+                        Home
+                        <i>
+                          <svg class="home-icon-svg" width="17" height="18" viewBox="0 0 17 18" fill="#fff">
+                            <use xlink:href="#home-icon-svg"></use> 
+                          </svg>
+                        </i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#">service</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<div class="service-single-ctlr">
+  <section class="iit-service-intro-sec section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-service-con-cntlr">
+            <div class="iit-service-intro-col">
+              <div class="iit-service-intro-hdr">
+                <h1 class="iit-service-intro-title fl-h1">Web Design</h1>
+              </div>
+            </div>
+            <div class="iit-service-intro-col">
+              <div class="iit-service-intro-des-cntlr">
+                <p>Webdesign is veel meer dan het visuele aspect van een website! Van intake gesprek tot finale oplevering, bij ons staat de klant centraal en dit tijdens elke fase van ontwerp en de ontwikkeling.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="iit-service-help-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec2 section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <div class="iit-svic-ttml-img-inr">
+                    <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  </div>                  
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section iit-service-help-sec4">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section iit-service-help-sec4 iit-service-help-sec6">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO &amp; FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section iit-service-help-sec5">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section iit-service-help-sec4 iit-service-help-sec5">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-service-help-sec3 section iit-service-help-sec5 iit-service-help-sec7">    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-svic-help-cmtlr">
+            <div class="iit-svic-help-lft">
+              <div class="iit-svic-testimonial">
+                <div class="iit-svic-ttml-img-cntlr">
+                  <img src="assets/images/profile/IIT001Sumon.jpg" alt="">
+                  <div class="iit-svic-ttml-img-dtls">
+                    <strong>MD Foridul Islam Sumon</strong>
+                    <span>CEO & FOUNDER</span>
+                  </div>
+                  <div class="iit-svic-help-lft-bg"></div>
+                </div>
+                <div class="iit-svic-ttml-des">
+                  <p><span>“</span>Every time we learn and optimize not only our own internal workflows, but also the functionalities and applications that we develop. This is how we make the difference with every new project.<span>”</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-svic-help-rgt">
+              <div class="iit-svic-help-rgt-des">
+                <h2 class="iit-svic-help-rgt-des-title fl-h4">How can we help you?</h2>
+                <div class="iit-svic-help-rgt-des-btn">
+                  <a href="#" class="fl-button">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-what-you-get-sec section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-what-you-get-sec-inr content-up">
+            <div class="sec-entry-hdr text-center btm-line line-bg-black">
+              <div class="sec-entry-heading-title">
+                <div class="heading-divider"></div>
+                <h2 class="sec-entry-hdr-title fl-h2">what you get</h2>
+              </div>
+              <div class="sec-entry-hdr-des">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam.</p>
+              </div>
+            </div>
+            <div class="iit-wyg-grds">
+              <ul class="reset-list clearfix">
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-01.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-01.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">MOBILE <br> FRIENDLY</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>We make sure you site is fully compatible with all modern browsers and popular mobile devices.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-02.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-02.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">FULLY <br> RESPONSIVE</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>Your web project will resize beautifully, no matter what screen-size it is viewed on.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-01.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-01.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">POWERFUL</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>With a flexible and advanced code base, your site is prepared for the future mobile web.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-02.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-02.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">MOBILE <br> FRIENDLY</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>We make sure you site is fully compatible with all modern browsers and popular mobile devices.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-01.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-01.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">FULLY <br> RESPONSIVE</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>We make sure you site is fully compatible with all modern browsers and popular mobile devices.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="iit-wyg-item">
+                    <div class="iit-wyg-hdr-cntlr mHc">
+                      <div class="iit-wyg-hdr-img">
+                        <div class="iit-wyg-hdr-img-inr">
+                          <span><img src="assets/images/iit-wyg-hdr-img-02.png"></span>
+                        </div>
+                        <!-- <i><img src="assets/images/iit-wyg-hdr-img-02.png"></i> -->
+                      </div>
+                      <div class="iit-wyg-hdr-title">
+                        <h3 class="iit-wyg-title fl-h6">POWERFUL</h3>
+                      </div>
+                    </div>
+                    <div class="iit-wyg-des">
+                      <p>Your web project will resize beautifully, no matter what screen-size it is viewed on.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="iit-service-process-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-service-process-grd-cntlr">
+            <div class="iit-service-process-grd-col">
+              <div class="iit-service-process-grd-item mHc">
+                <div class="iit-svic-process-grd-img-cntlr">
+                  <div class="iit-svic-process-icon">
+                    <i class="fas fa-clipboard-list"></i>
+                  </div>
+                </div>
+                <div class="iit-svic-process-grd-des">
+                  <h3 class="iit-svic-process-grd-des-title fl-h3 mHc1">Discussion</h3>
+                  <p>Just give us your design files and requirements and we will take it from there.</p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-service-process-grd-col">
+              <div class="iit-service-process-grd-item mHc">
+                <div class="iit-svic-process-grd-img-cntlr">
+                  <div class="iit-svic-process-icon">
+                    <i class="fas fa-check"></i>
+                  </div>
+                </div>
+                <div class="iit-svic-process-grd-des">
+                  <h3 class="iit-svic-process-grd-des-title fl-h3 mHc1">Idea</h3>
+                  <p>We’ll work up the specs and give you a quote and the delivery time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-service-process-grd-col">
+              <div class="iit-service-process-grd-item mHc">
+                <div class="iit-svic-process-grd-img-cntlr">
+                  <div class="iit-svic-process-icon">
+                    <i class="fas fa-wrench"></i>
+                  </div>
+                </div>
+                <div class="iit-svic-process-grd-des">
+                  <h3 class="iit-svic-process-grd-des-title fl-h3 mHc1">Implementation</h3>
+                  <p>Our pros will swing into action and do their WordPress magic.</p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-service-process-grd-col">
+              <div class="iit-service-process-grd-item mHc">
+                <div class="iit-svic-process-grd-img-cntlr">
+                  <div class="iit-svic-process-icon">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+                <div class="iit-svic-process-grd-des">
+                  <h3 class="iit-svic-process-grd-des-title fl-h3 mHc1">Review</h3>
+                  <p>Your absolutely flawless, fully-functional WordPress site is delivered it to you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="iit-service-process-grd-col">
+              <div class="iit-service-process-grd-item mHc">
+                <div class="iit-svic-process-grd-img-cntlr">
+                  <div class="iit-svic-process-icon">
+                    <i class="fab fa-rev"></i>
+                  </div>
+                </div>
+                <div class="iit-svic-process-grd-des">
+                  <h3 class="iit-svic-process-grd-des-title fl-h3 mHc1">Deliver</h3>
+                  <p>Your absolutely flawless, fully-functional WordPress site is delivered it to you.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="our-works-sec section section-top-0 section-btm-0">
+    <div class="skew-btm"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="our-works-sec-inr content-up">
+            <div class="sec-entry-hdr text-center btm-line line-bg-black">
+              <div class="sec-entry-heading-title">
+                <div class="heading-divider"></div>
+                <h2 class="sec-entry-hdr-title fl-h2">Let's See Our Works</h2>
+              </div>
+              <div class="sec-entry-hdr-des">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam.</p>
+              </div>
+            </div>
+            <div class="our-works-grds">
+              <ul class="reset-list clearfix">
+                <li>
+                  <div class="our-works-grd-item">
+                    <div class="our-works-grd-item-inr">
+                      <div class="pgrd-item-img-cntlr has-inline-bg">
+                        <div class="pgrd-item-img inline-bg" style="background-image: url(assets/images/contact-fea-img-02.jpg);">
+                        
+                        </div>
+                        <img src="assets/images/contact-fea-img-02.jpg">
+                      </div>
+                      <div class="our-works-grd-item-overlay">
+                        <a href="assets/images/contact-fea-img-02.jpg" class="overlay-link hide-md" data-fancybox></a>
+                        <div class="pgrd-item-icon-img">
+                          <a href="assets/images/contact-fea-img-02.jpg" data-fancybox>
+                            <span class="icon-img">
+                              <i class="fas fa-image"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="info-img">
+                          <span><a href="#">Crearive Design</a></span>
+                          <strong><a href="#">www.loremipsum.com</a></strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="our-works-grd-item">
+                    <div class="our-works-grd-item-inr">
+                      <div class="pgrd-item-img-cntlr has-inline-bg">
+                        <div class="pgrd-item-img inline-bg" style="background-image: url(assets/images/item-2.jpg);">
+                          
+                        </div>
+                        <img src="assets/images/item-2.jpg">
+                      </div>
+                      <div class="our-works-grd-item-overlay">
+                        <a href="assets/images/item-2.jpg" class="overlay-link hide-md" data-fancybox></a>
+                        <div class="pgrd-item-icon-img">
+                          <a href="assets/images/item-2.jpg" data-fancybox>
+                            <span class="icon-img">
+                              <i class="fas fa-image"></i>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="info-img">
+                          <span><a href="#">Crearive Design</a></span>
+                          <strong><a href="#">www.loremipsum.com</a></strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="our-works-grd-item">
+                    <div class="our-works-grd-item-inr">
+                      <div class="pgrd-item-img-cntlr has-inline-bg">
+                        <div class="pgrd-item-img inline-bg" style="background-image: url(assets/images/item-3.jpg);">
+                          
+                        </div>
+                        <img src="assets/images/item-3.jpg">
+                      </div>
+                      <div class="our-works-grd-item-overlay">
+                        <a href="assets/images/item-3.jpg" class="overlay-link hide-md" data-fancybox></a>
+                        <div class="pgrd-item-icon-img">
+                          <a href="assets/images/item-3.jpg" data-fancybox>
+                            <span class="icon-img">
+                              <i class="fas fa-image"></i>
+                            </span>
+                          </a>
+                        </div>
+                          <div class="info-img">
+                            <span><a href="#">Crearive Design</a></span>
+                            <strong><a href="#">www.loremipsum.com</a></strong>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="view-more-btn">
+              <a class="fl-button" href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="iit-testimonial-sec section section-bg-color section-top-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="iit-testimonial-sec-inr">
+            <div class="sec-entry-hdr text-center btm-line line-bg-black">
+              <div class="sec-entry-heading-title">
+                <div class="heading-divider"></div>
+                <h2 class="sec-entry-hdr-title fl-h2">What They Say</h2>
+              </div>
+              <!-- <div class="sec-entry-hdr-des">
+                <p>Spread out in front of you are the specific <br> initiatives we’ve taken for a few</p>
+              </div> -->
+            </div>
+            <div class="iit-testimonial-cntlr">
+              <div class="iit-tstmnl-grids">
+                
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-prmo-hddng">
+                      <h3 class="fl-h1 iit-tstmnl-prmo-title">
+                        <i class="fas fa-quote-left"></i>
+                        <span>What are they saying our customers, about us?</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-001.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Lázár Aurél</a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-002.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Fodor Lili</a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-003.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Dr. Horváth Zsolt</a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-004.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Sinkó Ivett </a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-005.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Varga Miklós</a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="iit-tstmnl-item-cntlr">
+                  <div class="iit-tstmnl-item-inr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-006.jpg" alt="">
+                        </div>
+                        <div>
+                          <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Varga Írisz</a></h4>
+                          <h6 class="fl-h6 iit-tstmnl-item-sub-title"><span>sub title</span></h6>
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="iit-tstmnl-grid-col">
+                  <div class="iit-tstmnl-prmo-hddng">
+                    <h3 class="fl-h1 iit-tstmnl-prmo-title">
+                      <i class="fas fa-quote-left"></i>
+                      <span>What are they saying our customers, about us?</span>
+                    </h3>
+                  </div>
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-001.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Imádtam a játékmechanikát az extrém interaktivitása és az egyedi felépítése miatt, ami valódi sport és party-légkört teremtett.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Lázár Aurél</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-004.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Izgalmas, pörgős ügyességi és stratégiai játék, ahol bevethetjük minden tudásunkat -a megfelelő taktika kialakításával, a pontos labdajáratással, gólpasszal. </p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Sinkó Ivett Mónika</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="iit-tstmnl-grid-col">
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-002.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Kellett terveznem, gondolkodni a taktikán, ugyanakkor a kézügyességemre is szükségem volt. Nagyszerű élmény volt, hogy egyaránt igénybe vette az elmémet és a kézügyességemet, bármely más társastól, melyekkel korábban játszottam. Nagyon örömöt okozott, amikor sikerült gólt lőnöm! Sokszor újrajátszható játék, köszönhetően a sokféle szituációnak.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Fodor Lili</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-005.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Fantasztikus játék! Élveztem minden percét! Nagyon izgalmas, és minden korosztálynak csak ajánlhatom!.</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Varga Miklós</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="iit-tstmnl-grid-col iit-tstmnl-grid-col-03">
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-003.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Óriási játék! Mindig tele van izgalmas pillanatokkal! Kitűnő időtöltés minden korcsoportnak!</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Dr. Horváth Zsolt</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="iit-tstmnl-item-cntlr">
+                    <div class="iit-tstmnl-item">
+                      <div class="iit-tstmnl-item-pro">
+                        <div class="iit-tstmnl-item-pro-img">
+                          <img src="assets/images/iit-tstmnl-item-pro-img-006.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="iit-tstmnl-item-desc">
+                        <div class="dfp-blockqoute">
+                          <blockquote>
+                            <i class="fas fa-quote-left"></i>
+                            <div class="dfp-blockqoute-des">
+                              <p>Remek időtöltés a családdal és a barátokkal! Kitűnő csapatmunka! Kreativitás és verseny!.Remek időtöltés a családdal és a barátokkal! Kitűnő csapatmunka! Kreativitás és verseny.Remek időtöltés a családdal és a barátokkal! Kitűnő csapatmunka! Kreativitás és verseny</p>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <h4 class="fl-h4 iit-tstmnl-item-title"><a href="#">Varga Írisz Diána</a></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="iit-service-single-bnr-con page-banner-cntlr section">
+    <!-- <div class="bnr-btm-skew-img" style="background: url('assets/images/bnr-skew-img.png');"></div>
+    <div class="page-bnr-overlay"></div> -->
+    <div class="page-banner">
+      <!-- <div class="page-banner-bg inline-bg" style="background-image:url(assets/images/bg-promo.jpg);"></div> -->
+      <div class="page-bnr-des">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="iit-service-single-bnr-con-inr clearfix">
+                <div class="iit-ssbc-form">
+                  <div class="iit-ssbc-form-inr">
+                    <h2 class="iit-ssbc-form-title fl-h5">GET A FREE CONSULTATION</h2>
+                    <form>
+                      <div class="input-field-row">
+                        <input type="text" name="name" placeholder="Your Name *">
+                      </div>
+                      <div class="input-field-row">
+                        <input type="text" name="phone" placeholder="Skype / Phone *">
+                      </div>
+                      <div class="input-field-row">
+                        <input type="email" name="email" placeholder="Your Email *">
+                      </div>
+                      <div class="input-field-row">
+                        <textarea placeholder="Message"></textarea>
+                      </div>
+                      <div class="input-field-row">
+                        <div class="checkmark">
+                          <ul class="reset-list clearfix">
+                            <li>
+                              <div class="filter-check-row">
+                                <input type="checkbox" id="id-1">
+                                <span class="checkmark"></span>
+                                <label for="id-1">I accept the <a href="#">Terms and Conditions.</a></label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="filter-check-row">
+                                <input type="checkbox" id="id-2">
+                                <span class="checkmark"></span>
+                                <label for="id-2">I consent to processing of my personal data and accept <a href="#">Privacy Policy.</a></label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="iit-ssbc-form-submit-btn">
+                        <button type="submit" name="submit" class="">Submit Now</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="iit-ssbc-des">
+                  <h1 class="iit-ssbc-des-title fl-h1">Are you interested? Now join us!</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. <p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+<footer class="footer-wrp">
+  <div class="footer-skew d-none" style="background: url('assets/images/footer-skew.svg');">
+    
+  </div>
+  <span class="ftr-btm-skew">
+    <svg id="ftr-btm-skew" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#000000" fill-opacity="0.2" d="M0,256L48,229.3C96,203,192,149,288,133.3C384,117,480,139,576,144C672,149,768,139,864,112C960,85,1056,43,1152,58.7C1248,75,1344,149,1392,186.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path fill="#000000" fill-opacity="0.15" d="M0,288L48,256C96,224,192,160,288,112C384,64,480,32,576,64C672,96,768,192,864,234.7C960,277,1056,267,1152,266.7C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </span>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-cntlr">
+          <div class="ftr-top clearfix">
+            <div class="ftr-col ftr-col-01">
+              <div class="ftr-logo">
+                <a href="#">
+                  <img src="assets/images/logo-white.png" alt="">
+                </a>
+              </div>
+              <div class="ftr-desc">
+                <p>Contact us today for more information about how we can help your business stand out online.</p>
+              </div>
+              <div class="newsletter-form">
+                <form action="#">
+                  <input type="email" placeholder="Your Email" name="email">
+                  <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                </form>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-02">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two hide-xs line-left">
+                <h4 class="fl-h4 ftr-col-title">Quick Links</h4>
+                <div class="heading-divider"></div>
+              </div>
+
+              <div class="ftr-col-hding btm-line line-bg-white text-center show-xs">
+                <h4 class="fl-h4 ftr-col-title">Quick Links</h4>
+                <div class="heading-divider"></div>
+              </div>
+              
+              <div class="ftr-col-menu">
+                <ul class="reset-list">
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="service.html">services</a></li>
+                  <li><a href="works.html">works</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-03">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two hide-xs line-left">
+                <h4 class="fl-h4 ftr-col-title">Contact Info</h4>
+                <div class="heading-divider"></div>
+              </div>
+              <div class="ftr-col-hding btm-line line-bg-white text-center show-xs">
+                <h4 class="fl-h4 ftr-col-title">Contact Info</h4>
+                <div class="heading-divider"></div>
+              </div>
+              <div class="ftr-add ftr-details-col">
+                <div class="ftr-add-inr ftr-details-col-inr">
+                  <span class="ftr-add-icon ftr-details-col-iocn">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <a href="#" target="_blank">0688-00 Holding, B.N Mosque Road, Hazipara, Thakurgaon Sadar, Thakurgaon.</a>
+                </div>
+              </div>
+              <div class="ftr-email ftr-details-col">
+                <div class="ftr-email-inr ftr-details-col-inr">
+                  <span class="ftr-email-icon ftr-details-col-iocn">
+                    <i class="fas fa-envelope-open"></i>
+                  </span>
+                  <a href="mailto:info@ideaintec.com">info@ideaintec.com</a><br>
+                  <a href="mailto:help@ideaintec.com">help@ideaintec.com</a>
+                </div>
+              </div>
+              <div class="ftr-tell ftr-details-col">
+                <div class="ftr-tell-inr ftr-details-col-inr">
+                  <span class="ftr-tell-icon ftr-details-col-iocn">
+                    <i class="fas fa-mobile-alt"></i>
+                  </span>
+                  <a href="tel:01617047345">+880 1617047345</a><br>
+                  <a href="tel:01735519844">+880 1735519844</a>
+                </div>
+              </div>
+              <div class="ftr-socials">
+                <ul class="reset-list clearfix">
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="ftr-btm">
+            <p>&copy; 2005-2021 IdeaInTec - ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="toTop" class="circle toTop">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/select2/select2.min.js"></script>
+<script src="assets/flatpickr/flatpickr.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/jquery.sticky-sidebar.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
