@@ -414,6 +414,92 @@
 .iit-svic-process-grd-des p:last-of-type{
 	margin-bottom: 0;
 }
+.iit-svic-help-cmtlr{
+	display: flex;
+	flex-wrap: wrap;
+}
+.iit-svic-help-lft{
+	width: 60%;
+}
+.iit-svic-help-rgt{
+	width: 40%;
+    display: flex;
+    padding-left: 50px;
+    border-left: 1px solid #EEEEEE;
+}
+.iit-svic-ttml-img-dtls strong{
+	color: #0c224b;
+	font-weight: 600;
+	display: block;
+	font-size: 18px;
+	color: #5d9d32;
+}
+.iit-svic-ttml-img-dtls span{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+}
+.iit-svic-testimonial {
+    display: flex;
+    flex-wrap: wrap;
+}
+.iit-svic-ttml-img-cntlr {
+    width: 40%;
+    position: relative;
+}
+.iit-svic-ttml-des {
+	width: 60%;
+	padding-left: 30px;
+	text-align: center;
+	margin-top: 50px;
+}
+.iit-svic-ttml-img-dtls {
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.iit-svic-ttml-des p{
+	font-weight: 300;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+.iit-svic-ttml-des p span:last-child, 
+.iit-svic-ttml-des p span:first-child {
+    position: absolute;
+    color: #f1efe6;
+    font-size: 70px;
+    line-height: 0.5;
+    font-weight: 500;
+}
+.iit-svic-ttml-des p span:first-child {
+    left: 0;
+    top: 5px;
+}
+.iit-svic-ttml-des p span:last-child {
+    right: 30px;
+    bottom: -30px;
+}
+.iit-svic-help-rgt-des-title{
+	margin-bottom: 30px;
+}
+.iit-svic-help-rgt-des {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
 @media(max-width: 1699px){
 	.iit-testi-blockquote{
 		padding-right: 50px;
