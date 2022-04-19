@@ -537,6 +537,10 @@
 	    height: 90px;
 	    width: 90px;
 	}
+	.iit-service-img{
+		height: 50px;
+		width: 48px;
+	}
 }
 
 @media(max-width: 639px){

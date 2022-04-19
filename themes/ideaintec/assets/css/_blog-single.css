@@ -53,6 +53,10 @@
     font-weight: normal;
     color: #000;
 }
+.post-info .author-nickname a:hover,
+.cat-links ul li a:hover{
+    color: #F8800B;
+}
 .cat-links ul li{
     padding-top: 10px;
     padding-bottom: 10px;
