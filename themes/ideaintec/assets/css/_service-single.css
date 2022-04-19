@@ -397,7 +397,7 @@
 	padding-bottom: 30px;
 }
 .iit-svic-process-grd-img-cntlr {
-    /*text-align: center;*/    
+    text-align: center;    
     margin-bottom: 30px;
 }
 .iit-svic-process-icon i{
@@ -409,7 +409,7 @@
     border: 1px solid #dfdfdf;
 }
 .iit-svic-process-grd-des {
-    /*text-align: center;*/
+    text-align: center;
 }
 .iit-svic-process-grd-des p:last-of-type{
 	margin-bottom: 0;
@@ -494,9 +494,59 @@
 	margin-top: auto;
 	margin-bottom: 20px;
 }
-
-
-
+.iit-svic-ttml-img-inr{
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 100%;
+	border: 1px solid #EEEEEE;
+	-webkit-box-shadow: 0px 4px 56px rgb(49 62 78 / 5%);
+    box-shadow: 0px 4px 56px rgb(49 62 78 / 5%);
+}
+.iit-service-help-sec2 .iit-svic-ttml-img-dtls{
+	position: static;
+	background: transparent;
+}
+.iit-service-help-sec2 .iit-svic-ttml-img-dtls span{
+	color: #000;
+}
+.iit-service-help-sec2 .iit-svic-testimonial{
+	display: block;
+}
+.iit-service-help-sec2 .iit-svic-ttml-img-cntlr{
+	width: initial;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.iit-service-help-sec2  .iit-svic-ttml-des {
+    width: initial;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.iit-service-help-sec2  .iit-svic-help-lft {
+    width: 50%;
+}
+.iit-service-help-sec2 .iit-svic-help-rgt{
+	width: 50%;	
+	padding-left: 100px;
+	border: none;
+}
+.iit-service-help-sec2 .iit-svic-help-cmtlr{
+	align-items: center;
+	position: relative;
+}
+.iit-service-help-sec2 .iit-svic-help-cmtlr:after{
+	position: absolute;
+	content: "";
+	width: 1px;
+	left: 50%;
+	top: 0;
+	bottom: 0;
+	background: #f1efe6;
+}
 
 
 
