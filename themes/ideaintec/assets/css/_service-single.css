@@ -432,7 +432,7 @@
 	font-weight: 600;
 	display: block;
 	font-size: 18px;
-	color: #5d9d32;
+	color: #fff;
 }
 .iit-svic-ttml-img-dtls span{
 	font-size: 16px;
@@ -574,6 +574,7 @@
 }
 .iit-service-help-sec3 .iit-svic-help-rgt-des{	
 	margin-bottom: auto;
+	margin-bottom: 50px;
 }
 .iit-service-help-sec4 .iit-svic-help-lft-bg{
 	left: -100000%;
@@ -584,6 +585,11 @@
 }
 .iit-service-help-sec3 .iit-svic-help-rgt-des-btn .fl-button{
 	max-width: 180px;
+}
+.iit-service-help-sec5 .iit-svic-ttml-des{
+	margin-top: auto;
+	padding-top: 47px;
+	border-top: 1px solid #f5f5f5;
 }
 
 
