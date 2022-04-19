@@ -213,6 +213,6 @@
 }
 @media(max-width: 359px){
 	.iit-faq-tab {
-	    max-width: 240px;
+	    max-width: 100%;
 	}
 }
