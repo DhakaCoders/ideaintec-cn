@@ -163,13 +163,13 @@
 .iit-wyg-grds ul{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left: -12px;
+	margin-right: -12px;
 }
 .iit-wyg-grds ul li{
 	width: 33.3333%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 12px;
+	padding-right: 12px;
 	padding-bottom: 30px;
 }
 .iit-wyg-hdr-cntlr{
