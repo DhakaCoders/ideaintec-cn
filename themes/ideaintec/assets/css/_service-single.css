@@ -547,6 +547,24 @@
 	bottom: 0;
 	background: #f1efe6;
 }
+.iit-service-help-sec3{
+	position: relative;
+}
+.iit-svic-help-lft-bg{
+	position: absolute;
+	bottom: -25px;
+	right: -25px;
+	left: 25px;
+	height: 200px;
+	background-color: #f8800b;
+	z-index: -1;
+}
+.iit-service-help-sec3 .iit-svic-help-rgt{
+	background: #f5f5f5;
+}
+.iit-service-help-sec3 .iit-svic-help-rgt-des{	
+	margin-bottom: auto;
+}
 
 
 
