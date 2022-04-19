@@ -586,6 +586,9 @@
 .iit-service-help-sec3 .iit-svic-help-rgt-des-btn .fl-button{
 	max-width: 180px;
 }
+.iit-service-help-sec2 .iit-svic-ttml-img-dtls strong{
+	color: #0c224b;
+}
 .iit-service-help-sec5 .iit-svic-ttml-des{
 	margin-top: auto;
 	padding-top: 47px;
@@ -594,6 +597,11 @@
 .iit-service-help-sec5 .iit-svic-help-rgt{
 	background: transparent;
 	border-bottom: 1px solid #EEEEEE;
+	margin-top: 0;
+	min-height: initial;
+}
+.iit-service-help-sec6 .iit-svic-help-rgt {
+	background: transparent;
 	margin-top: 0;
 	min-height: initial;
 }
