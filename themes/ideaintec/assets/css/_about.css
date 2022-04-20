@@ -213,7 +213,10 @@ ul.about-overview-feature li div p{
 	display: block;
 	font-size: 50px;
 }
-
+.philosophy-cntlr{
+	position: relative;
+	z-index: 2;
+}
 .philosophy-grid ul{
 	display: flex;
 	align-items: center;
@@ -534,6 +537,10 @@ ul.about-overview-feature li div p{
 }
 .ethics-item-desc p{
 	text-align: center;
+}
+.mis-vis-grid-cntlr{
+	position: relative;
+	z-index: 2;
 }
 .mis-vis-grid-cntlr ul{
 	display: flex;
