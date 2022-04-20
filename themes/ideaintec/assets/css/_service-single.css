@@ -671,6 +671,9 @@
 	.iit-service-process-grd-item{
 		padding: 30px 20px 30px;
 	}
+	.iit-service-intro-title {
+		font-size: 55px!important;
+	}
 }
 @media(max-width: 991px){
 	.iit-ssbc-form-inr{
@@ -723,6 +726,9 @@
 	}
 	.iit-service-process-grd-item{
 		padding: 30px 15px 30px;
+	}
+	.iit-service-intro-title {
+		font-size: 50px!important;
 	}
 }
 @media(max-width: 767px){
@@ -791,6 +797,12 @@
 	.iit-svic-ttml-img-dtls span{
 		font-size: 15px;
 	}
+	.iit-service-intro-col {
+		width: 100%;		
+	}
+	.iit-service-intro-title {
+		font-size: 45px!important;
+	}
 }
 @media(max-width: 639px){
 	.iit-tstmnl-grids{
@@ -816,6 +828,9 @@
 	}
 	.iit-svic-help-lft-bg{
 		display: none;
+	}
+	.iit-service-intro-title {
+		font-size: 40px!important;
 	}
 }
 @media(max-width: 575px){
@@ -879,6 +894,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.iit-service-intro-title {
+		font-size: 35px!important;
+	}
 
 }
 @media(max-width: 479px){
@@ -893,6 +911,9 @@
 	}
 	.iit-svic-ttml-des p span:last-child {
 		bottom: -15px;
+	}
+	.iit-service-intro-title {
+		font-size: 35px!important;
 	}
 }
 @media(max-width: 359px){

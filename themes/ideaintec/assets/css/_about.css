@@ -133,11 +133,12 @@ ul.about-overview-feature li div p{
 	min-height: 100px;
 	width: auto;
 }
-.ethics-item-title.fl-h6{
+.ethics-item-title{
 	text-align: center;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
-.ethics-item-title.fl-h6 a{
+.ethics-item-title a{
 	display: inline-block;
 	color: inherit;
 }
@@ -545,6 +546,7 @@ ul.about-overview-feature li div p{
 .mis-vis-grid-cntlr ul{
 	display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 -10px;;
 }
 .mis-vis-grid-cntlr ul li {
@@ -590,15 +592,15 @@ ul.about-overview-feature li div p{
     transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
 }
 .mis-vis-grid-item:hover:before {
-    border-top-color: #F8800B;
-    border-right-color: #F8800B;
+    border-top-color: #0c224b;
+    border-right-color: #0c224b;
 }
 .mis-vis-grid-item:hover:after {
     transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
 }
 .mis-vis-grid-item:hover:after {
-    border-bottom-color: #F8800B;
-    border-left-color: #F8800B;
+    border-bottom-color: #0c224b;
+    border-left-color: #0c224b;
 }
 .mis-vis-grid-cntlr ul li:nth-child(2) .mis-vis-grid-item {
     background: #faf4ff;
@@ -698,6 +700,10 @@ ul.about-overview-feature li div p{
 	.skill-section-con ul li {
     	min-height: 300px;
 	}
+	.mis-vis-grid-item{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 @media (max-width: 991px){
 	.about-overview-rgt-img{
@@ -764,7 +770,15 @@ ul.about-overview-feature li div p{
 		width: 50%;
 		margin-bottom: 35px;
 	}
-
+	.mis-vis-grid-cntlr ul li{
+		width: 50%;
+	}
+	.mis-vis-grid-cntlr ul li:nth-child(2) .mis-vis-grid-item{
+		margin-top: 0;
+	}
+	.mis-vis-grid-cntlr ul {
+		padding: 0 50px;
+	}
 }
 @media (max-width: 767px){
 	.about-overview-rgt-img,
@@ -804,8 +818,29 @@ ul.about-overview-feature li div p{
 	.ethics-cntlr-grid ul li{
 		margin-bottom: 35px;
 	}
+	.mis-vis-grid-cntlr ul ,
 	.philosophy-grid ul{
 		padding: 0;
+	}
+	.mis-vis-grid-title {		
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 639px){
+	.mis-vis-grid-cntlr ul li {
+		width: 100%;
+	}
+	.mis-vis-grid-col {
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.mis-vis-grid-title{
+		max-width: 100%;
+		text-align: center;
+	}
+	.mis-vis-grid-title {
+		margin-bottom: 35px;
 	}
 }
 @media (max-width: 575px){
@@ -861,5 +896,9 @@ ul.about-overview-feature li div p{
 @media (max-width: 359px){
 	.philosophy-cntlr .sec-entry-hdr-title.fl-h2{
 	    font-size: 25px;
+	}
+	.mis-vis-grid-title{
+		font-size: 28px!important;
+		margin-bottom: 30px;
 	}
 }
