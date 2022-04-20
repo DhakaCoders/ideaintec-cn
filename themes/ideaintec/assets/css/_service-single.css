@@ -501,7 +501,7 @@
 .iit-svic-ttml-des p span:last-child, 
 .iit-svic-ttml-des p span:first-child {
     position: absolute;
-    color: #f1efe6;
+    color: #a5a5a5;
     font-size: 50px;
     line-height: 0.5;
     font-weight: 500;
@@ -668,6 +668,9 @@
 	.iit-testimonial-sec {
 		padding-top: 90px!important;
 	}
+	.iit-service-process-grd-item{
+		padding: 30px 20px 30px;
+	}
 }
 @media(max-width: 991px){
 	.iit-ssbc-form-inr{
@@ -698,7 +701,29 @@
 		width: 100%;
 		margin: 0 auto;
 	}
-
+	.iit-service-help-sec3 .iit-svic-help-lft{
+		width: 100%;
+	}
+	.iit-service-help-sec7 .iit-svic-help-rgt{
+		width: 100%;
+		margin-bottom: 0;
+		padding-left: 0;
+		border: none;
+		margin-top: 70px;;
+	}
+	.iit-service-help-sec3 .iit-svic-help-rgt-des,
+	.iit-svic-help-rgt-des{
+		margin: 0 auto;
+	}
+	.iit-svic-help-rgt-des-btn{
+		text-align: center;
+	}
+	.iit-service-process-grd-col{
+		width: 33.333%;
+	}
+	.iit-service-process-grd-item{
+		padding: 30px 15px 30px;
+	}
 }
 @media(max-width: 767px){
 	.iit-service-single-bnr-con-inr {
@@ -750,6 +775,22 @@
 	.iit-testimonial-sec {
 		padding-top: 70px!important;
 	}
+	.iit-service-process-grd-col{
+		width: 50%;
+	}
+	.iit-service-help-sec7 .iit-svic-help-rgt{
+		margin-top: 60px;
+	}
+	.iit-svic-ttml-des p{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.iit-svic-ttml-img-dtls strong{
+		font-size: 17px;
+	}
+	.iit-svic-ttml-img-dtls span{
+		font-size: 15px;
+	}
 }
 @media(max-width: 639px){
 	.iit-tstmnl-grids{
@@ -764,6 +805,17 @@
 	}
 	.iit-tstmnl-item{
 		padding-bottom: 20px;
+	}
+	.iit-svic-ttml-img-cntlr{
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;		
+	}
+	.iit-svic-ttml-des{
+		width: 100%;
+	}
+	.iit-svic-help-lft-bg{
+		display: none;
 	}
 }
 @media(max-width: 575px){
@@ -818,7 +870,30 @@
 	.iit-tstmnl-item{
 		padding-bottom: 15px;
 	}
+	.iit-service-process-grd-col {
+		width: 100%;
+	}
+	.iit-service-process-grd-item {
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+}
+@media(max-width: 479px){
+	.iit-service-help-sec7 .iit-svic-ttml-des{
+		padding: 20px 30px;
+	}
+	.iit-svic-ttml-des p span:last-child, .iit-svic-ttml-des p span:first-child{
+		font-size: 40px;
+	}
+	.iit-svic-ttml-des p span:first-child{
+		left: 15px;
+	}
+	.iit-svic-ttml-des p span:last-child {
+		bottom: -15px;
+	}
 }
 @media(max-width: 359px){
 	.iit-ssbc-form-title{
