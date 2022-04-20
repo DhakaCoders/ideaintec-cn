@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Service</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#EE3E15">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
+  <?php } ?> -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/flatpickr/flatpickr.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+  <svg style="display: none;">
+      <symbol id="home-icon-svg" width="17" height="18" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.7828 8.42145L15.2357 6.78507L9.04693 0.239555C8.90186 0.086168 8.70513 0 8.5 0C8.29487 0 8.09814 0.086168 7.95307 0.239555L1.76434 6.78507L0.217156 8.42145C0.0762403 8.57576 -0.00173332 8.78244 2.92438e-05 8.99697C0.00179181 9.21149 0.0831495 9.41671 0.22658 9.56841C0.37001 9.72011 0.564036 9.80615 0.766869 9.80802C0.969702 9.80988 1.16511 9.72741 1.31101 9.57837L1.53768 9.33864V17.1818C1.53768 17.3988 1.61918 17.6069 1.76426 17.7604C1.90933 17.9138 2.1061 18 2.31127 18H14.6887C14.8939 18 15.0907 17.9138 15.2357 17.7604C15.3808 17.6069 15.4623 17.3988 15.4623 17.1818V9.33864L15.689 9.57837C15.8349 9.72741 16.0303 9.80988 16.2331 9.80802C16.436 9.80615 16.63 9.72011 16.7734 9.56841C16.9168 9.41671 16.9982 9.21149 17 8.99697C17.0017 8.78244 16.9238 8.57576 16.7828 8.42145ZM13.9151 16.3636H3.08486V7.70226L8.5 1.97494L13.9151 7.70226V16.3636Z" fill="#fff"/>
+      </symbol>
+</svg>
+<!-- start header -->
+<div class="bdoverlay"></div>
+<header class="header">
+  <div class="hdr-bdr"></div>
+  <div class="clearfix sticky-hdr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="hdr-right">
+              <div class="hdr-topbar">
+                <div class="hdr-topbar-inr">
+                  <div class="hdr-details">
+                    <ul class="reset-list">
+                      <li>
+                        <div class="hdr-details-col hdr-mail">
+                          <a href="mailto:info@ideaintec.com">
+                            <i class="far fa-envelope"></i>
+                            <span>info@ideaintec.com</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="hdr-details-col hdr-tel">
+                          <a href="tel:01735519844">
+                            <i class="fas fa-phone"></i>
+                            <span>+880 1735519844</span>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hdr-socials">
+                    <ul class="reset-list clearfix">
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="service-single.html">Web Design</a></li>
+                        <li><a href="service-single.html">Web Development</a></li>
+                        <li><a href="service-single.html">Digital Marketing</a></li>
+                        <li><a href="service-single.html">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="header-sticky">
+  <div class="hdr-bdr"></div>
+  <div class="clearfix sticky-hdr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <div class="hdr-inner">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="front-page.html">
+                  <img class="logo-transparent" src="assets/images/logo.png">
+                  <img class="logo-white" src="assets/images/logo-white.png">
+                </a>
+              </div>
+            </div>
+            <div class="hdr-right">
+              <div class="hdr-menu">
+                <nav class="main-nav hide-sm">
+                  <ul class="clearfix reset-list">
+                    <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="service.html">services</a>
+                      <ul class="sub-menu">
+                        <li><a href="service-single.html">Web Design</a></li>
+                        <li><a href="service-single.html">Web Development</a></li>
+                        <li><a href="service-single.html">Digital Marketing</a></li>
+                        <li><a href="service-single.html">Training</a></li>
+                      </ul>                  
+                    </li>
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+              <div class="hamburgar-cntlr show-sm">
+                <div class="hamburger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="xs-mobile-menu">
+  <div class="xs-pop-up-menu-inr">
+    <div class="xs-pop-up-menu-top">
+      <div class="logo-close-btn-cntlr">
+        <div class="xs-logo">
+          <a href="front-page.html">
+            <img src="assets/images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="hamburgar-cntlr show-sm">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="xs-pop-menu-con">
+      <div class="xs-menu">
+        <nav class="main-nav">
+          <ul class="clearfix reset-list">
+            <li class="current-menu-item"><a href="front-page.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="menu-item-has-children">
+              <a href="services.html">services</a>
+              <ul class="sub-menu">
+                <li><a href="service-single.html">Web Design</a></li>
+                <li><a href="service-single.html">Web Development</a></li>
+                <li><a href="service-single.html">Digital Marketing</a></li>
+                <li><a href="service-single.html">Training</a></li>
+              </ul>                  
+            </li>
+            <li><a href="works.html">works</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="xs-pop-menu-btm">
+      <div class="hdr-details">
+        <ul class="reset-list">
+          <li>
+            <div class="hdr-details-col hdr-mail">
+              <a href="mailto:info@ideaintec.com">
+                <i class="far fa-envelope"></i>
+                <span>info@ideaintec.com</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="hdr-details-col hdr-tel">
+              <a href="tel:01735519844">
+                <i class="fas fa-phone"></i>
+                <span>+880 1735519844</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="xs-social">
+        <div class="hdr-socials">
+          <ul class="reset-list clearfix">
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="page-banner-cntlr">
+  <div class="bnr-btm-skew-img" style="background: url('assets/images/bnr-skew-img.png');"></div>
+  <div class="page-bnr-overlay"></div>
+  <div id="particles-js"></div>
+  <div class="page-banner">
+    <div class="page-banner-bg inline-bg" style="background:url(assets/images/banner-img.jpg);"></div>
+    <div class="page-bnr-des">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-bnr-des-inr">
+              <div class="page-bnr-title-ctlr">
+                <h1 class="page-bnr-title fl-h1">Our Team</h1>
+              </div>
+              <div class="breadcrumb-cntlr">
+                <ul class="reset-list clearfix">
+                  <li class="home">
+                    <a href="#">
+                      <span class="item">
+                        Home
+                        <i>
+                          <svg class="home-icon-svg" width="17" height="18" viewBox="0 0 17 18" fill="#fff">
+                            <use xlink:href="#home-icon-svg"></use> 
+                          </svg>
+                        </i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#">service</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="iit-service-page-con-cntlr">
+<section class="iit-service-page-entry-hdr-ctlr">
+  <!-- div class="skew-btm"></div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sec-entry-hdr text-center btm-line line-bg-black">
+          <div class="sec-entry-heading-title">
+            <div class="heading-divider"></div>
+            <h1 class="sec-entry-hdr-title fl-h2">We Provide Professional Services</h1>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, modi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="iit-service-row-item-ctlr section section-1">
+ <!--  <div class="skew-btm"></div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="skew-sec-bg"></div>
+          <div class="iit-service-row-item content-up">
+            <div class="iit-service-col iit-service-col-lft has-video">
+              <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+                <div class="heading-divider"></div>
+                <div class="iit-service-img">
+                  <span><i class="fa fa-code"></i></span>
+                </div>
+                <h2 class="iit-service-col-des-title fl-h3"><a href="#">web Design</a></h2>
+              </div>
+              <div class="iit-service-col-img">
+                <img src="assets/images/web-design-feature-img.png">
+              </div>
+              <div class="iit-service-col-video">
+                <video id="iit-video" autoplay muted >
+                  <source src="assets/images/videos/services-video.mp4" type="video/mp4">
+                  <source src="assets/images/videos/services-video.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+            </div>
+            <div class="iit-service-col iit-service-col-rgt">
+              <div class="iit-service-col-des">
+                
+                <div class="iit-service-col-des-con"> 
+                  <p><strong>Not only good looking, create leads also</strong>In this contemporary societies, website is not only an internet identity of a concern but also one of the best ways to reach your business to your desired target customers. that's why alongside with Equisite Design it has to possess the appropriate elements to bring visitors to your site and encourage them to dig into it. By keeping that in our mind we consider the following factors while developing a website:</p>
+                  <ul>
+                    <li>Responsive Desing</li>
+                    <li>Attractive Looking</li>
+                    <li>On-Page SEO</li>
+                    <li>Latest Technology</li>
+                    <li>Unique Content</li>
+                    <li>Top-level Security</li>
+                    <li>User Experience</li>
+                    <li>Secure Web Hosting</li>
+                  </ul>
+                </div>
+                <a class="fl-button" href="#">continue</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="iit-service-row-item-ctlr section">
+ <!--  <div class="skew-btm"></div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="skew-sec-bg"></div>
+        <div class="iit-service-row-item iit-service-row-lftdes-rgtimg content-up">
+          <div class="iit-service-col iit-service-col-lft has-video">
+            <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+              <div class="heading-divider"></div>
+              <div class="iit-service-img">
+                <span><i class="fa fa-cogs"></i></span>
+              </div>
+              <h2 class="iit-service-col-des-title fl-h3"><a href="#">web Development</a></h2>
+            </div>
+            <div class="iit-service-col-img">
+              <img src="assets/images/software-development-feature-img.png">
+            </div>
+            <div class="iit-service-col-video">
+              <video id="iit-video" autoplay muted >
+                <source src="assets/images/videos/services-video.mp4" type="video/mp4">
+                <source src="assets/images/videos/services-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+          <div class="iit-service-col iit-service-col-rgt">
+            <div class="iit-service-col-des">
+              
+              <div class="iit-service-col-des-con"> 
+                  <p><strong>Not only good looking, create leads also</strong>In this contemporary societies, website is not only an internet identity of a concern but also one of the best ways to reach your business to your desired target customers. that's why alongside with Equisite Design it has to possess the appropriate elements to bring visitors to your site and encourage them to dig into it. By keeping that in our mind we consider the following factors while developing a website:</p>
+                  <ul>
+                    <li>Responsive Desing</li>
+                    <li>Attractive Looking</li>
+                    <li>On-Page SEO</li>
+                    <li>Latest Technology</li>
+                    <li>Unique Content</li>
+                    <li>Top-level Security</li>
+                    <li>User Experience</li>
+                    <li>Secure Web Hosting</li>
+                  </ul>
+                </div>
+              <a class="fl-button" href="#">continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="iit-service-row-item-ctlr section">
+  <!-- <div class="skew-btm"></div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="skew-sec-bg"></div>
+        <div class="iit-service-row-item content-up">
+          <div class="iit-service-col iit-service-col-lft">
+            <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+                <div class="heading-divider"></div>
+                <div class="iit-service-img">
+                  <span><i class="fas fa-users-cog"></i></span>
+                </div>
+                <h2 class="iit-service-col-des-title fl-h3"><a href="#">Digital Marketing</a></h2>
+              </div>
+            <div class="iit-service-col-img">
+              <img src="assets/images/iit-service-img-05.png">
+            </div>
+          </div>
+          <div class="iit-service-col iit-service-col-rgt">
+            <div class="iit-service-col-des">
+              
+              <div class="iit-service-col-des-con">
+                <p><strong>We have a range of resources in Digital Marketing Strategy and Planning Toolkit</strong>Since 2012 we have run an informal poll to see how widely used digital marketing strategies are. The results have shown some big improvements over the years. A few years ago we found around two-thirds to three-quarters did not have a digital marketing plan. Two simple alternatives for creating a plan may suggest a way forward:</p>
+                <ul>
+                  <li>Start with a separate digital marketing plan</li>
+                  <li>Then, following approval, create an integrated digital</li>
+                  <li>Then, following approval, create an integrated digital</li>
+                  <li>Then, following approval, create an integrated digital</li>
+                  <li>Start with a separate digital marketing plan</li>
+                  <li>Start with a separate digital marketing plan</li>
+                </ul>
+              </div>
+              <a class="fl-button" href="#">continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="iit-service-row-item-ctlr section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="skew-sec-bg"></div>
+        <div class="iit-service-row-item iit-service-row-lftdes-rgtimg content-up">
+          <div class="iit-service-col iit-service-col-lft">
+            <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+                <div class="heading-divider"></div>
+                <div class="iit-service-img">
+                  <span><i class="fas fa-users"></i></span>
+                </div>
+                <h2 class="iit-service-col-des-title fl-h3"><a href="#">Training</a></h2>
+              </div>
+            <div class="iit-service-col-img">
+              <img src="assets/images/iit-service-img-06.png">
+            </div>
+          </div>
+          <div class="iit-service-col iit-service-col-rgt">
+            <div class="iit-service-col-des">
+              
+              <div class="iit-service-col-des-con"> 
+                  <p><strong>Not only good looking, create leads also</strong>In this contemporary societies, website is not only an internet identity of a concern but also one of the best ways to reach your business to your desired target customers. that's why alongside with Equisite Design it has to possess the appropriate elements to bring visitors to your site and encourage them to dig into it. By keeping that in our mind we consider the following factors while developing a website:</p>
+                  <ul>
+                    <li>Responsive Desing</li>
+                    <li>Attractive Looking</li>
+                    <li>On-Page SEO</li>
+                    <li>Latest Technology</li>
+                    <li>Unique Content</li>
+                    <li>Top-level Security</li>
+                    <li>User Experience</li>
+                    <li>Secure Web Hosting</li>
+                  </ul>
+                </div>
+              <a class="fl-button" href="#">continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="iit-service-row-item-ctlr section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="iit-service-row-item iit-service-row-lftdes-rgtimg content-up">
+          <div class="iit-service-col iit-service-col-lft">
+            <div class="iit-service-col-img">
+              <img src="assets/images/graphics-design-feature-img.png">
+            </div>
+          </div>
+          <div class="iit-service-col iit-service-col-rgt">
+            <div class="iit-service-col-des">
+              <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+                <div class="heading-divider"></div>
+                <div class="iit-service-img">
+                  <span><i class="fa fa-paint-brush"></i></span>
+                </div>
+                <h2 class="iit-service-col-des-title fl-h3"><a href="#">Graphics Design</a></h2>
+              </div>
+              <div class="iit-service-col-des-con">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <a class="fl-button" href="#">continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="iit-service-row-item-ctlr section section-bg-color section-top-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="iit-service-row-item iit-service-row-lftdes-rgtimg content-up">
+          <div class="iit-service-col iit-service-col-lft">
+            <div class="iit-service-col-img">
+              <img src="assets/images/mobile-application-feature-img.png">
+            </div>
+          </div>
+          <div class="iit-service-col iit-service-col-rgt">
+            <div class="iit-service-col-des">
+              <div class="iit-service-col-heading btm-line line-bg-black sec-entry-hdr seht-only-two line-left">
+                <div class="heading-divider"></div>
+                <div class="iit-service-img">
+                  <span><i class="fas fa-mobile"></i></span>
+                </div>
+                <h2 class="iit-service-col-des-title fl-h3"><a href="#">Mobile Application</a></h2>
+              </div>
+              <div class="iit-service-col-des-con">
+                <p><strong>Enhance manageability, business opportunity also</strong>Now-a-days, people are getting drastically involved with their mobile phones and trying to manage their all sorts of works through mobile applications. That's why, mobile application is becoming inevitable to increase customer engagement as well as operate business effciently. Following are the benefits of having a mobile app.</p>
+                <ul>
+                  <li>Experienced developers</li>
+                  <li>Fully native apps development</li>
+                  <li>Same Ul for iOS & Android</li>
+                  <li>Deploy to App Stor & Play Stor</li>
+                  <li>Affordable Pricing</li>
+                  <li>Faster Delivery</li>
+                  <li>Long term service contract</li>
+                  <li>Any level of customization</li>
+                </ul>
+              </div>
+              <a class="fl-button" href="#">continue</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+</div>
+
+
+<footer class="footer-wrp">
+  <div class="footer-skew d-none" style="background: url('assets/images/footer-skew.svg');">
+    
+  </div>
+  <span class="ftr-btm-skew">
+    <svg id="ftr-btm-skew" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#000000" fill-opacity="0.2" d="M0,256L48,229.3C96,203,192,149,288,133.3C384,117,480,139,576,144C672,149,768,139,864,112C960,85,1056,43,1152,58.7C1248,75,1344,149,1392,186.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      <path fill="#000000" fill-opacity="0.15" d="M0,288L48,256C96,224,192,160,288,112C384,64,480,32,576,64C672,96,768,192,864,234.7C960,277,1056,267,1152,266.7C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </span>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-cntlr">
+          <div class="ftr-top clearfix">
+            <div class="ftr-col ftr-col-01">
+              <div class="ftr-logo">
+                <a href="#">
+                  <img src="assets/images/logo-white.png" alt="">
+                </a>
+              </div>
+              <div class="ftr-desc">
+                <p>Contact us today for more information about how we can help your business stand out online.</p>
+              </div>
+              <div class="newsletter-form">
+                <form action="#">
+                  <input type="email" placeholder="Your Email" name="email">
+                  <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                </form>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-02">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two hide-xs line-left">
+                <h4 class="fl-h4 ftr-col-title">Quick Links</h4>
+                <div class="heading-divider"></div>
+              </div>
+
+              <div class="ftr-col-hding btm-line line-bg-white text-center show-xs">
+                <h4 class="fl-h4 ftr-col-title">Quick Links</h4>
+                <div class="heading-divider"></div>
+              </div>
+              
+              <div class="ftr-col-menu">
+                <ul class="reset-list">
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="service.html">services</a></li>
+                  <li><a href="works.html">works</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="ftr-col ftr-col-03">
+              <div class="ftr-col-hding btm-line line-bg-white seht-only-two hide-xs line-left">
+                <h4 class="fl-h4 ftr-col-title">Contact Info</h4>
+                <div class="heading-divider"></div>
+              </div>
+              <div class="ftr-col-hding btm-line line-bg-white text-center show-xs">
+                <h4 class="fl-h4 ftr-col-title">Contact Info</h4>
+                <div class="heading-divider"></div>
+              </div>
+              <div class="ftr-add ftr-details-col">
+                <div class="ftr-add-inr ftr-details-col-inr">
+                  <span class="ftr-add-icon ftr-details-col-iocn">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <a href="#" target="_blank">0688-00 Holding, B.N Mosque Road, Hazipara, Thakurgaon Sadar, Thakurgaon.</a>
+                </div>
+              </div>
+              <div class="ftr-email ftr-details-col">
+                <div class="ftr-email-inr ftr-details-col-inr">
+                  <span class="ftr-email-icon ftr-details-col-iocn">
+                    <i class="fas fa-envelope-open"></i>
+                  </span>
+                  <a href="mailto:info@ideaintec.com">info@ideaintec.com</a><br>
+                  <a href="mailto:help@ideaintec.com">help@ideaintec.com</a>
+                </div>
+              </div>
+              <div class="ftr-tell ftr-details-col">
+                <div class="ftr-tell-inr ftr-details-col-inr">
+                  <span class="ftr-tell-icon ftr-details-col-iocn">
+                    <i class="fas fa-mobile-alt"></i>
+                  </span>
+                  <a href="tel:01617047345">+880 1617047345</a><br>
+                  <a href="tel:01735519844">+880 1735519844</a>
+                </div>
+              </div>
+              <div class="ftr-socials">
+                <ul class="reset-list clearfix">
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="ftr-btm">
+            <p>&copy; 2005-2021 IdeaInTec - ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="toTop" class="circle toTop">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/select2/select2.min.js"></script>
+<script src="assets/flatpickr/flatpickr.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/jquery.sticky-sidebar.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

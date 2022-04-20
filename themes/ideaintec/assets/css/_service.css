@@ -1,3 +1,5 @@
+
+
 .iit-service-grds{
 	max-width: 850px;
 	width: 100%;
@@ -429,6 +431,145 @@
 .iit-service-grd-2 ul li:last-child .iit-service-grd-2-item-inr,
 .iit-service-grd-2 ul li:nth-last-child(2) .iit-service-grd-2-item-inr{
 	margin-bottom: 0;
+}
+
+/* after code */
+.iit-service-page-con-cntlr{
+	padding-bottom: 100px;
+}
+.iit-service-page-con-cntlr .iit-service-row-item{
+	background: transparent;
+	padding: 120px 30px;
+}
+.skew-sec-bg{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+	background-color: rgba(94, 173, 70, 0.1);
+	    background-size: cover !important;
+	    moz-transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    z-index: 2;
+
+}
+.iit-service-page-con-cntlr .iit-service-row-item-ctlr .col-md-12{
+	position: relative;
+}
+.iit-service-page-con-cntlr .iit-service-row-item-ctlr.section{
+	padding: 40px 50px;
+}
+/*.iit-service-page-con-cntlr .iit-service-row-item-ctlr.section:after{
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	height: 100px;
+	width: 1px;
+	background: #ddd;
+	border-right: 1px solid #eff7ec;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}*/
+.iit-service-page-con-cntlr .iit-service-row-item-ctlr.section:before{
+	content: "";
+	position: absolute;
+    width: 15px;
+    height: 3px;
+    background: #5d9d32;
+    left: 9px;
+    top: -10px;
+    border-radius: 2px;
+	left: 50%;
+	transform: translateX(-50%) rotate(175deg);
+	z-index: 1;
+	    animation: Downanimate 1s linear infinite;
+    animation-direction: alternate;
+}
+.iit-service-page-con-cntlr .section-1:before{
+	content: none!important;
+}
+.iit-service-page-con-cntlr .iit-service-row-item-ctlr.section:nth-child(2n+1) .iit-service-col .iit-service-col-heading{
+	left: auto;
+	right: 20px;
+}
+@keyframes Downanimate{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(16px);
+  }
+}
+
+.iit-service-page-con-cntlr .iit-service-col .line-left .heading-divider {
+    left: 70px;
+}
+.iit-service-page-con-cntlr .iit-service-col .btm-line .heading-divider {
+    top: initial;
+    bottom: 23px;
+    display: none;
+}
+
+.iit-service-page-con-cntlr .iit-service-col .iit-service-col-heading {
+    position: absolute;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, .9);
+    /* left: 50%; */
+    /* right: auto; */
+    width: auto;
+    /* padding: 20px; */
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 24px;
+    /* transform: translateX(-50%); */
+    top: -43px;
+    /* border-radius: 5px; */
+    left: 20px;
+    min-width: 230px;
+}
+.iit-service-page-con-cntlr  .iit-service-col-lft {
+    position: relative;
+}
+.iit-service-page-con-cntlr .iit-service-img {
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    height: 50px;
+    width: 48px;
+}
+
+.iit-service-page-con-cntlr .iit-service-col-des{
+	padding:  20px;
+	min-height: 400px;
+	background: #fff;
+	box-shadow: 2px 0 2px #ddd;
+}
+.iit-service-page-con-cntlr .iit-service-col-des{
+	padding:  20px;
+	min-height: 400px;
+	background: #fff;
+	box-shadow: -1px 0 3px 0px #ddd;
+}
+
+.iit-service-page-con-cntlr  .iit-service-row-item-ctlr:nth-child(2n+2) .iit-service-col-des{
+	box-shadow: 2px 0 2px #ddd;
+}
+.iit-service-page-entry-hdr-ctlr {
+    padding: 50px 0 0;
 }
 
 @media(max-width: 1399px){
