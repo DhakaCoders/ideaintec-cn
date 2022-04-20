@@ -217,9 +217,6 @@
 
 .iit-service-row-item{
 	display: flex;
-	align-items: center;
-	background: rgba(94, 173, 70, 0.1);
-	padding: 60px 30px;
 	border-radius: 5px;
 }
 
