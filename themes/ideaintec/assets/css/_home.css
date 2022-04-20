@@ -1981,10 +1981,10 @@ home about us sec
 	.features-item-icon {
 	    margin-bottom: 15px;
 	}
-	/*.hm-bnr2-des{
-		background-size: contain;
-		padding: 100px 50px;
-	}*/
+	.hm-bnr2-des{
+		padding: 125px 30px;
+		background-size: contain!important;
+	}
 }
 
 @media(max-width: 359px){
