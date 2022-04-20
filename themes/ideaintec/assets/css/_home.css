@@ -1540,11 +1540,13 @@ home about us sec
 .hm-about-us-lft{
 	width: 34%;
 	padding: 0 15px;
+	order: 1;
 }
 .hm-about-us-rgt{
 	width: 66%;
 	padding: 0 15px;
 	position: relative;
+	order: 2;
 }
 /*.hm-abt-us-sub-heading{
 	font-weight: 500;
