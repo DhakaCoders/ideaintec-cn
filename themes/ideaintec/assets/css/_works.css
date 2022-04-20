@@ -346,10 +346,7 @@
 	.info-img{
 		left: 10px;
 	}
-	.our-works-sec a.fl-button{
-		max-width: 100%;
-		width: 100%;
-	}
+	
 	.pgrd-item-img{
 		height: 300px;
 	}
@@ -363,6 +360,10 @@
 	.info-img span a::before,
 	.info-img span a:after{
 		width: 22px;
+	}
+	.our-works-sec a.fl-button{
+		max-width: 100%;
+		width: 100%;
 	}
 }
 

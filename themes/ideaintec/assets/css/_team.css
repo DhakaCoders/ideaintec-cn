@@ -329,9 +329,7 @@
 }
 
 @media(max-width: 479px){
-	.our-works-sec .view-more-btn .fl-button{
-		width: 100%;
-	}
+	
 }
 @media(max-width: 374px){
 	.iit-team-skill-sec .sec-entry-hdr-title{
