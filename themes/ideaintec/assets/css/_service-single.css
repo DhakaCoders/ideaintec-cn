@@ -299,8 +299,12 @@
 	box-shadow: 2px 2px 6px 2px #f7f7f7;
 }
 .iit-testimonial-sec{
-	background: #fbfbfb;
+	/*background: #fbfbfb;*/
 	padding-top: 100px!important;
+}
+.iit-testimonial-sec-inr{
+	position: relative;
+	z-index: 2;
 }
 .iit-tstmnl-item-pro{
 	margin-bottom: 25px;
