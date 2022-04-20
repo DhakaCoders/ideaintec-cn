@@ -520,9 +520,12 @@ if( $('.wpforms-error').length ){
   });
 }
 
-
-
-
+var bgHeight = $('.iit-svic-help-lft-bg').height();
+$('.iit-svic-ttml-des').css("height", bgHeight);
+$(window).resize(function() { 
+  var bgHeight = $('.iit-svic-help-lft-bg').height();
+  $('.iit-svic-ttml-des').css("height", bgHeight);
+});
 /**
 ------------------
 To top
