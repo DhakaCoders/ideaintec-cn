@@ -1891,6 +1891,9 @@ home about us sec
 	.hm-bnr2-sub-title{
 		font-size: 22px!important;
 	}
+	.lets-chat-sec {
+	    padding: 70px 0 70px;
+	}
 }
 @media(max-width: 639px){
 	/*hm banner*/
@@ -1984,6 +1987,9 @@ home about us sec
 	.hm-bnr2-des{
 		padding: 125px 30px;
 		background-size: contain!important;
+	}
+	.lets-chat-sec {
+	    padding: 50px 0 50px;
 	}
 }
 
