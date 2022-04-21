@@ -382,6 +382,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -12px;
+	position: relative;
+	z-index: 2;
 }
 .iit-service-intro-col{
 	width: 50%;
