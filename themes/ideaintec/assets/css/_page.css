@@ -384,28 +384,28 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 
 
 /*sec entry header*/
-
+.page-entry-hdr,
 .sec-entry-hdr{
 	padding-bottom: 30px;
 }
-
+.page-entry-hdr,
 .sec-entry-hdr{
 	max-width: 700px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.page-entry-heading-title,
 .sec-entry-heading-title{
 	padding-top: 30px;
 	position: relative;
 }
-
+.page-entry-hdr-title,
 .sec-entry-hdr-title{
 	text-transform: capitalize;
 	margin-bottom: 0!important;
 }
-
+.page-entry-hdr-des p,
 .sec-entry-hdr-des p{
 	font-weight: 400;
 }
@@ -500,11 +500,13 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 .line-bg-white .heading-divider:before{
 	background: #000!important;
 }
+.btm-line .page-entry-heading-title,
 .btm-line .sec-entry-heading-title{
 	padding-top: 0;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 }
+.btm-line .page-entry-heading-title h2,
 .btm-line .sec-entry-heading-title h2{
 	margin-bottom: 0;
 }
@@ -530,14 +532,17 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	.page-banner {
 	    height: 270px;
 	}
+	.page-entry-hdr,
 	.sec-entry-hdr {
 	    padding-bottom: 20px;
 	    max-width: 500px;
 	}
+	.btm-line .page-entry-heading-title,
 	.btm-line .sec-entry-heading-title {
 	    padding-bottom: 17px;
 	    margin-bottom: 20px;
 	}
+	.page-entry-heading-title ,
 	.sec-entry-heading-title {
 	    padding-top: 20px;
 	}
@@ -564,14 +569,17 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	.page-bnr-title{
 		margin-bottom: 20px;
 	}
+	.page-entry-hdr,
 	.sec-entry-hdr{
 		padding-bottom: 20px;
 	}
+	.btm-line .page-entry-heading-title,
 	.btm-line .sec-entry-heading-title {
 	    padding-top: 0;
 	    padding-bottom: 17px;
 	    margin-bottom: 22px;
 	}
+	.page-entry-heading-title
 	.sec-entry-heading-title {
 	    padding-top: 20px;
 	}
