@@ -927,8 +927,8 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
 		margin-bottom: -2px;
 	}
 	.xs-pop-menu-btm .hdr-details ul li{
-		padding-top: 2px;
-		padding-bottom: 2px;
+		padding-top: 3px;
+		padding-bottom: 3px;
 	}
 	.xs-mobile-menu .hdr-details-col a i{
 		font-size: 16px;

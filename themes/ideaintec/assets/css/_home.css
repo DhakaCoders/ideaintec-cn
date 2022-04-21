@@ -411,7 +411,7 @@
 	padding-bottom: 25px;
 	background-color: rgb(126 171 255);
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .hm-bnr2-inr{
 	display: flex;
