@@ -519,6 +519,50 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	left: 0;
 }
 
+.grd-border-hover{
+	position: relative;
+	-webkit-transition: all .5s ease-in-out !important;
+	-ms-transition: all .5s ease-in-out !important;
+	transition: all .5s ease-in-out !important;
+}
+.grd-border-hover:before, 
+.grd-border-hover:after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    width: 0;
+    height: 0;
+}
+.grd-border-hover::before {
+    top: 0;
+    left: 0;
+}
+.grd-border-hover::after {
+    bottom: 0;
+    right: 0;
+}
+.grd-border-hover:hover:before, 
+.grd-border-hover:hover:after {
+    width: 100%;
+    height: 100%;
+}
+.grd-border-hover:hover:before {
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.grd-border-hover:hover:before {
+    border-top-color: #0c224b;
+    border-right-color: #0c224b;
+}
+.grd-border-hover:hover:after {
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+.grd-border-hover:hover:after {
+    border-bottom-color: #0c224b;
+    border-left-color: #0c224b;
+}
 
 
 
