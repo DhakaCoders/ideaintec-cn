@@ -427,6 +427,48 @@
 .iit-service-process-grd-item {
     padding: 30px 20px 35px;
     border: 1px solid #dfdfdf;
+    position: relative;
+    -webkit-transition: all .5s ease-in-out !important;
+	-ms-transition: all .5s ease-in-out !important;
+	transition: all .5s ease-in-out !important;
+}
+.iit-service-process-grd-item:before, 
+.iit-service-process-grd-item:after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    width: 0;
+    height: 0;
+}
+.iit-service-process-grd-item::before {
+    top: 0;
+    left: 0;
+}
+.iit-service-process-grd-item::after {
+    bottom: 0;
+    right: 0;
+}
+.iit-service-process-grd-item:hover:before, 
+.iit-service-process-grd-item:hover:after {
+    width: 100%;
+    height: 100%;
+}
+.iit-service-process-grd-item:hover:before {
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.iit-service-process-grd-item:hover:before {
+    border-top-color: #0c224b;
+    border-right-color: #0c224b;
+}
+.iit-service-process-grd-item:hover:after {
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+.iit-service-process-grd-item:hover:after {
+    border-bottom-color: #0c224b;
+    border-left-color: #0c224b;
 }
 .iit-svic-process-grd-des {
     text-align: center;

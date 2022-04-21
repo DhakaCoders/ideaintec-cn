@@ -542,6 +542,7 @@ ul.about-overview-feature li div p{
 .mis-vis-grid-cntlr{
 	position: relative;
 	z-index: 2;
+	padding-bottom: 0!important;
 }
 .mis-vis-grid-cntlr ul{
 	display: flex;
