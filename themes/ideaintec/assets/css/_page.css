@@ -528,7 +528,7 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 .grd-border-hover:before, 
 .grd-border-hover:after {
     box-sizing: inherit;
-    content: '';
+    content: ''!important;
     position: absolute;
     width: 100%;
     height: 100%;
