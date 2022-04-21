@@ -439,6 +439,8 @@
 .iit-svic-help-cmtlr{
 	display: flex;
 	flex-wrap: wrap;
+	position: relative;
+	z-index: 2;
 }
 .iit-svic-help-lft{
 	width: 60%;
