@@ -831,6 +831,9 @@ ul.about-overview-feature li div p{
 	.mis-vis-grid-cntlr ul li {
 		width: 100%;
 	}
+	.mis-vis-grid-cntlr ul li:last-child{
+		padding-bottom: 0;
+	}
 	.mis-vis-grid-col {
 		max-width: 400px;
 		width: 100%;
@@ -887,6 +890,9 @@ ul.about-overview-feature li div p{
 	.believe-in-tab-des-bx i img {
     	max-height: 70px;
     	width: auto;
+	}
+	.iit-service-process-grd-col:last-child{
+		padding-bottom: 0;
 	}
 }
 @media (max-width: 479px){
