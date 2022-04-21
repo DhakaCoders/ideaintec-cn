@@ -87,14 +87,14 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid #fff;
     content: "";
     height: 10px;
-    left: -5px;
-    margin-top: -3px;
+    left: -6px;
+    margin-top: -4px;
     position: absolute;
     top: 50%;
     width: 10px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    border-radius: 50% 50%;
 }
 .breadcrumb-cntlr ul li:first-child:after{
 	display: none;
@@ -578,6 +578,10 @@ body.login-register.hide-account-title .select2-container--open .select2-dropdow
 	.fl-pagination-ctlr ul li a.prev span, 
 	.fl-pagination-ctlr ul li a.next span{
 		display: none;
+	}
+	.breadcrumb-cntlr ul li:after{
+		left: -7px;
+		margin-top: -5px;
 	}
 }
 
