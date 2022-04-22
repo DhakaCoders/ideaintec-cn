@@ -572,6 +572,9 @@
 		max-width: 100%;
 		width: 100%;
 	}
+	.home .iit-service-grd-item-img i {
+	    font-size: 25px;
+	}
 }
 
 @media(max-width: 374px){
