@@ -84,7 +84,7 @@ ul.about-overview-feature li div p{
 	left: 0;
 	top: 0;
 	height: 50px;
-	width: 48px;
+	width: 47px;
 }
 .ethics-cntlr-grid{
 	
@@ -713,9 +713,7 @@ ul.about-overview-feature li div p{
 	.about-overview-con p{
 		line-height: 1.6;
 	}
-	ul.about-overview-feature li{
-		padding-left: 50px;
-	}
+	
 	ul.about-overview-feature li div p{
 		font-size: 14px;
 	}
