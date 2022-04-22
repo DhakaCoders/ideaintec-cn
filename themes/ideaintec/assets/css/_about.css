@@ -128,6 +128,9 @@ ul.about-overview-feature li div p{
 	width: 50px;
 	line-height: 50px;
 }
+.philosophy-item-img i{
+	font-size: 40px;
+}
 .ethics-item-icon img{
 	display: inline-block;
 	min-height: 100px;
